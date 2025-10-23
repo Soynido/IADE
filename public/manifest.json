@@ -1,0 +1,21 @@
+{
+  "name": "IADE Learning Core",
+  "short_name": "IADE Learning",
+  "description": "Plateforme adaptative d'apprentissage pour la préparation aux concours IADE 2024-2025",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "categories": ["education", "medical", "productivity"],
+  "lang": "fr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
