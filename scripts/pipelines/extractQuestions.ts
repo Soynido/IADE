@@ -1,292 +1,274 @@
-/**
- * Extracteur Q&A optimisé pour PDFs IADE
- * Extrait toutes les questions et réponses avec patterns robustes
- */
+import fs from "fs";
+import path from "path";
+import crypto from "crypto";
+import pLimit from "p-limit";
 
-import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
+const OCR_DIR = path.resolve("tmp/ocr-cache");
+const OUT_DIR = path.resolve("src/data/concours");
+if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Interface de sortie
-interface QAItem {
-  source: 'annales_v1' | 'annales_v2' | 'cours';
-  id: number;
-  block: { from: number; to: number };
-  type: 'Open' | 'TrueFalse' | 'MultipleChoice' | 'FillIn' | 'ClinicalCase';
-  text: string;
-  options?: string[];
-  answer?: string;
-  correctOptions?: number[];
-  explanation?: string;
-  themes?: string[];
-}
-
-interface QABlock {
-  from: number;
-  to: number;
-  content: string;
-}
-
-// Normalisation OCR agressive : corrige les erreurs typiques de OCR médical
+// Normalisation OCR renforcée
 function normalizeOcrText(text: string): string {
   return text
-    .replace(/\r/g, '\n')                     // Uniformise les sauts de ligne
-    .replace(/’/g, "'")                       // Remplace les apostrophes typographiques
-    .replace(/[°º]/g, 'o')                    // Corrige les 'degrés' lus comme chiffres
-    .replace(/\bO\b/g, '0')                   // O → 0 isolé
-    .replace(/\bI\b/g, '1')                   // I → 1 isolé
-    .replace(/\bl\b/g, '1')                   // l → 1 isolé
-    .replace(/([A-Z])\s+([A-Z])/g, '$1$2')    // Supprime les coupures entre lettres majuscules
-    .replace(/(\d)\s+(\d)/g, '$1$2')          // Supprime les espaces entre chiffres
-    .replace(/\s{2,}/g, ' ')                  // Compacte les espaces
-    .replace(/[•·●■▪]/g, '-')                 // Normalise les puces
-    .replace(/QUESTIONS\s*DE\s*I\s+/gi, 'QUESTIONS DE 1 ')
-    .replace(/QUESTIONS\s*DE\s*2O\s+/gi, 'QUESTIONS DE 20 ')
-    .replace(/À\s*2O\s+/g, 'À 20 ')
-    .replace(/(\d)\s*O\s+/g, '$10 ')          // 2 O → 20 (avec espaces)
-    .replace(/(\d)[Oo]/g, '$10')              // 2O → 20
-    .replace(/[^\x20-\x7E\n]/g, ' ')          // Supprime les caractères non-ASCII
-    .trim();
-}
-
-// Normalisation du texte
-function normalize(raw: string): string {
-  // Appliquer d'abord la correction OCR
-  let text = normalizeOcrText(raw);
-  
-  return text
-    // Retire en-têtes/pieds
-    .replace(/ANNALES.*?PREPACONCOURSIADE\.COM/gi, '')
-    .replace(/PREPACONCOURSIADE\.COM/gi, '')
-    .replace(/\n?\s*\d{1,3}\s*\n/g, '\n')
-    // Ligatures OCR courantes
-    .replace(/ﬁ/g, 'fi')
-    .replace(/ﬂ/g, 'fl')
+    .replace(/QUESTIONSDE/gi, "QUESTIONS DE")
+    .replace(/R[ÉE]PONSESDE/gi, "RÉPONSES DE")
+    .replace(/\r/g, "\n")
     .replace(/'/g, "'")
-    // Dé-césure
-    .replace(/(\w)-\n(\w)/g, '$1$2')
-    // Espaces multiples
-    .replace(/[ \t]+/g, ' ')
-    .replace(/\n{3,}/g, '\n\n')
+    .replace(/[°º]/g, "o")
+    .replace(/\bO\b/g, "0")
+    .replace(/\bI\b/g, "1")
+    .replace(/\bl\b/g, "1")
+    .replace(/(\d)[Oo]/g, "$10") // 2O -> 20
+    // chiffres dans mots (é1ements -> éléments)
+    .replace(/([a-zéèêëàâîïôöùûüç])1([a-z])/gi, "$1l$2")
+    .replace(/([a-z])0([a-z])/gi, "$1o$2")
+    .replace(/ph\s*\?/gi, "pH ?")
+    .replace(/é1ement/gi, "élément")
+    .replace(/I2O\s?g/gi, "120 g")
+    .replace(/2O(\b|[^0-9])/g, "20$1")
+    .replace(/1O(\b|[^0-9])/g, "10$1")
+    .replace(/QUESTIONS\s*DE\s*I\s*À\s*2O/gi, "QUESTIONS DE 1 À 20")
+    .replace(/QUESTIONS\s*DE\s*2I\s*À\s*4O/gi, "QUESTIONS DE 21 À 40")
+    .replace(/QUESTIONS\s*DE\s*4I\s*À\s*6O/gi, "QUESTIONS DE 41 À 60")
+    .replace(/[•·●■▪]/g, "-")
+    .replace(/-\s*\n\s*/g, "")
+    .replace(/\s{2,}/g, " ")
     .trim();
 }
 
-// Découpage en blocs QUESTIONS/RÉPONSES avec limites strictes
-function sliceBlocks(text: string): { questionBlocks: QABlock[], answerBlocks: QABlock[] } {
-  const questionBlocks: QABlock[] = [];
-  const answerBlocks: QABlock[] = [];
+// Nettoyage global du bruit (allégé)
+function stripGlobalNoise(t: string): string {
+  return t
+    .replace(/ANNALES?\s+CORRIG[ÉE]S.*?(?=\bQ)/gi, "")
+    .replace(/ONCOURSIADE\.COM/gi, "")
+    .replace(/PR[ÉE]PACONCOURSIADE\.COM/gi, "")
+    .trim();
+}
 
-  // Capture tous les blocs "QUESTIONS/REPONSES DE X À Y"
-  const allMatches = Array.from(text.matchAll(/(QUESTIONS|R[ÉE]PONSES) DE\s+(\d+)\s+À\s+(\d+)/gi));
+// Nettoyage final par item
+function cleanOne(s: string): string {
+  return s
+    .replace(/^\d{1,3}\s*[.)-]\s+/, "")
+    .replace(/QUESTIONS?\s+DE\s+\d+\s+À\s+\d+/gi, "")
+    .replace(/R[ÉE]PONSES?\s+DE\s+\d+\s+À\s+\d+/gi, "")
+    .replace(/PR[ÉE]PACONCOURSIADE\.COM|ONCOURSIADE\.COM/gi, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+([?.:;!])/g, "$1")
+    .trim();
+}
+
+// Regex tolérante OCR pour détecter les blocs
+const QUESTION_BLOCK_RE = /Q[uO0]ESTI[O0]NS?\s+D[éeE3]\s+(\d+)\s+[àA]\s+(\d+)/gi;
+const ANSWER_BLOCK_RE = /R[éeE3]P[O0]NSES?\s+D[éeE3]\s+(\d+)\s+[àA]\s+(\d+)/gi;
+
+const START_Q = /(?=\b\d{1,3}\s*[.)-]\s+|(?:(?:D[ée]finir|Citez?|Donnez?|Expliquez?|Quels?|Quelle|Nommer|Indiquez|Compl[ée]tez|Distinguez|Comparez)\b))/gim;
+const END_Q = /([?.:!])(?!\w)/;
+
+// Scinde les questions intelligemment
+function splitQuestions(block: string): string[] {
+  const rough = block.split(START_Q).map(s => s.trim()).filter(Boolean);
   
-  for (let i = 0; i < allMatches.length; i++) {
-    const match = allMatches[i];
-    const [, type, from, to] = match;
-    const start = match.index!;
-    const end = i + 1 < allMatches.length ? allMatches[i + 1].index! : text.length;
-    const content = text.slice(start, end).trim();
-
-    if (/QUESTIONS/i.test(type)) {
-      questionBlocks.push({ from: +from, to: +to, content });
+  const merged: string[] = [];
+  for (const frag of rough) {
+    const okLen = frag.length >= 10;
+    const hasEnd = END_Q.test(frag);
+    if (!okLen || !hasEnd) {
+      if (merged.length) merged[merged.length - 1] += (merged[merged.length - 1].endsWith('-') ? '' : ' ') + frag;
+      else merged.push(frag);
     } else {
-      answerBlocks.push({ from: +from, to: +to, content });
-    }
-  }
-
-  return { questionBlocks, answerBlocks };
-}
-
-// Regex tolérante pour OCR : accepte chiffres et lettres mal lues
-// Groupe 1: numéro, Groupe 2: texte de la question
-const QUESTION_REGEX = /(?:^|\n)\s*([IQl\d]{1,3})\s*[.)\-]\s*(.+?)(?=(?:\n\s*(?:[IQl\d]{1,3})\s*[.)\-]\s)|$)/gs;
-
-// Extraction des questions depuis un bloc
-function extractQuestionsFromBlock(block: QABlock): Array<{ num: number; text: string }> {
-  const items: Array<{ num: number; text: string }> = [];
-  
-  // Extraire toutes les lignes potentiellement questions
-  const matches = Array.from(block.content.matchAll(QUESTION_REGEX));
-  console.log(`    Debug: ${matches.length} matches trouvés dans le bloc ${block.from}-${block.to}`);
-  
-  for (let i = 0; i < matches.length; i++) {
-    const match = matches[i];
-    const numStr = match[1]?.trim() || '';
-    const text = match[2]?.trim() || '';
-    
-    console.log(`    Match ${i}: num="${numStr}", text="${text.substring(0, 50)}..."`);
-    
-    // Corriger les erreurs OCR dans le numéro
-    const correctedNum = normalizeOcrText(numStr);
-    const num = parseInt(correctedNum.replace(/[IQl]/g, '1'));
-    
-    // Filtrer : longueur suffisante et présence de ponctuation
-    if (num >= block.from && num <= block.to && text.length > 20 && /[?.]/.test(text)) {
-      items.push({ num, text });
+      merged.push(frag);
     }
   }
   
-  return items;
+  return merged
+    .map(q => q.replace(/\s{2,}/g, ' ').trim())
+    .filter(q => q.length >= 12);
 }
 
-// Classification des types de questions
-function classify(q: string): QAItem['type'] {
-  const question = q.toLowerCase();
-  
-  if (/vrai ?ou ?faux/i.test(question)) return 'TrueFalse';
-  if (/choisissez|chochez|parmi les propositions|la ou les bonnes/i.test(question)) return 'MultipleChoice';
-  if (/remplissez|compl[ée]tez|tableau|sch[ée]ma|texte/i.test(question)) return 'FillIn';
-  if (/cas clinique|vous [êe]tes|mr\.|mme |patient|infirmi[èe]r/i.test(question)) return 'ClinicalCase';
-  return 'Open';
-}
+// Scinde les réponses par numéros
+function splitAnswers(raw: string): string[] {
+  const lines = raw.split(/\n/).map(l => l.trim()).filter(Boolean);
+  const out: string[] = [];
+  let buf: string[] = [];
+  let started = false;
 
-// Extraction des options (QCM)
-function extractOptions(text: string): string[] {
-  const opts: string[] = [];
-  const pattern = /(?:^|\n)\s*(?:[-•·]|[A-D]\)|[A-D][\.\)])\s*(.+?)(?=\n[-•·A-D]|\n\d+\b|\n\n|$)/gis;
-  
-  let match;
-  while ((match = pattern.exec(text)) !== null) {
-    const opt = match[1].trim();
-    if (opt.length > 5 && opt.length < 200) {
-      opts.push(opt);
+  for (const line of lines) {
+    if (/^\d{1,3}\s*[.)-]\s*/.test(line)) {
+      if (started && buf.length) out.push(buf.join(" "));
+      buf = [line.replace(/^\d{1,3}\s*[.)-]\s*/, "")];
+      started = true;
+    } else if (started) {
+      if (/^R[ÉE]PONSES\s+DE|^QUESTIONS\s+DE/i.test(line)) break;
+      buf.push(line);
     }
   }
-  
-  return opts.length > 2 ? opts : undefined; // Au moins 2 options
+  if (buf.length) out.push(buf.join(" "));
+  return out.map(cleanOne);
 }
 
-// Extraction principale avec alignement strict
-export async function extractQA(pdfPath: string): Promise<QAItem[]> {
-      const sourceName = path.basename(pdfPath);
-      const source = sourceName.includes('volume-1') ? 'annales_v1' 
-                   : sourceName.includes('volume-2') ? 'annales_v2'
-                   : 'cours';
-      
-      console.log(`\n📄 Extraction Q&A: ${sourceName}`);
-      
-      try {
-        // Lecture texte depuis le fichier texte
-        let rawText = fs.readFileSync(pdfPath, 'utf-8');
-        
-        // Aperçu du texte brut
-        if (rawText.length < 500) {
-          console.log(`  ⚠️  Fichier vide ou trop court`);
-          return [];
-        }
-        
-        // Normalisation OCR agressive
-        const text = normalize(rawText);
-        
-        // Log d'aperçu pour debug
-        const preview = text.slice(0, 1000);
-        console.log(`  📝 Aperçu texte normalisé (${text.length} chars):\n${preview.split('\n').slice(0, 10).join('\n')}`);
+async function extractFromTextFile(filePath: string) {
+  const rawText = fs.readFileSync(filePath, "utf8");
+  const cleanText = normalizeOcrText(rawText);
+
+  console.log(`\n📄 ${path.basename(filePath)}`);
+  
+  const questionBlocks = [...cleanText.matchAll(QUESTION_BLOCK_RE)];
+  const answerBlocks = [...cleanText.matchAll(ANSWER_BLOCK_RE)];
+  
+  console.log(`  📊 ${questionBlocks.length} blocs QUESTIONS, ${answerBlocks.length} blocs RÉPONSES`);
+  
+  if (questionBlocks.length === 0) {
+    console.warn("  ⚠️  Aucun bloc");
+    return;
+  }
+  
+  let allQA: any[] = [];
+  const seenRanges = new Set<string>();
+  const seenBlockHash = new Set<string>();
+  
+  function sha1(s: string) { 
+    return crypto.createHash('sha1').update(s).digest('hex'); 
+  }
+  
+  for (const qb of questionBlocks) {
+    const from = parseInt(qb[1]);
+    const to = parseInt(qb[2]);
+    const range = `${from}-${to}`;
     
-    // Découpage en blocs
-    const { questionBlocks, answerBlocks } = sliceBlocks(text);
-    console.log(`  ✓ ${questionBlocks.length} blocs QUESTIONS détectés`);
-    console.log(`  ✓ ${answerBlocks.length} blocs RÉPONSES détectés`);
+    const start = qb.index!;
+    const nextQ = cleanText.indexOf("QUESTIONS", start + 10);
+    const end = nextQ > -1 ? nextQ : cleanText.length;
+    const rawBlock = cleanText.slice(start, end);
+    const h = sha1(stripGlobalNoise(rawBlock).slice(0, 2000));
     
-    const allQuestions: QAItem[] = [];
+    if (seenRanges.has(range) || seenBlockHash.has(h)) {
+      continue;
+    }
+    seenRanges.add(range);
+    seenBlockHash.add(h);
     
-    // Traitement de chaque bloc de questions
-    for (const qBlock of questionBlocks) {
-      const questions = extractQuestionsFromBlock(qBlock);
+    const block = stripGlobalNoise(rawBlock)
+      .replace(/\n{2,}/g, "\n")
+      .replace(/R[ÉE]PONSES[\s\S]*/i, "")
+      .trim();
+    const questions = splitQuestions(block);
+    
+    const closestAnswerBlock = answerBlocks.find(b => Math.abs(parseInt(b[1]) - from) <= 2);
+    let answers: string[] = [];
+    
+    if (closestAnswerBlock) {
+      const startA = closestAnswerBlock.index!;
+      const nextA = cleanText.indexOf("RÉPONSES", startA + 10);
+      const endA = nextA > -1 ? nextA : cleanText.length;
+      const contentA = cleanText.slice(startA, endA);
+      answers = splitAnswers(stripGlobalNoise(contentA));
+    }
+    
+    questions.forEach((q, i) => {
+      allQA.push({
+        id: `${from}-${i + 1}`,
+        question: q,
+        answer: answers[i] || "",
+      });
+    });
+  }
+  
+  // Nettoyage final et déduplication
+  const seenQ = new Set<string>();
+  allQA = allQA
+    .map(it => ({ ...it, question: cleanOne(it.question), answer: cleanOne(it.answer || "") }))
+    .filter(it => {
+      const key = it.question.toLowerCase();
+      if (seenQ.has(key)) return false;
+      seenQ.add(key);
+      return it.question.length >= 15;
+    });
+  
+  console.log(`  ✅ ${allQA.length} questions uniques après nettoyage`);
+  
+  if (allQA.length > 200) allQA = allQA.slice(0, 200);
+  
+  const outFile = path.join(OUT_DIR, path.basename(filePath).replace(".txt", "-raw.json"));
+  fs.writeFileSync(outFile, JSON.stringify(allQA, null, 2), "utf8");
+  console.log(`  💾 Sauvegardé → ${path.basename(outFile)}`);
+  
+  // Calcul de la couverture
+  const extractedChars = allQA.reduce((acc, q) => acc + q.question.length, 0);
+  const totalChars = cleanText.length;
+  const coverage = extractedChars / totalChars || 0;
+  const coveragePct = Math.round(coverage * 100);
+  
+  console.log(`  📈 Couverture : ${coveragePct}% (${extractedChars}/${totalChars} caractères)`);
+  
+  return { allQA, coverage, outFile, processedBlocks: questionBlocks.length, totalBlocks: questionBlocks.length };
+}
+
+(async () => {
+  console.log("🚀 Extraction Q&A\n");
+  
+  const files = fs.readdirSync(OCR_DIR).filter(f => f.endsWith(".txt"));
+  const targetFile = files.find(f => f.includes('annalescorrigées-Volume-1'));
+  
+  if (!targetFile) {
+    console.warn("⚠️  Aucun fichier cible");
+    return;
+  }
+  
+  const filePath = path.join(OCR_DIR, targetFile);
+  
+  if (process.argv.includes('--watch')) {
+    const target = 0.9;
+    const interval = 45000;
+    let pass = 0;
+    let lastCoverage = 0;
+    const stateFile = path.join(OUT_DIR, 'extraction-state.json');
+    
+    while (pass < 15) {
+      pass++;
+      console.log(`\n🌀 Pass #${pass} — Extraction en cours...`);
       
-      // Trouver le bloc de réponses correspondant
-      const matchingAnswerBlock = answerBlocks.find(
-        b => b.from === qBlock.from && b.to === qBlock.to
-      );
+      const result = await extractFromTextFile(filePath);
+      const coverage = result?.coverage || 0;
+      const diff = coverage - lastCoverage;
+      const processed = result?.processedBlocks || 0;
+      const total = result?.totalBlocks || 0;
       
-      // Extraire les réponses
-      const answers = matchingAnswerBlock 
-        ? extractQuestionsFromBlock(matchingAnswerBlock)
-        : [];
+      console.log(`✅ Pass #${pass} — ${(coverage * 100).toFixed(1)}% ${diff > 0 ? `(+${(diff * 100).toFixed(1)}%)` : ''} — ${processed}/${total} blocs`);
       
-      // Créer un Map pour les réponses
-      const answerMap = new Map<number, string>();
-      for (const ans of answers) {
-        answerMap.set(ans.num, ans.text);
+      // Sauvegarde du state
+      fs.writeFileSync(stateFile, JSON.stringify({
+        coverage,
+        lastUpdated: new Date().toISOString(),
+        pass,
+        file: path.basename(filePath)
+      }, null, 2));
+      
+      if (coverage >= target) {
+        console.log(`\n🏁 Extraction complète : ${(coverage * 100).toFixed(1)}% — ${processed}/${total} blocs traités`);
+        break;
       }
       
-      // Générer les QAItems
-      for (const q of questions) {
-        const qType = classify(q.text);
-        const options = extractOptions(q.text);
-        
-        allQuestions.push({
-          source,
-          id: q.num,
-          block: { from: qBlock.from, to: qBlock.to },
-          type: qType,
-          text: q.text.substring(0, 500),
-          options,
-          answer: answerMap.get(q.num) || undefined,
-          explanation: answerMap.get(q.num) || undefined,
-          themes: []
-        });
-      }
+      console.log(`⏳ Attente ${interval / 1000}s...`);
+      await new Promise(r => setTimeout(r, interval));
+      lastCoverage = coverage;
     }
     
-    console.log(`  ✓ ${allQuestions.length} questions extraites`);
+    if (pass >= 15) console.warn("\n⚠️  Limite de 15 passes atteinte");
+  } else if (process.argv.includes('--all')) {
+    // Mode parallèle pour tous les fichiers
+    const limit = pLimit(2);
+    const allFiles = files.filter(f => f.endsWith('.txt'));
     
-    // Debug si peu de questions
-    if (allQuestions.length < 5) {
-      console.warn(`  ⚠️  Aucune question significative trouvée. Vérifie les caractères OCR !`);
-      console.warn(`  📝 Extrait: ${text.substring(0, 500)}...`);
-    }
+    console.log(`\n🚀 Traitement de ${allFiles.length} fichiers en parallèle...`);
     
-    // Limiter pour éviter les dépassements
-    if (allQuestions.length > 200) {
-      console.log(`  ⚠️  Limitation à 200 questions (sur ${allQuestions.length})`);
-      return allQuestions.slice(0, 200);
-    }
+    const results = await Promise.all(
+      allFiles.map(file => limit(() => extractFromTextFile(path.join(OCR_DIR, file))))
+    );
     
-    return allQuestions;
-    
-  } catch (error: any) {
-    console.error(`  ❌ Erreur: ${error.message}`);
-    return [];
+    const totalCoverage = results.reduce((acc, r) => acc + (r?.coverage || 0), 0) / results.length;
+    console.log(`\n✅ Tous fichiers traités — Couverture moyenne : ${(totalCoverage * 100).toFixed(1)}%`);
+  } else {
+    await extractFromTextFile(filePath);
+    console.log("\n✅ Terminé\n");
   }
-}
-
-// Point d'entrée
-if (import.meta.url.includes('extractQuestions.ts')) {
-  (async () => {
-    const sourceDir = path.join(__dirname, '../../tmp/ocr-cache');
-    
-    if (!fs.existsSync(sourceDir)) {
-      console.error(`❌ Dossier introuvable: ${sourceDir}`);
-      console.log(`💡 Lancer d'abord: npx tsx scripts/pipelines/extractPdfToText.ts`);
-      process.exit(1);
-    }
-    
-    const files = fs.readdirSync(sourceDir).filter(f => f.endsWith('.txt'));
-    
-    if (files.length === 0) {
-      console.error(`❌ Aucun fichier .txt trouvé dans ${sourceDir}`);
-      console.log(`💡 Extraire d'abord le texte des PDFs via pdfTextExtractor`);
-      process.exit(1);
-    }
-    
-    console.log(`🚀 Extraction Q&A de ${files.length} fichiers\n`);
-    
-    for (const file of files) {
-      const fullPath = path.join(sourceDir, file);
-      const qas = await extractQA(fullPath);
-      
-      if (qas.length > 0) {
-        const outputFile = path.join(__dirname, `../../src/data/concours/${path.basename(file, '.txt')}-qas.json`);
-        fs.writeFileSync(outputFile, JSON.stringify({ totalQuestions: qas.length, questions: qas }, null, 2));
-        console.log(`  💾 Sauvegardé: ${outputFile}`);
-        console.log(`  📊 ${qas.length} questions extraites\n`);
-      } else {
-        console.log(`  ⚠️  Aucune question extraite\n`);
-      }
-    }
-    
-    console.log(`✅ Extraction terminée\n`);
-  })().catch(console.error);
-}
+})();
