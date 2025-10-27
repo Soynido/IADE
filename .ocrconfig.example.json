@@ -1,0 +1,13 @@
+{
+  "watchEnabled": true,
+  "debounceMs": 2000,
+  "autoCompile": true,
+  "notifications": true,
+  "ignorePatterns": [
+    "*.tmp",
+    "*.processing",
+    "*.DS_Store",
+    "*Thumbs.db"
+  ]
+}
+

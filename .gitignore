@@ -22,3 +22,15 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OCR Agent
+tmp/
+raw-materials/**/*
+!raw-materials/README.md
+!raw-materials/cours/.gitkeep
+!raw-materials/concours-2024/.gitkeep
+!raw-materials/concours-2025/.gitkeep
+.ocrconfig.json
+scripts/ocr-logs.json
+
+.vercel

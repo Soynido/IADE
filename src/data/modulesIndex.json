@@ -1,0 +1,31 @@
+[
+  {
+    "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025",
+    "title": "he movigilence pre paration  concours iade 2025",
+    "category": "cours",
+    "filePath": "module_745715_he_movigilence_pre_paration__concours_iade_2025.md",
+    "questions": [
+      {
+        "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_q1",
+        "text": "des sujets « RH+ »=«D+h=1",
+        "options": [
+          "rad (ordi). re"
+        ],
+        "correctAnswer": 0,
+        "category": "general",
+        "difficulty": "easy",
+        "points": 1,
+        "sourceModule": "module_745715_he_movigilence_pre_paration__concours_iade_2025",
+        "tags": [
+          "general"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 7457,
+      "topics": [
+        "general"
+      ]
+    }
+  }
+]

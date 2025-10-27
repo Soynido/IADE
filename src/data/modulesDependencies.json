@@ -1,0 +1,141 @@
+{
+  "modules": {
+    "module_01_revision_neuro": {
+      "prerequisites": [],
+      "difficulty": "moyen",
+      "importance": "important",
+      "estimatedTime": 60,
+      "themes": ["Neurologie", "Système nerveux"]
+    },
+    "module_02_anatomie_physiologie_respiratoire": {
+      "prerequisites": [],
+      "difficulty": "moyen",
+      "importance": "essentiel",
+      "estimatedTime": 90,
+      "themes": ["Pneumologie", "Anatomie", "Physiologie"]
+    },
+    "module_03_pneumopathies": {
+      "prerequisites": ["module_02_anatomie_physiologie_respiratoire"],
+      "difficulty": "difficile",
+      "importance": "essentiel",
+      "estimatedTime": 75,
+      "themes": ["Pneumologie", "Pathologies respiratoires"]
+    },
+    "module_05_antalgiques": {
+      "prerequisites": [],
+      "difficulty": "moyen",
+      "importance": "essentiel",
+      "estimatedTime": 60,
+      "themes": ["Pharmacologie", "Douleur", "Analgésie"]
+    },
+    "module_06_antibiotiques": {
+      "prerequisites": [],
+      "difficulty": "moyen",
+      "importance": "essentiel",
+      "estimatedTime": 60,
+      "themes": ["Pharmacologie", "Infectiologie"]
+    },
+    "module_07_benzodiazepines": {
+      "prerequisites": [],
+      "difficulty": "moyen",
+      "importance": "important",
+      "estimatedTime": 45,
+      "themes": ["Pharmacologie", "Anxiolytiques"]
+    },
+    "module_08_curares": {
+      "prerequisites": [],
+      "difficulty": "difficile",
+      "importance": "essentiel",
+      "estimatedTime": 75,
+      "themes": ["Pharmacologie", "Anesthésie", "Curarisation"]
+    },
+    "module_09_medicaments_urgences": {
+      "prerequisites": ["module_05_antalgiques"],
+      "difficulty": "difficile",
+      "importance": "essentiel",
+      "estimatedTime": 90,
+      "themes": ["Urgences", "Pharmacologie", "Réanimation"]
+    },
+    "module_10_normes_biologiques": {
+      "prerequisites": [],
+      "difficulty": "facile",
+      "importance": "essentiel",
+      "estimatedTime": 30,
+      "themes": ["Normes biologiques", "Laboratoire"]
+    },
+    "module_11_anticoagulants": {
+      "prerequisites": [],
+      "difficulty": "difficile",
+      "importance": "essentiel",
+      "estimatedTime": 60,
+      "themes": ["Pharmacologie", "Hémostase", "Coagulation"]
+    },
+    "module_12_hemovigilance": {
+      "prerequisites": [],
+      "difficulty": "moyen",
+      "importance": "important",
+      "estimatedTime": 45,
+      "themes": ["Transfusion", "Sécurité", "Hémovigilance"]
+    },
+    "module_13_ira": {
+      "prerequisites": [],
+      "difficulty": "difficile",
+      "importance": "essentiel",
+      "estimatedTime": 75,
+      "themes": ["Néphrologie", "Insuffisance rénale", "Réanimation"]
+    }
+  },
+  "learningPaths": {
+    "debutant": {
+      "name": "Parcours Débutant",
+      "description": "Pour ceux qui commencent leur préparation",
+      "recommendedOrder": [
+        "module_10_normes_biologiques",
+        "module_02_anatomie_physiologie_respiratoire",
+        "module_05_antalgiques",
+        "module_06_antibiotiques",
+        "module_07_benzodiazepines",
+        "module_12_hemovigilance",
+        "module_01_revision_neuro",
+        "module_11_anticoagulants",
+        "module_08_curares",
+        "module_13_ira",
+        "module_03_pneumopathies",
+        "module_09_medicaments_urgences"
+      ]
+    },
+    "intensif": {
+      "name": "Parcours Intensif",
+      "description": "Pour une préparation rapide (J-30)",
+      "recommendedOrder": [
+        "module_10_normes_biologiques",
+        "module_09_medicaments_urgences",
+        "module_08_curares",
+        "module_11_anticoagulants",
+        "module_05_antalgiques",
+        "module_13_ira",
+        "module_03_pneumopathies",
+        "module_02_anatomie_physiologie_respiratoire"
+      ]
+    },
+    "revision": {
+      "name": "Parcours Révision",
+      "description": "Pour réviser les essentiels avant le concours",
+      "recommendedOrder": [
+        "module_10_normes_biologiques",
+        "module_09_medicaments_urgences",
+        "module_08_curares",
+        "module_11_anticoagulants",
+        "module_13_ira",
+        "module_03_pneumopathies"
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2025-10-23",
+    "totalModules": 13,
+    "averageTimePerModule": 60
+  }
+}
+
