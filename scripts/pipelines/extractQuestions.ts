@@ -30,18 +30,32 @@ interface QABlock {
   content: string;
 }
 
+// Normalisation OCR : corrige les erreurs typiques de OCR médical
+function normalizeOcrText(text: string): string {
+  return text
+    // Corrige les chiffres mal lus
+    .replace(/\bI\b/g, '1')
+    .replace(/\bO\b/g, '0')
+    .replace(/\bl\b/g, '1')
+    .replace(/\bS\b/g, '5')
+    .replace(/\bB\b/g, '8')
+    // Supprime les doubles espaces ou artefacts
+    .replace(/[•·●]/g, '')
+    .replace(/\s{2,}/g, ' ')
+    // Nettoie les caractères parasites
+    .trim();
+}
+
 // Normalisation du texte
 function normalize(raw: string): string {
-  return raw
+  // Appliquer d'abord la correction OCR
+  let text = normalizeOcrText(raw);
+  
+  return text
     // Retire en-têtes/pieds
     .replace(/ANNALES.*?PREPACONCOURSIADE\.COM/gi, '')
     .replace(/PREPACONCOURSIADE\.COM/gi, '')
     .replace(/\n?\s*\d{1,3}\s*\n/g, '\n')
-    // Corrections OCR I → 1, O → 0
-    .replace(/\bI\b(?=\s*À)/g, '1')  // QUESTIONS DE I À → 1 À
-    .replace(/2O(?=\s*À)/g, '20')     // 2O À → 20 À
-    .replace(/4I(?=\s*À)/g, '41')     // 4I À → 41 À
-    .replace(/6O(?=\s*,)/g, '60')     // 6O, → 60,
     // Ligatures OCR courantes
     .replace(/ﬁ/g, 'fi')
     .replace(/ﬂ/g, 'fl')
@@ -79,20 +93,32 @@ function sliceBlocks(text: string): { questionBlocks: QABlock[], answerBlocks: Q
   return { questionBlocks, answerBlocks };
 }
 
-// Regex stricte pour détecter uniquement les vraies questions numérotées
-const QUESTION_LINE_RE = /(?:^|\n)(\d{1,3})\s*(?:[.)-])\s+(.+?)(?=(?:\n\d{1,3}\s*[.)-]\s)|$)/gs;
+// Regex tolérante pour OCR : accepte chiffres et lettres mal lues
+// Groupe 1: numéro, Groupe 2: texte de la question
+const QUESTION_REGEX = /(?:^|\n)\s*(\d{1,3}|[IQl])\s*[.)\-]\s*(.+?)(?=(?:^\s*(?:\d{1,3}|[IQl])\s*[.)\-]\s)|$)/gms;
 
 // Extraction des questions depuis un bloc
 function extractQuestionsFromBlock(block: QABlock): Array<{ num: number; text: string }> {
   const items: Array<{ num: number; text: string }> = [];
   
-  for (const match of block.content.matchAll(QUESTION_LINE_RE)) {
-    const [, numStr, text] = match;
-    const num = parseInt(numStr);
+  // Extraire toutes les lignes potentiellement questions
+  const matches = Array.from(block.content.matchAll(QUESTION_REGEX));
+  console.log(`    Debug: ${matches.length} matches trouvés dans le bloc ${block.from}-${block.to}`);
+  
+  for (let i = 0; i < matches.length; i++) {
+    const match = matches[i];
+    const numStr = match[1]?.trim() || '';
+    const text = match[2]?.trim() || '';
     
-    // Vérifier que le numéro est dans la plage attendue du bloc
-    if (num >= block.from && num <= block.to && text.length > 20) {
-      items.push({ num, text: text.trim() });
+    console.log(`    Match ${i}: num="${numStr}", text="${text.substring(0, 50)}..."`);
+    
+    // Corriger les erreurs OCR dans le numéro
+    const correctedNum = normalizeOcrText(numStr);
+    const num = parseInt(correctedNum.replace(/[IQl]/g, '1'));
+    
+    // Filtrer : longueur suffisante et présence de ponctuation
+    if (num >= block.from && num <= block.to && text.length > 20 && /[?.]/.test(text)) {
+      items.push({ num, text });
     }
   }
   
@@ -188,6 +214,12 @@ export async function extractQA(pdfPath: string): Promise<QAItem[]> {
     }
     
     console.log(`  ✓ ${allQuestions.length} questions extraites`);
+    
+    // Debug si peu de questions
+    if (allQuestions.length < 5) {
+      console.warn(`  ⚠️  Aucune question significative trouvée. Vérifie les caractères OCR !`);
+      console.warn(`  📝 Extrait: ${text.substring(0, 500)}...`);
+    }
     
     // Limiter pour éviter les dépassements
     if (allQuestions.length > 200) {
