@@ -15,8 +15,7 @@ interface UserStats {
   totalTimeSpent: number;
 }
 
-export const AchievementsEngine = {
-  checkAchievements(stats: UserStats): Achievement[] {
+export function checkAchievements(stats: UserStats): Achievement[] {
   const newAchievements: Achievement[] = [];
 
   // Achievement: Premier pas
@@ -85,6 +84,25 @@ export const AchievementsEngine = {
     });
   }
 
-    return newAchievements;
+  return newAchievements;
+}
+
+export const AchievementsEngine = {
+  checkAchievements,
+  getAllAchievements() {
+    return [
+      { id: "first_step", title: "Premier pas", description: "Répondre à votre première question", icon: "🎯", unlocked: false },
+      { id: "session_10", title: "10 sessions complétées", description: "Continue sur cette lancée !", icon: "🔥", unlocked: false },
+      { id: "score_80", title: "Perfectionniste", description: "Score moyen supérieur à 80%", icon: "⭐", unlocked: false },
+      { id: "centurion", title: "Centurion", description: "Répondre à 100 questions", icon: "💯", unlocked: false },
+      { id: "streak_7", title: "Streak de feu", description: "7 jours consécutifs de pratique", icon: "🔥", unlocked: false },
+      { id: "master", title: "Maître IADE", description: "Répondre à 1000 questions", icon: "👑", unlocked: false }
+    ];
+  },
+  getAllAchievementsProgress(profile: any) {
+    return this.getAllAchievements().map(ach => ({
+      ...ach,
+      unlocked: profile.totalSessions >= 10 || profile.totalXP > 100
+    }));
   }
 };
