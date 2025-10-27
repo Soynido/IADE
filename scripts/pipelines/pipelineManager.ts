@@ -154,8 +154,6 @@ export class PipelineManager {
 }
 
 // Exécution si appelé directement
-if (import.meta.url === `file://${process.argv[1]}`) {
-  const manager = new PipelineManager();
-  manager.processAll().catch(console.error);
-}
+const manager = new PipelineManager();
+manager.processAll().catch(console.error);
 
