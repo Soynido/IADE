@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "lastSaved": "2025-10-23T22:26:08.388Z",
+  "hitCount": 3,
+  "missCount": 6,
+  "entries": [
+    [
+      "/Users/valentingaludec/IADE /iade-app/src/App.tsx",
+      {
+        "hash": "ae6771a5d5ebcbab0df56faf4c09e46a",
+        "timestamp": 1761251309347,
+        "graphId": "iade_app_analysis_graph",
+        "lineCount": 72
+      }
+    ],
+    [
+      "/Users/valentingaludec/IADE /iade-app/src/components/dashboard/DashboardV3Shadcn.tsx",
+      {
+        "hash": "3171ec3947d5876b293e2994e5fd78b4",
+        "timestamp": 1761251376783,
+        "graphId": "dashboard-v3-analysis-graph",
+        "lineCount": 322
+      }
+    ],
+    [
+      "/Users/valentingaludec/IADE /iade-app/src/components/Onboarding.tsx",
+      {
+        "hash": "859a586cd827b78f9641e3e313661d4f",
+        "timestamp": 1761251389437,
+        "graphId": "onboarding_tsx_analysis_graph",
+        "lineCount": 313
+      }
+    ],
+    [
+      "/Users/valentingaludec/IADE /iade-app/src/services/questionGeneratorV3.ts",
+      {
+        "hash": "8c10f0e75dc5386c0d07c1c91348cb44",
+        "timestamp": 1761252972047,
+        "graphId": "question_generator_v3_analysis",
+        "lineCount": 500
+      }
+    ]
+  ]
+}
