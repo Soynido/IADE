@@ -37,10 +37,15 @@ function normalize(raw: string): string {
     .replace(/ANNALES.*?PREPACONCOURSIADE\.COM/gi, '')
     .replace(/PREPACONCOURSIADE\.COM/gi, '')
     .replace(/\n?\s*\d{1,3}\s*\n/g, '\n')
+    // Corrections OCR I → 1, O → 0
+    .replace(/\bI\b(?=\s*À)/g, '1')  // QUESTIONS DE I À → 1 À
+    .replace(/2O(?=\s*À)/g, '20')     // 2O À → 20 À
+    .replace(/4I(?=\s*À)/g, '41')     // 4I À → 41 À
+    .replace(/6O(?=\s*,)/g, '60')     // 6O, → 60,
     // Ligatures OCR courantes
     .replace(/ﬁ/g, 'fi')
     .replace(/ﬂ/g, 'fl')
-    .replace(/’/g, "'")
+    .replace(/'/g, "'")
     // Dé-césure
     .replace(/(\w)-\n(\w)/g, '$1$2')
     // Espaces multiples
@@ -123,23 +128,16 @@ function extractOptions(text: string): string[] {
 
 // Extraction principale avec alignement strict
 export async function extractQA(pdfPath: string): Promise<QAItem[]> {
-  const sourceName = path.basename(pdfPath);
-  const source = sourceName.includes('volume-1') ? 'annales_v1' 
-               : sourceName.includes('volume-2') ? 'annales_v2'
-               : 'cours';
-  
-  console.log(`\n📄 Extraction Q&A: ${sourceName}`);
-  
-  try {
-    // Lecture texte (simulé pour l'instant - sera relié à pdfTextExtractor)
-    let rawText = '';
-    if (fs.existsSync(pdfPath + '.txt')) {
-      rawText = fs.readFileSync(pdfPath + '.txt', 'utf-8');
-    } else {
-      // Fallback : lecture directe si le PDF a été extrait
-      console.log(`  ⚠️  Fichier .txt manquant, extraction limitée`);
-      return [];
-    }
+      const sourceName = path.basename(pdfPath);
+      const source = sourceName.includes('volume-1') ? 'annales_v1' 
+                   : sourceName.includes('volume-2') ? 'annales_v2'
+                   : 'cours';
+      
+      console.log(`\n📄 Extraction Q&A: ${sourceName}`);
+      
+      try {
+        // Lecture texte depuis le fichier texte
+        let rawText = fs.readFileSync(pdfPath, 'utf-8');
     
     const text = normalize(rawText);
     
@@ -208,11 +206,11 @@ export async function extractQA(pdfPath: string): Promise<QAItem[]> {
 // Point d'entrée
 if (import.meta.url.includes('extractQuestions.ts')) {
   (async () => {
-    const sourceDir = path.join(__dirname, '../../raw-materials/Concours IADE');
+    const sourceDir = path.join(__dirname, '../../tmp/ocr-cache');
     
     if (!fs.existsSync(sourceDir)) {
       console.error(`❌ Dossier introuvable: ${sourceDir}`);
-      console.log(`💡 Créer le dossier et y placer les PDFs extraits (.txt)`);
+      console.log(`💡 Lancer d'abord: npx tsx scripts/pipelines/extractPdfToText.ts`);
       process.exit(1);
     }
     
@@ -233,7 +231,10 @@ if (import.meta.url.includes('extractQuestions.ts')) {
       if (qas.length > 0) {
         const outputFile = path.join(__dirname, `../../src/data/concours/${path.basename(file, '.txt')}-qas.json`);
         fs.writeFileSync(outputFile, JSON.stringify({ totalQuestions: qas.length, questions: qas }, null, 2));
-        console.log(`  💾 Sauvegardé: ${outputFile} (${qas.length} questions)\n`);
+        console.log(`  💾 Sauvegardé: ${outputFile}`);
+        console.log(`  📊 ${qas.length} questions extraites\n`);
+      } else {
+        console.log(`  ⚠️  Aucune question extraite\n`);
       }
     }
     

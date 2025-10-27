@@ -1,3 +1,8 @@
+/**
+ * Extracteur de texte depuis PDFs (native + fallback OCR)
+ * Génère les fichiers .txt dans tmp/ocr-cache/
+ */
+
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
@@ -5,109 +10,57 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-/**
- * Interface pour le contenu extrait directement depuis le PDF
- */
-export interface ExtractedTextContent {
-  pages: TextBlock[];
-  metadata: {
-    source: string;
-    extractedAt: string;
-    totalPages: number;
-    method: 'native';
-  };
-}
+const RAW_DIR = path.join(__dirname, '../../raw-materials/Concours IADE');
+const OUT_DIR = path.join(__dirname, '../../tmp/ocr-cache');
 
-export interface TextBlock {
-  pageNumber: number;
-  text: string;
-  cleaned: boolean;
-}
-
-/**
- * Extracteur de texte natif depuis PDF (sans OCR)
- * Utilise pdf-parse pour extraire directement le texte
- */
-export class PDFTextExtractor {
+async function extractPdf(file: string) {
+  const filepath = path.join(RAW_DIR, file);
+  const outpath = path.join(OUT_DIR, file.replace(/\.pdf$/, '.txt'));
   
-  /**
-   * Extrait le texte d'un PDF natif
-   */
-  async extractFromPDF(pdfPath: string): Promise<ExtractedTextContent> {
-    console.log(`\n📄 Extraction native: ${path.basename(pdfPath)}`);
+  console.log(`📄 ${file}`);
+  const buffer = fs.readFileSync(filepath);
+
+  // Tentative extraction native
+  try {
+    const pdfParseModule = await import('pdf-parse');
+    const pdfParse = pdfParseModule.default || pdfParseModule;
+    const { text } = await (pdfParse as any)(buffer);
     
-    try {
-      // Lire le fichier PDF
-      const pdfBuffer = fs.readFileSync(pdfPath);
-      
-      // Import pdf-parse (avec esModuleInterop)
-      const pdfParseModule = await import('pdf-parse');
-      const pdfParse = pdfParseModule.default || pdfParseModule;
-      
-      // Parser le PDF
-      const data = await (pdfParse as any)(pdfBuffer);
-      
-      // Health check : si texte trop court, suspect (PDF piégé)
-      if (!data.text || data.text.length < 1500) {
-        console.log(`  ⚠️  Texte trop court (${data.text?.length || 0} chars), fallback OCR recommandé`);
-      }
-      
-      // Extraire les pages
-      const textBlocks: TextBlock[] = [];
-      const pages = data.numpages;
-      
-      // Pour une extraction correcte par page, on doit parser manuellement
-      // Pour l'instant, on divise grossièrement le texte
-      const allText = data.text;
-      const approxCharsPerPage = Math.ceil(allText.length / pages);
-      
-      for (let i = 0; i < pages; i++) {
-        const start = i * approxCharsPerPage;
-        const end = Math.min((i + 1) * approxCharsPerPage, allText.length);
-        const pageText = allText.substring(start, end);
-        
-        textBlocks.push({
-          pageNumber: i + 1,
-          text: this.cleanText(pageText),
-          cleaned: true
-        });
-      }
-      
-      console.log(`✅ ${pages} page(s) extraite(s)`);
-      
-      return {
-        pages: textBlocks,
-        metadata: {
-          source: path.basename(pdfPath),
-          extractedAt: new Date().toISOString(),
-          totalPages: pages,
-          method: 'native'
-        }
-      };
-      
-    } catch (error: any) {
-      console.error(`❌ Erreur: ${error.message}`);
-      throw error;
+    if (text && text.length > 1000) {
+      fs.writeFileSync(outpath, text);
+      console.log(`  ✅ Texte natif: ${text.length} caractères`);
+      return;
     }
+  } catch (err) {
+    console.log(`  ⚠️  Extraction native échouée, fallback OCR`);
   }
 
-  /**
-   * Nettoie le texte extrait
-   */
-  private cleanText(text: string): string {
-    if (!text) return '';
-    
-    return text
-      // Supprime les espaces multiples
-      .replace(/\s+/g, ' ')
-      // Supprime les retours à la ligne consécutifs
-      .replace(/\n{3,}/g, '\n\n')
-      // Trim chaque ligne
-      .split('\n')
-      .map(line => line.trim())
-      .filter(line => line.length > 0)
-      .join('\n')
-      .trim();
-  }
+  // TODO: Fallback OCR avec tesseract.js si nécessaire
+  console.log(`  ⚠️  OCR non implémenté pour l'instant`);
+  fs.writeFileSync(outpath, ''); // Fichier vide temporaire
 }
 
+// Point d'entrée
+if (import.meta.url.includes('pdfTextExtractor.ts')) {
+  (async () => {
+    if (!fs.existsSync(RAW_DIR)) {
+      console.error(`❌ Dossier introuvable: ${RAW_DIR}`);
+      process.exit(1);
+    }
+    
+    if (!fs.existsSync(OUT_DIR)) {
+      fs.mkdirSync(OUT_DIR, { recursive: true });
+    }
+    
+    const pdfs = fs.readdirSync(RAW_DIR).filter(f => f.endsWith('.pdf'));
+    
+    console.log(`🚀 Extraction de ${pdfs.length} PDF(s)\n`);
+    
+    for (const pdf of pdfs) {
+      await extractPdf(pdf);
+      console.log('');
+    }
+    
+    console.log('✅ Tous les PDFs traités');
+  })().catch(console.error);
+}
