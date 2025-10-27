@@ -5,16 +5,17 @@
 - [x] 0.1 - Initialisation Git et GitHub repository
 - [x] 0.2 - Création plan.md
 - [x] 0.3 - Création tasks.md
-- [ ] 0.4 - Commit plan.md et tasks.md + push
+- [x] 0.4 - Commit plan.md et tasks.md + push
 
 ## Phase 1 : Pipeline d'Extraction
 
 ### 1.1 Architecture Pipeline Modulaire
-- [ ] 1.1.1 - Créer baseExtractor.ts (OCREngine + PDFProcessor wrapper)
-- [ ] 1.1.2 - Créer courseParser.ts (extraction chapitres → sections → concepts)
-- [ ] 1.1.3 - Créer annalesParser.ts (extraction questions QCM/QROC/Cas)
-- [ ] 1.1.4 - Créer correctionParser.ts (explications + références)
-- [ ] 1.1.5 - Créer pipelineManager.ts (orchestration auto-dispatch)
+- [x] 1.1.1 - Créer baseExtractor.ts (OCREngine + PDFProcessor wrapper)
+- [x] 1.1.2 - Créer courseParser.ts (extraction chapitres → sections → concepts)
+- [x] 1.1.3 - Créer annalesParser.ts (extraction questions QCM/QROC/Cas)
+- [x] 1.1.4 - Créer correctionParser.ts (explications + références)
+- [x] 1.1.5 - Créer pipelineManager.ts (orchestration auto-dispatch)
+- [x] 1.1.6 - Créer script runExtraction.sh
 
 ### 1.2 Extraction PDFs
 - [ ] 1.2.1 - Extraire Prepaconcoursiade-Complet.pdf → cours-complet.json
