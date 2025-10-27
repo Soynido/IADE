@@ -58,8 +58,11 @@ export class PipelineManager {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    for (const pdfPath of pdfFiles) {
-      await this.processPDF(pdfPath, outputDir);
+    // Throttling : traiter 2 PDFs à la fois pour éviter les freezes
+    const limit = 2;
+    for (let i = 0; i < pdfFiles.length; i += limit) {
+      const batch = pdfFiles.slice(i, i + limit);
+      await Promise.all(batch.map(pdfPath => this.processPDF(pdfPath, outputDir)));
     }
 
     console.log('\n════════════════════════════════════════════════════════════════');

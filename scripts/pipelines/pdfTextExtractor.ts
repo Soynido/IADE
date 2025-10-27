@@ -40,12 +40,17 @@ export class PDFTextExtractor {
       // Lire le fichier PDF
       const pdfBuffer = fs.readFileSync(pdfPath);
       
-      // Installer pdf-parse si nécessaire
-      const pdfParseModule = await import('pdf-parse');
-      const pdfParse = pdfParseModule.default;
+      // Import pdf-parse
+      const pdfParseDefault = (await import('pdf-parse')).default;
+      const pdfParse = typeof pdfParseDefault === 'function' ? pdfParseDefault : pdfParseDefault.default || pdfParseDefault;
       
       // Parser le PDF (version simplifiée)
       const data = await pdfParse(pdfBuffer);
+      
+      // Health check : si texte trop court, suspect (PDF piégé)
+      if (!data.text || data.text.length < 1500) {
+        console.log(`  ⚠️  Texte trop court (${data.text?.length || 0} chars), fallback OCR recommandé`);
+      }
       
       // Extraire les pages
       const textBlocks: TextBlock[] = [];
