@@ -4,6 +4,10 @@ import { DashboardV3Shadcn } from './components/dashboard/DashboardV3Shadcn'
 import { Onboarding } from './components/Onboarding'
 import { ModuleSelector } from './components/ModuleSelector'
 import QuizSessionV3 from './components/QuizSessionV3'
+import ProgressDashboard from './components/ProgressDashboard'
+import CourseReviewMode from './components/CourseReviewMode'
+import TrainingMode from './components/TrainingMode'
+import ExamSimulationMode from './components/ExamSimulationMode'
 import { StorageService } from './services/storageService'
 import './App.css'
 
@@ -37,7 +41,15 @@ function MainApp() {
 
   return (
     <Routes>
-      {/* Dashboard V3 Shadcn */}
+      {/* Nouveau Dashboard Progress */}
+      <Route path="/dashboard" element={<ProgressDashboard />} />
+      
+      {/* Nouveaux Modes Phase 2 */}
+      <Route path="/cours" element={<CourseReviewMode />} />
+      <Route path="/entrainement" element={<TrainingMode />} />
+      <Route path="/concours" element={<ExamSimulationMode />} />
+      
+      {/* Dashboard V3 Shadcn (ancien) */}
       <Route path="/" element={
         <DashboardV3Shadcn onStartSession={handleStartSession} />
       } />

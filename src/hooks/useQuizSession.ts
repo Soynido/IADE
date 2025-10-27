@@ -1,134 +1,130 @@
-import { useState, useCallback } from 'react';
-import { QuestionGeneratorV2 } from '../services/questionGeneratorV2';
-import { StorageService } from '../services/storageService';
-import type { LearningSession, UserStats } from '../types/pathology';
+import { useState, useEffect } from 'react';
+import questionsData from '../data/mock/questions.json';
 
-type SessionMode = 'revision' | 'simulation';
-
-/**
- * Hook personnalisé pour gérer une session de quiz
- */
-export function useQuizSession(mode: SessionMode = 'revision', questionCount: number = 10) {
-  const [session, setSession] = useState<LearningSession | null>(null);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [score, setScore] = useState(0);
-  const [answers, setAnswers] = useState<Map<number, string>>(new Map());
-  const [isLoading, setIsLoading] = useState(false);
-  const [startTime, setStartTime] = useState<Date | null>(null);
-
-  // Démarrer une nouvelle session
-  const startSession = useCallback(() => {
-    setIsLoading(true);
-    
-    const profile = StorageService.getUserProfile();
-    const userStats: UserStats = {
-      userId: profile.userId,
-      totalSessions: profile.totalSessions || 0,
-      averageScore: profile.averageScore || 0,
-      weakAreas: profile.weakAreas || [],
-      recentScores: profile.recentScores || [],
-      progression10percent: profile.progression10percent || 0,
-    };
-
-    // Générer la session avec l'algorithme adaptatif V2
-    const generatedSession = QuestionGeneratorV2.startLearningSession(userStats, questionCount);
-    
-    // Construire une vraie LearningSession avec currentIndex et startTime
-    const newSession: LearningSession = {
-      questions: generatedSession.questions,
-      theme: generatedSession.theme,
-      difficulty: generatedSession.difficulty,
-      currentIndex: 0,
-      startTime: new Date(),
-    };
-    
-    setSession(newSession);
-    setCurrentQuestionIndex(0);
-    setScore(0);
-    setAnswers(new Map());
-    setStartTime(new Date());
-    setIsLoading(false);
-  }, [questionCount]);
-
-  // Répondre à une question
-  const answerQuestion = useCallback((answer: string) => {
-    if (!session) return null;
-
-    const currentQuestion = session.questions[currentQuestionIndex];
-    const isCorrect = answer === currentQuestion.correct;
-    const points = isCorrect ? currentQuestion.points : 0;
-
-    // Enregistrer la réponse
-    const newAnswers = new Map(answers);
-    newAnswers.set(currentQuestionIndex, answer);
-    setAnswers(newAnswers);
-
-    // Mettre à jour le score
-    setScore(score + points);
-
-    // Marquer la question comme vue
-    if (currentQuestion.id) {
-      StorageService.markQuestionAsSeen(currentQuestion.id);
-    }
-
-    return {
-      isCorrect,
-      points,
-      correctAnswer: currentQuestion.correct,
-      explanation: currentQuestion.explanation,
-    };
-  }, [session, currentQuestionIndex, answers, score]);
-
-  // Passer à la question suivante
-  const nextQuestion = useCallback(() => {
-    if (session && currentQuestionIndex < session.questions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-    }
-  }, [session, currentQuestionIndex]);
-
-  // Finaliser la session
-  const finishSession = useCallback(() => {
-    if (!session || !startTime) return null;
-
-    const endTime = new Date();
-    const duration = Math.floor((endTime.getTime() - startTime.getTime()) / 1000);
-    
-    // Calculer le total des points possibles
-    const maxPoints = session.questions.reduce((sum, q) => sum + q.points, 0);
-    const finalScore = maxPoints > 0 ? Math.round((score / maxPoints) * 100) : 0;
-
-    // Enregistrer dans le profil utilisateur
-    StorageService.updateSessionStats(session.theme, finalScore, session.questions.length);
-
-    return {
-      score: finalScore,
-      totalPoints: score,
-      maxPoints,
-      questionsAnswered: session.questions.length,
-      duration,
-      theme: session.theme,
-      difficulty: session.difficulty,
-    };
-  }, [session, score, startTime]);
-
-  // Calculer la progression
-  const progress = session
-    ? ((currentQuestionIndex + 1) / session.questions.length) * 100
-    : 0;
-
-  return {
-    session,
-    currentQuestion: session?.questions[currentQuestionIndex] || null,
-    currentQuestionIndex,
-    score,
-    progress,
-    isLoading,
-    mode,
-    startSession,
-    answerQuestion,
-    nextQuestion,
-    finishSession,
-    isLastQuestion: session ? currentQuestionIndex >= session.questions.length - 1 : false,
-  };
+interface Answer {
+  questionId: string;
+  selectedOption: number | string;
+  correct: boolean;
+  time: number;
 }
 
+interface QuizSessionState {
+  questionIndex: number;
+  score: number;
+  totalAnswers: number;
+  answers: Answer[];
+  startTime: number;
+  isCompleted: boolean;
+}
+
+export function useQuizSession() {
+  const [state, setState] = useState<QuizSessionState>({
+    questionIndex: 0,
+    score: 0,
+    totalAnswers: 0,
+    answers: [],
+    startTime: Date.now(),
+    isCompleted: false
+  });
+
+  const [showFeedback, setShowFeedback] = useState(false);
+  const [lastAnswer, setLastAnswer] = useState<Answer | null>(null);
+
+  const currentQuestion = questionsData.questions[state.questionIndex];
+  const progress = ((state.questionIndex + 1) / questionsData.questions.length) * 100;
+
+  // Réinitialiser la session
+  const reset = () => {
+    setState({
+      questionIndex: 0,
+      score: 0,
+      totalAnswers: 0,
+      answers: [],
+      startTime: Date.now(),
+      isCompleted: false
+    });
+    setShowFeedback(false);
+    setLastAnswer(null);
+  };
+
+  // Répondre à une question
+  const answerQuestion = (selectedOption: number | string) => {
+    if (!currentQuestion) return;
+
+    const isCorrect = selectedOption === currentQuestion.correctAnswer;
+    const answer: Answer = {
+      questionId: currentQuestion.id,
+      selectedOption,
+      correct: isCorrect,
+      time: Date.now() - state.startTime
+    };
+
+    setLastAnswer(answer);
+    setShowFeedback(true);
+
+    // Mise à jour de l'état
+    setState(prev => ({
+      ...prev,
+      score: isCorrect ? prev.score + 1 : prev.score,
+      totalAnswers: prev.totalAnswers + 1,
+      answers: [...prev.answers, answer]
+    }));
+
+    // Auto-avancer après 2 secondes
+    setTimeout(() => {
+      setShowFeedback(false);
+      
+      // Si dernière question
+      if (state.questionIndex >= questionsData.questions.length - 1) {
+        setState(prev => ({ ...prev, isCompleted: true }));
+      } else {
+        setState(prev => ({ 
+          ...prev, 
+          questionIndex: prev.questionIndex + 1 
+        }));
+      }
+    }, 2000);
+  };
+
+  // Passer à la question suivante
+  const nextQuestion = () => {
+    if (state.questionIndex < questionsData.questions.length - 1) {
+      setState(prev => ({ ...prev, questionIndex: prev.questionIndex + 1 }));
+      setShowFeedback(false);
+    }
+  };
+
+  // Passer à la question précédente
+  const previousQuestion = () => {
+    if (state.questionIndex > 0) {
+      setState(prev => ({ ...prev, questionIndex: prev.questionIndex - 1 }));
+      setShowFeedback(false);
+    }
+  };
+
+  return {
+    // État actuel
+    currentQuestion,
+    questionNumber: state.questionIndex + 1,
+    totalQuestions: questionsData.questions.length,
+    progress,
+    score: state.score,
+    totalAnswers: state.totalAnswers,
+    accuracy: state.totalAnswers > 0 ? (state.score / state.totalAnswers) * 100 : 0,
+    
+    // Actions
+    answerQuestion,
+    nextQuestion,
+    previousQuestion,
+    reset,
+    
+    // Feedback
+    showFeedback,
+    lastAnswer,
+    
+    // État de session
+    isCompleted: state.isCompleted,
+    answers: state.answers,
+    sessionTime: Date.now() - state.startTime
+  };
+}

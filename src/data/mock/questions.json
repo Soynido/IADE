@@ -1,0 +1,85 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Définissez le score de Glasgow et indiquez ses 3 items d'évaluation.",
+      "options": [
+        "3-15 (ouverture yeux, réponse verbale, réponse motrice)",
+        "10-20 (pression artérielle, fréquence cardiaque, saturation)",
+        "0-30 (âge, antécédents, bilan biologique)",
+        "Le score de Glasgow n'existe pas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le score de Glasgow évalue l'état de conscience selon 3 paramètres : l'ouverture des yeux, la réponse verbale et la réponse motrice. Le score va de 3 (coma profond) à 15 (conscience normale).",
+      "difficulty": "base",
+      "themes": ["Neurologie", "Réanimation"]
+    },
+    {
+      "id": "q2",
+      "type": "CasClinique",
+      "theme": "Pneumologie",
+      "text": "Vous êtes infirmière en service de pneumologie. Mr G., patient BPCO, a une saturation à 94% sous O₂ 2L/min. L'étudiant que vous encadrez propose d'augmenter à 6L/min pour améliorer sa saturation. Que répondez-vous ?",
+      "options": [
+        "Accepter l'augmentation du débit",
+        "Refuser et expliquer le risque d'hypoventilation",
+        "Surveiller sans modifier",
+        "Proposer une intubation préventive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chez le patient BPCO, l'hyperoxie peut supprimer le drive respiratoire dépendant de l'hypoxie. Le CO₂ peut augmenter, conduisant à une hypoventilation alvéolaire. Une saturation à 94% est acceptable.",
+      "difficulty": "intermediate",
+      "themes": ["Pneumologie", "Soins infirmiers"]
+    },
+    {
+      "id": "q3",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quels sont les signes de surdosage en morphinique ?",
+      "options": [
+        "Tachycardie, hypertension, agitation",
+        "Somnolence, bradypnée, dépression respiratoire, myosis",
+        "Diarhée, crampes abdominales, hyperthermie",
+        "Aucun signe clinique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Les signes de surdosage morphinique sont : somnolence, bradypnée voire dépression respiratoire, hypotension, myosis extrême. La conduite à tenir inclut l'arrêt de la morphine, la surveillance respiratoire, l'oxygénation et l'antagonisation avec naloxone si nécessaire.",
+      "difficulty": "base",
+      "themes": ["Pharmacologie", "Réanimation"]
+    },
+    {
+      "id": "q4",
+      "type": "QROC",
+      "theme": "Transfusion",
+      "text הבנ-יםפ: :כחןםלככחן",
+      "options": [
+        "Transfusion homologue : donneur différent du receveur",
+        "Transfusion autologue : le patient reçoit son propre sang",
+        "Dans les deux cas, précautions similaires",
+        "Pas de différence notable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transfusion homologue = transfusion d'un donneur à un receveur autre. Transfusion autologue = transfusion du patient avec son propre sang prélevé en amont (moins de risque immunologique).",
+      "difficulty": "intermediate",
+      "themes": ["Transfusion", "Hématologie"]
+    },
+    {
+      "id": "q5",
+      "type": "CasClinique",
+      "theme": "Calcul de dose",
+      "text": "Un patient doit recevoir 24 000 UI/24h d'héparine avec un pousse-seringue électrique. Vous disposez de seringues de 50ml renouvelées toutes les 6h et de flacons de 5ml d'héparine (25 000 UI). Quel débit horaire ?",
+      "options": [
+        "1 ml/h",
+        "8 ml/h",
+        "16,7 ml/h",
+        "24 ml/h"
+      ],
+      "correctAnswer": 2,
+      "explanation": "24 000 UI/24h = 1000 UI/h = 6000 UI/6h. Avec 5ml = 25 000 UI, on a 1ml = 5000 UI. Donc 6000 UI = 1,2 ml d'héparine dans 48ml de sérum physiologique = 8 ml/h.",
+      "difficulty": "advanced",
+      "themes": ["Calculs infirmiers", "Hématologie"]
+    }
+  ]
+}
+
