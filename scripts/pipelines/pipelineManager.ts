@@ -67,8 +67,7 @@ export class PipelineManager {
 
     console.log('\n════════════════════════════════════════════════════════════════');
     
-    // Health check final
-    const outputDir = path.join(__dirname, '../../src/data/concours');
+    // Health check final (outputDir déjà défini plus haut)
     const duration = ((Date.now() - startTime) / 1000).toFixed(2);
     
     console.log('✅ Extraction terminée !');
