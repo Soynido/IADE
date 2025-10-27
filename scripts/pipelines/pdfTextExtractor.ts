@@ -41,7 +41,8 @@ export class PDFTextExtractor {
       const pdfBuffer = fs.readFileSync(pdfPath);
       
       // Installer pdf-parse si nécessaire
-      const pdfParse = (await import('pdf-parse')).default;
+      const pdfParseModule = await import('pdf-parse');
+      const pdfParse = pdfParseModule.default;
       
       // Parser le PDF (version simplifiée)
       const data = await pdfParse(pdfBuffer);

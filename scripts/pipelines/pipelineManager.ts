@@ -34,6 +34,8 @@ export class PipelineManager {
    * Traite tous les PDFs du dossier Concours IADE
    */
   async processAll(): Promise<void> {
+    const startTime = Date.now();
+    
     console.log('\n🚀 PIPELINE D\'EXTRACTION IADE\n');
     console.log('════════════════════════════════════════════════════════════════\n');
 
@@ -61,7 +63,26 @@ export class PipelineManager {
     }
 
     console.log('\n════════════════════════════════════════════════════════════════');
+    
+    // Health check final
+    const outputDir = path.join(__dirname, '../../src/data/concours');
+    const duration = ((Date.now() - startTime) / 1000).toFixed(2);
+    
     console.log('✅ Extraction terminée !');
+    console.log(`\n⏱️  Durée totale : ${duration}s\n`);
+    
+    // Afficher les fichiers générés
+    if (fs.existsSync(outputDir)) {
+      const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.json'));
+      if (files.length > 0) {
+        console.log('📁 Fichiers générés :');
+        for (const file of files) {
+          const filePath = path.join(outputDir, file);
+          const size = (fs.statSync(filePath).size / 1e6).toFixed(2);
+          console.log(`   - ${file} (${size} MB)`);
+        }
+      }
+    }
   }
 
   /**
