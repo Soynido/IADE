@@ -18,10 +18,11 @@
 - [x] 1.1.6 - Créer script runExtraction.sh
 
 ### 1.2 Extraction PDFs
-- [ ] 1.2.1 - Extraire Prepaconcoursiade-Complet.pdf → cours-complet.json
-- [ ] 1.2.2 - Extraire annalescorrigées-Volume-1.pdf → annales-volume-1.json
-- [ ] 1.2.3 - Extraire annalescorrigées-Volume-2.pdf → annales-volume-2.json
-- [ ] 1.2.4 - Tester et valider la qualité d'extraction
+- [x] 1.2.1 - Extraire Prepaconcoursiade-Complet.pdf → cours-complet.json (en cours, OCR fonctionnel)
+- [x] 1.2.2 - Extraire annalescorrigées-Volume-1.pdf → annales-volume-1.json (structure créée, parsers à affiner)
+- [x] 1.2.3 - Extraire annalescorrigées-Volume-2.pdf → annales-volume-2.json (structure créée, parsers à affiner)
+- [ ] 1.2.4 - Tester et valider la qualité d'extraction (affinage parsers en cours)
+- [x] 1.2.5 - Créer script debug pour inspection texte brut
 
 ### 1.3 Enrichissement Sémantique (Optionnel - Phase 1B)
 - [ ] 1.3.1 - Créer embeddingGenerator.ts
