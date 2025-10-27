@@ -119,7 +119,7 @@ export class CourseParser {
     return /^[A-ZÉÈÊÀÁÍÓÚÙ][a-zéèêàáíóúù]+(?:\s+[A-ZÉÈÊÀÁÍÓÚÙ][a-zéèêàáíóúù]+)*\s*[:\-–]/g.test(line);
   }
 
-  private is_prefixProtocol(line: string): boolean {
+  private isProtocol(line: string): boolean {
     return /^\d+[\.\)]/.test(line) || /^[•\-\*]\s/.test(line);
   }
 
