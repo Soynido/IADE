@@ -89,6 +89,9 @@ export function checkAchievements(stats: UserStats): Achievement[] {
 
 export const AchievementsEngine = {
   checkAchievements,
+  checkAfterSession: (theme: string, score: number) => {
+    return checkAchievements({ sessions: 1, averageScore: score, totalQuestionsAnswered: 1, correctAnswers: score > 50 ? 1 : 0, streak: 1, totalTimeSpent: 0 });
+  },
   getAllAchievements() {
     return [
       { id: "first_step", title: "Premier pas", description: "Répondre à votre première question", icon: "🎯", unlocked: false },
