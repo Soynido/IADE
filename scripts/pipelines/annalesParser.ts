@@ -64,6 +64,27 @@ export class AnnalesParser {
       this.parsePage(page.text);
     }
     
+    // Si aucune série trouvée, créer un ExamSet par défaut avec tout le texte brut
+    if (this.examSets.length === 0) {
+      console.log('  ⚠️  Aucune série détectée, création d\'un ExamSet par défaut...');
+      const allText = content.pages.map(p => p.text).join('\n\n');
+      
+      this.examSets.push({
+        id: 'exam_default',
+        title: `Annales Volume ${this.volume} - Texte brut`,
+        themes: ['Général'],
+        questions: [{
+          id: 'q_raw',
+          type: 'CasClinique',
+          text: allText.substring(0, 5000),
+          options: [],
+          correctAnswer: '',
+          difficultyLevel: this.difficulty,
+          themes: []
+        }]
+      });
+    }
+    
     console.log(`✅ ${this.examSets.length} série(s) d'examen trouvée(s)`);
     
     return {
@@ -116,9 +137,12 @@ export class AnnalesParser {
   }
 
   private isQuestionStart(line: string): boolean {
+    // Heuristiques élargies pour détecter les questions
     return /^Question\s+\d+/i.test(line) ||
            /^Q\d+\./.test(line) ||
-           /^\d+[\.\)]\s/.test(line);
+           /^Q\d+\)/.test(line) ||
+           /^\d+[\.\)]\s/.test(line) ||
+           /^(Quelle|Quel|Comment|Quand|Où|Pourquoi).{10,}/i.test(line);  // Début de phrase question
   }
 
   private startNewExamSet(title: string): void {

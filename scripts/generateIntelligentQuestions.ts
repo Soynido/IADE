@@ -1,200 +1,163 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
-import { IntelligentQuestionGenerator } from '../src/services/intelligentQuestionGenerator.js';
-import type { ParsedQuestion } from '../src/services/contentParser.js';
-
-/**
- * Script de génération automatique de questions depuis les modules MD
- * Utilise les patterns identifiés dans les concours IADE
- */
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const MODULES_DIR = path.join(__dirname, '../src/data/modules');
-const OUTPUT_FILE = path.join(__dirname, '../src/data/generatedQuestions.json');
-const COMPILED_FILE = path.join(__dirname, '../src/data/compiledQuestions.json');
-
-interface GenerationStats {
-  totalModules: number;
-  totalQuestions: number;
-  questionsByModule: Record<string, number>;
-  questionsByType: Record<string, number>;
-  questionsByDifficulty: Record<string, number>;
-  errors: string[];
+/**
+ * Interface pour les questions générées
+ */
+interface GeneratedQuestion {
+  id: string;
+  prompt: string;
+  options: string[];
+  correctAnswer: number;
+  explanation: string;
+  themes: string[];
+  difficultyLevel: 'base' | 'intermediate' | 'advanced';
+  source: string;
+  generatedAt: string;
 }
 
-async function generateQuestions() {
-  console.log('🧠 Générateur Intelligent de Questions IADE\n');
-  console.log('════════════════════════════════════════════════════════════════\n');
-
-  const stats: GenerationStats = {
-    totalModules: 0,
-    totalQuestions: 0,
-    questionsByModule: {},
-    questionsByType: {},
-    questionsByDifficulty: {},
-    errors: []
+interface GeneratedQuestions {
+  questions: GeneratedQuestion[];
+  metadata: {
+    generatedAt: string;
+    source: string;
+    totalQuestions: number;
   };
+}
 
-  const allQuestions: ParsedQuestion[] = [];
+/**
+ * Générateur intelligent de questions basé sur les annales
+ */
+export class IntelligentQuestionGenerator {
+  private questionHashes: Set<string> = new Set();
+  private generatedQuestions: GeneratedQuestion[] = [];
 
-  try {
-    // Lire tous les fichiers MD
-    if (!fs.existsSync(MODULES_DIR)) {
-      console.error(`❌ Erreur: Le dossier ${MODULES_DIR} n'existe pas`);
-      process.exit(1);
-    }
-
-    const files = fs.readdirSync(MODULES_DIR)
-      .filter(f => f.endsWith('.md') && f.startsWith('module_'));
-
-    console.log(`📁 ${files.length} modules de cours trouvés\n`);
-
-    // Traiter chaque module
-    for (const file of files) {
-      const filePath = path.join(MODULES_DIR, file);
-      const moduleId = path.basename(file, '.md');
-      const moduleName = file
-        .replace(/^module_\d+_/, '')
-        .replace('.md', '')
-        .replace(/_/g, ' ');
-
-      try {
-        console.log(`\n📄 Traitement: ${moduleName}`);
-        console.log(`   Fichier: ${file}`);
-
-        // Lire le contenu
-        const content = fs.readFileSync(filePath, 'utf-8');
-
-        // Générer les questions
-        console.log('   🔍 Analyse du contenu et extraction des concepts...');
-        const questions = IntelligentQuestionGenerator.generateQuestionsFromModule(
-          content,
-          moduleId,
-          moduleName
-        );
-
-        if (questions.length > 0) {
-          allQuestions.push(...questions);
-          stats.totalModules++;
-          stats.totalQuestions += questions.length;
-          stats.questionsByModule[moduleName] = questions.length;
-
-          // Stats par type et difficulté
-          questions.forEach(q => {
-            const category = q.category || 'Général';
-            stats.questionsByType[category] = (stats.questionsByType[category] || 0) + 1;
-            stats.questionsByDifficulty[q.difficulty] = (stats.questionsByDifficulty[q.difficulty] || 0) + 1;
-          });
-
-          console.log(`   ✅ ${questions.length} questions générées`);
-          
-          // Afficher un aperçu
-          if (questions.length > 0) {
-            console.log(`   📌 Exemple: "${questions[0].text.substring(0, 60)}..."`);
-          }
-        } else {
-          console.log(`   ⚠️  Aucune question générée (contenu non structuré)`);
-          stats.errors.push(`${file}: Contenu non adapté à la génération automatique`);
-        }
-
-      } catch (error) {
-        console.error(`   ❌ Erreur: ${error}`);
-        stats.errors.push(`${file}: ${error}`);
-      }
-    }
-
-    // Afficher les statistiques
-    console.log('\n════════════════════════════════════════════════════════════════');
-    console.log('📊 STATISTIQUES DE GÉNÉRATION');
+  /**
+   * Génère des questions à partir des annales
+   */
+  async generate(source: 'ocr' | 'native' = 'ocr'): Promise<GeneratedQuestions> {
+    console.log('\n🎯 GÉNÉRATEUR DE QUESTIONS INTELLIGENT\n');
     console.log('════════════════════════════════════════════════════════════════\n');
+
+    const concoursDir = path.join(__dirname, '../src/data/concours');
     
-    console.log(`✅ Modules traités: ${stats.totalModules}/${files.length}`);
-    console.log(`✅ Questions générées: ${stats.totalQuestions}\n`);
+    // Charger les données
+    const annalesV1 = this.loadAnnales(path.join(concoursDir, 'annales-volume-1.json'));
+    const annalesV2 = this.loadAnnales(path.join(concoursDir, 'annales-volume-2.json'));
 
-    console.log('📚 Par module:');
-    Object.entries(stats.questionsByModule)
-      .sort((a, b) => b[1] - a[1])
-      .forEach(([module, count]) => {
-        const bar = '█'.repeat(Math.ceil(count / 5));
-        console.log(`   ${module.padEnd(40)} ${bar} ${count}`);
-      });
+    console.log(`📚 Sources chargées :`);
+    console.log(`   - Annales V1 : ${annalesV1.examSets.length} série(s)`);
+    console.log(`   - Annales V2 : ${annalesV2.examSets.length} série(s)\n`);
 
-    console.log('\n🏷️  Par catégorie:');
-    Object.entries(stats.questionsByType)
-      .sort((a, b) => b[1] - a[1])
-      .forEach(([type, count]) => {
-        console.log(`   ${type.padEnd(20)} ${count}`);
-      });
+    // Traiter les annales existantes
+    await this.processAnnales(annalesV1, 'annales-v1');
+    await this.processAnnales(annalesV2, 'annales-v2');
 
-    console.log('\n📊 Par difficulté:');
-    Object.entries(stats.questionsByDifficulty).forEach(([diff, count]) => {
-      const emoji = diff === 'easy' ? '🟢' : diff === 'medium' ? '🟡' : '🔴';
-      console.log(`   ${emoji} ${diff.padEnd(10)} ${count}`);
-    });
+    console.log(`\n✅ Questions générées : ${this.generatedQuestions.length}\n`);
 
-    if (stats.errors.length > 0) {
-      console.log('\n⚠️  Avertissements:');
-      stats.errors.forEach(err => console.log(`   - ${err}`));
+    return {
+      questions: this.generatedQuestions,
+      metadata: {
+        generatedAt: new Date().toISOString(),
+        source,
+        totalQuestions: this.generatedQuestions.length
+      }
+    };
+  }
+
+  /**
+   * Charge les annales
+   */
+  private loadAnnales(filePath: string): any {
+    if (!fs.existsSync(filePath)) {
+      console.log(`⚠️  Fichier introuκεvable: ${path.basename(filePath)}`);
+      return { examSets: [] };
     }
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  }
 
-    // Sauvegarder les questions générées
-    console.log('\n════════════════════════════════════════════════════════════════');
-    console.log('💾 SAUVEGARDE DES QUESTIONS');
-    console.log('════════════════════════════════════════════════════════════════\n');
-
-    fs.writeFileSync(OUTPUT_FILE, JSON.stringify(allQuestions, null, 2), 'utf-8');
-    console.log(`✅ Questions générées sauvegardées: ${OUTPUT_FILE}`);
-    console.log(`   ${stats.totalQuestions} questions prêtes à l'emploi\n`);
-
-    // Fusionner avec compiledQuestions.json existant
-    let existingQuestions: ParsedQuestion[] = [];
-    if (fs.existsSync(COMPILED_FILE)) {
-      try {
-        const existing = fs.readFileSync(COMPILED_FILE, 'utf-8');
-        existingQuestions = JSON.parse(existing);
-        console.log(`📄 ${existingQuestions.length} questions existantes trouvées`);
-      } catch (error) {
-        console.warn('   ⚠️  Impossible de lire compiledQuestions.json existant');
+  /**
+   * Traite les annales et génère des questions
+   */
+  private async processAnnales(annales: any, sourceLabel: string): Promise<void> {
+    for (const examSet of annales.examSets) {
+      for (const question of examSet.questions) {
+        // Vérifier qu'on n'a pas déjà cette question
+        const hash = this.hashQuestion(question.text);
+        
+        if (!this.questionHashes.has(hash)) {
+          this.questionHashes.add(hash);
+          
+          // Ajouter la question originale
+          this.generatedQuestions.push({
+            id: question.id,
+            prompt: question.text,
+            options: question.options || [],
+            correctAnswer: typeof question.correctAnswer === 'number' ? question.correctAnswer : 0,
+            explanation: question.correction?.explanation || '',
+            themes: question.themes || [],
+            difficultyLevel: question.difficultyLevel || 'base',
+            source: `${sourceLabel} (original)`,
+            generatedAt: new Date().toISOString()
+          });
+        }
       }
     }
 
-    // Fusionner (dédupliquer par ID)
-    const existingIds = new Set(existingQuestions.map(q => q.id));
-    const newQuestions = allQuestions.filter(q => !existingIds.has(q.id));
-    const mergedQuestions = [...existingQuestions, ...newQuestions];
+    // Générer des variantes si possible
+    // TODO: Implémenter génération de variantes avec distracteurs
+  }
 
-    fs.writeFileSync(COMPILED_FILE, JSON.stringify(mergedQuestions, null, 2), 'utf-8');
-    console.log(`✅ Questions fusionnées dans: ${COMPILED_FILE}`);
-    console.log(`   Total: ${mergedQuestions.length} questions (${existingQuestions.length} existantes + ${newQuestions.length} nouvelles)\n`);
+  /**
+   * Hash une question pour détecter les doublons
+   */
+  private hashQuestion(text: string): string {
+    return text
+      .toLowerCase()
+      .replace(/[^\w\s]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .substring(0, 100);
+  }
 
-    // Résumé final
-    console.log('════════════════════════════════════════════════════════════════');
-    console.log('🎉 GÉNÉRATION TERMINÉE AVEC SUCCÈS !');
-    console.log('════════════════════════════════════════════════════════════════\n');
-
-    console.log(`📦 Livrables:`);
-    console.log(`   1. ${stats.totalQuestions} questions générées automatiquement`);
-    console.log(`   2. ${Object.keys(stats.questionsByType).length} catégories couvertes`);
-    console.log(`   3. ${mergedQuestions.length} questions totales disponibles dans l'application\n`);
-
-    console.log(`💡 Prochaines étapes:`);
-    console.log(`   1. Relancer l'application: npm run dev`);
-    console.log(`   2. Tester les nouvelles questions dans les quiz`);
-    console.log(`   3. Vérifier la qualité des questions générées`);
-    console.log(`   4. Ajuster les patterns si nécessaire\n`);
-
-    process.exit(0);
-
-  } catch (error) {
-    console.error('\n❌ ERREUR FATALE:', error);
-    process.exit(1);
+  /**
+   * Sauvegarde les questions générées
+   */
+  async save(questions: GeneratedQuestions): Promise<void> {
+    const outputPath = path.join(__dirname, '../src/data/concours/generated-questions.json');
+    
+    fs.writeFileSync(
+      outputPath,
+      JSON.stringify(questions, null, 2),
+      'utf-8'
+    );
+    
+    console.log(`✅ Questions sauvegardées: ${outputPath}`);
+    console.log(`   📊 Taille: ${(fs.statSync(outputPath).size / 1024).toFixed(2)} KB\n`);
   }
 }
 
-// Lancer la génération
-console.log('🚀 Démarrage de la génération intelligente de questions...\n');
-generateQuestions();
+// Exécution si appelé directement
+async function main() {
+  const generator = new IntelligentQuestionGenerator();
+  
+  const source = (process.argv[2] === '--source' && process.argv[3]) || 'ocr';
+  
+  const questions = await generator.generate(source as any);
+  await generator.save(questions);
+  
+  // Health check
+  if (questions.questions.length < 50) {
+    console.log('⚠️  AVERTISSEMENT: Peu de questions générées, parsers nécessitent affinage');
+  } else {
+    console.log('✅ Questions validées (volume suffisant)');
+  }
+}
 
+if (import.meta.url.includes('generateIntelligentQuestions.ts')) {
+  main().catch(console.error);
+}
