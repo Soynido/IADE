@@ -30,19 +30,25 @@ interface QABlock {
   content: string;
 }
 
-// Normalisation OCR : corrige les erreurs typiques de OCR médical
+// Normalisation OCR agressive : corrige les erreurs typiques de OCR médical
 function normalizeOcrText(text: string): string {
   return text
-    // Corrige les chiffres mal lus
-    .replace(/\bI\b/g, '1')
-    .replace(/\bO\b/g, '0')
-    .replace(/\bl\b/g, '1')
-    .replace(/\bS\b/g, '5')
-    .replace(/\bB\b/g, '8')
-    // Supprime les doubles espaces ou artefacts
-    .replace(/[•·●]/g, '')
-    .replace(/\s{2,}/g, ' ')
-    // Nettoie les caractères parasites
+    .replace(/\r/g, '\n')                     // Uniformise les sauts de ligne
+    .replace(/’/g, "'")                       // Remplace les apostrophes typographiques
+    .replace(/[°º]/g, 'o')                    // Corrige les 'degrés' lus comme chiffres
+    .replace(/\bO\b/g, '0')                   // O → 0 isolé
+    .replace(/\bI\b/g, '1')                   // I → 1 isolé
+    .replace(/\bl\b/g, '1')                   // l → 1 isolé
+    .replace(/([A-Z])\s+([A-Z])/g, '$1$2')    // Supprime les coupures entre lettres majuscules
+    .replace(/(\d)\s+(\d)/g, '$1$2')          // Supprime les espaces entre chiffres
+    .replace(/\s{2,}/g, ' ')                  // Compacte les espaces
+    .replace(/[•·●■▪]/g, '-')                 // Normalise les puces
+    .replace(/QUESTIONS\s*DE\s*I\s+/gi, 'QUESTIONS DE 1 ')
+    .replace(/QUESTIONS\s*DE\s*2O\s+/gi, 'QUESTIONS DE 20 ')
+    .replace(/À\s*2O\s+/g, 'À 20 ')
+    .replace(/(\d)\s*O\s+/g, '$10 ')          // 2 O → 20 (avec espaces)
+    .replace(/(\d)[Oo]/g, '$10')              // 2O → 20
+    .replace(/[^\x20-\x7E\n]/g, ' ')          // Supprime les caractères non-ASCII
     .trim();
 }
 
@@ -95,7 +101,7 @@ function sliceBlocks(text: string): { questionBlocks: QABlock[], answerBlocks: Q
 
 // Regex tolérante pour OCR : accepte chiffres et lettres mal lues
 // Groupe 1: numéro, Groupe 2: texte de la question
-const QUESTION_REGEX = /(?:^|\n)\s*(\d{1,3}|[IQl])\s*[.)\-]\s*(.+?)(?=(?:^\s*(?:\d{1,3}|[IQl])\s*[.)\-]\s)|$)/gms;
+const QUESTION_REGEX = /(?:^|\n)\s*([IQl\d]{1,3})\s*[.)\-]\s*(.+?)(?=(?:\n\s*(?:[IQl\d]{1,3})\s*[.)\-]\s)|$)/gs;
 
 // Extraction des questions depuis un bloc
 function extractQuestionsFromBlock(block: QABlock): Array<{ num: number; text: string }> {
@@ -164,8 +170,19 @@ export async function extractQA(pdfPath: string): Promise<QAItem[]> {
       try {
         // Lecture texte depuis le fichier texte
         let rawText = fs.readFileSync(pdfPath, 'utf-8');
-    
-    const text = normalize(rawText);
+        
+        // Aperçu du texte brut
+        if (rawText.length < 500) {
+          console.log(`  ⚠️  Fichier vide ou trop court`);
+          return [];
+        }
+        
+        // Normalisation OCR agressive
+        const text = normalize(rawText);
+        
+        // Log d'aperçu pour debug
+        const preview = text.slice(0, 1000);
+        console.log(`  📝 Aperçu texte normalisé (${text.length} chars):\n${preview.split('\n').slice(0, 10).join('\n')}`);
     
     // Découpage en blocs
     const { questionBlocks, answerBlocks } = sliceBlocks(text);
