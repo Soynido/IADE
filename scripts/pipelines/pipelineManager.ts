@@ -2,6 +2,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
 import { BaseExtractor } from './baseExtractor.js';
+import { PDFTextExtractor } from './pdfTextExtractor.js';
 import { CourseParser, StructuredCourse } from './courseParser.js';
 import { AnnalesParser, StructuredAnnales } from './annalesParser.js';
 import { CorrectionParser } from './correctionParser.js';
@@ -14,6 +15,7 @@ const __dirname = path.dirname(__filename);
  */
 export class PipelineManager {
   private baseExtractor: BaseExtractor;
+  private pdfTextExtractor: PDFTextExtractor;
   private courseParser: CourseParser;
   private annalesParserV1: AnnalesParser;
   private annalesParserV2: AnnalesParser;
@@ -21,6 +23,7 @@ export class PipelineManager {
 
   constructor() {
     this.baseExtractor = new BaseExtractor();
+    this.pdfTextExtractor = new PDFTextExtractor();
     this.courseParser = new CourseParser();
     this.annalesParserV1 = new AnnalesParser(1);
     this.annalesParserV2 = new AnnalesParser(2);
@@ -70,8 +73,15 @@ export class PipelineManager {
     console.log(`${'─'.repeat(60)}`);
 
     try {
-      // 1. Extraction du texte
-      const extractedContent = await this.baseExtractor.extractFromPDF(pdfPath);
+      // 1. Extraction du texte (native d'abord, puis OCR si échec)
+      let extractedContent;
+      try {
+        console.log('  🔍 Tentative extraction native...');
+        extractedContent = await this.pdfTextExtractor.extractFromPDF(pdfPath);
+      } catch (error: any) {
+        console.log('  ⚠️  Extraction native échouée, passage à OCR...');
+        extractedContent = await this.baseExtractor.extractFromPDF(pdfPath);
+      }
 
       // 2. Auto-détection du type de PDF
       const pdfType = this.detectPDFType(filename, extractedContent);
