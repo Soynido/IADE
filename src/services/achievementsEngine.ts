@@ -15,7 +15,8 @@ interface UserStats {
   totalTimeSpent: number;
 }
 
-export function checkAchievements(stats: UserStats): Achievement[] {
+export const AchievementsEngine = {
+  checkAchievements(stats: UserStats): Achievement[] {
   const newAchievements: Achievement[] = [];
 
   // Achievement: Premier pas
@@ -84,5 +85,6 @@ export function checkAchievements(stats: UserStats): Achievement[] {
     });
   }
 
-  return newAchievements;
-}
+    return newAchievements;
+  }
+};
