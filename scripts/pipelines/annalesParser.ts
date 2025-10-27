@@ -131,18 +131,18 @@ export class AnnalesParser {
   }
 
   private isExamSetTitle(line: string): boolean {
-    return /^Sujet/i.test(line) || 
+    // Pattern observé : "QUESTIONS DE X À Y" ou "RÉPONSES DE X À Y"
+    return /^QUESTIONS\s+DE\s+\d+\s+À\s+\d+/i.test(line) ||
+           /^RÉPONSES\s+DE\s+\d+\s+À\s+\d+/i.test(line) ||
+           /^Sujet/i.test(line) || 
            /^QCM/i.test(line) ||
            /Concours IADE/i.test(line);
   }
 
   private isQuestionStart(line: string): boolean {
-    // Heuristiques élargies pour détecter les questions
-    return /^Question\s+\d+/i.test(line) ||
-           /^Q\d+\./.test(line) ||
-           /^Q\d+\)/.test(line) ||
-           /^\d+[\.\)]\s/.test(line) ||
-           /^(Quelle|Quel|Comment|Quand|Où|Pourquoi).{10,}/i.test(line);  // Début de phrase question
+    // Patterns robustes pour détecter les questions (basés sur observation du texte brut)
+    const QUESTION_PATTERN = /(Q\d+|Question|QUESTIONS DE|Définissez|Expliquez|Citez|Donnez|Choisissez|Remplissez|Vrai ou faux|Dites si|Quelle|Quel|Comment|Quand|Où|Pourquoi)/i;
+    return QUESTION_PATTERN.test(line);
   }
 
   private startNewExamSet(title: string): void {
