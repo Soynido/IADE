@@ -1204,5 +1204,259 @@
       "lineCount": 41
     },
     "version": "1.0"
+  },
+  {
+    "id": "1761612207444-40b9fhvnu",
+    "timestamp": "2025-10-28T00:43:27.444Z",
+    "type": "file_change",
+    "source": "git:979bc69b90bf53e36f8085bb102a5e516614f84f",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "979bc69b90bf53e36f8085bb102a5e516614f84f",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:43:27 2025 +0100",
+        "message": "feat(reasoning): Smoke test passed - RL3 fully operational",
+        "files": [
+          ".reasoning/CYCLE_IADE_1_ANALYSIS.json",
+          ".reasoning/CYCLE_IADE_1_SUMMARY.md",
+          ".reasoning/CYCLE_IADE_1_TASKS.json",
+          ".reasoning/SMOKE_TEST_REPORT.md",
+          ".reasoning/forecasts.json",
+          ".reasoning/manifest.json",
+          ".reasoning/patterns.json",
+          ".reasoning/security/integrity_snapshot.json",
+          ".reasoning/traces/2025-10-28.json"
+        ],
+        "insertions": 1180,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/CYCLE_IADE_1_ANALYSIS.json",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/CYCLE_IADE_1_SUMMARY.md",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/CYCLE_IADE_1_TASKS.json",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/SMOKE_TEST_REPORT.md",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/forecasts.json",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/patterns.json",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/security/integrity_snapshot.json",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 131,
+          "deletions": 0,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 9,
+      "totalChanges": 1182,
+      "diffSummary": {
+        "insertions": 1180,
+        "deletions": 2,
+        "files": 9
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612212401-0y2c2kpno",
+    "timestamp": "2025-10-28T00:43:32.401Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "979bc69",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612262542-glyakor6w",
+    "timestamp": "2025-10-28T00:44:22.542Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/baseGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 158
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612274635-6cwozy0nr",
+    "timestamp": "2025-10-28T00:44:34.635Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/baseGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 160
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612283933-ixkrd06w0",
+    "timestamp": "2025-10-28T00:44:43.933Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/index.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 121
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612294154-vixz4taea",
+    "timestamp": "2025-10-28T00:44:54.154Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/index.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 125
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612324486-nuc27o6wc",
+    "timestamp": "2025-10-28T00:45:24.486Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /CHANGELOG.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 70
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612354844-rrxkm0y4a",
+    "timestamp": "2025-10-28T00:45:54.844Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /ARCHITECTURE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 210
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612402396-rmlyt5rge",
+    "timestamp": "2025-10-28T00:46:42.396Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/__tests__/baseGenerator.test.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 137
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612404182-g45wqn7wk",
+    "timestamp": "2025-10-28T00:46:44.182Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/vitest.config.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 22
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612436457-0iz11gyaf",
+    "timestamp": "2025-10-28T00:47:16.457Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/package.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 83
+    },
+    "version": "1.0"
   }
 ]
