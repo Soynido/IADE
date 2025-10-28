@@ -1458,5 +1458,1192 @@
       "lineCount": 83
     },
     "version": "1.0"
+  },
+  {
+    "id": "1761612457517-3af05683l",
+    "timestamp": "2025-10-28T00:47:37.517Z",
+    "type": "file_change",
+    "source": "git:be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:47:36 2025 +0100",
+        "message": "feat(cycle-1): 4 tâches prioritaires complétées - confidence 0.94",
+        "files": [
+          ".reasoning/.traceignore",
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json",
+          "ARCHITECTURE.md",
+          "CHANGELOG.md",
+          "docs/archive/ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "docs/archive/AUTOPILOTE_EXECUTION_REPORT.md",
+          "docs/archive/AUTOPILOTE_FINAL_SUMMARY.md",
+          "docs/archive/FINALISATION_MVP_RESULTAT.md",
+          "docs/archive/MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "docs/archive/PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "docs/archive/extraction_finale_phase_1.5.md",
+          "docs/archive/extraction_results.md",
+          "docs/archive/questions_extractees_phase_1.5.md"
+        ],
+        "insertions": 550,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/.traceignore",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_EXECUTION_REPORT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_FINAL_SUMMARY.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "FINALISATION_MVP_RESULTAT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_finale_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_results.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "questions_extractees_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        }
+      ],
+      "totalFiles": 14,
+      "totalChanges": 552,
+      "diffSummary": {
+        "insertions": 550,
+        "deletions": 2,
+        "files": 14
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612462488-cskbjcrm9",
+    "timestamp": "2025-10-28T00:47:42.488Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "be1b612",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612510589-190p266a1",
+    "timestamp": "2025-10-28T00:48:30.589Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/index.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 125
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612510596-i6m38d6gv",
+    "timestamp": "2025-10-28T00:48:30.596Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /CHANGELOG.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 70
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612510596-spe36wl68",
+    "timestamp": "2025-10-28T00:48:30.596Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/baseGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 160
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612510597-f2l5jn45i",
+    "timestamp": "2025-10-28T00:48:30.597Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /ARCHITECTURE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 210
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612510599-64hl8d9se",
+    "timestamp": "2025-10-28T00:48:30.599Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/__tests__/baseGenerator.test.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 137
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612510600-fiqs9n5qz",
+    "timestamp": "2025-10-28T00:48:30.600Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/package.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 83
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612510601-ozs1812p7",
+    "timestamp": "2025-10-28T00:48:30.601Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/vitest.config.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 22
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614223889-fprr4igbr",
+    "timestamp": "2025-10-28T01:17:03.889Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/baseGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 160
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614227199-shjekxnvo",
+    "timestamp": "2025-10-28T01:17:07.199Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/index.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 125
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614228665-4ulhhat9y",
+    "timestamp": "2025-10-28T01:17:08.665Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /CHANGELOG.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 71
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614228733-39fqqey57",
+    "timestamp": "2025-10-28T01:17:08.733Z",
+    "type": "file_change",
+    "source": "git:be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:47:36 2025 +0100",
+        "message": "feat(cycle-1): 4 tâches prioritaires complétées - confidence 0.94",
+        "files": [
+          ".reasoning/.traceignore",
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json",
+          "ARCHITECTURE.md",
+          "CHANGELOG.md",
+          "docs/archive/ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "docs/archive/AUTOPILOTE_EXECUTION_REPORT.md",
+          "docs/archive/AUTOPILOTE_FINAL_SUMMARY.md",
+          "docs/archive/FINALISATION_MVP_RESULTAT.md",
+          "docs/archive/MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "docs/archive/PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "docs/archive/extraction_finale_phase_1.5.md",
+          "docs/archive/extraction_results.md",
+          "docs/archive/questions_extractees_phase_1.5.md"
+        ],
+        "insertions": 550,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/.traceignore",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_EXECUTION_REPORT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_FINAL_SUMMARY.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "FINALISATION_MVP_RESULTAT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_finale_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_results.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "questions_extractees_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        }
+      ],
+      "totalFiles": 14,
+      "totalChanges": 552,
+      "diffSummary": {
+        "insertions": 550,
+        "deletions": 2,
+        "files": 14
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614228764-ob9fdravb",
+    "timestamp": "2025-10-28T01:17:08.764Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "be1b612",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614240591-4x7k3dgjf",
+    "timestamp": "2025-10-28T01:17:20.591Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /ARCHITECTURE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 211
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614284083-86ulf5vea",
+    "timestamp": "2025-10-28T01:18:04.083Z",
+    "type": "file_change",
+    "source": "git:be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:47:36 2025 +0100",
+        "message": "feat(cycle-1): 4 tâches prioritaires complétées - confidence 0.94",
+        "files": [
+          ".reasoning/.traceignore",
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json",
+          "ARCHITECTURE.md",
+          "CHANGELOG.md",
+          "docs/archive/ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "docs/archive/AUTOPILOTE_EXECUTION_REPORT.md",
+          "docs/archive/AUTOPILOTE_FINAL_SUMMARY.md",
+          "docs/archive/FINALISATION_MVP_RESULTAT.md",
+          "docs/archive/MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "docs/archive/PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "docs/archive/extraction_finale_phase_1.5.md",
+          "docs/archive/extraction_results.md",
+          "docs/archive/questions_extractees_phase_1.5.md"
+        ],
+        "insertions": 550,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/.traceignore",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_EXECUTION_REPORT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_FINAL_SUMMARY.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "FINALISATION_MVP_RESULTAT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_finale_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_results.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "questions_extractees_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        }
+      ],
+      "totalFiles": 14,
+      "totalChanges": 552,
+      "diffSummary": {
+        "insertions": 550,
+        "deletions": 2,
+        "files": 14
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614284102-5respedfe",
+    "timestamp": "2025-10-28T01:18:04.102Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "be1b612",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614330461-pp8yvu042",
+    "timestamp": "2025-10-28T01:18:50.461Z",
+    "type": "file_change",
+    "source": "git:be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:47:36 2025 +0100",
+        "message": "feat(cycle-1): 4 tâches prioritaires complétées - confidence 0.94",
+        "files": [
+          ".reasoning/.traceignore",
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json",
+          "ARCHITECTURE.md",
+          "CHANGELOG.md",
+          "docs/archive/ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "docs/archive/AUTOPILOTE_EXECUTION_REPORT.md",
+          "docs/archive/AUTOPILOTE_FINAL_SUMMARY.md",
+          "docs/archive/FINALISATION_MVP_RESULTAT.md",
+          "docs/archive/MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "docs/archive/PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "docs/archive/extraction_finale_phase_1.5.md",
+          "docs/archive/extraction_results.md",
+          "docs/archive/questions_extractees_phase_1.5.md"
+        ],
+        "insertions": 550,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/.traceignore",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_EXECUTION_REPORT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_FINAL_SUMMARY.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "FINALISATION_MVP_RESULTAT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_finale_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_results.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "questions_extractees_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        }
+      ],
+      "totalFiles": 14,
+      "totalChanges": 552,
+      "diffSummary": {
+        "insertions": 550,
+        "deletions": 2,
+        "files": 14
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614330480-ek383ahv2",
+    "timestamp": "2025-10-28T01:18:50.480Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "be1b612",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614441467-auzotxw8h",
+    "timestamp": "2025-10-28T01:20:41.467Z",
+    "type": "file_change",
+    "source": "git:be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:47:36 2025 +0100",
+        "message": "feat(cycle-1): 4 tâches prioritaires complétées - confidence 0.94",
+        "files": [
+          ".reasoning/.traceignore",
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json",
+          "ARCHITECTURE.md",
+          "CHANGELOG.md",
+          "docs/archive/ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "docs/archive/AUTOPILOTE_EXECUTION_REPORT.md",
+          "docs/archive/AUTOPILOTE_FINAL_SUMMARY.md",
+          "docs/archive/FINALISATION_MVP_RESULTAT.md",
+          "docs/archive/MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "docs/archive/PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "docs/archive/extraction_finale_phase_1.5.md",
+          "docs/archive/extraction_results.md",
+          "docs/archive/questions_extractees_phase_1.5.md"
+        ],
+        "insertions": 550,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/.traceignore",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_EXECUTION_REPORT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_FINAL_SUMMARY.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "FINALISATION_MVP_RESULTAT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_finale_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_results.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "questions_extractees_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        }
+      ],
+      "totalFiles": 14,
+      "totalChanges": 552,
+      "diffSummary": {
+        "insertions": 550,
+        "deletions": 2,
+        "files": 14
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614441495-b5pvgzkck",
+    "timestamp": "2025-10-28T01:20:41.495Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "be1b612",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614875419-1jbaoyrro",
+    "timestamp": "2025-10-28T01:27:55.419Z",
+    "type": "file_change",
+    "source": "git:be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "be1b6123fb59bb4b9e2df461ecf958e681ecae42",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:47:36 2025 +0100",
+        "message": "feat(cycle-1): 4 tâches prioritaires complétées - confidence 0.94",
+        "files": [
+          ".reasoning/.traceignore",
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json",
+          "ARCHITECTURE.md",
+          "CHANGELOG.md",
+          "docs/archive/ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "docs/archive/AUTOPILOTE_EXECUTION_REPORT.md",
+          "docs/archive/AUTOPILOTE_FINAL_SUMMARY.md",
+          "docs/archive/FINALISATION_MVP_RESULTAT.md",
+          "docs/archive/MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "docs/archive/PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "docs/archive/extraction_finale_phase_1.5.md",
+          "docs/archive/extraction_results.md",
+          "docs/archive/questions_extractees_phase_1.5.md"
+        ],
+        "insertions": 550,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/.traceignore",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "modified"
+        },
+        {
+          "file": "ARCHITECTURE.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "CHANGELOG.md",
+          "changes": [],
+          "insertions": 39,
+          "deletions": 0,
+          "type": "added"
+        },
+        {
+          "file": "ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_EXECUTION_REPORT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "AUTOPILOTE_FINAL_SUMMARY.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "FINALISATION_MVP_RESULTAT.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "MODE_AUTOPILOTE_ACTIONS_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "PLAN_ACTION_INTELLIGENCE_IADE.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_finale_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "extraction_results.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        },
+        {
+          "file": "questions_extractees_phase_1.5.md",
+          "changes": [],
+          "insertions": 0,
+          "deletions": 0,
+          "type": "renamed"
+        }
+      ],
+      "totalFiles": 14,
+      "totalChanges": 552,
+      "diffSummary": {
+        "insertions": 550,
+        "deletions": 2,
+        "files": 14
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761614875438-f41d94w11",
+    "timestamp": "2025-10-28T01:27:55.438Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "be1b612",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "audit-1761614884118",
+    "timestamp": "2025-10-28T01:28:04.118Z",
+    "type": "self_audit_completed",
+    "metadata": {
+      "adr_path": "ADR-SELF-519477FA.json",
+      "report_path": "self-audit.md",
+      "confidence": 0.85,
+      "synthetic": false
+    }
+  },
+  {
+    "id": "1761617363968-nvrzagka1",
+    "timestamp": "2025-10-28T02:09:23.968Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/consolidateAllQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 151
+    },
+    "version": "1.0"
   }
 ]

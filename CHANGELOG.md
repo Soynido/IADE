@@ -67,3 +67,4 @@ Pour plus de détails, voir:
 - `.reasoning/traces/` - Events détaillés
 - `.reasoning/adrs/` - Décisions architecturales
 
+
