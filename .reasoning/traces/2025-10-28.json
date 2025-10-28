@@ -960,5 +960,249 @@
       "lineCount": 160
     },
     "version": "1.0"
+  },
+  {
+    "id": "1761610835222-9yho47650",
+    "timestamp": "2025-10-28T00:20:35.223Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "c9d0b2d",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610835380-pewuc7twt",
+    "timestamp": "2025-10-28T00:20:35.380Z",
+    "type": "file_change",
+    "source": "git:c9d0b2de078c05895aeda34dbbfd0efa4f271685",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "c9d0b2de078c05895aeda34dbbfd0efa4f271685",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:20:31 2025 +0100",
+        "message": "🧠 Autopilot IADE Cycle-0 completed (confidence 0.92)",
+        "files": [
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json"
+        ],
+        "insertions": 522,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 261,
+          "deletions": 1,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 261,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 2,
+      "totalChanges": 524,
+      "diffSummary": {
+        "insertions": 522,
+        "deletions": 2,
+        "files": 2
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761611742580-pzd2j3f95",
+    "timestamp": "2025-10-28T00:35:42.580Z",
+    "type": "file_change",
+    "source": "git:c9d0b2de078c05895aeda34dbbfd0efa4f271685",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "c9d0b2de078c05895aeda34dbbfd0efa4f271685",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:20:31 2025 +0100",
+        "message": "🧠 Autopilot IADE Cycle-0 completed (confidence 0.92)",
+        "files": [
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json"
+        ],
+        "insertions": 522,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 261,
+          "deletions": 1,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 261,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 2,
+      "totalChanges": 524,
+      "diffSummary": {
+        "insertions": 522,
+        "deletions": 2,
+        "files": 2
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761611742601-t8e6jt8o0",
+    "timestamp": "2025-10-28T00:35:42.601Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "c9d0b2d",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761611952336-5ma10yuk8",
+    "timestamp": "2025-10-28T00:39:12.336Z",
+    "type": "file_change",
+    "source": "git:c9d0b2de078c05895aeda34dbbfd0efa4f271685",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "c9d0b2de078c05895aeda34dbbfd0efa4f271685",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Tue Oct 28 01:20:31 2025 +0100",
+        "message": "🧠 Autopilot IADE Cycle-0 completed (confidence 0.92)",
+        "files": [
+          ".reasoning/manifest.json",
+          ".reasoning/traces/2025-10-28.json"
+        ],
+        "insertions": 522,
+        "deletions": 2,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": ".reasoning/manifest.json",
+          "changes": [],
+          "insertions": 261,
+          "deletions": 1,
+          "type": "modified"
+        },
+        {
+          "file": ".reasoning/traces/2025-10-28.json",
+          "changes": [],
+          "insertions": 261,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 2,
+      "totalChanges": 524,
+      "diffSummary": {
+        "insertions": 522,
+        "deletions": 2,
+        "files": 2
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761611952364-fz0g14bw2",
+    "timestamp": "2025-10-28T00:39:12.364Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "c9d0b2d",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612137661-me4bcxn64",
+    "timestamp": "2025-10-28T00:42:17.661Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/.gitignore",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "ignore",
+      "lineCount": 41
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761612151653-ydgxb8mh3",
+    "timestamp": "2025-10-28T00:42:31.653Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/.gitignore",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "ignore",
+      "lineCount": 41
+    },
+    "version": "1.0"
   }
 ]
