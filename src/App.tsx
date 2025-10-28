@@ -49,10 +49,13 @@ function MainApp() {
       <Route path="/entrainement" element={<TrainingMode />} />
       <Route path="/concours" element={<ExamSimulationMode />} />
       
-      {/* Dashboard V3 Shadcn (ancien) */}
-      <Route path="/" element={
+      {/* Dashboard V3 Shadcn (ancien) - DÉSACTIVÉ temporairement */}
+      {/* <Route path="/" element={
         <DashboardV3Shadcn onStartSession={handleStartSession} />
-      } />
+      } /> */}
+      
+      {/* Dashboard Progress (stable) */}
+      <Route path="/" element={<ProgressDashboard />} />
       
       {/* Sélection de module pour révision */}
       <Route path="/quiz/revision" element={
