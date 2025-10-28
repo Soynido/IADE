@@ -1,0 +1,4338 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Définissez le score de Glasgow. Indiquez ses 3 items d'évaluation, le score minimum et maximum.",
+      "options": [
+        "Score de 3 à 15 : ouverture des yeux (1-4), réponse verbale (1-5), réponse motrice (1-6)",
+        "Score de 10 à 20 : pression artérielle, fréquence cardiaque, saturation",
+        "Score de 0 à 30 : âge, antécédents, bilan biologique",
+        "Le score de Glasgow n'existe pas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le score de Glasgow évalue l'état de conscience selon 3 paramètres : l'ouverture des yeux (1-4), la réponse verbale (1-5) et la réponse motrice (1-6). Le score va de 3 (coma profond) à 15 (conscience normale). Une intubation est possible si le score est inférieur à 8.",
+      "difficulty": "base",
+      "themes": [
+        "Neurologie",
+        "Réanimation"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q2",
+      "type": "QCM",
+      "theme": "Néphrologie",
+      "text": "Citez les différentes fonctions du rein.",
+      "options": [
+        "Excrétion des déchets uniquement",
+        "Fonctions exocrines : maintien volémie, élimination déchets, équilibre acido-basique | Endocrines : rénine, EPO, vitamine D",
+        "Seulement régulation tension artérielle",
+        "Aucune fonction métabolique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fonctions exocrines : maintien de la volémie, élimination des déchets du métabolisme, maintien équilibre acido-basique et électrolytique. Fonctions endocrines : régulation pression artérielle (rénine), sécrétion EPO, transformation vitamine D en forme active.",
+      "difficulty": "base",
+      "themes": [
+        "Néphrologie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q3",
+      "type": "QCM",
+      "theme": "Acidose-Base",
+      "text": "Donnez la norme du PH et le sens de variation du PH, de la PCO₂ et des HCO₃⁻ en cas d'acidose métabolique.",
+      "options": [
+        "PH < 7,38 | PCO₂ diminue | HCO₃⁻ diminue",
+        "PH > 7,42 | PCO₂ augmente | HCO₃⁻ augmente",
+        "PH normal 6,5-7,5 | Pas de variation",
+        "PH toujours stable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Norme PH : 7,38 à 7,42. Acidose métabolique : PH < 7,38 (diminue), PCO₂ diminue (compensation), HCO₃⁻ diminue.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Acidose-Base",
+        "Réanimation"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quels sont les signes de surdosage en morphinique et la conduite à tenir ?",
+      "options": [
+        "Tachycardie, hypertension, agitation",
+        "Somnolence, bradypnée, dépression respiratoire, myosis extrême",
+        "Diarrhée, crampes abdominales, hyperthermie",
+        "Aucun signe clinique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Signes : somnolence, bradypnée voire dépression respiratoire, hypotension, myosis extrême. Conduite : surveillance multiparamétrique, arrêt morphine, prévenir médecin, stimuler patient, O₂ si besoin, antagonisation avec naloxone.",
+      "difficulty": "base",
+      "themes": [
+        "Pharmacologie",
+        "Réanimation"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q5",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Définir muscles lisses et muscles striés. Donnez un exemple pour chacun.",
+      "options": [
+        "Muscles striés : contraction volontaire (myocarde) | Muscles lisses : contraction involontaire (viscères)",
+        "Tous les muscles sont identiques",
+        "Striés = colonne vertébrale | Lisses = côtes",
+        "Pas de différence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscles striés : innervés par système nerveux cérébro-spinal, contraction soumise à volonté (ex: myocarde). Muscles lisses : contraction involontaire, soumis au système nerveux végétatif, dans viscères creux (tube digestif, voies biliaires, voies urinaires).",
+      "difficulty": "base",
+      "themes": [
+        "Anatomie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q6",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Donnez le principe du don du sang. Quel est le volume prélevé, le délai entre deux dons, et la fréquence des dons autorisés par an ?",
+      "options": [
+        "420-480ml, délai 8 semaines, femme 4x/an, homme 6x/an",
+        "500ml, délai 4 semaines, illimité",
+        "250ml, délai 1 semaine, 10x/an",
+        "Le don de sang est interdit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume : 420 à 480 ml selon poids. Délai minimum 8 semaines entre 2 dons. Fréquence : femme maximum 4 fois/an, homme 6 fois/an.",
+      "difficulty": "base",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q7",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Combien de temps sont valables les RAI (Recherche d'Agglutinines Irrégulières) ?",
+      "options": [
+        "3 jours (6 mois si attestation médicale)",
+        "1 an sans limite",
+        "30 jours maximum",
+        "Pas de délai de validité"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Délai validité RAI : 3 jours sauf en l'absence de transfusion ou événement immunisant dans les 6 mois avec attestation médicale signée : 21 jours.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q8",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Quels éléments du sang peut-on transfuser ?",
+      "options": [
+        "Globules rouges, plaquettes, plasma",
+        "Uniquement le sang total",
+        "Pas de transfusion possible",
+        "Seulement les globules blancs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "On peut transfuser des globules rouges, des plaquettes ou du plasma.",
+      "difficulty": "base",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q9",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Que sont les médicaments dérivés du sang ? Citez-en 3.",
+      "options": [
+        "Albumine, facteurs de coagulation, immunoglobulines",
+        "Aspirine, paracétamol, ibuprofène",
+        "Peptides artificiels uniquement",
+        "Aucun médicament"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Médicaments dérivés du sang : médicaments à base de sang ou composants de sang préparés industriellement. Exemples : albumine, facteurs de coagulation, immunoglobulines d'origine humaine.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Pharmacologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q10",
+      "type": "CasClinique",
+      "theme": "Cardiologie",
+      "text": "Vous êtes infirmier au SAMU et vous êtes appelé pour une douleur thoracique. À quoi pouvez-vous vous attendre ?",
+      "options": [
+        "Pneumothorax, infarctus myocarde, embolie pulmonaire, dissection aortique",
+        "Seulement infarctus",
+        "Problème bénin",
+        "Pas de diagnostic possible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mnémonique PIED : P=Pneumothorax/péricardite, I=Infarctus myocarde, E=Embolie pulmonaire, D=Dissection aortique.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Cardiologie",
+        "Urgences"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q11",
+      "type": "CasClinique",
+      "theme": "Cardiologie",
+      "text": "À la lecture de l'ECG, le médecin voit un sus-décalage du segment ST. De quoi semble souffrir le patient ? Citez les médicaments utilisés.",
+      "options": [
+        "Syndrome coronarien aigu | Aspegic, clopidogrel, métalyse, morphine",
+        "Bronchite, antibiotiques",
+        "Gastrite, antiacides",
+        "Pas de traitement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sus-décalage ST évoque syndrome coronarien aigu. Traitements : antiagrégant plaquettaire (aspegic), bloqueur récepteur ADP (clopidogrel), fibrinolytique (métalyse), paracétamol, morphine.",
+      "difficulty": "advanced",
+      "themes": [
+        "Cardiologie",
+        "Urgences"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q12",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Donnez le volume sanguin moyen d'un adulte.",
+      "options": [
+        "5 à 6 litres",
+        "3 à 4 litres",
+        "10 à 12 litres",
+        "Pas de volume standard"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le volume sanguin moyen d'un adulte est d'environ 5L à 6L.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q13",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Citez les éléments figurés du sang et donnez leurs normes.",
+      "options": [
+        "Hématies: 4-5.5M/mm³ | Leucocytes: 4000-10000/mm³ | Plaquettes: 150000-400000/mm³",
+        "Tous identiques",
+        "Pas de normes",
+        "Variables selon l'humeur"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hématies : 4,0 à 5,5 millions/mm³. Leucocytes : 4000 à 10000/mm³. Plaquettes : 150000 à 400000/mm³.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Biologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q14",
+      "type": "CasClinique",
+      "theme": "Pneumologie",
+      "text": "Vous êtes infirmière en service de pneumologie et vous avez en charge Mr G., patient BPCO. À l'arrivée dans la chambre, vous voyez qu'il a une saturation à 94% sous O₂ 2L/min. L'étudiant que vous encadrez vous propose d'augmenter à 6L/min pour améliorer sa saturation. Que lui répondez-vous ?",
+      "options": [
+        "Accepter l'augmentation du débit",
+        "Refuser car le risque d'hypoventilation existe chez le BPCO",
+        "Surveiller sans modifier",
+        "Proposer une intubation préventive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chez le patient BPCO, la capnie est élevée. Un patient BPCO ne réagit qu'à l'hypoxie. Si on met trop d'oxygène, les récepteurs stimulent moins les centres respiratoires. Le patient respire moins vite, sa bradypnée entraîne augmentation PCO₂ et aggrave acidose.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pneumologie",
+        "Soins infirmiers"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q15",
+      "type": "CasClinique",
+      "theme": "Calcul de dose",
+      "text": "Un patient doit recevoir 24 000 UI/24h d'héparine à l'aide d'un pousse-seringue électrique. Vous disposez de seringues de 50 ml renouvelées toutes les 6h et de flacons de 5 ml d'héparine (25 000 UI). Indiquez le débit horaire.",
+      "options": [
+        "1 ml/h",
+        "8 ml/h",
+        "16,7 ml/h",
+        "24 ml/h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "24 000 UI/24h = 1000 UI/h = 6000 UI/6h. Avec 1 ml = 5000 UI, on a 6000 UI = 1,2 ml d'héparine dans 48 ml de sérum physiologique (46,8 ml + 1,2 ml). 48 ml en 6h = 8 ml/h.",
+      "difficulty": "advanced",
+      "themes": [
+        "Calculs infirmiers",
+        "Hématologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q16",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Donnez la définition des termes suivants : transfusion homologue et transfusion autologue.",
+      "options": [
+        "Homologue : donneur différent receveur | Autologue : patient reçoit son propre sang",
+        "Les deux sont identiques",
+        "Homologue : même groupe | Autologue : autre groupe",
+        "Pas de différence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transfusion homologue = transfusion d'un donneur à un receveur autre. Transfusion autologue = transfusion du patient avec son propre sang prélevé en amont.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q17",
+      "type": "QCM",
+      "theme": "Immunologie",
+      "text": "Où se trouvent les anticorps et les antigènes ?",
+      "options": [
+        "Anticorps dans le plasma | Antigènes dans les globules rouges",
+        "Tous dans le plasma",
+        "Tous dans les globules rouges",
+        "Pas de localisation précise"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Les anticorps sont dans le plasma et les antigènes dans les globules rouges.",
+      "difficulty": "base",
+      "themes": [
+        "Immunologie",
+        "Biologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q18",
+      "type": "QCM",
+      "theme": "Cardiologie",
+      "text": "Quels sont les déterminants du débit cardiaque ?",
+      "options": [
+        "Volume d'éjection systolique (déterminé par précharge, postcharge, contractilité) et fréquence cardiaque",
+        "Seulement la tension",
+        "Seulement l'âge",
+        "Pas de facteurs identifiés"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Déterminants : volume d'éjection systolique (précharge, postcharge, contractilité cœur) et fréquence cardiaque.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Cardiologie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q19",
+      "type": "QROC",
+      "theme": "Pharmacologie",
+      "text": "Expliquez l'effet du premier passage hépatique. Quelles voies permettent de l'éviter ?",
+      "options": [
+        "Métabolisation hépatique avant circulation générale | Voies : sublinguale, transdermique, inhalée, nasale",
+        "Pas d'effet",
+        "Seulement voie orale",
+        "Toutes les voies sont identiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Premier passage hépatique : après résorption gastro-intestinale, médicament va au foie via circulation porte où il peut être métabolisé avant arrivée circulation générale. Voies pour l'éviter : sublinguale, transdermique, inhalée, nasale.",
+      "difficulty": "advanced",
+      "themes": [
+        "Pharmacologie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q20",
+      "type": "QROC",
+      "theme": "Pneumologie",
+      "text": "Définissez les volumes respiratoires mobilisables, citez-les et décrivez-les.",
+      "options": [
+        "Volume courant (500ml), VRI (2500-3000ml), VRE (1000ml), CV totale (4500ml)",
+        "Seulement inspiration/expiration",
+        "Pas de volumes",
+        "Variables"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume courant VT : 500ml. VRI : 2500-3000ml (au-delà inspiration normale). VRE : 1000ml (au-delà expiration normale). Capacité vitale CV : VT+VRI+VRE = 4500ml totale.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pneumologie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q21",
+      "type": "CasClinique",
+      "theme": "Chirurgie",
+      "text": "Vous êtes infirmier en salle de réveil et recevez M. M. opéré d'une thyroïdectomie. Quels sont les principaux risques encourus ?",
+      "options": [
+        "Hématome compressif, lésion nerf récurrent (aphonie), atteinte bilatérale (difficulté respiratoire), lésions nerfs phrénique/laryngé",
+        "Seulement douleur",
+        "Pas de risque",
+        "Complications bénignes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Risque hématome compressif (urgence vitale). Lésion nerf récurrent (aphonie). Atteinte bilatérale (difficulté respiratoire). Lésion nerf phrénique (paralysie diaphragme). Lésion nerf laryngé (troubles déglutition). Risque douleur et infectieux.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Chirurgie",
+        "Soins infirmiers"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "q22",
+      "type": "QCM",
+      "theme": "Hémodynamique",
+      "text": "Quels sont les moyens de l'organisme pour réguler la tension ? Citez-en un à court, moyen et long terme.",
+      "options": [
+        "Court : barorécepteurs | Moyen : facteur natriurétique | Long : système rénine-angiotensine-aldostérone",
+        "Seulement rénine",
+        "Pas de régulation",
+        "Variables"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Court terme : barorécepteurs (sinus carotidien, crosse aortique, oreillette droite). Moyen : facteur natriurétique. Long terme : système rénine-angiotensine-aldostérone.",
+      "difficulty": "advanced",
+      "themes": [
+        "Hémodynamique",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "qcm_1761612295290_s1heez",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quel est le mécanisme d'action de la morphine ?",
+      "options": [
+        "Agoniste des récepteurs opioïdes mu",
+        "Antagoniste des récepteurs GABA",
+        "Inhibiteur de la COX-2",
+        "Bloqueur des canaux calciques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La morphine est un agoniste des récepteurs opioïdes mu, entraînant analgésie, sédation et dépression respiratoire.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pharmacologie"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qcm_1761612295290_ekihiv",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la classe thérapeutique du paracétamol ?",
+      "options": [
+        "Antalgique de palier 1 (non opioïde)",
+        "Anti-inflammatoire stéroïdien",
+        "Antalgique de palier 3 (opioïde fort)",
+        "Antibiotique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le paracétamol est un antalgique de palier 1 selon l'OMS. Antipyrétique mais pas anti-inflammatoire.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pharmacologie"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qcm_1761612295290_rj0uvr",
+      "type": "QCM",
+      "theme": "Normes biologiques",
+      "text": "Quelle est la norme de la créatininémie chez l'adulte ?",
+      "options": [
+        "Homme: 60-110 µmol/L | Femme: 45-90 µmol/L",
+        "Homme: 200-300 µmol/L | Femme: 150-250 µmol/L",
+        "Identique pour tous: 100 µmol/L",
+        "Variable selon l'heure de prélèvement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Créatininémie normale: Homme 60-110 µmol/L, Femme 45-90 µmol/L. Marqueur de la fonction rénale.",
+      "difficulty": "base",
+      "themes": [
+        "Normes biologiques"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qcm_1761612295290_2o55ro",
+      "type": "QCM",
+      "theme": "Normes biologiques",
+      "text": "Quelle est la norme de la glycémie à jeun ?",
+      "options": [
+        "0,7-1,1 g/L (3,9-6,1 mmol/L)",
+        "1,5-2,0 g/L",
+        "0,3-0,5 g/L",
+        "Variable sans limite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycémie à jeun normale: 0,7-1,1 g/L. Diabète si ≥ 1,26 g/L à 2 reprises.",
+      "difficulty": "base",
+      "themes": [
+        "Normes biologiques"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qcm_1761612295290_m1b2fx",
+      "type": "QCM",
+      "theme": "Urgences",
+      "text": "En cas d'arrêt cardiaque, quelle est la séquence RCP selon les recommandations ERC 2021 ?",
+      "options": [
+        "30 compressions thoraciques : 2 insufflations",
+        "15 compressions thoraciques : 2 insufflations",
+        "5 compressions thoraciques : 1 insufflation",
+        "Compressions continues sans insufflations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RCP adulte: 30:2 (30 compressions thoraciques pour 2 insufflations). Fréquence 100-120/min, profondeur 5-6 cm.",
+      "difficulty": "advanced",
+      "themes": [
+        "Urgences"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "qcm_1761612295290_35rycl",
+      "type": "QCM",
+      "theme": "Urgences",
+      "text": "Quelle est la dose initiale d'adrénaline en arrêt cardiaque ?",
+      "options": [
+        "1 mg IV/IO toutes les 3-5 minutes",
+        "0,1 mg IV unique",
+        "10 mg IV toutes les 10 minutes",
+        "0,5 mg IM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrénaline en ACR: 1 mg IV/IO toutes les 3-5 minutes. Première dose dès que possible après le 3ème choc.",
+      "difficulty": "advanced",
+      "themes": [
+        "Urgences"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"–Somatosensitif\" ?",
+      "options": [
+        "A alpha (I) et A gamma (II)",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "A alpha (I), A beta ( II) et A delta ( III, dlr toucher, temp )",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"–Somatomoteur\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "A alpha (I) et A gamma (II)",
+        "A alpha (I), A beta ( II) et A delta ( III, dlr toucher, temp )",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_12",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"le tissu conjonctif\" ?",
+      "options": [
+        "Cellules de soutien",
+        "Cellule nerveuses",
+        "Cellules de soutien"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_1",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"Ligament longitudinal\" ?",
+      "options": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_3",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"Disque intervertébral\" ?",
+      "options": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_6",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"Capsule articulaire\" ?",
+      "options": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_8",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"Ligament interépineux\" ?",
+      "options": [
+        "B",
+        "A",
+        "F",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_9",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"Ligament supraépineux\" ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "G"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"–nouveau né\" ?",
+      "options": [
+        "Système de conditionnement de l’air",
+        "Épuration des particules et des agents pathogènes",
+        "ventilation nasale exclusive",
+        "jusqu’à 100 km/h"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_5",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"–Eternuements\" ?",
+      "options": [
+        "ventilation nasale exclusive",
+        "jusqu’à 100 km/h",
+        "Système de conditionnement de l’air",
+        "Épuration des particules et des agents pathogènes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Surface totale\" ?",
+      "options": [
+        "terrain de tennis",
+        "paroi musculaire",
+        "petits sacs recouverts de",
+        "lobule pulmonaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Bronchioles\" ?",
+      "options": [
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "paroi musculaire",
+        "terrain de tennis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Alvéoles\" ?",
+      "options": [
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "terrain de tennis",
+        "paroi musculaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"5 alvéoles\" ?",
+      "options": [
+        "paroi musculaire",
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "terrain de tennis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_6",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"A l'Everest\" ?",
+      "options": [
+        "4807 m PpO2",
+        "0,21 X Pression atmosphérique",
+        "8848 m , PpO2",
+        "760 mm de Hg"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_03_pneomopathies_prepa_eiade_2020_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"courbe d’apprentissage de l’opérateurPneumopathie communautaire\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "autres examens",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_03_pneomopathies_prepa_eiade_2020_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne rétrospectif ?",
+      "options": [
+        "antigénurie",
+        "Détection des AG de LP dans les urines",
+        "sérodiagnostic (taux AC) : diagnostic tardif,",
+        "Détection des AG par IF (LBA)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Abouti à l’urine primitive\" ?",
+      "options": [
+        "eau  + petites molécules ou molécules dissoutes",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"▪MDRD\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "selon sexe, âge, ethnie",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "selon âge, sexe, ethnie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"▪CKD -EPI\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "selon âge, sexe, ethnie",
+        "selon sexe, âge, ethnie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢TTT\" ?",
+      "options": [
+        "restric  hydro -NaSIADH",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "restric  hydriquePertes rénales, cut, dig",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢Antalgiques\" ?",
+      "options": [
+        "LEC, néphrolithotritie  percutanée ou urétéroscopie",
+        "Crise de colique néphrétique",
+        "PNA obstructive, terrain rein unique, grossesse",
+        "AINS Spasfon  +/- morphine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_0",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de Na ?",
+      "options": [
+        "40-60 mmol /L",
+        "2,2-2,6 mmol /L",
+        "3,5-4,5 mmol /L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_1",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de K ?",
+      "options": [
+        "3,5-4,5 mmol /L",
+        "135-145 mmol /L",
+        "2,2-2,6 mmol /L",
+        "40-60 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_2",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de Ca corrigé ?",
+      "options": [
+        "3,5-4,5 mmol /L",
+        "2,2-2,6 mmol /L",
+        "40-60 mmol /L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_3",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de Albumine ?",
+      "options": [
+        "3,5-4,5 mmol /L",
+        "2,2-2,6 mmol /L",
+        "40-60 mmol /L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_4",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de Protéines ?",
+      "options": [
+        "3,5-4,5 mmol /L",
+        "2,2-2,6 mmol /L",
+        "60-80 g/L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_5",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de Urée ?",
+      "options": [
+        "2-8mmol /L",
+        "2,2-2,6 mmol /L",
+        "135-145 mmol /L",
+        "3,5-4,5 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_6",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de Créatinine ?",
+      "options": [
+        "60-120 µmol/L",
+        "2,2-2,6 mmol /L",
+        "135-145 mmol /L",
+        "3,5-4,5 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_7",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de DFG ?",
+      "options": [
+        "2,2-2,6 mmol /L",
+        "3,5-4,5 mmol /L",
+        "90-120 mL/min/",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Signes anticholinergiques ou atropiniques\" ?",
+      "options": [
+        "tachycardie majeure, convulsions, hallucinations,",
+        "sécheresse muqueuse, tachycardie,",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"•Signes anticholinergiques\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "sécheresse muqueuse, tachycardie,",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "tachycardie majeure, convulsions, hallucinations,"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"•Capsaicine\" ?",
+      "options": [
+        "QUTENZA, patch durée d’action de 3 moisPSYCHOTROPES",
+        "VERSATIS, emplâtres",
+        "douleurs de la sclérose en plaques",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_0_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Antalgiques non opioïdes\" ?",
+      "options": [
+        "Palier 3",
+        "Palier 2",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_0_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Paracétamol\" ?",
+      "options": [
+        "Palier 1",
+        "Palier 2",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_0_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"AINS, Aspirine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 3",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_0_3",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Néfopam\" ?",
+      "options": [
+        "Palier 1",
+        "Palier 2",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_1_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Opioïdes faibles\" ?",
+      "options": [
+        "Palier 3",
+        "Palier 1",
+        "Palier 2"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_1_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Codéine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 3",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_1_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Tramadol\" ?",
+      "options": [
+        "Palier 1",
+        "Palier 2",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_2_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Opioïdes forts (+ AINS + co-antalgiques)\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 1",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_2_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Morphine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 1",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_2_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "À quelle catégorie appartient : \"Oxycodone , Hydromorphone\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 3",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_ci_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "A coller sur une zone non irritée",
+        "délai d'action long (12 à 24 h), durée d'action 72 h",
+        "patch à poser sur la peau pour 72 h,",
+        "12 μg/h = 30 mg / 24 h de morphine per os"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mech_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "● Inhibent la synthèse des prostaglandines (PG)",
+        "● Inhibent la synthèse des prostaglandines (PG)",
+        "● Inhibent la synthèse des prostaglandines (PG)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de PG ?",
+      "options": [
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène",
+        "Acéclofénac"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de PONSTYL ?",
+      "options": [
+        "Fénoprofène",
+        "méfénamique",
+        "Acéclofénac",
+        "prostaglandines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NALGESIC ?",
+      "options": [
+        "Acéclofénac",
+        "prostaglandines",
+        "Fénoprofène",
+        "méfénamique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NABUCOX ?",
+      "options": [
+        "méfénamique",
+        "prostaglandines",
+        "Nabumétone",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_7",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NEXEN ?",
+      "options": [
+        "Nimésulide",
+        "méfénamique",
+        "prostaglandines",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_8",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de CELEBREX ?",
+      "options": [
+        "Célécoxib",
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_9",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NIFLURIL ?",
+      "options": [
+        "niflumique",
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_mol_10",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de MOBIC ?",
+      "options": [
+        "Meloxicam",
+        "méfénamique",
+        "prostaglandines",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Diminuent la réaction inflammatoire au stade aig ?",
+      "options": [
+        "Rhumatismes inflammatoires chroniques",
+        "Cancérologie : douleur ; hypercalcémies",
+        "En courte durée : poussées douloureuses de l’arthrose, tendinites, goutte",
+        "Urologie : traitement de la colique néphrétique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Effets indésirables ?",
+      "options": [
+        "Hypotension (Paracétamol injectable)",
+        "Éruption cutanée allergique",
+        "Un traitement symptomatique est également préconisé",
+        "Thrombopénie allergique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_prop_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Dérivé semi -synthétique de la morphine (effet a ?",
+      "options": [
+        "dépression aiguë des centres",
+        "Cutané : allergie",
+        "Neurologie : somnolence, vertiges",
+        "rash cutané, pruritEnfant :"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"●\" ?",
+      "options": [
+        "organismes unicellulaires procaryotes",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Anaérobie\" ?",
+      "options": [
+        "vancomycine (structure)",
+        "Amoxicilline",
+        "aminosides (imperméabilité)",
+        "CéphalosporinesRésistance qui existe d’emblée"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Genre Klebsiella\" ?",
+      "options": [
+        "aminosides (imperméabilité)",
+        "vancomycine (structure)",
+        "Amoxicilline",
+        "CéphalosporinesRésistance qui existe d’emblée"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"E. Faecalis\" ?",
+      "options": [
+        "vancomycine (structure)",
+        "aminosides (imperméabilité)",
+        "Amoxicilline",
+        "CéphalosporinesRésistance qui existe d’emblée"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_anat_8",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"aminosides (imperméabilité)\" ?",
+      "options": [
+        "Genre Klebsiella",
+        "Anaérobie",
+        "Exemples"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_anat_10",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"CéphalosporinesRésistance qui existe d’emblée\" ?",
+      "options": [
+        "Genre Klebsiella",
+        "Exemples",
+        "Faecalis",
+        "Anaérobie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_mol_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de RMP ?",
+      "options": [
+        "menstruel",
+        "hémolytique",
+        "périphériques",
+        "psychiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_mol_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de INH ?",
+      "options": [
+        "périphériques",
+        "hémolytique",
+        "menstruel",
+        "psychiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Effet fonction de la dose, effet \"pic”",
+        "Concentration (ou dose) dépendant",
+        "Peu d'importance des concentrations minimales",
+        "Effet bactéricide rapide"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●La plupart ont une demi -vie courte ?",
+      "options": [
+        "Augmenter le nombre de perfusions (4 à 6 par jour)",
+        "Demi -vie = délai au bout duquel la moitié du médicament a disparu du",
+        "Ou faire de la perfusion continuePHARMACOCINÉTIQUE",
+        "1h30 le plus souvent, sauf la ceftriaxone (8h)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_prop_3",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Effets indésirables : ?",
+      "options": [
+        "Mycoses buccales, intestinales ou vaginales (déséquilibre de la flore)",
+        "Troubles digestifs",
+        "Hypersensibilité allergique",
+        "Manifestations allant de l’urticaire au choc anaphylactique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_prop_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne 30 CLASSIFICATION DES ANTIBIOTIQUES  ?",
+      "options": [
+        "Dalbavancine (Xydalba ®)",
+        "Red Man Syndrome apparaissant en cas de perfusion",
+        "Hypersensibilité à la vancomycine :",
+        "Risque de nécrose tissulaire en IM ou SC pour vancomycine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_prop_6",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne 32 CLASSIFICATION DES ANTIBIOTIQUES  ?",
+      "options": [
+        "Polymyxine : Colistine",
+        "Pneumopathies à éosinophiles",
+        "Pas résorption per os",
+        "Augmentation des CPK, myalgies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_prop_4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne 34 CLASSIFICATION DES ANTIBIOTIQUES  ?",
+      "options": [
+        "En association avec les ßlactamine",
+        "Etat de choc infectieux•Pharmacocinétique:",
+        "Biodisponibilité orale nulle",
+        "Néomycine    utilisation locale"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs_prop_5",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne 35 CLASSIFICATION DES ANTIBIOTIQUES  ?",
+      "options": [
+        "A réaliser 30 min après la fin de la perfusion",
+        "Surveillance par des dosages",
+        "Otoxicité favorisée par des doses élevées et tttprolongés",
+        "Utilisation déconseillée pendant la grossesse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Pneumopathie communautaire\" ?",
+      "options": [
+        "autres examens",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» Pic des AG\" ?",
+      "options": [
+        "diagnostic tardif,",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "au plus tôt 3 à 4 sem après le début"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"| signes OUI ++\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "T* élevée, peu bruyant, non bruyant, gravité, |",
+        "dir. thoracique | modérés modérés |",
+        "diarrhées, douleurs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"d’une pneumococcie) diarrhées digestifs ++\" ?",
+      "options": [
+        "dir. thoracique | modérés modérés |",
+        "diarrhées, douleurs",
+        "T* élevée, peu bruyant, non bruyant, gravité, |",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Microbiologique\" ?",
+      "options": [
+        "examen direct et culture du prélèvement microbiologique si réalisé (réduction du spectre",
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus",
+        "doit aussi couvrir la légionnelle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_5",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"antibiotique sur la base de l'antidiogramme\" ?",
+      "options": [
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies",
+        "« désescalade antibiotique »)",
+        "doit aussi couvrir la légionnelle",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_6",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Limiter le risque d'émergence de mutants résistants, favorisée par la pression antiblotique\" ?",
+      "options": [
+        "doit aussi couvrir la légionnelle",
+        "réduire la durée",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus",
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne cette substance ?",
+      "options": [
+        "à l'examen, PAS de signe en foyer",
+        "début moins brutal",
+        "contexte épidémique fréquent",
+        "Syndrome pseudo-grippal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"•par voie orale\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "épilepsies rebelles aux autres médicaments et",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de MOGADON ?",
+      "options": [
+        "Estazolam",
+        "Lormétazépam",
+        "Nitrazépam",
+        "Loprazolam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NOCTAMIDE ?",
+      "options": [
+        "Loprazolam",
+        "Nitrazépam",
+        "Lormétazépam",
+        "Estazolam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de HAVLANE ?",
+      "options": [
+        "Lormétazépam",
+        "Estazolam",
+        "Nitrazépam",
+        "Loprazolam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_5",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de STILNOX ?",
+      "options": [
+        "Nitrazépam",
+        "Loprazolam",
+        "Zolpidem",
+        "Lormétazépam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de LYSANXIA ?",
+      "options": [
+        "Prazépam",
+        "Nordazépam",
+        "Diazépam",
+        "Bromazépam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_6",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de URBANYL ?",
+      "options": [
+        "Diazépam",
+        "Nordazépam",
+        "Bromazépam",
+        "Clobazam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_7",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de XANAX ?",
+      "options": [
+        "Alprazolam",
+        "Diazépam",
+        "Bromazépam",
+        "Nordazépam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Les BZD ont des propriétés pharmacologiques commu ?",
+      "options": [
+        "anticonvulsivantes ,",
+        "myorelaxantes",
+        "anxiolytiques,",
+        "hypnotiques,"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● = favorisent l'endormissement et en général prol ?",
+      "options": [
+        "Loprazolam (HAVLANE) 8 h",
+        "Estazolam (NUCTALON) 17 h",
+        "Zopiclone (IMOVANE) 6 h",
+        "Lormétazépam (NOCTAMIDE) 10 h"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_prop_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Les anxiolytiques doivent être considérés comme d ?",
+      "options": [
+        "Clobazam (URBANYL)",
+        "Diazépam (VALIUM)",
+        "Nordazépam (NORDAZ)",
+        "Alprazolam (XANAX)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_prop_4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Bonne tolérance ?",
+      "options": [
+        "Développement d’une tolérance",
+        "Difficultés de concentration, hypotonie",
+        "Amnésie antérograde,",
+        "Dépendance physique et psychique →syndrome de sevrage à l’arrêt (anxiété,"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"5 LES CURARES DÉPOLARISANTS\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "SUXAMÉTHONIUM",
+        "Processus d'activation des récepteurs périphériques",
+        "plus de transmission neuromusculaire Rc ACH«Mime » ACH"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"ioniques). On obtient ainsi une paralysie musculaire atone\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "plus de transmission neuromusculaire Rc ACH«Mime » ACH",
+        "Processus d'activation des récepteurs périphériques",
+        "SUXAMÉTHONIUM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"●Interaction par fixation\" ?",
+      "options": [
+        "déplacement du rocuronium",
+        "fixation du médicament sur le sugammadex",
+        "Contraceptifs hormonaux",
+        "Acide fucidique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"•Exemple\" ?",
+      "options": [
+        "fixation du médicament sur le sugammadex",
+        "déplacement du rocuronium",
+        "Contraceptifs hormonaux",
+        "Acide fucidique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"•Exemples\" ?",
+      "options": [
+        "Verapamil , Ondansetron , RanitidineDECURARISATION",
+        "Acide fucidique",
+        "déplacement du rocuronium",
+        "fixation du médicament sur le sugammadex"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_anat_1",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"structure anatomo -physiologique spécialisée qui\" ?",
+      "options": [
+        "Ouvrent un canal ionique",
+        "Le nerf moteur",
+        "JNM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_anat_7",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"vésicules déversent l'ACH dans la fente\" ?",
+      "options": [
+        "Ouvrent un canal ionique",
+        "influx nerveux",
+        "Le nerf moteur"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●CURARISATION =  ?",
+      "options": [
+        "Atracurium (TRACURIUM®)",
+        "Suxaméthonium ou succinylcholine (CELOCURINE®)",
+        "Rocuronium (ESMERON®)",
+        "Curare dépolarisant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●JNM = structure anatomo -physiologique spécialisé ?",
+      "options": [
+        "Récepteurs nicotiniques situés à la surface du muscle fixent l'ACH",
+        "Ouvrent un canal ionique = passage d'ions à travers la membrane",
+        "L'influx nerveux = vésicules déversent l'ACH dans la fente",
+        "Le nerf moteur = fabrique et stocke l'acétylcholine (vésicules)."
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_prop_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Intervention de très courte durée ?",
+      "options": [
+        "suxaméthonium (action rapide et fugace) +++",
+        "intubation pour intervention ne nécessitant pas de relâchement",
+        "curares non dépolarisants +++",
+        "intubation difficiles, en urgence (ex : estomac plein)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_prop_3",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Communs aux curares dépolarisants et non dépolari ?",
+      "options": [
+        "Curarisation prolongée en cas de déficit en pseudocholinestérases plasmatiques",
+        "curarisation prolongée en cas de déficit en pseudocholinestérases plasmatiques",
+        "Anaphylaxie avec réactions croisées entre eux.",
+        "Aggravation de l'hyperthermie maligne aux anesthésiques volatils halogénés ."
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_prop_4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Curare dépolarisant (Suxaméthonium ou succinylcho ?",
+      "options": [
+        "Hyperkaliémie ou maladies exposant à une fuite potassique majeure :",
+        "Brûlures étendues et profondes",
+        "Antécédent personnel ou familial d’hyperthermie maligne",
+        "Contracture généralisée avec rhabdomyolyse"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"•SFAR\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "Recommandations pour l’organisation de la prise en charge des",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Indications  ?",
+      "options": [
+        "Oculaires : mydriase",
+        "Vasculaires : augmentation de la pression artérielle, veinoconstruction",
+        "Pulmonaires : bronchodilatation",
+        "Détresse circulatoire aigue (choc cardiogénique, anaphylactique, septique)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Indications ?",
+      "options": [
+        "Hypnotique d’action rapide",
+        "IVL dans 50 ml NaCl 0,9%",
+        "Sédation, hypno -induction, anxiolytique, myorelaxant, anticonvulsivant",
+        "Ampoules de 5mg/1 ml, 5mg/5 ml, 50mg/10 ml"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau_prop_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Indications : ?",
+      "options": [
+        "IVL très lente",
+        "Cardiovasculaires : Tachycardie",
+        "Ampoules de 0,25mg, 0,5 mg et 1mg /1 ml",
+        "Bradycardie et malaise d’origine vagale, antispasmodique et anti sécrétoire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_10_normes_biologiques_concours_iade_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"H\" ?",
+      "options": [
+        "4,5–5,7 T/L ; F",
+        "40–54 % ; F",
+        "60–115 µmol/L ; F",
+        "13–17 g/dL ; F"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_10_normes_biologiques_concours_iade_norm_0",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de H ?",
+      "options": [
+        ": 13–17 g/dL",
+        ": 12–16 g/dL",
+        ": 40–54 %",
+        ": 37–47 %"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_10_normes_biologiques_concours_iade_norm_1",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de F ?",
+      "options": [
+        ": 12–16 g/dL",
+        ": 40–54 %",
+        ": 13–17 g/dL",
+        ": 37–47 %"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"●Héparines\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "médicaments antithrombotiques à activité anticoagulante"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"•INR cible atteint 2 jours consécutifs\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Arrêt de l’héparineLES ANTI -VITAMINES K OU AVK",
+        "Processus d'activation des récepteurs périphériques",
+        "permet de dépister une"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_mol_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de HNF ?",
+      "options": [
+        "Moléculaires",
+        "K",
+        "Fractionnées",
+        "Directs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_mol_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de HBPM ?",
+      "options": [
+        "Fractionnées",
+        "Moléculaires",
+        "K",
+        "Directs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Hémorragies ?",
+      "options": [
+        "HNF>HBPM, rare sous danaparoide , fondaparinux , argatrobanLES HÉPARINES",
+        "Plaquettes < 100 G/L ou diminution de 30%",
+        "Antidote : Sulfate de protamine (sauf fondaparinux )",
+        "Fréquence = 5%, HNF>HBPM, complication majeure (surdosage, non respect des"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Médicaments à marge thérapeutique étroite ?",
+      "options": [
+        "Risque hémorragique en cas de surdosage",
+        "Le patient doit connaitre : EDUCATION DU PATIENT INDISPENSABLE",
+        "Risques liés à automédication",
+        "Risque d’inefficacité en cas de sous -dosage"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢1900\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Mise en place de l’ HEMOVIGILANCE",
+        "Découverte des groupes sanguins A B O",
+        "Sécurité en matière de transfusion sanguine et de  médicaments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢Loi de 1952\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de  médicaments",
+        "Mise en place de l’ HEMOVIGILANCE",
+        "Découverte des groupes sanguins A B O"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢Loi du 4 janvier 1993\" ?",
+      "options": [
+        "Découverte des groupes sanguins A B O",
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de  médicaments",
+        "Mise en place de l’ HEMOVIGILANCE"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢Décret du 24 janvier 1994\" ?",
+      "options": [
+        "Mise en place de l’ HEMOVIGILANCE",
+        "Sécurité en matière de transfusion sanguine et de  médicaments",
+        "Découverte des groupes sanguins A B O",
+        "Organisation de la transfusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_def_5",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢Loi du 1 °juillet 1998\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Découverte des groupes sanguins A B O",
+        "Renforcement de la veille sanitaire et du contrôle des produits destinés à l’homme",
+        "Sécurité en matière de transfusion sanguine et de  médicaments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_def_6",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"➢En 2000\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Nationalisation de la transfusion avec la création de l’EFS",
+        "Découverte des groupes sanguins A B O",
+        "Sécurité en matière de transfusion sanguine et de  médicaments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"CP\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Plasma Frais Congelé",
+        "Concentré de Globules",
+        "Concentré de Plaquettes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_anat_3",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"Antigène / Anticorps\" ?",
+      "options": [
+        "Antigènes du système ABO",
+        "hématologie",
+        "Anticorps du  système ABO"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne ❖La chaîne transfusionnelle ?",
+      "options": [
+        "La commande de PSL et le transport",
+        "Le groupe sanguin et la RAI",
+        "L’acte  transfusionnel",
+        "La réception et les vérifications"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_12_hemovigilence_preparation_concours_iade_2025_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne L’Hémovigilance a pour objet l'ensemble des procéd ?",
+      "options": [
+        "Conseil et communication avec les unités de soins",
+        "Gestion des risques",
+        "Traçabilité des PSL, information et suivi du patient transfusé dans l’ES",
+        "Le receveur auquel il a été administréMissions de l’Hémovigilance :"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"– SpO2%\" ?",
+      "options": [
+        "130 réguliers",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "86 % sous 5L/min Masque hte[C]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"– Pouls régulier, bien frappé\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "130 réguliers",
+        "86 % sous 5L/min Masque hte[C]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"• Signe hypercapnie\" ?",
+      "options": [
+        "cyanose, parle peu.",
+        "balancement thoraco abdo,",
+        "agitation physique et psychique.",
+        "grésillement laryngé, Inspiratoire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"–Orientation étiologique\" ?",
+      "options": [
+        "balancement thoraco abdo,",
+        "cyanose, parle peu.",
+        "agitation physique et psychique.",
+        "grésillement laryngé, Inspiratoire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_6",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Cya)\" ?",
+      "options": [
+        "IR au niveau cellulaire secondaire",
+        "IR au niveau sanguin",
+        "dite hypoxie de stase",
+        "dite hypoxie cytotoxique."
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"– Pour tous\" ?",
+      "options": [
+        "HbCO, cyanures.",
+        "RP (mauvaise qualité brancard )",
+        "ECG, ddimères, scanner,",
+        "NFSpl, Hémocult ae+anae"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» Organisme\" ?",
+      "options": [
+        "libération de gaz carbonique et d'eau.",
+        "Immunoglobulines À / macrophages",
+        "Consommation d'énergie.",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"+oxygène\" ?",
+      "options": [
+        "Immunoglobulines À / macrophages",
+        "libération de gaz carbonique et d'eau.",
+        "Processus d'activation des récepteurs périphériques",
+        "Consommation d'énergie."
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"immunologique local\" ?",
+      "options": [
+        "Consommation d'énergie.",
+        "libération de gaz carbonique et d'eau.",
+        "Processus d'activation des récepteurs périphériques",
+        "Immunoglobulines À / macrophages"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» Veines pulmonaires\" ?",
+      "options": [
+        "rapportent sang désaturé au cœur via VCS et",
+        "apportent du sang désaturé aux",
+        "rapportent du sang saturé au",
+        "apportent sang saturé aux tissus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"onaires\" ?",
+      "options": [
+        "apportent sang saturé aux tissus",
+        "rapportent sang désaturé au cœur via VCS et",
+        "apportent du sang désaturé aux",
+        "rapportent du sang saturé au"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018_def_6",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"À l'Everest\" ?",
+      "options": [
+        "8848 m , PpO2",
+        "Processus d'activation des récepteurs périphériques",
+        "760 mm de Hg",
+        "0,21 X Pression atmosphérique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"À\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Ligament longitudinal",
+        "Lisament longitudinal",
+        "Capsule articulaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"B\" ?",
+      "options": [
+        "Lisament longitudinal",
+        "Disque intervertébral",
+        "Capsule articulaire",
+        "Ligament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"C\" ?",
+      "options": [
+        "Capsule articulaire",
+        "Ligament longitudinal",
+        "Disque intervertébral",
+        "Lisament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"D\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Capsule articulaire",
+        "Ligament longitudinal",
+        "Lisament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"F\" ?",
+      "options": [
+        "Lisament longitudinal",
+        "Ligament interépineux",
+        "Ligament longitudinal",
+        "Disque intervertébral"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_5",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"G\" ?",
+      "options": [
+        "Lisament longitudinal",
+        "Disque intervertébral",
+        "Ligament supraépineux",
+        "Ligament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_anat_1",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Quelle structure est responsable de : \"Lisament longitudinal\" ?",
+      "options": [
+        "C",
+        "B",
+        "",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne Cervicales ?",
+      "options": [
+        "Tachycardie",
+        "Épaississement",
+        "Mydriase (0",
+        "Contractions"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Héparines (suffixe DCI\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "-parine) Lu",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"HBPM\" ?",
+      "options": [
+        "action anti-Xa > anti-lla entre 1,8 et 3,3",
+        "action anti-Xa et anti-lla 1",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Fondaparinux\" ?",
+      "options": [
+        "Oran SC 283",
+        "Cakcpamet SCO 2à)) Zà)]",
+        "Are SC miéé 1j",
+        "Frapaie SN 0"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Danaparoide\" ?",
+      "options": [
+        "Cakcpamet SCO 2à)) Zà)]",
+        "Frapaie SN 0",
+        "Oran SC 283",
+        "Are SC miéé 1j"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» Rythme à moduler si indication médicale\" ?",
+      "options": [
+        "test de coagulation",
+        "activité anti-Xa (HNF et HBPM)",
+        "temps de céphaline avec activateur (Uniquement pour HN",
+        "Surveillance plaquettaire non systématique >"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Tétraplegie\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Régulation de l'homéostasie cellulaire",
+        "« déficit touchant les 4 membres », même",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"> C4\" ?",
+      "options": [
+        "paralysie diaphragmatique",
+        "diminution force respiratoire, toux difficile",
+        "bloc sympathiques cardiaques avec",
+        "toux impossible, ampliation médiocre"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \">> T7\" ?",
+      "options": [
+        "toux impossible, ampliation médiocre",
+        "paralysie diaphragmatique",
+        "bloc sympathiques cardiaques avec",
+        "diminution force respiratoire, toux difficile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \">> T1 -T6\" ?",
+      "options": [
+        "bloc sympathiques cardiaques avec",
+        "toux impossible, ampliation médiocre",
+        "paralysie diaphragmatique",
+        "diminution force respiratoire, toux difficile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"“ En dessous de #L2\" ?",
+      "options": [
+        "fibres nerveuses périphériques,",
+        "paralysie diaphragmatique",
+        "diminution force respiratoire, toux difficile",
+        "toux impossible, ampliation médiocre"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_5",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"(\" ?",
+      "options": [
+        "Syndrome de la Queue de Cheval}",
+        "paralysie diaphragmatique",
+        "toux impossible, ampliation médiocre",
+        "diminution force respiratoire, toux difficile"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"* par voie orale\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "évilepsies rebelles aux autres médicaments et",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs_mol_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NUCTALON ?",
+      "options": [
+        "Zopicone",
+        "Estazolam",
+        "Loprazolam",
+        "Lormétazepam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs_mol_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de VALIUM ?",
+      "options": [
+        "Diazepam",
+        "Nordazépam",
+        "Prazepam",
+        "Bromazéam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs_mol_4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de TRANXENE ?",
+      "options": [
+        "Clorazépate",
+        "Diazepam",
+        "Bromazéam",
+        "Nordazépam"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "medium",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne Effets indesirables ?",
+      "options": [
+        "Somnolence, sensation ébrieuse,",
+        "Développement d'une tolérance",
+        "Confusion, iritabilité, agressivité, excitation",
+        "Armnesie antérograde,"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_def_0",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Quelle est la définition correcte de \"9 NM\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine (vesicules),",
+        "vésicules déversent l'ACH dans la fente",
+        "passage d'ions à travers la membrane",
+        "structure anatomo-physiologique spécialisée qui"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_def_1",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Quelle est la définition correcte de \"* Le nerf moteur\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine (vesicules),",
+        "vésicules déversent l'ACH dans la fente",
+        "structure anatomo-physiologique spécialisée qui",
+        "passage d'ions à travers la membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_def_2",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Quelle est la définition correcte de \"9 L'influx nerveux\" ?",
+      "options": [
+        "vésicules déversent l'ACH dans la fente",
+        "fabrique et stocke lacétylcholine (vesicules),",
+        "passage d'ions à travers la membrane",
+        "structure anatomo-physiologique spécialisée qui"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_def_3",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Quelle est la définition correcte de \"* (uvrent un canal onique\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine (vesicules),",
+        "structure anatomo-physiologique spécialisée qui",
+        "passage d'ions à travers la membrane",
+        "vésicules déversent l'ACH dans la fente"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"* Exemples\" ?",
+      "options": [
+        "deplacement du rocuronium",
+        "Verapamil, Ondansetron, Ranitioine",
+        "fixation du médicament sur",
+        "Acide fucidique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Communs aux curares dépolarisants et non dépolar ?",
+      "options": [
+        "Histaminolibération pharmacologique prévenue par une injection lente",
+        "Anaphylaxie avec réactions croisées entre eux,",
+        "curarisotion prolongée en cas de déficit en pseudocholinestérases plasmatiques",
+        "Curarisotion prolongée en cas de déficit en pseudocholinesterases plasmatiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne o Effets Indésirables ?",
+      "options": [
+        "Alaitement et grossesse",
+        "Hypertrophie bénigne de la prostate",
+        "Rétention d'urine (prostate)",
+        "Constipation, aggravation d'un i[euS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"pouti à l'urine primitive\" ?",
+      "options": [
+        "eau < petites molécules ou molécules dissoufes",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"1 MIDRD\" ?",
+      "options": [
+        "selon sexe, âge, ethnie",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "selon âge, sexe, ethme",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"1 CKCD-EPI\" ?",
+      "options": [
+        "selon âge, sexe, ethme",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "selon sexe, âge, ethnie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"+ Secteur plasmatique\" ?",
+      "options": [
+        "20° du poids du corps",
+        "40'/o du poids du corps",
+        "15 du potds du corps",
+        "a du poids du corps"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"+ Perte rénale d'eau\" ?",
+      "options": [
+        "diabète Insipide",
+        "TC, cirrhose, hypoalbu",
+        "Pertes rénales cut, dig",
+        "HIC hyperNa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_norm_0",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de pH ?",
+      "options": [
+        "40-100 mmlg",
+        "138-742",
+        "95-100",
+        "42-44 mme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_norm_1",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de p ?",
+      "options": [
+        "40-100 mmlg",
+        "42-44 mme",
+        "138-742",
+        "95-100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_norm_2",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de mnllg ?",
+      "options": [
+        "138-742",
+        "40-100 mmlg",
+        "42-44 mme",
+        "95-100"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_norm_3",
+      "type": "QCM",
+      "theme": "Biologie",
+      "text": "Quelle est la valeur normale de saturation ?",
+      "options": [
+        "95-100",
+        "138-742",
+        "40-100 mmlg",
+        "42-44 mme"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "hard",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"*_SFAR\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "Recommandations pour l'organisation de la prise en charge des y"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Validation\" ?",
+      "options": [
+        "Ut de sons du GHSud disposant dun chariot d'urgence",
+        "Comilé Référents Urgences HCL",
+        "Cite Chaine de Survie Iträ-",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Destinataire\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Cite Chaine de Survie Iträ-",
+        "Comilé Référents Urgences HCL",
+        "Ut de sons du GHSud disposant dun chariot d'urgence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_prop_0",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne à Indications ?",
+      "options": [
+        "Bronchospasme sévère réfractaire",
+        "1 rmg pur IV à renouveler toutes les 3 minutes",
+        "Ampoules de 5mg/5 mi et mg/L mi",
+        "Détresse circulatoire aigue (choc cardiogénique, anaphylactique, septique]"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_prop_1",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Indications ?",
+      "options": [
+        "\\/esico-prostatique : relächement de la paroi vésicale",
+        "Bradycardie et malaise d'origine vagale, antispasmodique et anti sécrétoire",
+        "Ampoules de 0,25mg, 0,5 mg et mg /L mi",
+        "Cardiovasculaires : Tachycardie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_prop_2",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Parmi les propositions suivantes, laquelle concerne cPHEDRINE ?",
+      "options": [
+        "Hypotensions (induites par l'anesthésie/rachianesthésie/ péridurale",
+        "3 à 6 me toutes les 3 à 5 minutes (max 30 me)",
+        "Ampoules de 30mg, 0,5 mg et Img / mi",
+        "‘\\Vasopresseur puissant qui entraine une élévation marquée de la pression"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"} Loi de 195)\" ?",
+      "options": [
+        "Nationalisation de la transfusion avec la création de l'EFS",
+        "Mise en place de l HEMOVIGILANCE",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Organisation de la transfusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"} Loi du 4 janvier 1993\" ?",
+      "options": [
+        "Nationalisation de la transfusion avec la création de l'EFS",
+        "Mise en place de l HEMOVIGILANCE",
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de médicaments"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"} Décret di 24 janvier 1994\" ?",
+      "options": [
+        "Nationalisation de la transfusion avec la création de l'EFS",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Mise en place de l HEMOVIGILANCE",
+        "Organisation de la transfusion"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_4",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» En 2000\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Mise en place de l HEMOVIGILANCE",
+        "Nationalisation de la transfusion avec la création de l'EFS"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Antigenes du système ABO\" ?",
+      "options": [
+        "Antigène / Anticorps",
+        "immunoglobulines qui reconnaissent spécifiquement un Antigène",
+        "Processus d'activation des récepteurs périphériques",
+        "structures moléculaires capables d'Induire une réponse immunitaire"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_5",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"| Hémoelhise\" ?",
+      "options": [
+        "de ………… 10 Pl",
+        "…o! — ouDéttprCCR…mdim | Pid",
+        "……beures | Dépomatsé O Dur par CP",
+        "LL! Unité pédiatrique (quantité"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_6",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"| PLASMA FRAIS CONGELE | Précher l'ndcation\" ?",
+      "options": [
+        "LL! Unité pédiatrique (quantité",
+        "RENSEICHEMETS CLINIQUES OT DENLDES SPECTALES |",
+        "de ………… 10 Pl",
+        "……beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_7",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"| CI\" ?",
+      "options": [
+        "CL | Protocole Transhsione Porc |",
+        "de ………… 10 Pl",
+        "LL! Unité pédiatrique (quantité",
+        "……beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_8",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"Dur or PFC\" ?",
+      "options": [
+        "….….. AU Lure Z",
+        "LL! Unité pédiatrique (quantité",
+        "de ………… 10 Pl",
+        "……beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_917506_ira_pre_pa_eidad_2020_def_0",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» Prise en charge au SAU(2)\" ?",
+      "options": [
+        "Examiner, équiper",
+        "amplitude, fréquence, régularité.",
+        "attention corrélation (VC, T*,",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_917506_ira_pre_pa_eidad_2020_def_2",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» Pouls\" ?",
+      "options": [
+        "amplitude, fréquence, régularité.",
+        "Processus d'activation des récepteurs périphériques",
+        "attention corrélation (VC, T*,",
+        "Examiner, équiper"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_917506_ira_pre_pa_eidad_2020_def_3",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» SpO2\"h\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "amplitude, fréquence, régularité.",
+        "attention corrélation (VC, T*,",
+        "Examiner, équiper"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_917506_ira_pre_pa_eidad_2020_def_1",
+      "type": "QCM",
+      "theme": "Général",
+      "text": "Quelle est la définition correcte de \"» Oxygénothérapie si besoin\" ?",
+      "options": [
+        "<0/min 2 ablation",
+        "Processus d'activation des récepteurs périphériques",
+        "vert) et sérum phy.",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_q1",
+      "type": "QCM",
+      "theme": "general",
+      "text": "des sujets « RH+ »=«D+h=1",
+      "options": [
+        "rad (ordi). re"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "metadata": {
+    "generatedAt": "2025-10-28T02:09:25.395Z",
+    "totalQuestions": 226,
+    "sources": [
+      "src/data/mock/questions.json",
+      "src/data/concours/questions-merged.json",
+      "src/data/concours/generated-questions-v2.json",
+      "src/data/generatedQuestions.json",
+      "src/data/compiledQuestions.json"
+    ],
+    "byType": {
+      "QCM": 219,
+      "CasClinique": 5,
+      "QROC": 2
+    },
+    "byTheme": {
+      "Général": 98,
+      "Pharmacologie": 73,
+      "Biologie": 14,
+      "Anatomie": 13,
+      "Neurologie": 5,
+      "Transfusion": 4,
+      "Hématologie": 3,
+      "Cardiologie": 3,
+      "Pneumologie": 2,
+      "Normes biologiques": 2,
+      "Urgences": 2,
+      "Néphrologie": 1,
+      "Acidose-Base": 1,
+      "Calcul de dose": 1,
+      "Immunologie": 1,
+      "Chirurgie": 1,
+      "Hémodynamique": 1,
+      "general": 1
+    }
+  }
+}

@@ -1,109 +1,1122 @@
 {
   "nodes": [
     {
-      "id": "question_q_raw",
+      "id": "theme_neurologie",
+      "type": "Theme",
+      "label": "Neurologie",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_réanimation",
+      "type": "Theme",
+      "label": "Réanimation",
+      "properties": {
+        "questionCount": 3,
+        "importance": "medium"
+      }
+    },
+    {
+      "id": "theme_néphrologie",
+      "type": "Theme",
+      "label": "Néphrologie",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_physiologie",
+      "type": "Theme",
+      "label": "Physiologie",
+      "properties": {
+        "questionCount": 7,
+        "importance": "high"
+      }
+    },
+    {
+      "id": "theme_acidose-base",
+      "type": "Theme",
+      "label": "Acidose-Base",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_pharmacologie",
+      "type": "Theme",
+      "label": "Pharmacologie",
+      "properties": {
+        "questionCount": 3,
+        "importance": "medium"
+      }
+    },
+    {
+      "id": "theme_anatomie",
+      "type": "Theme",
+      "label": "Anatomie",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_transfusion",
+      "type": "Theme",
+      "label": "Transfusion",
+      "properties": {
+        "questionCount": 4,
+        "importance": "medium"
+      }
+    },
+    {
+      "id": "theme_hématologie",
+      "type": "Theme",
+      "label": "Hématologie",
+      "properties": {
+        "questionCount": 8,
+        "importance": "high"
+      }
+    },
+    {
+      "id": "theme_cardiologie",
+      "type": "Theme",
+      "label": "Cardiologie",
+      "properties": {
+        "questionCount": 3,
+        "importance": "medium"
+      }
+    },
+    {
+      "id": "theme_urgences",
+      "type": "Theme",
+      "label": "Urgences",
+      "properties": {
+        "questionCount": 2,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_biologie",
+      "type": "Theme",
+      "label": "Biologie",
+      "properties": {
+        "questionCount": 2,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_pneumologie",
+      "type": "Theme",
+      "label": "Pneumologie",
+      "properties": {
+        "questionCount": 2,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_soins_infirmiers",
+      "type": "Theme",
+      "label": "Soins infirmiers",
+      "properties": {
+        "questionCount": 2,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_calculs_infirmiers",
+      "type": "Theme",
+      "label": "Calculs infirmiers",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_immunologie",
+      "type": "Theme",
+      "label": "Immunologie",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_chirurgie",
+      "type": "Theme",
+      "label": "Chirurgie",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "theme_hémodynamique",
+      "type": "Theme",
+      "label": "Hémodynamique",
+      "properties": {
+        "questionCount": 1,
+        "importance": "low"
+      }
+    },
+    {
+      "id": "q1",
       "type": "Question",
-      "label": "a CONCOURS\n\nINTRODUCTION Pour réussir n'importe quel examen, il faut de l’entraînement et pour s'ent...",
+      "label": "Définissez le score de Glasgow. Indiquez ses 3 items d'évaluation, le score mini...",
       "properties": {
-        "originalText": "a CONCOURS\n\nINTRODUCTION Pour réussir n'importe quel examen, il faut de l’entraînement et pour s'entraîner il faut des supports ! Les annales corrigés sont rares et difficiles à trouver, j'ai donc décidé de créer un ouvrage qui vous sera de la plus grande aide pour passer cette épreuve écrite. Vous aurez ici 6O questions d’annales entièrement corrigées afin que vous puissiez faire le point et savoir où vous en êtes. J'ai sélectionné les questions sur les thèmes qui sont les plus récurrents. Mais pas que ! J’y également ajouté des questions plus rares et difficiles afin de vous entraîner au mieux. Pour progresser, je vous conseille non seulement de traiter toutes les questions mais aussi de faire des recherches personnelles lorsque vous bloquez sur l’une d'elle. L'idée c’est de traiter le plus grand nombre de questions avant de passer l’examen et évidemment d'espérer tomber dessus le jour J. Alors n'hésitez pas à bien en faire le tour afin d’avoir bien toutes les réponses en tête. À vous de jouer maintenant !\n\nQUESTIONS DE I À 2O Définissez le score de Glasgow (en citant les 3 items, le score minimum et maxi- mum) et dites dans quel cas il s'applique. Citez les différentes fonctions du rein. Donnez la norme du PH et donnez le sens de variation du PH, de la PCO2 et des HCO3- en cas d’acidose et d’alcalose métabolique et respiratoire. Quels sont les signes de surdosage en morphinique et la conduite à tenir. Définir muscles lisses et muscles striés. Donnez un exemple pour chacun. Donnez le principe du don du sang, le délai entre deux dons et la fréquence des dons autorisés par an. Combien de temps sont valables les RAI ? Quels éléments du sang peut-on transfuser ? Que sont les médicaments dérivés du sang ? Citez-en 3. OO OO OO © Remplissez le schéma suivant : ANNALES CORRIGÉS DE L'ÉPREUVE ÉCRITE - PREPACONCOURSIADE.COM 3\n\nQUESTIONS DE I À 2O A. Vous êtes infirmier au samu et vous êtes appelé pour une douleur thoracique, à quoi pouvez-vous vous attendre ? B. A la lecture de l'ECG le médecin vous dit voir un sus-décalage du segment ST. De quoi semble souffrir le patient ? Citez brièvement les médicaments que vous allez utiliser. Donnez le volume sanguin moyen d’un adulte. Citez les éléments figurés du sang et donnez leurs normes. Vous êtes infirmière en service de pneumologie et vous avez en charge Mr G. BPCO. A l’arrivée dans la chambre vous voyez qu’il a une saturation à 94% sous O2 2L. L’étudiant que vous encadrez vous propose d'augmenter à 6L pour améliorer sa saturation. Que lui répondez-vous ? Expliquez-lui votre réponse. Un patient doit recevoir 24 OOO Ul/24h d’héparine à l’aide d’un pousse-seringue électrique. Décrivez la réalisation de la prescription et indiquez le débit horaire en sachant que vous disposez de seringues de 5O ml renouvelées toutes les 6h et de flacons de 5 mi d’héparine. Donnez la définition des termes suivants : - transfusion homologue - transfusion autologue Où se trouvent les anticorps et les antigènes ? Quels sont les déterminants du débit cardiaque ? Expliquez l’effet du premier passage hépatique. Quelles voies permettent de l’éviter ? Définissez les volumes respiratoires mobilisables, citez-les et décrivez-les. Vous êtes infirmier en salle de réveil et recevez M. M opéré d’une thyroïdectomie. Quels sont les principaux risques encourus ? ANNALES CORRIGÉS DE L'ÉPREUVE ÉCRITE - PREPACONCOURSIADE.COM\n\nQUESTIONS DE I À 2O Quels sont les moyens de l'organisme pour réguler la tension ? Citez-en un à court, moyen et long terme. ® Indiquez pour chacun des médicaments suivants s'ils induisent un myosis ou une mydriase : Myosis Mydriase Morphine Nubain Atropine Adrénaline Noradrénaline ® Citez 4 indications principales des AINS et 4 Contre-indications. (2O, Définissez les acronymes suivants : SAMU, SMUR, CCLIN, CLUD, HAS, CHSCT, ANSM, DASRI, EHPAD ANNALES CORRIGÉS DE L'ÉPREUVE ÉCRITE - PREPACONCOURSIADE.COM 5\n\nRÉPONSES DE I À 2O I) Le score de Glasgow est un score universel qui permet d’évaluer la gravité d’un traumatisme crânien,il permet de suivre l’évolution de l’état de conscience du patient. || consiste à tester trois paramètres : l'ouverture des yeux, la réponse verbale et la réponse motrice. Le score va de 3 (coma profond) à I5 (conscience normale) avec une possibilité d’intubation si le score est inférieur à 8, car il n’y a plus de protection des voies aériennes supérieures. @ Fonctions exocrines : - Maintien de la volémie - Elimination des déchets du métabolisme - Maintien de l’équilibre acido-basique - Maintien de l’équilibre électrolytique Fonctions endocrines : - Régulation de la pression artérielle par la sécrétion de la rénine - Sécrétion d’EPO qui régule la production de globules rouges - Transforme la vitamine D en sa forme active © La norme du PH est 7,38 à 7,42 PH Acidose Métabolique El (PH<7,38) Respiratoire El Alcalose Métabolique EJ (PH>7,42) Respiratoire a @ O2 HCO3- @ Les signes de surdosage à la morphine sont : - Somnolence - Bradypnée voir dépression respiratoire - H",
-        "type": "CasClinique",
+        "fullText": "Définissez le score de Glasgow. Indiquez ses 3 items d'évaluation, le score minimum et maximum.",
+        "type": "QCM",
         "difficulty": "base",
-        "themes": [],
-        "source": "annalescorrigées-Volume-1.pdf"
-      }
-    },
-    {
-      "id": "concept_pression",
-      "type": "Concept",
-      "label": "pression",
-      "properties": {
-        "frequency": 2,
-        "category": "Signe vital"
-      }
-    },
-    {
-      "id": "concept_fréquence",
-      "type": "Concept",
-      "label": "fréquence",
-      "properties": {
-        "frequency": 2,
-        "category": "Autre"
-      }
-    },
-    {
-      "id": "concept_douleur",
-      "type": "Concept",
-      "label": "douleur",
-      "properties": {
-        "frequency": 2,
-        "category": "Autre"
-      }
-    },
-    {
-      "id": "section_chap_1",
-      "type": "Section",
-      "label": "Chapitre sans titre",
-      "properties": {
         "themes": [
-          "général"
-        ],
-        "sectionCount": 1
+          "Neurologie",
+          "Réanimation"
+        ]
       }
     },
     {
-      "id": "section_chap_1_sec_1",
-      "type": "Section",
-      "label": "Section sans titre",
+      "id": "q2",
+      "type": "Question",
+      "label": "Citez les différentes fonctions du rein....",
       "properties": {
-        "conceptsCount": 1,
-        "parentChapter": "Chapitre sans titre"
+        "fullText": "Citez les différentes fonctions du rein.",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Néphrologie",
+          "Physiologie"
+        ]
+      }
+    },
+    {
+      "id": "q3",
+      "type": "Question",
+      "label": "Donnez la norme du PH et le sens de variation du PH, de la PCO₂ et des HCO₃⁻ en ...",
+      "properties": {
+        "fullText": "Donnez la norme du PH et le sens de variation du PH, de la PCO₂ et des HCO₃⁻ en cas d'acidose métabolique.",
+        "type": "QCM",
+        "difficulty": "intermediate",
+        "themes": [
+          "Acidose-Base",
+          "Réanimation"
+        ]
+      }
+    },
+    {
+      "id": "q4",
+      "type": "Question",
+      "label": "Quels sont les signes de surdosage en morphinique et la conduite à tenir ?...",
+      "properties": {
+        "fullText": "Quels sont les signes de surdosage en morphinique et la conduite à tenir ?",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Pharmacologie",
+          "Réanimation"
+        ]
+      }
+    },
+    {
+      "id": "q5",
+      "type": "Question",
+      "label": "Définir muscles lisses et muscles striés. Donnez un exemple pour chacun....",
+      "properties": {
+        "fullText": "Définir muscles lisses et muscles striés. Donnez un exemple pour chacun.",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Anatomie",
+          "Physiologie"
+        ]
+      }
+    },
+    {
+      "id": "q6",
+      "type": "Question",
+      "label": "Donnez le principe du don du sang. Quel est le volume prélevé, le délai entre de...",
+      "properties": {
+        "fullText": "Donnez le principe du don du sang. Quel est le volume prélevé, le délai entre deux dons, et la fréquence des dons autorisés par an ?",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Transfusion",
+          "Hématologie"
+        ]
+      }
+    },
+    {
+      "id": "q7",
+      "type": "Question",
+      "label": "Combien de temps sont valables les RAI (Recherche d'Agglutinines Irrégulières) ?...",
+      "properties": {
+        "fullText": "Combien de temps sont valables les RAI (Recherche d'Agglutinines Irrégulières) ?",
+        "type": "QCM",
+        "difficulty": "intermediate",
+        "themes": [
+          "Transfusion",
+          "Hématologie"
+        ]
+      }
+    },
+    {
+      "id": "q8",
+      "type": "Question",
+      "label": "Quels éléments du sang peut-on transfuser ?...",
+      "properties": {
+        "fullText": "Quels éléments du sang peut-on transfuser ?",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Transfusion",
+          "Hématologie"
+        ]
+      }
+    },
+    {
+      "id": "q9",
+      "type": "Question",
+      "label": "Que sont les médicaments dérivés du sang ? Citez-en 3....",
+      "properties": {
+        "fullText": "Que sont les médicaments dérivés du sang ? Citez-en 3.",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Hématologie",
+          "Pharmacologie"
+        ]
+      }
+    },
+    {
+      "id": "q10",
+      "type": "Question",
+      "label": "Vous êtes infirmier au SAMU et vous êtes appelé pour une douleur thoracique. À q...",
+      "properties": {
+        "fullText": "Vous êtes infirmier au SAMU et vous êtes appelé pour une douleur thoracique. À quoi pouvez-vous vous attendre ?",
+        "type": "CasClinique",
+        "difficulty": "intermediate",
+        "themes": [
+          "Cardiologie",
+          "Urgences"
+        ]
+      }
+    },
+    {
+      "id": "q11",
+      "type": "Question",
+      "label": "À la lecture de l'ECG, le médecin voit un sus-décalage du segment ST. De quoi se...",
+      "properties": {
+        "fullText": "À la lecture de l'ECG, le médecin voit un sus-décalage du segment ST. De quoi semble souffrir le patient ? Citez les médicaments utilisés.",
+        "type": "CasClinique",
+        "difficulty": "advanced",
+        "themes": [
+          "Cardiologie",
+          "Urgences"
+        ]
+      }
+    },
+    {
+      "id": "q12",
+      "type": "Question",
+      "label": "Donnez le volume sanguin moyen d'un adulte....",
+      "properties": {
+        "fullText": "Donnez le volume sanguin moyen d'un adulte.",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Hématologie",
+          "Physiologie"
+        ]
+      }
+    },
+    {
+      "id": "q13",
+      "type": "Question",
+      "label": "Citez les éléments figurés du sang et donnez leurs normes....",
+      "properties": {
+        "fullText": "Citez les éléments figurés du sang et donnez leurs normes.",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Hématologie",
+          "Biologie"
+        ]
+      }
+    },
+    {
+      "id": "q14",
+      "type": "Question",
+      "label": "Vous êtes infirmière en service de pneumologie et vous avez en charge Mr G., pat...",
+      "properties": {
+        "fullText": "Vous êtes infirmière en service de pneumologie et vous avez en charge Mr G., patient BPCO. À l'arrivée dans la chambre, vous voyez qu'il a une saturation à 94% sous O₂ 2L/min. L'étudiant que vous encadrez vous propose d'augmenter à 6L/min pour améliorer sa saturation. Que lui répondez-vous ?",
+        "type": "CasClinique",
+        "difficulty": "intermediate",
+        "themes": [
+          "Pneumologie",
+          "Soins infirmiers"
+        ]
+      }
+    },
+    {
+      "id": "q15",
+      "type": "Question",
+      "label": "Un patient doit recevoir 24 000 UI/24h d'héparine à l'aide d'un pousse-seringue ...",
+      "properties": {
+        "fullText": "Un patient doit recevoir 24 000 UI/24h d'héparine à l'aide d'un pousse-seringue électrique. Vous disposez de seringues de 50 ml renouvelées toutes les 6h et de flacons de 5 ml d'héparine (25 000 UI). Indiquez le débit horaire.",
+        "type": "CasClinique",
+        "difficulty": "advanced",
+        "themes": [
+          "Calculs infirmiers",
+          "Hématologie"
+        ]
+      }
+    },
+    {
+      "id": "q16",
+      "type": "Question",
+      "label": "Donnez la définition des termes suivants : transfusion homologue et transfusion ...",
+      "properties": {
+        "fullText": "Donnez la définition des termes suivants : transfusion homologue et transfusion autologue.",
+        "type": "QCM",
+        "difficulty": "intermediate",
+        "themes": [
+          "Transfusion",
+          "Hématologie"
+        ]
+      }
+    },
+    {
+      "id": "q17",
+      "type": "Question",
+      "label": "Où se trouvent les anticorps et les antigènes ?...",
+      "properties": {
+        "fullText": "Où se trouvent les anticorps et les antigènes ?",
+        "type": "QCM",
+        "difficulty": "base",
+        "themes": [
+          "Immunologie",
+          "Biologie"
+        ]
+      }
+    },
+    {
+      "id": "q18",
+      "type": "Question",
+      "label": "Quels sont les déterminants du débit cardiaque ?...",
+      "properties": {
+        "fullText": "Quels sont les déterminants du débit cardiaque ?",
+        "type": "QCM",
+        "difficulty": "intermediate",
+        "themes": [
+          "Cardiologie",
+          "Physiologie"
+        ]
+      }
+    },
+    {
+      "id": "q19",
+      "type": "Question",
+      "label": "Expliquez l'effet du premier passage hépatique. Quelles voies permettent de l'év...",
+      "properties": {
+        "fullText": "Expliquez l'effet du premier passage hépatique. Quelles voies permettent de l'éviter ?",
+        "type": "QROC",
+        "difficulty": "advanced",
+        "themes": [
+          "Pharmacologie",
+          "Physiologie"
+        ]
+      }
+    },
+    {
+      "id": "q20",
+      "type": "Question",
+      "label": "Définissez les volumes respiratoires mobilisables, citez-les et décrivez-les....",
+      "properties": {
+        "fullText": "Définissez les volumes respiratoires mobilisables, citez-les et décrivez-les.",
+        "type": "QROC",
+        "difficulty": "intermediate",
+        "themes": [
+          "Pneumologie",
+          "Physiologie"
+        ]
+      }
+    },
+    {
+      "id": "q21",
+      "type": "Question",
+      "label": "Vous êtes infirmier en salle de réveil et recevez M. M. opéré d'une thyroïdectom...",
+      "properties": {
+        "fullText": "Vous êtes infirmier en salle de réveil et recevez M. M. opéré d'une thyroïdectomie. Quels sont les principaux risques encourus ?",
+        "type": "CasClinique",
+        "difficulty": "intermediate",
+        "themes": [
+          "Chirurgie",
+          "Soins infirmiers"
+        ]
+      }
+    },
+    {
+      "id": "q22",
+      "type": "Question",
+      "label": "Quels sont les moyens de l'organisme pour réguler la tension ? Citez-en un à cou...",
+      "properties": {
+        "fullText": "Quels sont les moyens de l'organisme pour réguler la tension ? Citez-en un à court, moyen et long terme.",
+        "type": "QCM",
+        "difficulty": "advanced",
+        "themes": [
+          "Hémodynamique",
+          "Physiologie"
+        ]
+      }
+    },
+    {
+      "id": "concept_ph",
+      "type": "Concept",
+      "label": "pH",
+      "properties": {
+        "frequency": 2,
+        "themes": [
+          "Acidose-Base",
+          "Réanimation",
+          "Pharmacologie"
+        ],
+        "importance": "low"
+      }
+    },
+    {
+      "id": "concept_rai",
+      "type": "Concept",
+      "label": "RAI",
+      "properties": {
+        "frequency": 2,
+        "themes": [
+          "Transfusion",
+          "Hématologie",
+          "Calculs infirmiers"
+        ],
+        "importance": "low"
       }
     }
   ],
   "edges": [
     {
-      "source": "question_q_raw",
-      "target": "concept_pression",
-      "relation": "mentions",
+      "source": "q1",
+      "target": "theme_neurologie",
+      "relation": "BELONGS_TO",
       "weight": 1
     },
     {
-      "source": "question_q_raw",
-      "target": "concept_fréquence",
-      "relation": "mentions",
+      "source": "q1",
+      "target": "theme_réanimation",
+      "relation": "BELONGS_TO",
       "weight": 1
     },
     {
-      "source": "question_q_raw",
-      "target": "concept_douleur",
-      "relation": "mentions",
+      "source": "q2",
+      "target": "theme_néphrologie",
+      "relation": "BELONGS_TO",
       "weight": 1
     },
     {
-      "source": "question_q_raw",
-      "target": "concept_pression",
-      "relation": "mentions",
+      "source": "q2",
+      "target": "theme_physiologie",
+      "relation": "BELONGS_TO",
       "weight": 1
     },
     {
-      "source": "question_q_raw",
-      "target": "concept_fréquence",
-      "relation": "mentions",
+      "source": "q3",
+      "target": "theme_acidose-base",
+      "relation": "BELONGS_TO",
       "weight": 1
     },
     {
-      "source": "question_q_raw",
-      "target": "concept_douleur",
-      "relation": "mentions",
+      "source": "q3",
+      "target": "theme_réanimation",
+      "relation": "BELONGS_TO",
       "weight": 1
+    },
+    {
+      "source": "q4",
+      "target": "theme_pharmacologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q4",
+      "target": "theme_réanimation",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q5",
+      "target": "theme_anatomie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q5",
+      "target": "theme_physiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q6",
+      "target": "theme_transfusion",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q6",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q7",
+      "target": "theme_transfusion",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q7",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q8",
+      "target": "theme_transfusion",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q8",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q9",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q9",
+      "target": "theme_pharmacologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q10",
+      "target": "theme_cardiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q10",
+      "target": "theme_urgences",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q11",
+      "target": "theme_cardiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q11",
+      "target": "theme_urgences",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q12",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q12",
+      "target": "theme_physiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q13",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q13",
+      "target": "theme_biologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q14",
+      "target": "theme_pneumologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q14",
+      "target": "theme_soins_infirmiers",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q15",
+      "target": "theme_calculs_infirmiers",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q15",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q16",
+      "target": "theme_transfusion",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q16",
+      "target": "theme_hématologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q17",
+      "target": "theme_immunologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q17",
+      "target": "theme_biologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q18",
+      "target": "theme_cardiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q18",
+      "target": "theme_physiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q19",
+      "target": "theme_pharmacologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q19",
+      "target": "theme_physiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q20",
+      "target": "theme_pneumologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q20",
+      "target": "theme_physiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q21",
+      "target": "theme_chirurgie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q21",
+      "target": "theme_soins_infirmiers",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q22",
+      "target": "theme_hémodynamique",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "q22",
+      "target": "theme_physiologie",
+      "relation": "BELONGS_TO",
+      "weight": 1
+    },
+    {
+      "source": "concept_ph",
+      "target": "theme_acidose-base",
+      "relation": "RELATED_TO",
+      "weight": 0.2
+    },
+    {
+      "source": "concept_ph",
+      "target": "theme_réanimation",
+      "relation": "RELATED_TO",
+      "weight": 0.2
+    },
+    {
+      "source": "concept_ph",
+      "target": "theme_pharmacologie",
+      "relation": "RELATED_TO",
+      "weight": 0.2
+    },
+    {
+      "source": "concept_rai",
+      "target": "theme_transfusion",
+      "relation": "RELATED_TO",
+      "weight": 0.2
+    },
+    {
+      "source": "concept_rai",
+      "target": "theme_hématologie",
+      "relation": "RELATED_TO",
+      "weight": 0.2
+    },
+    {
+      "source": "concept_rai",
+      "target": "theme_calculs_infirmiers",
+      "relation": "RELATED_TO",
+      "weight": 0.2
+    },
+    {
+      "source": "q1",
+      "target": "q3",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q1",
+      "target": "q4",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q3",
+      "target": "q4",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q2",
+      "target": "q5",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q2",
+      "target": "q12",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q2",
+      "target": "q18",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q5",
+      "target": "q12",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q5",
+      "target": "q18",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q5",
+      "target": "q19",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q12",
+      "target": "q18",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q12",
+      "target": "q19",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q12",
+      "target": "q20",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q18",
+      "target": "q19",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q18",
+      "target": "q20",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q18",
+      "target": "q22",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q19",
+      "target": "q20",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q19",
+      "target": "q22",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q20",
+      "target": "q22",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q4",
+      "target": "q9",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q4",
+      "target": "q19",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q9",
+      "target": "q19",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q6",
+      "target": "q7",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q6",
+      "target": "q8",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q6",
+      "target": "q16",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q7",
+      "target": "q8",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q7",
+      "target": "q16",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q8",
+      "target": "q16",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q6",
+      "target": "q7",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q6",
+      "target": "q8",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q6",
+      "target": "q9",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q7",
+      "target": "q8",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q7",
+      "target": "q9",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q7",
+      "target": "q12",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q8",
+      "target": "q9",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q8",
+      "target": "q12",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q8",
+      "target": "q13",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q9",
+      "target": "q12",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q9",
+      "target": "q13",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q9",
+      "target": "q15",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q12",
+      "target": "q13",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q12",
+      "target": "q15",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q12",
+      "target": "q16",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q13",
+      "target": "q15",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q13",
+      "target": "q16",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q15",
+      "target": "q16",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q10",
+      "target": "q11",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q10",
+      "target": "q18",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q11",
+      "target": "q18",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q10",
+      "target": "q11",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q13",
+      "target": "q17",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q14",
+      "target": "q20",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
+    },
+    {
+      "source": "q14",
+      "target": "q21",
+      "relation": "SIMILAR_THEME",
+      "weight": 0.5
     }
   ],
   "metadata": {
-    "generatedAt": "2025-10-27T12:43:52.889Z",
-    "source": [
-      "ocr"
-    ],
-    "totalNodes": 6,
-    "totalEdges": 6
+    "generatedAt": "2025-10-28T02:09:34.064Z",
+    "totalNodes": 42,
+    "totalEdges": 102,
+    "source": "mock-questions"
   }
 }

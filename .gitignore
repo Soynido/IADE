@@ -7,6 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Reasoning Layer Security
+../.reasoning/security/private_key.pem
+../.reasoning/logs/
+
 node_modules
 dist
 dist-ssr
