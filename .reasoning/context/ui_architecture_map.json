@@ -1,0 +1,146 @@
+{
+  "title": "Architecture UI/UX Multi-Mode IADE",
+  "architecture_pattern": "Multi-Mode Architecture with Mode-Specific Components",
+  "modes": {
+    "training_mode": {
+      "component": "iade-app/src/components/TrainingMode.tsx",
+      "purpose": "Adaptive training with spaced repetition",
+      "features": [
+        "Question display with feedback",
+        "Progress tracking (score, accuracy)",
+        "Spaced repetition scheduling",
+        "Interleaving algorithm",
+        "Completion screen with stats"
+      ],
+      "dependencies": ["useQuizSession hook", "spacedRepetitionEngine", "interleavingEngine"],
+      "state": "✅ Implemented (functional)"
+    },
+    "exam_simulation_mode": {
+      "component": "iade-app/src/components/ExamSimulationMode.tsx",
+      "purpose": "Timed exam simulation (mock IADE exam)",
+      "features": [
+        "Timer (countdown)",
+        "No back navigation (real exam mode)",
+        "Automatic question mix (60% QCM, 25% QROC, 15% Cases)",
+        "Post-exam analysis",
+        "Score + correction display"
+      ],
+      "state": "⚠️ Partially implemented"
+    },
+    "course_review_mode": {
+      "component": "iade-app/src/components/CourseReviewMode.tsx",
+      "purpose": "Review course material thematically",
+      "features": [
+        "Chapter navigation",
+        "Concept display",
+        "Mini mind map",
+        "Search by concept",
+        "Links to training questions"
+      ],
+      "state": "❌ Placeholder (stub only)"
+    },
+    "progress_dashboard": {
+      "component": "iade-app/src/components/dashboard/DashboardV3.tsx",
+      "purpose": "Track overall progress and mastery",
+      "features": [
+        "Mastery circle (completion %)",
+        "Thematic analysis (radar chart)",
+        "History (line chart)",
+        "Active recommendations",
+        "Weak concepts list"
+      ],
+      "state": "✅ Implemented (multiple variants)"
+    }
+  },
+  "shared_components": {
+    "quiz": {
+      "QuestionCard.tsx": "Display question with options",
+      "QuestionCardV3.tsx": "Enhanced question card with animations",
+      "FeedbackModal.tsx": "Display answer feedback",
+      "FeedbackModalV3.tsx": "Enhanced feedback with explanations"
+    },
+    "ui_primitives": {
+      "Button.tsx": "Reusable button component",
+      "Card.tsx": "Container component",
+      "Modal.tsx": "Modal dialog",
+      "Progress.tsx": "Progress bar",
+      "XPBar.tsx": "Experience point bar",
+      "StatCard.tsx": "Statistic display card"
+    },
+    "achievements": {
+      "AchievementNotification.tsx": "Display achievement unlock",
+      "Badge.tsx": "Achievement badge",
+      "BadgeAchievement3D.tsx": "3D badge animation"
+    }
+  },
+  "routing_structure": {
+    "App.tsx": "Main router configuration",
+    "routes": [
+      "/ → Dashboard",
+      "/training → TrainingMode",
+      "/exam → ExamSimulationMode",
+      "/course → CourseReviewMode"
+    ]
+  },
+  "state_management": {
+    "localStorage": "User progress, achievements, settings",
+    "react_state": "Session-specific state (current question, timer)",
+    "hooks": [
+      "useQuizSession: Session state management",
+      "useProgress: Progress tracking",
+      "useAchievements: Achievement system"
+    ]
+  },
+  "design_system": {
+    "palette": {
+      "primary_blue": "#2563eb",
+      "success_green": "#10b981",
+      "error_rose": "#f43f5e",
+      "neutral_gray": "#f3f4f6",
+      "dark_gray": "#6b7280"
+    },
+    "framework": "TailwindCSS 4.x",
+    "components_library": "shadcn/ui",
+    "animations": "framer-motion",
+    "responsive": "Mobile/Tablet/Desktop breakpoints"
+  },
+  "reasoning_layer_integration": {
+    "ui_patterns_detected": [
+      "Atomic Design: Building UI from small components",
+      "Service Layer: Business logic separated from UI",
+      "Strategy Pattern: Different modes (Training/Exam/Course)",
+      "Factory Pattern: Question variant generation"
+    ],
+    "architectural_decisions": [
+      {
+        "decision": "Mode-based architecture vs. single unified UI",
+        "rationale": "Each mode has distinct UX requirements",
+        "tradeoff": "More components but clearer separation"
+      },
+      {
+        "decision": "localStorage for persistence vs. server",
+        "rationale": "Offline-first, no login required",
+        "tradeoff": "No cross-device sync"
+      }
+    ],
+    "refactoring_opportunities": [
+      "CourseReviewMode: Currently stub, needs full implementation",
+      "ExamSimulationMode: Timer and post-exam analysis incomplete",
+      "Component duplication: QuestionCard vs QuestionCardV3",
+      "State management: Could benefit from Zustand/Redux for complex state"
+    ],
+    "missing_tracking": [
+      "User interaction events (clicks, time spent per question)",
+      "UI performance metrics (render time, animation FPS)",
+      "Feature adoption (which modes are used most?)",
+      "Navigation patterns (user journey through modes)"
+    ]
+  },
+  "implementation_status": {
+    "completed": ["TrainingMode", "Dashboard", "Shared components", "Routing"],
+    "partial": ["ExamSimulationMode (missing features)"],
+    "pending": ["CourseReviewMode (stub only)"],
+    "estimated_completion": "12-15h (plan.md Phase 4)"
+  }
+}
+

@@ -1,0 +1,81 @@
+{
+  "next_tasks": [
+    {
+      "id": "iade-0-1",
+      "title": "Initialiser l'adaptation du contexte au domaine IADE",
+      "description": "Le repository concerne un Knowledge Learning Engine IADE (Infirmier Anesthésiste). Analyser les patterns spécifiques: pipeline d'extraction (PDF→JSON), moteur d'apprentissage cognitif (répétition espacée Ebbinghaus), architecture React/TypeScript. Le Reasoning Layer n'a pas encore de traces pertinentes pour ce domaine médical-éducatif.",
+      "priority": "critical",
+      "confidence": 0.95,
+      "estimated_time": "30min",
+      "rationale": "current-context.json indique files_tracked=0, graphs_generated=0. L'extension est active mais aucun graphe de raisonnement n'a été généré. Il faut créer un mapping entre les 284 events tracés et les décisions architecturales réelles du projet."
+    },
+    {
+      "id": "iade-0-2",
+      "title": "Analyser les ADRs existants pour patterns récurrents",
+      "description": "3 ADRs auto-générés détectent systématiquement des refactorings majeurs (extractQuestionsToCSV.ts, baseExtractor.ts avec 12-57 fichiers modifiés). Pattern observé: développeur préfère refactor vs patches. Créer une modélisation PatternLearningEngine pour ce comportement.",
+      "priority": "high",
+      "confidence": 0.88,
+      "estimated_time": "45min",
+      "rationale": "Les ADRs montrent un biais clair vers la refactorisation (consequences: 'code plus propre mais risk of breaking changes'). Un PatternLearningEngine devrait apprendre ce pattern pour anticiper les future décisions."
+    },
+    {
+      "id": "iade-0-3",
+      "title": "Construire un graphe de dépendances tasks.md ↔ plan.md",
+      "description": "tasks.md contient 167 tâches avec 67% complétées (Phase 0-2 terminées). plan.md est la source de vérité absolue. Créer un CorrelationEngine liant: tâches complétées → ADRs générés → fichiers modifiés. Identifier les tâches DONE sans ADR associé (incohérence potentielle).",
+      "priority": "high",
+      "confidence": 0.87,
+      "estimated_time": "1h",
+      "rationale": "Une incohérence critique existe: Phase 1-2 complètes selon tasks.md mais current-context indique no graphs. Le CorrelationEngine doit expliquer pourquoi les graphes ne furent jamais générés malgré l'activité intense."
+    },
+    {
+      "id": "iade-0-4",
+      "title": "Détecter le biais 'temporal focus' dans traces/2025-10-27.json",
+      "description": "284 events tous concentrés sur 1 jour (2025-10-27). Niveau '1 - Code & Structure Technique' domine 100%. Aucun niveau 2-6 (architecture, design, strategy). Implémenter HistoricalBalancer pour compenser ce biais court-termiste.",
+      "priority": "high",
+      "confidence": 0.91,
+      "estimated_time": "20min",
+      "rationale": "Le biais temporal est flagrant: tous les traces sont dans une fenêtre de 24h. Aucune trace historique permettant de calibrer des patterns à long terme. Le HistoricalBalancer doit pondérer les décisions récentes."
+    },
+    {
+      "id": "iade-0-5",
+      "title": "Métadonner les 3 domaines non-couverts par Reasoning Layer",
+      "description": "Domaines identifiés: (1) Pipeline d'extraction PDF/OCR avec parsers spécialisés (courseParser, annalesParser), (2) Algorithmes cognitifs (spacedRepetitionEngine, interleavingEngine), (3) Architecture UI/UX multi-mode (CourseReviewMode, TrainingMode, ExamSimulationMode). Créer des embeddings sémantiques pour mapping future.",
+      "priority": "medium",
+      "confidence": 0.85,
+      "estimated_time": "1h30",
+      "rationale": "Le Reasoning Layer traque uniquement les changements de fichiers (file_change events) mais ignore la sémantique métier. Pour être utile à ce projet, il doit comprendre les concepts: 'question', 'concept', 'knowledge graph', 'adaptive learning'."
+    },
+    {
+      "id": "iade-0-6",
+      "title": "Créer un forecasting system basé sur plan.md milestones",
+      "description": "plan.md définit 12-15h d'implémentation restante (Phases 3-5). Tasks.md liste 100 tâches pending. Créer un modèle prédictif combinant: (1) vélocité actuelle (67% complété en X cycles), (2) complexité estimée par tâche, (3) dépendances critiques. Prédire ETA completion et identifier les goulots.",
+      "priority": "medium",
+      "confidence": 0.78,
+      "estimated_time": "45min",
+      "rationale": "Combinaison de plan (temps estimé) + tasks (granularité fine) permet un forecasting précis. Cette capacité manque actuellement au Reasoning Layer V3."
+    },
+    {
+      "id": "iade-0-7",
+      "title": "Auditer la cohérence ADRs ↔ actualité du code",
+      "description": "Les 3 ADRs mentionnent des refactorings sur baseExtractor.ts, annalesParser.ts, etc. dans iade-app/scripts/pipelines/. Vérifier si ces fichiers existent, si les modifications décrites sont encore pertinentes, ou si l'état actuel du code diverge des ADRs (ADR drift).",
+      "priority": "medium",
+      "confidence": 0.82,
+      "estimated_time": "30min",
+      "rationale": "ADR drift est un pattern critique: si les ADRs ne reflètent plus l'état réel du code, le Reasoning Layer prendra de mauvaises décisions basées sur une réalité obsolète."
+    }
+  ],
+  "cycle_id": "IADE-0",
+  "summary": {
+    "total_tasks": 7,
+    "average_confidence": 0.87,
+    "detected_biases": [
+      "temporal_focus_extreme",
+      "structural_technical_only",
+      "no_architectural_level",
+      "missing_semantic_understanding",
+      "preference_refactor_over_patches"
+    ],
+    "evolution_goal": "reach 90% confidence sur patterns IADE-spécifiques en 3 cycles"
+  }
+}
+

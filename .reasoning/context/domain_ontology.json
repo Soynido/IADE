@@ -1,0 +1,97 @@
+{
+  "domain": "educational_technology_medical_learning",
+  "project": "Knowledge Learning Engine IADE",
+  "ontology": {
+    "entities": {
+      "concept": {
+        "description": "Concept médical à maîtriser (ex: morphine, ventilation mécanique)",
+        "attributes": ["id", "term", "definition", "difficulty", "relatedConcepts"],
+        "sources": ["Prepaconcoursiade-Complet.pdf", "knowledge-graph.json"]
+      },
+      "question": {
+        "description": "Question d'évaluation (QCM, QROC, Cas clinique)",
+        "types": ["QCM", "QROC", "CASE", "CALCULATION", "SYNTHESIS"],
+        "attributes": ["id", "text", "options", "correctAnswer", "explanation", "themes", "difficulty"],
+        "sources": ["annalescorrigées-Volume-1.pdf", "annalescorrigées-Volume-2.pdf"]
+      },
+      "question_metadata": {
+        "description": "Métadonnées enrichies pour apprentissage adaptatif",
+        "attributes": ["masteryScore", "lastSeenAt", "timesReviewed", "errorRate", "nextReviewAt"],
+        "algorithm": "Ebbinghaus + SM-2 (spacedRepetitionEngine.ts)"
+      },
+      "knowledge_graph": {
+        "description": "Graphe de concepts sémantique liant concepts ↔ questions",
+        "format": "JSON-LD",
+        "entities": ["nodes (concepts, questions)", "edges (relations avec weight)"],
+        "source": "buildKnowledgeGraph.ts"
+      },
+      "session": {
+        "description": "Session d'apprentissage (Training, Exam, Course Review)",
+        "modes": ["TrainingMode", "ExamSimulationMode", "CourseReviewMode"],
+        "attributes": ["progress", "score", "accuracy", "timeSpent", "date"]
+      }
+    },
+    "relationships": {
+      "concept_to_question": {
+        "type": "has_question",
+        "weight": "0-1 (similarity score)",
+        "description": "Concepts étayés par questions"
+      },
+      "question_to_concept": {
+        "type": "validates_concept",
+        "description": "Questions validant la maîtrise d'un concept"
+      },
+      "concept_to_concept": {
+        "type": "related_to",
+        "description": "Concepts sémantiquement liés"
+      },
+      "session_to_progress": {
+        "type": "tracks",
+        "description": "Sessions traçage progression utilisateur"
+      }
+    },
+    "workflows": {
+      "extraction_pipeline": {
+        "steps": ["PDF → OCR → Text Blocks", "Parser (course|annales|correction)", "Structured JSON"],
+        "files": ["baseExtractor.ts", "courseParser.ts", "annalesParser.ts", "correctionParser.ts", "pipelineManager.ts"]
+      },
+      "learning_loop": {
+        "steps": ["User answers question", "Update mastery score (spacedRepetitionEngine)", "Schedule next review (Ebbinghaus)", "Recommend concepts (interleavingEngine)", "Display feedback"],
+        "files": ["spacedRepetitionEngine.ts", "interleavingEngine.ts", "moduleRecommendationEngine.ts"]
+      },
+      "question_generation": {
+        "steps": ["Load knowledge graph", "Select concept", "Choose generator (definition|qcm|qroc|case)", "Generate question", "Validate coherence", "Save to JSON"],
+        "files": ["buildKnowledgeGraph.ts", "intelligentQuestionGenerator.ts", "questionGeneratorV3.ts"]
+      }
+    }
+  },
+  "reasoning_implications": {
+    "architectural_decisions": [
+      {
+        "type": "refactor_preference",
+        "pattern": "Developer prefers refactoring over patching",
+        "frequency": "3/3 ADRs detected",
+        "risk": "breaking changes short-term",
+        "benefit": "cleaner code, clearer architecture long-term"
+      }
+    ],
+    "cognitive_algorithms": {
+      "spaced_repetition": {
+        "implementation": "Ebbinghaus intervals + SM-2 easiness factor",
+        "intervals_days": [0.04, 1, 3, 7, 14, 30, 90],
+        "adaptation": "±50% easy, ±30% hard based on difficulty"
+      },
+      "interleaving": {
+        "ratio": "30% easy, 50% medium, 20% hard",
+        "spacing": "Minimum 4 questions between similar",
+        "theme_rotation": "Max 2 consecutive from same theme"
+      }
+    },
+    "knowledge_representation": {
+      "format": "JSON-LD (Linked Data)",
+      "structure": "Directed graph with weighted edges",
+      "semantic_matching": "Keywords + embeddings (optional)"
+    }
+  }
+}
+

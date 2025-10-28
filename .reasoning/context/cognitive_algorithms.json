@@ -1,0 +1,96 @@
+{
+  "title": "Mapping des Algorithmes Cognitifs IADE",
+  "algorithms": {
+    "spaced_repetition_engine": {
+      "file": "iade-app/src/services/spacedRepetitionEngine.ts",
+      "lines": 304,
+      "class": "SpacedRepetitionEngine",
+      "principles": ["Ebbinghaus forgetting curve", "SuperMemo 2 (SM-2) algorithm"],
+      "parameters": {
+        "easiness_factor_range": [1.3, 2.5],
+        "intervals_hours": [1, 24, 72, 168, 336, 720, 2160],
+        "intervals_days": [0.04, 1, 3, 7, 14, 30, 90],
+        "leeche_threshold": 5
+      },
+      "methods": {
+        "initializeSchedule": "Set initial schedule for new question",
+        "updateSchedule": "Recalculate next review date based on performance",
+        "calculateQuality": "Score 0-5 based on response time and correctness",
+        "adjustInterval": "Apply difficulty modifier (±50% easy, ±30% hard)",
+        "detectLeechers": "Flag questions with >5 consecutive failures"
+      },
+      "impact": "+40-60% retention rate vs. massed practice"
+    },
+    "interleaving_engine": {
+      "file": "iade-app/src/services/interleavingEngine.ts",
+      "lines": 372,
+      "class": "InterleavingEngine",
+      "principles": ["Interleaving", "Spacing effect", "Retrieval practice"],
+      "parameters": {
+        "difficulty_ratio": {"Facile": 0.30, "Moyen": 0.50, "Difficile": 0.20},
+        "min_spacing": 4,
+        "max_theme_consecutive": 2
+      },
+      "methods": {
+        "applyInterleaving": "Shuffle questions with optimal distribution",
+        "groupQuestions": "Cluster by theme and difficulty",
+        "buildInterleavedSequence": "Construct balanced sequence",
+        "applySpacingEffect": "Ensure minimum distance between similar questions",
+        "fixMonotonePatterns": "Detect and correct repetition patterns"
+      },
+      "impact": "+40% retention vs. blocked practice"
+    },
+    "module_recommendation_engine": {
+      "file": "iade-app/src/services/moduleRecommendationEngine.ts",
+      "class": "ModuleRecommendationEngine",
+      "purpose": "Recommend next module/concept to study",
+      "factors": ["mastery_score", "time_since_last_review", "prerequisites", "difficulty"]
+    },
+    "success_prediction_engine": {
+      "file": "iade-app/src/services/successPredictionEngine.ts",
+      "class": "SuccessPredictionEngine",
+      "purpose": "Predict exam success probability",
+      "factors": ["overall_mastery", "weak_concepts", "review_frequency", "time_to_exam"]
+    }
+  },
+  "data_flow": {
+    "session_start": "→ Load user progress from localStorage",
+    "question_display": "→ Apply interleaving to question list",
+    "answer_submit": "→ Calculate quality (0-5)",
+    "update_schedule": "→ Update mastery score + next review date",
+    "session_end": "→ Save progress to localStorage",
+    "next_session": "→ Load concepts due for review (nextReview < now)"
+  },
+  "reasoning_layer_integration": {
+    "what_to_track": [
+      "User progress changes (mastery scores evolving)",
+      "Algorithm parameter tuning (easiness_factor adjustments)",
+      "Performance metrics (retention rates, error rates)",
+      "User behavior patterns (review frequency, time spent)"
+    ],
+    "what_to_learn": [
+      "Which concepts are hardest to master (high error rates)",
+      "Optimal review intervals for this user (adaptive)",
+      "Weak links in knowledge graph (concepts with few questions)",
+      "Correlation between algorithm usage and exam success"
+    ],
+    "what_to_predict": [
+      "ETA until user masters all concepts",
+      "Risk of forgetting concepts (review overdue)",
+      "Exam success probability",
+      "Recommended focus areas"
+    ]
+  },
+  "biases_detected": {
+    "temporal_focus": "All traces within 24h window",
+    "structural_only": "No tracking of cognitive algorithm effectiveness",
+    "missing_metrics": "No performance data on spaced repetition vs. massed practice"
+  },
+  "improvement_opportunities": [
+    "Track algorithm effectiveness: retention rates, error recovery",
+    "A/B test different interval strategies",
+    "Correlate algorithm usage with exam success",
+    "Detect when algorithms need recalibration"
+  ]
+}
+

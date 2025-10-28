@@ -1,0 +1,444 @@
+[
+  {
+    "id": "1761609668095-lrqb9n8cd",
+    "timestamp": "2025-10-28T00:01:08.095Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/App.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 87
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609680775-9psx85q8f",
+    "timestamp": "2025-10-28T00:01:20.775Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /BUG_FIX_FINAL.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 31
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609839714-4mjfz7nd9",
+    "timestamp": "2025-10-28T00:03:59.714Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 316
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609863303-pdneu6j2e",
+    "timestamp": "2025-10-28T00:04:23.303Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /PLAN_ACTION_INTELLIGENCE_IADE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 278
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609879328-xa17yg3dp",
+    "timestamp": "2025-10-28T00:04:39.328Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /PLAN_ACTION_INTELLIGENCE_IADE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 278
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610005179-bi271kgw8",
+    "timestamp": "2025-10-28T00:06:45.179Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/enrichMockQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 258
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610057100-n90ch1lrm",
+    "timestamp": "2025-10-28T00:07:37.100Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/enrichMockQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 497
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610074790-eir3losrg",
+    "timestamp": "2025-10-28T00:07:54.790Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /MODE_AUTOPILOTE_ACTIONS_IADE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 50
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610083315-c20075bc0",
+    "timestamp": "2025-10-28T00:08:03.315Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /MODE_AUTOPILOTE_ACTIONS_IADE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 50
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610207673-b4f35q1nd",
+    "timestamp": "2025-10-28T00:10:07.673Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /MODE_AUTOPILOTE_ACTIONS_IADE.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 50
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610244970-qyw0ww1ln",
+    "timestamp": "2025-10-28T00:10:44.970Z",
+    "type": "file_change",
+    "source": "git:6784e2b0d9b3d616394ee2128912767b743a9199",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "6784e2b0d9b3d616394ee2128912767b743a9199",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Mon Oct 27 13:44:18 2025 +0100",
+        "message": "chore: mise à jour sous-module iade-app (Knowledge Graph v2)",
+        "files": [
+          "iade-app"
+        ],
+        "insertions": 1,
+        "deletions": 1,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": "iade-app",
+          "changes": [],
+          "insertions": 1,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 1,
+      "totalChanges": 2,
+      "diffSummary": {
+        "insertions": 1,
+        "deletions": 1,
+        "files": 1
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610244991-59mzoc1pn",
+    "timestamp": "2025-10-28T00:10:44.991Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "6784e2b",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610352354-7v49ojkzq",
+    "timestamp": "2025-10-28T00:12:32.354Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/CourseReviewMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 251
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610365739-dsvsk2xuf",
+    "timestamp": "2025-10-28T00:12:45.739Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 210
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610367220-xpi6wo8t1",
+    "timestamp": "2025-10-28T00:12:47.220Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 216
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610369978-hox3uenyq",
+    "timestamp": "2025-10-28T00:12:49.978Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 228
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610387050-ug0ds2zgn",
+    "timestamp": "2025-10-28T00:13:07.050Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 313
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610415458-8wr5v0tgy",
+    "timestamp": "2025-10-28T00:13:35.458Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 354
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610420421-piv721v1g",
+    "timestamp": "2025-10-28T00:13:40.421Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 362
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610457096-l398yuleo",
+    "timestamp": "2025-10-28T00:14:17.096Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/buildSimpleKnowledgeGraph.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 231
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610488189-e8cei5i7l",
+    "timestamp": "2025-10-28T00:14:48.189Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ProgressDashboard.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 200
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610519790-7lg4fvbxg",
+    "timestamp": "2025-10-28T00:15:19.790Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ProgressDashboard.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 290
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610548224-l4lrjztu2",
+    "timestamp": "2025-10-28T00:15:48.224Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/baseGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 158
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610574023-0yktpajx0",
+    "timestamp": "2025-10-28T00:16:14.023Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/definitionGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 143
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610597049-277lyn0ix",
+    "timestamp": "2025-10-28T00:16:37.049Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/qcmGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 161
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610612552-2rzbeibm3",
+    "timestamp": "2025-10-28T00:16:52.552Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/index.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 120
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610657646-x64y19z9i",
+    "timestamp": "2025-10-28T00:17:37.646Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /AUTOPILOTE_EXECUTION_REPORT.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 179
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610663832-hhyr9webw",
+    "timestamp": "2025-10-28T00:17:43.832Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generators/baseGenerator.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 160
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761610702091-32dr8qu02",
+    "timestamp": "2025-10-28T00:18:22.091Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /AUTOPILOTE_FINAL_SUMMARY.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 144
+    },
+    "version": "1.0"
+  }
+]

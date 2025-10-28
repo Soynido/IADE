@@ -180,5 +180,4013 @@
       "lineCount": 112
     },
     "version": "1.0"
+  },
+  {
+    "id": "1761565681500-6mke1l9re",
+    "timestamp": "2025-10-27T11:48:01.500Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /plan.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 411
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565733617-6lat81lze",
+    "timestamp": "2025-10-27T11:48:53.617Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 135
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565771253-wim0driv3",
+    "timestamp": "2025-10-27T11:49:31.253Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/baseExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 120
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565818547-dwno4nmqk",
+    "timestamp": "2025-10-27T11:50:18.547Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/courseParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 241
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565882122-rvr8b7m0x",
+    "timestamp": "2025-10-27T11:51:22.122Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 263
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565886028-pqkkht0y4",
+    "timestamp": "2025-10-27T11:51:26.028Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 263
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565915478-0aphontv3",
+    "timestamp": "2025-10-27T11:51:55.478Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/correctionParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 133
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565920326-nxpmxbdlm",
+    "timestamp": "2025-10-27T11:52:00.326Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/correctionParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 133
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565926858-lgk0fyc4r",
+    "timestamp": "2025-10-27T11:52:06.858Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 263
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761565962635-z9odtjkgu",
+    "timestamp": "2025-10-27T11:52:42.635Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566047050-nya6y984e",
+    "timestamp": "2025-10-27T11:54:07.050Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 135
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566047055-dkjxzspqf",
+    "timestamp": "2025-10-27T11:54:07.055Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566049878-xr2ejkgif",
+    "timestamp": "2025-10-27T11:54:09.878Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 135
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566049879-syfw8m8do",
+    "timestamp": "2025-10-27T11:54:09.879Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566224148-aye41vqss",
+    "timestamp": "2025-10-27T11:57:04.148Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/runExtraction.sh",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "shellscript",
+      "lineCount": 23
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566237969-23am4czw4",
+    "timestamp": "2025-10-27T11:57:17.969Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 136
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566252340-m9ncy1h95",
+    "timestamp": "2025-10-27T11:57:32.340Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/README.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 49
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566275440-pkpz500u1",
+    "timestamp": "2025-10-27T11:57:55.440Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/runExtraction.sh",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "shellscript",
+      "lineCount": 23
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566275442-8r7m657c4",
+    "timestamp": "2025-10-27T11:57:55.442Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 136
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566275443-mz57w5re7",
+    "timestamp": "2025-10-27T11:57:55.443Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/README.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 49
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566362876-qgn9oyt4y",
+    "timestamp": "2025-10-27T11:59:22.876Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 160
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566473478-7xtos1fxu",
+    "timestamp": "2025-10-27T12:01:13.478Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 160
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566673051-7lm9akvy4",
+    "timestamp": "2025-10-27T12:04:33.051Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 129
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566676610-fnnxjsoim",
+    "timestamp": "2025-10-27T12:04:36.610Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 129
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566696821-v7ii0tmdw",
+    "timestamp": "2025-10-27T12:04:56.821Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 129
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566726067-bc4xjm96l",
+    "timestamp": "2025-10-27T12:05:26.067Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 161
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566729531-y9uiwisly",
+    "timestamp": "2025-10-27T12:05:29.531Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 163
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566731411-fj8kccui7",
+    "timestamp": "2025-10-27T12:05:31.411Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 170
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566751566-xs0fao62i",
+    "timestamp": "2025-10-27T12:05:51.566Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 129
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566796152-wncytdws2",
+    "timestamp": "2025-10-27T12:06:36.152Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 108
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761566824030-b36frv906",
+    "timestamp": "2025-10-27T12:07:04.030Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 108
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567010750-66ht0o3oa",
+    "timestamp": "2025-10-27T12:10:10.750Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 108
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567015105-pvdiumd8s",
+    "timestamp": "2025-10-27T12:10:15.105Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 109
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567019577-g8ngy0yu5",
+    "timestamp": "2025-10-27T12:10:19.577Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 172
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567021764-4kayjdj7q",
+    "timestamp": "2025-10-27T12:10:21.764Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 191
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567026973-hcvb6n8xs",
+    "timestamp": "2025-10-27T12:10:26.973Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 109
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567026976-fxb743ayo",
+    "timestamp": "2025-10-27T12:10:26.976Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 191
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567150637-1up6yi009",
+    "timestamp": "2025-10-27T12:12:30.637Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 109
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567195877-5q2f0smjx",
+    "timestamp": "2025-10-27T12:13:15.877Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/courseParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 241
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567210750-jl9ld8zyf",
+    "timestamp": "2025-10-27T12:13:30.750Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/courseParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 241
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567421846-f52lu9gmt",
+    "timestamp": "2025-10-27T12:17:01.846Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567429451-1yub3uk4u",
+    "timestamp": "2025-10-27T12:17:09.451Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 194
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567437749-6rpr4o5f5",
+    "timestamp": "2025-10-27T12:17:17.749Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567456642-lbf1y02tu",
+    "timestamp": "2025-10-27T12:17:36.642Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 193
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567472361-3abqapltr",
+    "timestamp": "2025-10-27T12:17:52.361Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761567472363-usrpyjdis",
+    "timestamp": "2025-10-27T12:17:52.363Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 193
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568006955-kfqmkse3o",
+    "timestamp": "2025-10-27T12:26:46.955Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/debugPeek.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 41
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568018328-ttvkrxd37",
+    "timestamp": "2025-10-27T12:26:58.328Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/debugPeek.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 41
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568032072-7uk1rtiw0",
+    "timestamp": "2025-10-27T12:27:12.072Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/testExtraction.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 42
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568127602-4222a95la",
+    "timestamp": "2025-10-27T12:28:47.602Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 137
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568141523-0opxjgykg",
+    "timestamp": "2025-10-27T12:29:01.523Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 137
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568320653-yzqdy35h9",
+    "timestamp": "2025-10-27T12:32:00.653Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 202
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568324120-x0hxd38ox",
+    "timestamp": "2025-10-27T12:32:04.120Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 201
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568329412-x8afn7k8i",
+    "timestamp": "2025-10-27T12:32:09.412Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pipelineManager.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 201
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568360495-idzxsb6ey",
+    "timestamp": "2025-10-27T12:32:40.495Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/buildKnowledgeGraph.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 320
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568377370-aui9vl2na",
+    "timestamp": "2025-10-27T12:32:57.370Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generateIntelligentQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 164
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568457412-n8yv1biux",
+    "timestamp": "2025-10-27T12:34:17.412Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/buildKnowledgeGraph.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 320
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568501281-iqf4j1wfa",
+    "timestamp": "2025-10-27T12:35:01.281Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 266
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568526137-3hi6y02gw",
+    "timestamp": "2025-10-27T12:35:26.137Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 287
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761568624561-e0l1h5np5",
+    "timestamp": "2025-10-27T12:37:04.561Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 287
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569028065-gyuc2bx8d",
+    "timestamp": "2025-10-27T12:43:48.065Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/buildKnowledgeGraph.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 320
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569029497-cll3j8p3o",
+    "timestamp": "2025-10-27T12:43:49.497Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generateIntelligentQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 164
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569068601-wn9u513wa",
+    "timestamp": "2025-10-27T12:44:28.601Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/generateIntelligentQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 164
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569068607-t5f53zttn",
+    "timestamp": "2025-10-27T12:44:28.607Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/buildKnowledgeGraph.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 320
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569068608-paw7nyzxr",
+    "timestamp": "2025-10-27T12:44:28.608Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 287
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569156831-rwsnlexrq",
+    "timestamp": "2025-10-27T12:45:56.831Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 129
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569160726-23hy29g8w",
+    "timestamp": "2025-10-27T12:46:00.726Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 128
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569251395-3e0roz7oc",
+    "timestamp": "2025-10-27T12:47:31.395Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 128
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569282989-obvww7eso",
+    "timestamp": "2025-10-27T12:48:02.989Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 290
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569300499-gpraz3oti",
+    "timestamp": "2025-10-27T12:48:20.499Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 289
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569405438-jtnwyeula",
+    "timestamp": "2025-10-27T12:50:05.438Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/tsconfig.node.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "jsonc",
+      "lineCount": 31
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569410559-5ai5717e8",
+    "timestamp": "2025-10-27T12:50:10.559Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569449446-rmucg6rlu",
+    "timestamp": "2025-10-27T12:50:49.446Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 287
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569514169-8md30yvfg",
+    "timestamp": "2025-10-27T12:51:54.169Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 287
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569748912-erstfyyva",
+    "timestamp": "2025-10-27T12:55:48.912Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569748919-o6nkxmbsr",
+    "timestamp": "2025-10-27T12:55:48.919Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/annalesParser.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 287
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569815169-vuqyzdos8",
+    "timestamp": "2025-10-27T12:56:55.169Z",
+    "type": "file_change",
+    "source": "git:6784e2b0d9b3d616394ee2128912767b743a9199",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "6784e2b0d9b3d616394ee2128912767b743a9199",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Mon Oct 27 13:44:18 2025 +0100",
+        "message": "chore: mise à jour sous-module iade-app (Knowledge Graph v2)",
+        "files": [
+          "iade-app"
+        ],
+        "insertions": 1,
+        "deletions": 1,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": "iade-app",
+          "changes": [],
+          "insertions": 1,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 1,
+      "totalChanges": 2,
+      "diffSummary": {
+        "insertions": 1,
+        "deletions": 1,
+        "files": 1
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761569815208-vv1f3kmpw",
+    "timestamp": "2025-10-27T12:56:55.208Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "6784e2b",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570026243-00nf0an99",
+    "timestamp": "2025-10-27T13:00:26.243Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/parseAnnalesBlocks.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 177
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570130869-skoaupfxg",
+    "timestamp": "2025-10-27T13:02:10.869Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/extractQuestionsFromJSON.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 109
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570137023-4al8esv50",
+    "timestamp": "2025-10-27T13:02:17.023Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/extractQuestionsFromJSON.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 109
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570166454-6ew64j50x",
+    "timestamp": "2025-10-27T13:02:46.454Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/quickExtract.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 64
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570405427-k18m6l0qy",
+    "timestamp": "2025-10-27T13:06:45.427Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/extractQuestionsFromJSON.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 109
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570405432-cb5ay7g77",
+    "timestamp": "2025-10-27T13:06:45.432Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/parseAnnalesBlocks.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 177
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570405434-x60k8tllt",
+    "timestamp": "2025-10-27T13:06:45.434Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/quickExtract.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 64
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570569396-q7c97a46g",
+    "timestamp": "2025-10-27T13:09:29.396Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 138
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570575069-s9pjo0bqs",
+    "timestamp": "2025-10-27T13:09:35.069Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 158
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570593301-bwt1ovxui",
+    "timestamp": "2025-10-27T13:09:53.301Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 86
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570598894-90uckki2v",
+    "timestamp": "2025-10-27T13:09:58.894Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/stats.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 54
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570609753-npif704sm",
+    "timestamp": "2025-10-27T13:10:09.753Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 86
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570610455-kp86k9ooj",
+    "timestamp": "2025-10-27T13:10:10.455Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/stats.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 52
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570618865-xwscrivzs",
+    "timestamp": "2025-10-27T13:10:18.865Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/stats.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 52
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570618867-bba0dv4kd",
+    "timestamp": "2025-10-27T13:10:18.867Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 86
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570762710-ndfpiv5f2",
+    "timestamp": "2025-10-27T13:12:42.710Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ProgressDashboard.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 155
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570776917-y6lnieg6l",
+    "timestamp": "2025-10-27T13:12:56.917Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/CourseReviewMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 14
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570779455-9kjwmq7us",
+    "timestamp": "2025-10-27T13:12:59.455Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/TrainingMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 14
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570787199-4sd2eqele",
+    "timestamp": "2025-10-27T13:13:07.199Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/App.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 76
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570798623-ci3zgw8ie",
+    "timestamp": "2025-10-27T13:13:18.623Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/App.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 84
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570804241-rkvah99az",
+    "timestamp": "2025-10-27T13:13:24.241Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 14
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570805448-576tnlufy",
+    "timestamp": "2025-10-27T13:13:25.448Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/App.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 84
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570807238-nb1hc913g",
+    "timestamp": "2025-10-27T13:13:27.238Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 14
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570828793-xz0acrmjf",
+    "timestamp": "2025-10-27T13:13:48.793Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/TrainingMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 14
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570828797-hedywv4ra",
+    "timestamp": "2025-10-27T13:13:48.797Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/CourseReviewMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 14
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570828799-kmofm3h29",
+    "timestamp": "2025-10-27T13:13:48.799Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 14
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570828800-mh69vw51v",
+    "timestamp": "2025-10-27T13:13:48.800Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ProgressDashboard.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 155
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761570828801-fdwtccv4x",
+    "timestamp": "2025-10-27T13:13:48.801Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/App.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 84
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571052452-3g2hz33lj",
+    "timestamp": "2025-10-27T13:17:32.452Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/hooks/useQuizSession.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 131
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571062891-7et0akazx",
+    "timestamp": "2025-10-27T13:17:42.891Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 89
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571066967-fjkz11nlx",
+    "timestamp": "2025-10-27T13:17:46.967Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 89
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571092044-1fyz96i0f",
+    "timestamp": "2025-10-27T13:18:12.044Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/TrainingMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 166
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571100177-b97lhdho1",
+    "timestamp": "2025-10-27T13:18:20.177Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/TrainingMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 166
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571139992-plktex62b",
+    "timestamp": "2025-10-27T13:18:59.992Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 204
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571168306-5c7gs5293",
+    "timestamp": "2025-10-27T13:19:28.306Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/hooks/useQuizSession.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 131
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571168311-4pslpx7zi",
+    "timestamp": "2025-10-27T13:19:28.311Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/TrainingMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 166
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571168315-9im8o4oc0",
+    "timestamp": "2025-10-27T13:19:28.315Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 89
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571168316-h8hueyghh",
+    "timestamp": "2025-10-27T13:19:28.316Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/components/ExamSimulationMode.tsx",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescriptreact",
+      "lineCount": 204
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571297702-4pwhoq3el",
+    "timestamp": "2025-10-27T13:21:37.702Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 86
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571304024-f2mpxnokr",
+    "timestamp": "2025-10-27T13:21:44.024Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 86
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571308816-kkxy12kd4",
+    "timestamp": "2025-10-27T13:21:48.816Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 90
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571327518-wtl4w9ygy",
+    "timestamp": "2025-10-27T13:22:07.518Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 91
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571393768-667sy0vgm",
+    "timestamp": "2025-10-27T13:23:13.768Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571415466-4u0hg47a3",
+    "timestamp": "2025-10-27T13:23:35.466Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 86
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571415472-brsnsthh4",
+    "timestamp": "2025-10-27T13:23:35.472Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571415474-8e0sxkocc",
+    "timestamp": "2025-10-27T13:23:35.474Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 91
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571453269-diasfmu16",
+    "timestamp": "2025-10-27T13:24:13.269Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 90
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571465885-2ih7syrv0",
+    "timestamp": "2025-10-27T13:24:25.885Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 109
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571470794-7f12x9nce",
+    "timestamp": "2025-10-27T13:24:30.794Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571647606-77daiu5a2",
+    "timestamp": "2025-10-27T13:27:27.606Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 85
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571709940-pbv25jrso",
+    "timestamp": "2025-10-27T13:28:29.940Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 85
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571862481-3yidqt93s",
+    "timestamp": "2025-10-27T13:31:02.481Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571875992-is1oeqo4r",
+    "timestamp": "2025-10-27T13:31:15.992Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571876836-m7i0407gk",
+    "timestamp": "2025-10-27T13:31:16.836Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571878177-lojtypuvt",
+    "timestamp": "2025-10-27T13:31:18.177Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571878903-yctwbzxz5",
+    "timestamp": "2025-10-27T13:31:18.903Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571879659-er98wxa4e",
+    "timestamp": "2025-10-27T13:31:19.660Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571880476-zky7szmmn",
+    "timestamp": "2025-10-27T13:31:20.476Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571888927-32govlz4n",
+    "timestamp": "2025-10-27T13:31:28.927Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571895635-5jxdfe7ft",
+    "timestamp": "2025-10-27T13:31:35.635Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761571958457-vduvzrx8k",
+    "timestamp": "2025-10-27T13:32:38.457Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572393298-2yubr07m5",
+    "timestamp": "2025-10-27T13:39:53.298Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 263
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572408403-dahdrsquq",
+    "timestamp": "2025-10-27T13:40:08.403Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 264
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572414112-3p4pvv26p",
+    "timestamp": "2025-10-27T13:40:14.112Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 263
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572425559-ci75hpgv7",
+    "timestamp": "2025-10-27T13:40:25.559Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 263
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572430461-44mzi088h",
+    "timestamp": "2025-10-27T13:40:30.461Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 263
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572467750-2xduwr1qv",
+    "timestamp": "2025-10-27T13:41:07.750Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/data/mock/questions.json",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "json",
+      "lineCount": 357
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572506264-rgwzuk05w",
+    "timestamp": "2025-10-27T13:41:46.264Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 265
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572515625-xd1k0rmfq",
+    "timestamp": "2025-10-27T13:41:55.625Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 265
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572702944-w5suprpk6",
+    "timestamp": "2025-10-27T13:45:02.944Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 243
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572718226-gfrdo2fk2",
+    "timestamp": "2025-10-27T13:45:18.226Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 243
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572722594-dbendw6ya",
+    "timestamp": "2025-10-27T13:45:22.594Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 243
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572729376-a5y7gcdro",
+    "timestamp": "2025-10-27T13:45:29.376Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 243
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572736096-maqert77d",
+    "timestamp": "2025-10-27T13:45:36.096Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 243
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572743270-6rpi50mc0",
+    "timestamp": "2025-10-27T13:45:43.270Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 243
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572970577-9ppqf7bfu",
+    "timestamp": "2025-10-27T13:49:30.577Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractPdfToText.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 81
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572975523-esayzaba2",
+    "timestamp": "2025-10-27T13:49:35.523Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 243
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572981610-nyaw2drru",
+    "timestamp": "2025-10-27T13:49:41.610Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 236
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572985671-yjv9k2d1b",
+    "timestamp": "2025-10-27T13:49:45.672Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 239
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572995518-vv1b29v57",
+    "timestamp": "2025-10-27T13:49:55.518Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractPdfToText.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 81
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761572996365-mp6dkdyn5",
+    "timestamp": "2025-10-27T13:49:56.365Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 239
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573005508-lwfg9mvus",
+    "timestamp": "2025-10-27T13:50:05.508Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractPdfToText.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 81
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573048501-7g4obyxqn",
+    "timestamp": "2025-10-27T13:50:48.501Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 244
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573065636-gqaadi1cm",
+    "timestamp": "2025-10-27T13:51:05.636Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 244
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573348764-widsopg1i",
+    "timestamp": "2025-10-27T13:55:48.764Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 244
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573363453-08mio68o4",
+    "timestamp": "2025-10-27T13:56:03.453Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 67
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573372548-wde9llqkt",
+    "timestamp": "2025-10-27T13:56:12.548Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 67
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573418807-uj6qqmxak",
+    "timestamp": "2025-10-27T13:56:58.807Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/pdfTextExtractor.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 67
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573568829-xbnmo3jtm",
+    "timestamp": "2025-10-27T13:59:28.829Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 258
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573579329-z5pnpxx5d",
+    "timestamp": "2025-10-27T13:59:39.329Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 266
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573584004-h0trc1vso",
+    "timestamp": "2025-10-27T13:59:44.004Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 266
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573587017-tpmqqp9jr",
+    "timestamp": "2025-10-27T13:59:47.017Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 272
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573606500-urczze11v",
+    "timestamp": "2025-10-27T14:00:06.500Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 276
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573616616-emhuwmnm5",
+    "timestamp": "2025-10-27T14:00:16.616Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 276
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573642257-8g4yfahlh",
+    "timestamp": "2025-10-27T14:00:42.257Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 276
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573656177-vqty7cngr",
+    "timestamp": "2025-10-27T14:00:56.177Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 276
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573846981-i2w9xfz10",
+    "timestamp": "2025-10-27T14:04:06.981Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 281
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573852035-wu8958zbd",
+    "timestamp": "2025-10-27T14:04:12.035Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 281
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573856007-k86fkf2vg",
+    "timestamp": "2025-10-27T14:04:16.007Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 292
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573857632-0r9xbsllk",
+    "timestamp": "2025-10-27T14:04:17.632Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 292
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573872495-ps7y5275z",
+    "timestamp": "2025-10-27T14:04:32.495Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 293
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573879377-pyhl5ea0z",
+    "timestamp": "2025-10-27T14:04:39.377Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 293
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573890427-22z8o9xi3",
+    "timestamp": "2025-10-27T14:04:50.427Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 293
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761573900769-h0qkalhhe",
+    "timestamp": "2025-10-27T14:05:00.769Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 293
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574211653-e3nfqi2vk",
+    "timestamp": "2025-10-27T14:10:11.653Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 121
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574223055-id8t9ohwp",
+    "timestamp": "2025-10-27T14:10:23.055Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 121
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574223987-sa8ofmkjg",
+    "timestamp": "2025-10-27T14:10:23.987Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 121
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574227114-jq5trdaua",
+    "timestamp": "2025-10-27T14:10:27.114Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 121
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574241887-djxl2fdvy",
+    "timestamp": "2025-10-27T14:10:41.887Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 121
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574243613-tuyjwwzaa",
+    "timestamp": "2025-10-27T14:10:43.613Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 121
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574267302-yrdt7pu08",
+    "timestamp": "2025-10-27T14:11:07.302Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 125
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574270909-k5hb1933k",
+    "timestamp": "2025-10-27T14:11:10.909Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 125
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574286391-rf1k1mapu",
+    "timestamp": "2025-10-27T14:11:26.391Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 126
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574303762-1xmc6lp80",
+    "timestamp": "2025-10-27T14:11:43.762Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 126
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574318052-a169ducu2",
+    "timestamp": "2025-10-27T14:11:58.052Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 132
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574322052-yrxh9epiy",
+    "timestamp": "2025-10-27T14:12:02.052Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 132
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574325957-rpvdb5duh",
+    "timestamp": "2025-10-27T14:12:05.957Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 132
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574327413-ytsef8d9j",
+    "timestamp": "2025-10-27T14:12:07.413Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 132
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574337173-gokz1n4or",
+    "timestamp": "2025-10-27T14:12:17.173Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 132
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574356443-1zopgpzit",
+    "timestamp": "2025-10-27T14:12:36.443Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 104
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574359263-463iej8gb",
+    "timestamp": "2025-10-27T14:12:39.263Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 104
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574367505-lgpzan70x",
+    "timestamp": "2025-10-27T14:12:47.505Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 104
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574371940-gqzav8qvq",
+    "timestamp": "2025-10-27T14:12:51.940Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 104
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574378789-teqtkeoko",
+    "timestamp": "2025-10-27T14:12:58.789Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 110
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574417774-byhaff96x",
+    "timestamp": "2025-10-27T14:13:37.774Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 110
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574430586-oebje95co",
+    "timestamp": "2025-10-27T14:13:50.586Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 92
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574433314-67alxu0dp",
+    "timestamp": "2025-10-27T14:13:53.314Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 92
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574582104-nb7zevrwm",
+    "timestamp": "2025-10-27T14:16:22.104Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574596030-e0tdepbdf",
+    "timestamp": "2025-10-27T14:16:36.030Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 73
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574611858-wpnm1er6l",
+    "timestamp": "2025-10-27T14:16:51.858Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 73
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574613290-9ice058pq",
+    "timestamp": "2025-10-27T14:16:53.290Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 73
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574620386-rnahnvxe0",
+    "timestamp": "2025-10-27T14:17:00.386Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 73
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574626640-9vmo0vy9q",
+    "timestamp": "2025-10-27T14:17:06.640Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 73
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574708393-iuvkwsptd",
+    "timestamp": "2025-10-27T14:18:28.393Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 73
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574904882-hv2wdizsd",
+    "timestamp": "2025-10-27T14:21:44.882Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574909504-0e8ursiyt",
+    "timestamp": "2025-10-27T14:21:49.504Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574910558-4gd1cj2y7",
+    "timestamp": "2025-10-27T14:21:50.558Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761574925904-f2wn3bmxo",
+    "timestamp": "2025-10-27T14:22:05.904Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575200310-3ul0q1ixx",
+    "timestamp": "2025-10-27T14:26:40.310Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575313242-lpizgduys",
+    "timestamp": "2025-10-27T14:28:33.242Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /extraction_results.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575331189-ojw42wgre",
+    "timestamp": "2025-10-27T14:28:51.189Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /extraction_results.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575499992-dje21my4y",
+    "timestamp": "2025-10-27T14:31:39.992Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /extraction_results.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 162
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575668950-u7dcfa9tb",
+    "timestamp": "2025-10-27T14:34:28.950Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 114
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575700430-4uvvmdl01",
+    "timestamp": "2025-10-27T14:35:00.430Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 153
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575704599-1psg7ctv3",
+    "timestamp": "2025-10-27T14:35:04.599Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 153
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575705439-qxfh1n7n5",
+    "timestamp": "2025-10-27T14:35:05.439Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 153
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575718014-b4mcvl2qf",
+    "timestamp": "2025-10-27T14:35:18.014Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 153
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575738637-ykcmpmgu6",
+    "timestamp": "2025-10-27T14:35:38.637Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 153
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575754244-d2cb17hjb",
+    "timestamp": "2025-10-27T14:35:54.244Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 153
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761575827633-3bjpee9xx",
+    "timestamp": "2025-10-27T14:37:07.633Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /questions_extractees_phase_1.5.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 105
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576173886-jblyhrfbg",
+    "timestamp": "2025-10-27T14:42:53.886Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 202
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576178217-2nck9nt3f",
+    "timestamp": "2025-10-27T14:42:58.217Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 202
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576179733-kd32a4owd",
+    "timestamp": "2025-10-27T14:42:59.733Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 202
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576180688-1at6egp45",
+    "timestamp": "2025-10-27T14:43:00.688Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 202
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576198643-inmctsbur",
+    "timestamp": "2025-10-27T14:43:18.643Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 202
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576199452-ooklfjzs5",
+    "timestamp": "2025-10-27T14:43:19.452Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576216825-npm2foc6j",
+    "timestamp": "2025-10-27T14:43:36.825Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576444681-f148t8gd6",
+    "timestamp": "2025-10-27T14:47:24.681Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576481868-6oir56mnq",
+    "timestamp": "2025-10-27T14:48:01.868Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576482683-i3waejwsc",
+    "timestamp": "2025-10-27T14:48:02.683Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576505191-h411nnfou",
+    "timestamp": "2025-10-27T14:48:25.191Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761576749926-mdndjeway",
+    "timestamp": "2025-10-27T14:52:29.926Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761577059955-hzk1j8vzv",
+    "timestamp": "2025-10-27T14:57:39.955Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 206
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761577060932-bnoapdx3t",
+    "timestamp": "2025-10-27T14:57:40.932Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 206
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761577069343-xi4x1r8hh",
+    "timestamp": "2025-10-27T14:57:49.343Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 202
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761577071943-pp9ce5917",
+    "timestamp": "2025-10-27T14:57:51.943Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 206
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761577082176-qg2ccedlh",
+    "timestamp": "2025-10-27T14:58:02.176Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761577098107-2hu85y9ps",
+    "timestamp": "2025-10-27T14:58:18.107Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578114334-xy3m6phcq",
+    "timestamp": "2025-10-27T15:15:14.334Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 205
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578259498-1h90a6z8d",
+    "timestamp": "2025-10-27T15:17:39.498Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 215
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578301690-x3guav0df",
+    "timestamp": "2025-10-27T15:18:21.690Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 250
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578313235-a254vtbq6",
+    "timestamp": "2025-10-27T15:18:33.235Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 250
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578333040-3khch1947",
+    "timestamp": "2025-10-27T15:18:53.040Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /extraction_finale_phase_1.5.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 103
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578369218-uyy0ys9cc",
+    "timestamp": "2025-10-27T15:19:29.218Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 250
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578369221-erra7xfb9",
+    "timestamp": "2025-10-27T15:19:29.221Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /extraction_finale_phase_1.5.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 103
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578831048-tj1epx2c3",
+    "timestamp": "2025-10-27T15:27:11.048Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 251
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578839363-imixhtez2",
+    "timestamp": "2025-10-27T15:27:19.363Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 251
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578852804-eadj3bnha",
+    "timestamp": "2025-10-27T15:27:32.804Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 275
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578858484-z4i23qzqn",
+    "timestamp": "2025-10-27T15:27:38.484Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 275
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761578902252-eutl54f8t",
+    "timestamp": "2025-10-27T15:28:22.252Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 275
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761579003786-ock2bkjym",
+    "timestamp": "2025-10-27T15:30:03.786Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/extractQuestions.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 275
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761579780194-dmjsuebbe",
+    "timestamp": "2025-10-27T15:43:00.194Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/mergeQA.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 93
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761579785976-y9k9rramy",
+    "timestamp": "2025-10-27T15:43:05.976Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/scripts/pipelines/mergeQA.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 93
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761580256398-rolunkuoc",
+    "timestamp": "2025-10-27T15:50:56.398Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 168
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761580259685-y2t4gjduw",
+    "timestamp": "2025-10-27T15:50:59.685Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 168
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761580260582-ojy97rsv4",
+    "timestamp": "2025-10-27T15:51:00.582Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 168
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761580272409-qefjgc452",
+    "timestamp": "2025-10-27T15:51:12.409Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /tasks.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 168
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761580881620-3j20kfnaz",
+    "timestamp": "2025-10-27T16:01:21.620Z",
+    "type": "file_change",
+    "source": "git:6784e2b0d9b3d616394ee2128912767b743a9199",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "6784e2b0d9b3d616394ee2128912767b743a9199",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Mon Oct 27 13:44:18 2025 +0100",
+        "message": "chore: mise à jour sous-module iade-app (Knowledge Graph v2)",
+        "files": [
+          "iade-app"
+        ],
+        "insertions": 1,
+        "deletions": 1,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": "iade-app",
+          "changes": [],
+          "insertions": 1,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 1,
+      "totalChanges": 2,
+      "diffSummary": {
+        "insertions": 1,
+        "deletions": 1,
+        "files": 1
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761580881647-dubwlu9b7",
+    "timestamp": "2025-10-27T16:01:21.647Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "6784e2b",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761602044121-ndgp30s8y",
+    "timestamp": "2025-10-27T21:54:04.121Z",
+    "type": "file_change",
+    "source": "git:6784e2b0d9b3d616394ee2128912767b743a9199",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "6784e2b0d9b3d616394ee2128912767b743a9199",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Mon Oct 27 13:44:18 2025 +0100",
+        "message": "chore: mise à jour sous-module iade-app (Knowledge Graph v2)",
+        "files": [
+          "iade-app"
+        ],
+        "insertions": 1,
+        "deletions": 1,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": "iade-app",
+          "changes": [],
+          "insertions": 1,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 1,
+      "totalChanges": 2,
+      "diffSummary": {
+        "insertions": 1,
+        "deletions": 1,
+        "files": 1
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761602044138-j7wgo7zuj",
+    "timestamp": "2025-10-27T21:54:04.138Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "6784e2b",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761608796993-by03ccaxw",
+    "timestamp": "2025-10-27T23:46:36.993Z",
+    "type": "file_change",
+    "source": "git:6784e2b0d9b3d616394ee2128912767b743a9199",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_commit",
+      "commit": {
+        "hash": "6784e2b0d9b3d616394ee2128912767b743a9199",
+        "author": "Soynido",
+        "email": "vgaludec@gmail.com",
+        "timestamp": "Mon Oct 27 13:44:18 2025 +0100",
+        "message": "chore: mise à jour sous-module iade-app (Knowledge Graph v2)",
+        "files": [
+          "iade-app"
+        ],
+        "insertions": 1,
+        "deletions": 1,
+        "branch": "main"
+      },
+      "diffs": [
+        {
+          "file": "iade-app",
+          "changes": [],
+          "insertions": 1,
+          "deletions": 1,
+          "type": "modified"
+        }
+      ],
+      "totalFiles": 1,
+      "totalChanges": 2,
+      "diffSummary": {
+        "insertions": 1,
+        "deletions": 1,
+        "files": 1
+      }
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761608797013-42s0p4hkj",
+    "timestamp": "2025-10-27T23:46:37.013Z",
+    "type": "file_change",
+    "source": "git:branches",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "Git Metadata",
+      "type": "git_branches",
+      "branches": [
+        {
+          "name": "main",
+          "isCurrent": true,
+          "lastCommit": "6784e2b",
+          "ahead": 0,
+          "behind": 0
+        }
+      ],
+      "currentBranch": "main",
+      "totalBranches": 1
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609459935-qdtj22w0f",
+    "timestamp": "2025-10-27T23:57:39.935Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 112
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609474022-0pv6aj6t3",
+    "timestamp": "2025-10-27T23:57:54.022Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /iade-app/src/services/achievementsEngine.ts",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "typescript",
+      "lineCount": 112
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609585156-ellueavnw",
+    "timestamp": "2025-10-27T23:59:45.156Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /FINALISATION_MVP_RESULTAT.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 116
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609593515-lr0sbatf3",
+    "timestamp": "2025-10-27T23:59:53.515Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /FINALISATION_MVP_RESULTAT.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 116
+    },
+    "version": "1.0"
+  },
+  {
+    "id": "1761609594874-ajucq0ern",
+    "timestamp": "2025-10-27T23:59:54.874Z",
+    "type": "file_change",
+    "source": "/Users/valentingaludec/IADE /FINALISATION_MVP_RESULTAT.md",
+    "metadata": {
+      "level": "1 - Code & Structure Technique",
+      "category": "File Saves",
+      "action": "save",
+      "language": "markdown",
+      "lineCount": 116
+    },
+    "version": "1.0"
   }
 ]

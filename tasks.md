@@ -18,16 +18,23 @@
 - [x] 1.1.6 - Créer script runExtraction.sh
 
 ### 1.2 Extraction PDFs
-- [x] 1.2.1 - Extraire Prepaconcoursiade-Complet.pdf → cours-complet.json (en cours, OCR fonctionnel)
+- [x] 1.2.1 - Extraire Prepaconcoursiade-Complet.pdf → cours-complet.json (OCR fonctionnel, ~90%)
 - [x] 1.2.2 - Extraire annalescorrigées-Volume-1.pdf → annales-volume-1.json (structure créée, parsers à affiner)
 - [x] 1.2.3 - Extraire annalescorrigées-Volume-2.pdf → annales-volume-2.json (structure créée, parsers à affiner)
-- [ ] 1.2.4 - Tester et valider la qualité d'extraction (affinage parsers en cours)
+-?? - Tester et valider la qualité d'extraction (parsers à affiner, bascule vers Phase 2 UI)
 - [x] 1.2.5 - Créer script debug pour inspection texte brut
+- [x] 1.2.6 - Créer Knowledge Graph & Générateur Questions (MVP fonctionnel)
 
 ### 1.3 Enrichissement Sémantique (Optionnel - Phase 1B)
 - [ ] 1.3.1 - Créer embeddingGenerator.ts
 - [ ] 1.3.2 - Générer embeddings pour concepts.json
 - [ ] 1.3.3 - Générer embeddings pour questions.json
+
+### 1.7 Fusion Q&A
+- [x] 1.7.1 - Créer mergeQA.ts
+- [x] 1.7.2 - Fusionner questions Volume 1, Volume 2, Complet
+- [x] 1.7.3 - Générer questions-merged.json
+- [ ] 1.7.4 - Valider qualité fusionnée (≥ 100 questions souhaitées)
 
 ## Phase 2 : Knowledge Graph & Indexation
 
@@ -36,6 +43,30 @@
 - [ ] 2.3 - Calculer poids relationnels et métriques
 - [ ] 2.4 - Générer knowledge-graph.json (format JSON-LD)
 - [ ] 2.5 - Tester la cohérence du graphe
+
+## Phase 2 : UI/UX - Interface Utilisateur (EN COURS)
+
+### 2.1 Architecture & Routes
+- [ ] 2.1.1 - Créer ProgressDashboard.tsx (stats, progression, streak)
+- [ ] 2.1.2 - Créer CourseReviewMode.tsx (revue de cours)
+- [ ] 2.1.3 - Créer TrainingMode.tsx (entraînement adaptatif)
+- [ ] 2.1.4 - Créer ExamSimulationMode.tsx (concours blanc chronométré)
+- [ ] 2.1.5 - Configurer routes dans App.tsx
+
+### 2.2 Données Mock & Styling
+- [ ] 2.2.1 - Créer données mock JSON (questions, concepts)
+- [ ] 2.2.2 - Styliser avec Tailwind (palette IADE: bleu/vert/gris)
+- [ ] 2.2.3 - Implémenter animations et feedbacks
+- [ ] 2.2.4 - Créer composants réutilisables (Button, Card, Modal, ProgressBar)
+
+### 2.3 Intégration
+- [x] 2.3.1 - Brancher useQuizSession.ts
+- [x] 2.3.2 - Implémenter scores et progression
+- [x] 2.3.3 - Ajouter gamification (achievements, streaks)
+
+### 2.4 Build & Deployment
+- [x] 2.4.1 - Build production réussi (364KB JS, 104KB CSS)
+- [x] 2.4.2 - Deployment Vercel : https://iade-ht169a4b9-valentin-galudec-s-projects.vercel.app
 
 ## Phase 3 : Générateur de Questions Intelligent v2
 
