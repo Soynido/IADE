@@ -9,6 +9,7 @@ import CourseReviewMode from './components/CourseReviewMode'
 import TrainingMode from './components/TrainingMode'
 import ExamSimulationMode from './components/ExamSimulationMode'
 import { StorageService } from './services/storageService'
+import KnowledgeGraphVisualization from './components/KnowledgeGraphVisualization'
 import './App.css'
 
 function MainApp() {
@@ -48,6 +49,9 @@ function MainApp() {
       <Route path="/cours" element={<CourseReviewMode />} />
       <Route path="/entrainement" element={<TrainingMode />} />
       <Route path="/concours" element={<ExamSimulationMode />} />
+      
+      {/* Knowledge Graph */}
+      <Route path="/knowledge-graph" element={<KnowledgeGraphVisualization />} />
       
       {/* Dashboard V3 Shadcn (ancien) - DÉSACTIVÉ temporairement */}
       {/* <Route path="/" element={

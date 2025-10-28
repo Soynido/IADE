@@ -4,6 +4,7 @@ import { TrendingUp, Target, Award, Calendar, Brain, AlertCircle } from 'lucide-
 import questionsData from '../data/mock/questions.json';
 import statsData from '../data/mock/stats.json';
 import { SuccessPredictionEngine } from '../services/successPredictionEngine';
+import { kgRecommendations } from '../services/knowledgeGraphRecommendations';
 
 export default function ProgressDashboard() {
   const [stats, setStats] = useState(statsData.userStats);
@@ -42,6 +43,9 @@ export default function ProgressDashboard() {
     }))
     .sort((a, b) => a.accuracy - b.accuracy)
     .slice(0, 5);
+
+  // Recommandations KG
+  const kgRecommendedThemes = kgRecommendations.getRecommendedThemes(5);
 
   const getPredictionColor = (prob: number) => {
     if (prob >= 80) return 'text-green-600';
@@ -163,12 +167,45 @@ export default function ProgressDashboard() {
           </div>
         </div>
 
-        {/* Top 5 Concepts à Revoir */}
-        <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-            <Target className="w-6 h-6 text-red-500" />
-            Top 5 - Concepts à Revoir
-          </h2>
+            {/* Recommandations KG */}
+            <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-2xl shadow-lg p-6 mb-6 border-2 border-purple-200">
+              <h2 className="text-2xl font-bold text-purple-900 mb-4 flex items-center gap-2">
+                🧠 Recommandations Intelligentes (Knowledge Graph)
+              </h2>
+              <div className="space-y-3">
+                {kgRecommendedThemes.map((rec, index) => (
+                  <div
+                    key={index}
+                    className="bg-white rounded-lg p-4 shadow-sm border border-purple-100 hover:shadow-md transition"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex-1">
+                        <p className="font-bold text-gray-800">{rec.theme}</p>
+                        <p className="text-sm text-gray-600">{rec.reason}</p>
+                      </div>
+                      <span
+                        className={`px-3 py-1 rounded-full text-xs font-bold ${
+                          rec.priority === 'high'
+                            ? 'bg-red-100 text-red-700'
+                            : rec.priority === 'medium'
+                            ? 'bg-yellow-100 text-yellow-700'
+                            : 'bg-green-100 text-green-700'
+                        }`}
+                      >
+                        {rec.priority === 'high' ? '🔥 Urgent' : rec.priority === 'medium' ? '⚡ Important' : '✓ Suggéré'}
+                      </span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Top 5 Concepts à Revoir */}
+            <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center gap-2">
+                <Target className="w-6 h-6 text-red-500" />
+                Top 5 - Concepts à Revoir (Stats)
+              </h2>
           <div className="space-y-4">
             {weakestThemes.map((theme, index) => (
               <div key={theme.theme} className="flex items-center gap-4">
