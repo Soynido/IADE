@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd iade-app && npm install && npm run build",
+  "outputDirectory": "iade-app/dist",
+  "installCommand": "cd iade-app && npm install",
+  "framework": null,
+  "devCommand": null
+}
+
