@@ -1,10 +1,11 @@
 /**
- * Mode Entraînement - Sessions adaptatives de 10 QCM
+ * Mode Entraînement - Legacy IADE visual style
+ * 10 QCM adaptatifs avec feedback immédiat
  */
 
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Dumbbell, TrendingUp, Target } from 'lucide-react';
+import { Dumbbell, TrendingUp, Target, ArrowLeft, Flame, Brain, Award, CheckCircle, XCircle } from 'lucide-react';
 import { StorageService } from '../services/storageService';
 import { adaptiveEngine } from '../services/adaptiveEngine';
 import { QuestionFeedbackComponent } from './QuestionFeedback';
@@ -60,7 +61,6 @@ export default function TrainingMode() {
       setQuestionStartTime(Date.now());
     } else {
       // Sauvegarder la session
-      const profile = StorageService.getUserProfile();
       const sessionScore = Math.round((score / questions.length) * 100);
       
       StorageService.addSession({
@@ -81,39 +81,49 @@ export default function TrainingMode() {
     const profile = StorageService.getUserProfile();
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+      <div className="min-h-screen bg-[#F4F7F9] p-6">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-lg p-8">
+          <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
             <div className="text-center mb-8">
-              <div className="text-6xl mb-4">
+              <div className="text-7xl mb-4">
                 {accuracy >= 80 ? '🎉' : accuracy >= 60 ? '👍' : '💪'}
               </div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-2">Session terminée !</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-2" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 800 }}>
+                Session terminée !
+              </h2>
             </div>
 
             {/* Score principal */}
-            <div className="bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl p-8 text-center mb-6">
-              <p className="text-white/90 text-lg mb-2">Votre score</p>
-              <p className="text-6xl font-bold text-white mb-2">{accuracy.toFixed(0)}%</p>
-              <p className="text-xl text-white/80">{score}/{questions.length} bonnes réponses</p>
+            <div className="bg-gradient-to-br from-[#F2662F] to-[#e85a29] rounded-2xl p-10 text-center mb-8 shadow-lg">
+              <p className="text-white/90 text-lg mb-2 font-medium">Votre score</p>
+              <p className="text-7xl font-bold text-white mb-3" style={{ fontFamily: 'Inter, sans-serif' }}>
+                {accuracy.toFixed(0)}%
+              </p>
+              <p className="text-2xl text-white/90 font-semibold">{score}/{questions.length} bonnes réponses</p>
             </div>
 
             {/* Scoreboard simplifié */}
             <div className="grid grid-cols-3 gap-4 mb-8">
-              <div className="bg-gray-50 rounded-lg p-4 text-center">
-                <TrendingUp className="w-8 h-8 text-blue-500 mx-auto mb-2" />
-                <p className="text-2xl font-bold text-gray-800">{profile.averageScore.toFixed(0)}%</p>
-                <p className="text-sm text-gray-600">Score moyen</p>
+              <div className="bg-[#F4F7F9] rounded-xl p-6 text-center border border-gray-200">
+                <TrendingUp className="w-8 h-8 text-blue-600 mx-auto mb-2" />
+                <p className="text-3xl font-bold text-gray-800 mb-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  {profile.averageScore.toFixed(0)}%
+                </p>
+                <p className="text-sm text-gray-600 font-medium">Score moyen</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-4 text-center">
-                <Target className="w-8 h-8 text-purple-500 mx-auto mb-2" />
-                <p className="text-2xl font-bold text-gray-800">{profile.totalSessions}</p>
-                <p className="text-sm text-gray-600">Sessions</p>
+              <div className="bg-[#F4F7F9] rounded-xl p-6 text-center border border-gray-200">
+                <Target className="w-8 h-8 text-purple-600 mx-auto mb-2" />
+                <p className="text-3xl font-bold text-gray-800 mb-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  {profile.totalSessions}
+                </p>
+                <p className="text-sm text-gray-600 font-medium">Sessions</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-4 text-center">
-                <div className="text-3xl mb-2">🔥</div>
-                <p className="text-2xl font-bold text-gray-800">{profile.streakDays}</p>
-                <p className="text-sm text-gray-600">Jours de série</p>
+              <div className="bg-[#F4F7F9] rounded-xl p-6 text-center border border-gray-200">
+                <Flame className="w-8 h-8 text-[#F2662F] mx-auto mb-2" />
+                <p className="text-3xl font-bold text-gray-800 mb-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  {profile.streakDays}
+                </p>
+                <p className="text-sm text-gray-600 font-medium">Jours de série</p>
               </div>
             </div>
 
@@ -121,15 +131,17 @@ export default function TrainingMode() {
             <div className="flex gap-4">
               <button 
                 onClick={() => window.location.reload()}
-                className="flex-1 bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors"
+                className="flex-1 bg-gradient-to-r from-[#F2662F] to-[#e85a29] text-white px-6 py-4 rounded-xl font-bold hover:shadow-lg transition-all text-lg"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Nouvelle session
               </button>
               <Link 
                 to="/"
-                className="flex-1 bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors text-center"
+                className="flex-1 bg-gray-200 text-gray-700 px-6 py-4 rounded-xl font-bold hover:bg-gray-300 transition-colors text-center text-lg"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
-                Retour au dashboard
+                Dashboard
               </Link>
             </div>
           </div>
@@ -140,52 +152,53 @@ export default function TrainingMode() {
 
   // Écran de question
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+    <div className="min-h-screen bg-[#F4F7F9] p-6">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-3xl font-bold text-gray-900 flex items-center gap-2">
-            <Dumbbell className="w-8 h-8 text-green-600" />
+          <h1 className="text-3xl font-bold text-gray-900 flex items-center gap-3" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 800 }}>
+            <Dumbbell className="w-8 h-8 text-[#F2662F]" />
             Entraînement
           </h1>
           <Link 
             to="/"
-            className="bg-white text-gray-700 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors"
+            className="text-gray-600 hover:text-[#F2662F] font-medium transition-colors flex items-center gap-2"
           >
-            ← Dashboard
+            <ArrowLeft className="w-4 h-4" />
+            Dashboard
           </Link>
         </div>
 
         {/* Progress */}
-        <div className="bg-white rounded-xl shadow-md p-4 mb-6">
-          <div className="flex justify-between items-center mb-2">
-            <span className="text-sm font-semibold text-gray-700">
+        <div className="bg-white rounded-2xl shadow-md p-6 mb-6 border border-gray-100">
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-base font-bold text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>
               Question {currentIndex + 1}/{questions.length}
             </span>
-            <span className="text-sm font-semibold text-green-600">
+            <span className="text-base font-bold text-[#F2662F]" style={{ fontFamily: 'Inter, sans-serif' }}>
               Score: {score}/{currentIndex + 1}
             </span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-3">
+          <div className="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
             <div 
-              className="h-3 rounded-full bg-green-500 transition-all"
+              className="h-3 rounded-full bg-gradient-to-r from-[#F2662F] to-[#e85a29] transition-all duration-500"
               style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
             ></div>
           </div>
         </div>
 
         {/* Question Card */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 mb-6">
-          <div className="flex gap-2 mb-4">
-            <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+        <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 border border-gray-100">
+          <div className="flex gap-2 mb-5">
+            <span className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg text-sm font-bold border border-blue-200">
               {currentQuestion?.domain || currentQuestion?.theme}
             </span>
-            <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+            <span className="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg text-sm font-bold border border-purple-200">
               {currentQuestion?.difficulty}
             </span>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}>
             {currentQuestion?.question}
           </h2>
 
@@ -200,25 +213,27 @@ export default function TrainingMode() {
                   key={index}
                   onClick={() => !showFeedback && setSelectedAnswer(index)}
                   disabled={showFeedback}
-                  className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+                  className={`w-full text-left p-5 rounded-xl border-2 transition-all duration-200 ${
                     showResult
                       ? isCorrect
-                        ? 'bg-green-100 border-green-500'
+                        ? 'bg-green-50 border-green-500 shadow-md'
                         : isSelected
-                        ? 'bg-red-100 border-red-500'
-                        : 'border-gray-200'
+                        ? 'bg-red-50 border-red-500 shadow-md'
+                        : 'border-gray-200 bg-white'
                       : isSelected
-                      ? 'bg-blue-50 border-blue-500'
-                      : 'bg-gray-50 border-gray-200 hover:border-green-500 hover:bg-green-50'
-                  } ${showFeedback ? 'cursor-not-allowed' : 'cursor-pointer hover:scale-[1.02]'}`}
+                      ? 'bg-[#fff5f2] border-[#F2662F] shadow-md'
+                      : 'bg-white border-gray-200 hover:border-[#F2662F] hover:bg-[#fff5f2]'
+                  } ${showFeedback ? 'cursor-not-allowed' : 'cursor-pointer hover:scale-[1.01]'}`}
                 >
                   <div className="flex items-center">
-                    <span className="font-bold text-gray-600 mr-3">
+                    <span className="font-bold text-gray-600 mr-4 text-lg">
                       {String.fromCharCode(65 + index)}.
                     </span>
-                    <span className="text-gray-800">{option}</span>
-                    {showResult && isCorrect && <span className="ml-auto text-2xl">✓</span>}
-                    {showResult && isSelected && !isCorrect && <span className="ml-auto text-2xl">✗</span>}
+                    <span className="text-gray-800 font-medium flex-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                      {option}
+                    </span>
+                    {showResult && isCorrect && <CheckCircle className="w-6 h-6 text-green-500" />}
+                    {showResult && isSelected && !isCorrect && <XCircle className="w-6 h-6 text-red-500" />}
                   </div>
                 </button>
               );
@@ -227,13 +242,17 @@ export default function TrainingMode() {
 
           {/* Explanation */}
           {showFeedback && currentQuestion?.explanation && (
-            <div className={`mt-6 p-4 rounded-lg ${
-              answers[currentIndex] ? 'bg-green-50 border-l-4 border-green-500' : 'bg-red-50 border-l-4 border-red-500'
+            <div className={`mt-6 p-6 rounded-xl border-l-4 ${
+              answers[currentIndex] 
+                ? 'bg-green-50 border-green-500' 
+                : 'bg-red-50 border-red-500'
             }`}>
-              <p className="font-semibold text-gray-800 mb-2">
+              <p className="font-bold text-gray-800 mb-3 text-lg" style={{ fontFamily: 'Inter, sans-serif' }}>
                 {answers[currentIndex] ? '✓ Bonne réponse !' : '✗ Réponse incorrecte'}
               </p>
-              <p className="text-gray-700">{currentQuestion.explanation}</p>
+              <p className="text-gray-700 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
+                {currentQuestion.explanation}
+              </p>
             </div>
           )}
 
@@ -255,14 +274,16 @@ export default function TrainingMode() {
               <button
                 onClick={handleAnswer}
                 disabled={selectedAnswer === null}
-                className="w-full bg-green-600 text-white px-6 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed text-lg"
+                className="w-full bg-gradient-to-r from-[#F2662F] to-[#e85a29] text-white px-6 py-4 rounded-xl font-bold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed text-lg"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Valider
               </button>
             ) : (
               <button
                 onClick={handleNext}
-                className="w-full bg-blue-600 text-white px-6 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors text-lg"
+                className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-4 rounded-xl font-bold hover:shadow-lg transition-all text-lg"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 {currentIndex < questions.length - 1 ? 'Question suivante →' : 'Voir les résultats'}
               </button>

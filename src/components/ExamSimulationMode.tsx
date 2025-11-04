@@ -1,10 +1,11 @@
 /**
- * Mode Concours Blanc - 60 QCM chronométrés (2h)
+ * Mode Concours Blanc - Legacy IADE visual style
+ * 60 QCM chronométrés (2h)
  */
 
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Clock, Trophy, AlertTriangle, TrendingDown } from 'lucide-react';
+import { Clock, Trophy, AlertTriangle, TrendingDown, CheckCircle, ArrowLeft } from 'lucide-react';
 import { StorageService } from '../services/storageService';
 import type { Question } from '../types/pathology';
 import compiledQuestions from '../data/compiledQuestions.json';
@@ -115,31 +116,51 @@ export default function ExamSimulationMode() {
   // Écran de démarrage
   if (!examStarted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+      <div className="min-h-screen bg-[#F4F7F9] p-6">
         <div className="max-w-4xl mx-auto">
-          <Link to="/" className="text-gray-600 hover:text-gray-900 mb-4 inline-flex items-center gap-2">
-            ← Retour au dashboard
+          <Link to="/" className="text-gray-600 hover:text-[#F2662F] mb-6 inline-flex items-center gap-2 font-medium transition-colors">
+            <ArrowLeft className="w-4 h-4" />
+            Retour au dashboard
           </Link>
           
-          <h1 className="text-4xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+          <h1 className="text-4xl font-bold text-gray-900 mb-8 mt-4 flex items-center gap-3" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 800 }}>
             <Trophy className="w-10 h-10 text-purple-600" />
             Mode Concours Blanc
           </h1>
           
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">Simulation du concours IADE</h2>
+          <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+            <h2 className="text-2xl font-bold text-gray-800 mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
+              Simulation du concours IADE
+            </h2>
             
-            <div className="bg-purple-50 border-2 border-purple-200 rounded-xl p-6 mb-6">
+            <div className="bg-purple-50 border-2 border-purple-200 rounded-xl p-6 mb-8">
               <div className="flex items-start gap-3">
                 <AlertTriangle className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-purple-900 mb-2">Conditions d'examen</h3>
-                  <ul className="text-sm text-purple-800 space-y-1">
-                    <li>⏱️  Durée: <strong>2 heures</strong> (chronomètre dégressif)</li>
-                    <li>📝 {TOTAL_QUESTIONS} questions à traiter</li>
-                    <li>✅ Correction détaillée à la fin uniquement</li>
-                    <li>⏪ Navigation possible entre les questions</li>
-                    <li>⚠️  Temps limité - gérez votre rythme</li>
+                  <h3 className="font-bold text-purple-900 mb-3 text-lg" style={{ fontFamily: 'Inter, sans-serif' }}>
+                    Conditions d'examen
+                  </h3>
+                  <ul className="text-sm text-purple-800 space-y-2" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 500 }}>
+                    <li className="flex items-start gap-2">
+                      <span>⏱️</span>
+                      <span>Durée: <strong>2 heures</strong> (chronomètre dégressif)</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span>📝</span>
+                      <span>{TOTAL_QUESTIONS} questions à traiter</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span>✅</span>
+                      <span>Correction détaillée à la fin uniquement</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span>⏪</span>
+                      <span>Navigation possible entre les questions</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span>⚠️</span>
+                      <span>Temps limité - gérez votre rythme</span>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -148,13 +169,15 @@ export default function ExamSimulationMode() {
             <div className="flex gap-4">
               <button
                 onClick={() => setExamStarted(true)}
-                className="flex-1 bg-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-purple-700 transition-colors shadow-lg"
+                className="flex-1 bg-gradient-to-r from-purple-600 to-purple-700 text-white px-8 py-5 rounded-xl font-bold text-lg hover:shadow-xl transition-all"
+                style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}
               >
                 Démarrer le concours
               </button>
               <Link
                 to="/"
-                className="px-8 py-4 bg-gray-200 text-gray-700 rounded-xl font-semibold hover:bg-gray-300 transition-colors"
+                className="px-8 py-5 bg-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-300 transition-colors"
+                style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600 }}
               >
                 Annuler
               </Link>
@@ -188,59 +211,71 @@ export default function ExamSimulationMode() {
       .slice(0, 5);
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+      <div className="min-h-screen bg-[#F4F7F9] p-6">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-lg p-8">
-            <div className="text-center mb-8">
-              <div className="text-6xl mb-4">
+          <div className="bg-white rounded-2xl shadow-lg p-10 border border-gray-100">
+            <div className="text-center mb-10">
+              <div className="text-7xl mb-4">
                 {accuracy >= 70 ? '🏆' : accuracy >= 50 ? '📚' : '💪'}
               </div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-2">
+              <h2 className="text-4xl font-bold text-gray-800 mb-3" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 800 }}>
                 Concours terminé !
               </h2>
               {time === 0 && (
-                <p className="text-red-600 font-medium">Temps écoulé</p>
+                <p className="text-red-600 font-semibold text-lg">Temps écoulé</p>
               )}
             </div>
 
             {/* Score principal */}
-            <div className="bg-gradient-to-r from-purple-500 to-violet-500 rounded-xl p-8 text-center mb-8">
-              <p className="text-white/90 text-lg mb-2">Score total</p>
-              <p className="text-7xl font-bold text-white mb-3">{accuracy.toFixed(1)}%</p>
-              <p className="text-2xl text-white/80">{correctAnswers}/{questions.length} bonnes réponses</p>
+            <div className="bg-gradient-to-br from-purple-600 to-purple-700 rounded-2xl p-10 text-center mb-10 shadow-xl">
+              <p className="text-white/90 text-lg mb-2 font-medium">Score total</p>
+              <p className="text-8xl font-bold text-white mb-4" style={{ fontFamily: 'Inter, sans-serif' }}>
+                {accuracy.toFixed(1)}%
+              </p>
+              <p className="text-2xl text-white/90 font-semibold">{correctAnswers}/{questions.length} bonnes réponses</p>
             </div>
 
             {/* Stats détaillées */}
             <div className="grid grid-cols-3 gap-4 mb-8">
-              <div className="bg-gray-50 rounded-lg p-4 text-center">
-                <Clock className="w-8 h-8 text-blue-500 mx-auto mb-2" />
-                <p className="text-2xl font-bold text-gray-800">{formatTime(timeSpent)}</p>
-                <p className="text-sm text-gray-600">Temps utilisé</p>
+              <div className="bg-[#F4F7F9] rounded-xl p-6 text-center border border-gray-200">
+                <Clock className="w-8 h-8 text-blue-600 mx-auto mb-3" />
+                <p className="text-3xl font-bold text-gray-800 mb-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  {formatTime(timeSpent)}
+                </p>
+                <p className="text-sm text-gray-600 font-medium">Temps utilisé</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-4 text-center">
-                <div className="text-3xl mb-2">⚡</div>
-                <p className="text-2xl font-bold text-gray-800">{avgTimePerQuestion}s</p>
-                <p className="text-sm text-gray-600">Temps moyen/question</p>
+              <div className="bg-[#F4F7F9] rounded-xl p-6 text-center border border-gray-200">
+                <div className="text-4xl mb-2">⚡</div>
+                <p className="text-3xl font-bold text-gray-800 mb-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  {avgTimePerQuestion}s
+                </p>
+                <p className="text-sm text-gray-600 font-medium">Temps moyen/question</p>
               </div>
-              <div className="bg-gray-50 rounded-lg p-4 text-center">
-                <div className="text-3xl mb-2">✓</div>
-                <p className="text-2xl font-bold text-gray-800">{questions.length - (userAnswers.filter(a => a === null).length)}</p>
-                <p className="text-sm text-gray-600">Questions répondues</p>
+              <div className="bg-[#F4F7F9] rounded-xl p-6 text-center border border-gray-200">
+                <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-3" />
+                <p className="text-3xl font-bold text-gray-800 mb-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                  {questions.length - (userAnswers.filter(a => a === null).length)}
+                </p>
+                <p className="text-sm text-gray-600 font-medium">Questions répondues</p>
               </div>
             </div>
 
             {/* Erreurs par domaine */}
             {sortedErrors.length > 0 && (
-              <div className="bg-red-50 rounded-xl p-6 mb-6 border-2 border-red-200">
-                <h3 className="font-bold text-gray-800 mb-4 flex items-center gap-2">
+              <div className="bg-red-50 rounded-2xl p-6 mb-8 border-2 border-red-200">
+                <h3 className="font-bold text-gray-800 mb-5 flex items-center gap-2 text-lg" style={{ fontFamily: 'Inter, sans-serif' }}>
                   <TrendingDown className="w-5 h-5 text-red-600" />
                   Domaines à revoir
                 </h3>
                 <div className="space-y-3">
                   {sortedErrors.map(([domain, count]) => (
-                    <div key={domain} className="flex items-center justify-between">
-                      <span className="font-medium text-gray-800">{domain}</span>
-                      <span className="text-red-600 font-bold">{count} erreur{count > 1 ? 's' : ''}</span>
+                    <div key={domain} className="flex items-center justify-between bg-white rounded-lg p-4 border border-red-100">
+                      <span className="font-semibold text-gray-800" style={{ fontFamily: 'Inter, sans-serif' }}>
+                        {domain}
+                      </span>
+                      <span className="text-red-600 font-bold text-lg">
+                        {count} erreur{count > 1 ? 's' : ''}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -250,23 +285,23 @@ export default function ExamSimulationMode() {
             {/* Actions */}
             <div className="flex gap-4">
               <button
-                onClick={() => {
-                  // TODO: Implémenter "Revoir mes erreurs" - session ciblée sur les domaines faibles
-                  navigate('/entrainement');
-                }}
-                className="flex-1 bg-red-100 text-red-700 px-6 py-3 rounded-lg font-semibold hover:bg-red-200 transition-colors"
+                onClick={() => navigate('/entrainement')}
+                className="flex-1 bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-4 rounded-xl font-bold hover:shadow-lg transition-all text-lg"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Revoir mes erreurs
               </button>
               <button
                 onClick={() => window.location.reload()}
-                className="flex-1 bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+                className="flex-1 bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-4 rounded-xl font-bold hover:shadow-lg transition-all text-lg"
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 Refaire un concours
               </button>
               <Link
                 to="/"
-                className="flex-1 bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors text-center"
+                className="px-8 py-4 bg-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-300 transition-colors text-lg"
+                style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600 }}
               >
                 Dashboard
               </Link>
@@ -279,37 +314,41 @@ export default function ExamSimulationMode() {
 
   // Écran de question en cours
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
-      <div className="max-w-4xl mx-auto">
+    <div className="min-h-screen bg-[#F4F7F9] p-6">
+      <div className="max-w-5xl mx-auto">
         {/* Timer */}
-        <div className="bg-white rounded-xl shadow-lg p-4 mb-6">
+        <div className="bg-white rounded-2xl shadow-lg p-5 mb-6 border border-gray-100">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Clock className={`w-6 h-6 ${getTimerColor()}`} />
-              <span className={`text-2xl font-bold ${getTimerColor()}`}>
+            <div className="flex items-center gap-4">
+              <Clock className={`w-7 h-7 ${getTimerColor()}`} />
+              <span className={`text-3xl font-bold ${getTimerColor()}`} style={{ fontFamily: 'Inter, sans-serif' }}>
                 {formatTime(time)}
               </span>
             </div>
-            <span className="text-sm text-gray-600">
+            <span className="text-base text-gray-600 font-semibold">
               Question {currentIndex + 1}/{questions.length}
             </span>
           </div>
         </div>
 
         {/* Navigation questions */}
-        <div className="bg-white rounded-xl shadow-md p-4 mb-6">
+        <div className="bg-white rounded-2xl shadow-md p-5 mb-6 border border-gray-100">
+          <p className="text-sm font-bold text-gray-700 mb-3" style={{ fontFamily: 'Inter, sans-serif' }}>
+            Navigation rapide
+          </p>
           <div className="flex gap-2 flex-wrap">
             {questions.map((_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`w-10 h-10 rounded-lg font-semibold transition-all ${
+                className={`w-11 h-11 rounded-lg font-bold transition-all ${
                   index === currentIndex
-                    ? 'bg-purple-600 text-white'
+                    ? 'bg-gradient-to-br from-purple-600 to-purple-700 text-white shadow-md scale-110'
                     : userAnswers[index] !== null
-                    ? 'bg-green-200 text-green-800'
-                    : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+                    ? 'bg-green-200 text-green-800 border border-green-300'
+                    : 'bg-gray-200 text-gray-600 hover:bg-gray-300 border border-gray-300'
                 }`}
+                style={{ fontFamily: 'Inter, sans-serif' }}
               >
                 {index + 1}
               </button>
@@ -318,17 +357,17 @@ export default function ExamSimulationMode() {
         </div>
 
         {/* Question Card */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 mb-6">
-          <div className="flex gap-2 mb-4">
-            <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+        <div className="bg-white rounded-2xl shadow-lg p-8 mb-6 border border-gray-100">
+          <div className="flex gap-2 mb-5">
+            <span className="px-4 py-2 bg-blue-50 text-blue-700 rounded-lg text-sm font-bold border border-blue-200">
               {currentQuestion?.domain || currentQuestion?.theme}
             </span>
-            <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+            <span className="px-4 py-2 bg-purple-50 text-purple-700 rounded-lg text-sm font-bold border border-purple-200">
               {currentQuestion?.difficulty}
             </span>
           </div>
 
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}>
             {currentQuestion?.question}
           </h2>
 
@@ -340,18 +379,24 @@ export default function ExamSimulationMode() {
                 <button
                   key={index}
                   onClick={() => handleAnswer(index)}
-                  className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
+                  className={`w-full text-left p-5 rounded-xl border-2 transition-all duration-200 ${
                     isSelected
-                      ? 'bg-purple-50 border-purple-500'
-                      : 'bg-gray-50 border-gray-200 hover:border-purple-400 hover:bg-purple-50'
+                      ? 'bg-purple-50 border-purple-500 shadow-md'
+                      : 'bg-white border-gray-200 hover:border-purple-400 hover:bg-purple-50'
                   } cursor-pointer hover:scale-[1.01]`}
                 >
                   <div className="flex items-center">
-                    <span className="font-bold text-gray-600 mr-3">
+                    <span className="font-bold text-gray-600 mr-4 text-lg">
                       {String.fromCharCode(65 + index)}.
                     </span>
-                    <span className="text-gray-800">{option}</span>
-                    {isSelected && <span className="ml-auto text-purple-600 font-bold">✓</span>}
+                    <span className="text-gray-800 font-medium flex-1" style={{ fontFamily: 'Inter, sans-serif' }}>
+                      {option}
+                    </span>
+                    {isSelected && (
+                      <div className="w-6 h-6 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold">
+                        ✓
+                      </div>
+                    )}
                   </div>
                 </button>
               );
@@ -360,11 +405,12 @@ export default function ExamSimulationMode() {
         </div>
 
         {/* Navigation */}
-        <div className="flex gap-4">
+        <div className="flex gap-4 mb-6">
           <button
             onClick={handlePrevious}
             disabled={currentIndex === 0}
-            className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="px-6 py-3 bg-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600 }}
           >
             ← Précédent
           </button>
@@ -372,14 +418,16 @@ export default function ExamSimulationMode() {
           {currentIndex < questions.length - 1 ? (
             <button
               onClick={handleNext}
-              className="px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+              className="px-6 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-xl font-bold hover:shadow-lg transition-all"
+              style={{ fontFamily: 'Inter, sans-serif', fontWeight: 600 }}
             >
               Suivant →
             </button>
           ) : (
             <button
               onClick={finishExam}
-              className="px-8 py-3 bg-green-600 text-white rounded-lg font-bold hover:bg-green-700 transition-colors"
+              className="px-8 py-3 bg-gradient-to-r from-green-600 to-green-700 text-white rounded-xl font-bold hover:shadow-lg transition-all text-lg"
+              style={{ fontFamily: 'Inter, sans-serif', fontWeight: 700 }}
             >
               Terminer le concours
             </button>
@@ -387,13 +435,13 @@ export default function ExamSimulationMode() {
         </div>
 
         {/* Indicateur réponses */}
-        <div className="mt-6 bg-white rounded-xl shadow-md p-4">
+        <div className="bg-white rounded-xl shadow-md p-5 border border-gray-100">
           <div className="flex items-center justify-between text-sm">
-            <span className="text-gray-600">
-              Questions répondues: <strong>{userAnswers.filter(a => a !== null).length}/{questions.length}</strong>
+            <span className="text-gray-600 font-medium">
+              Questions répondues: <strong className="text-gray-900">{userAnswers.filter(a => a !== null).length}/{questions.length}</strong>
             </span>
-            <span className="text-gray-600">
-              Non répondues: <strong>{userAnswers.filter(a => a === null).length}</strong>
+            <span className="text-gray-600 font-medium">
+              Non répondues: <strong className="text-red-600">{userAnswers.filter(a => a === null).length}</strong>
             </span>
           </div>
         </div>
