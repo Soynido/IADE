@@ -1,15 +1,11 @@
 import { useState, useCallback, useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom'
-import { DashboardV3Shadcn } from './components/dashboard/DashboardV3Shadcn'
 import { Onboarding } from './components/Onboarding'
-import { ModuleSelector } from './components/ModuleSelector'
-import QuizSessionV3 from './components/QuizSessionV3'
 import ProgressDashboard from './components/ProgressDashboard'
 import CourseReviewMode from './components/CourseReviewMode'
 import TrainingMode from './components/TrainingMode'
 import ExamSimulationMode from './components/ExamSimulationMode'
 import { StorageService } from './services/storageService'
-import KnowledgeGraphVisualization from './components/KnowledgeGraphVisualization'
 import { BugReportButton } from './components/BugReportButton'
 import './App.css'
 
@@ -43,39 +39,13 @@ function MainApp() {
 
   return (
     <Routes>
-      {/* Nouveau Dashboard Progress */}
-      <Route path="/dashboard" element={<ProgressDashboard />} />
+      {/* Main Dashboard */}
+      <Route path="/" element={<ProgressDashboard />} />
       
-      {/* Nouveaux Modes Phase 2 */}
+      {/* 3 Core Modes */}
       <Route path="/cours" element={<CourseReviewMode />} />
       <Route path="/entrainement" element={<TrainingMode />} />
       <Route path="/concours" element={<ExamSimulationMode />} />
-      
-      {/* Knowledge Graph */}
-      <Route path="/knowledge-graph" element={<KnowledgeGraphVisualization />} />
-      
-      {/* Dashboard V3 Shadcn (ancien) - DÉSACTIVÉ temporairement */}
-      {/* <Route path="/" element={
-        <DashboardV3Shadcn onStartSession={handleStartSession} />
-      } /> */}
-      
-      {/* Dashboard Progress (stable) */}
-      <Route path="/" element={<ProgressDashboard />} />
-      
-      {/* Sélection de module pour révision */}
-      <Route path="/quiz/revision" element={
-        <ModuleSelector />
-      } />
-      
-      {/* Quiz Session - Révision d'un module spécifique */}
-      <Route path="/quiz/revision/:moduleId" element={
-        <QuizSessionV3 mode="revision" />
-      } />
-      
-      {/* Quiz Session - Mode Simulation */}
-      <Route path="/quiz/simulation" element={
-        <QuizSessionV3 mode="simulation" />
-      } />
     </Routes>
   );
 }

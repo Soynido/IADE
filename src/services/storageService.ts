@@ -7,9 +7,7 @@ const STORAGE_VERSION = 'v1';
 const STORAGE_KEYS = {
   USER_PROFILE: `iade_user_profile_${STORAGE_VERSION}`,
   SESSIONS_HISTORY: `iade_sessions_${STORAGE_VERSION}`,
-  ACHIEVEMENTS: `iade_achievements_${STORAGE_VERSION}`,
   QUESTIONS_SEEN: `iade_questions_seen_${STORAGE_VERSION}`,
-  PREFERENCES: `iade_preferences_${STORAGE_VERSION}`,
   ONBOARDED: `iade_onboarded_${STORAGE_VERSION}`,
 } as const;
 
@@ -17,37 +15,23 @@ export interface UserProfile {
   id: string;
   createdAt: string;
   lastSessionAt?: string;
+  
+  // Core metrics
   totalSessions: number;
   questionsSeen: string[];
   averageScore: number;
-  streakDays: number;
-  lastStreakDate?: string;
-  level: 'bronze' | 'silver' | 'gold' | 'platinum';
-  totalXP: number;
   weakAreas: string[];
   strongAreas: string[];
-  recentScores: SessionScore[];
-  progression10percent: number;
-  achievements?: Achievement[];
-  preferences?: {
-    showTimer: boolean;
-    feedbackDelay: number;
-    dailyGoal: number;
-  };
-  learningPath?: {
-    completedModules: string[];
-    inProgressModules: string[];
-    recommendedNext: string[];
-  };
-  onboarded?: boolean;
-  initialLevel?: 'facile' | 'moyen' | 'difficile';
-  startDate?: string;
+  
+  // Streak tracking
+  streakDays: number;
+  lastStreakDate?: string;
   lastActivityDate?: string;
-  questionsToReview?: {
-    questionId: string;
-    nextReviewDate: string;
-    repetitionLevel: number;
-  }[];
+  
+  // Recent performance (last 5 sessions)
+  recentScores: SessionScore[];
+  
+  // Module progress
   moduleProgress?: {
     [moduleId: string]: {
       questionsSeenIds: string[];
@@ -56,7 +40,8 @@ export interface UserProfile {
       lastReviewDate: string;
     };
   };
-  // Profil adaptatif pour recommandations intelligentes
+  
+  // Adaptive learning profile (for intelligent selection)
   adaptiveProfile?: {
     accuracyRate: number;
     domainPerformance: Record<string, number>;
@@ -70,25 +55,7 @@ export interface SessionScore {
   score: number;
   theme: string;
   questionsCount: number;
-  mode: 'revision' | 'simulation';
-}
-
-export interface Achievement {
-  id: string;
-  title: string;
-  description: string;
-  icon: string;
-  unlockedAt?: string;
-  progress: number;
-  threshold: number;
-}
-
-export interface UserPreferences {
-  showTimer: boolean;
-  feedbackDelay: number;
-  dailyGoal: number;
-  theme: 'light' | 'dark';
-  soundEnabled: boolean;
+  mode: 'revision' | 'training' | 'exam';
 }
 
 export class StorageService {
@@ -96,8 +63,6 @@ export class StorageService {
    * Initialiser le profil utilisateur par défaut
    */
   static initializeUserProfile(): UserProfile {
-    const defaultPreferences = this.getPreferences();
-    const defaultAchievements = this.getAchievements();
     const nowIso = new Date().toISOString();
 
     const profile: UserProfile = {
@@ -107,28 +72,11 @@ export class StorageService {
       questionsSeen: [],
       averageScore: 0,
       streakDays: 0,
-      level: 'bronze',
-      totalXP: 0,
+      lastStreakDate: nowIso,
+      lastActivityDate: nowIso,
       weakAreas: [],
       strongAreas: [],
       recentScores: [],
-      progression10percent: 0,
-      achievements: defaultAchievements,
-      preferences: {
-        showTimer: defaultPreferences.showTimer,
-        feedbackDelay: defaultPreferences.feedbackDelay,
-        dailyGoal: defaultPreferences.dailyGoal,
-      },
-      learningPath: {
-        completedModules: [],
-        inProgressModules: [],
-        recommendedNext: [],
-      },
-      onboarded: false,
-      initialLevel: 'moyen',
-      startDate: nowIso,
-      lastActivityDate: nowIso,
-      questionsToReview: [],
       moduleProgress: {},
     };
     
@@ -237,12 +185,6 @@ export class StorageService {
     // Mettre à jour le streak
     this.updateStreak(profile);
     
-    // Mettre à jour le niveau
-    this.updateLevel(profile);
-    
-    // Mettre à jour XP
-    profile.totalXP += session.score;
-    
     profile.lastSessionAt = session.date;
     
     this.saveUserProfile(profile);
@@ -312,63 +254,10 @@ export class StorageService {
   }
 
   /**
-   * Récupérer les achievements
+   * Récupérer les préférences (deprecated - minimal usage)
    */
-  static getAchievements(): Achievement[] {
-    const data = localStorage.getItem(STORAGE_KEYS.ACHIEVEMENTS);
-    
-    if (!data) {
-      return this.initializeAchievements();
-    }
-    
-    try {
-      return JSON.parse(this.decode(data)) as Achievement[];
-    } catch (error) {
-      console.error('Erreur lors de la récupération des achievements:', error);
-      return this.initializeAchievements();
-    }
-  }
-
-  /**
-   * Sauvegarder les achievements
-   */
-  static saveAchievements(achievements: Achievement[]): void {
-    try {
-      const encoded = this.encode(JSON.stringify(achievements));
-      localStorage.setItem(STORAGE_KEYS.ACHIEVEMENTS, encoded);
-    } catch (error) {
-      console.error('Erreur lors de la sauvegarde des achievements:', error);
-    }
-  }
-
-  /**
-   * Récupérer les préférences
-   */
-  static getPreferences(): UserPreferences {
-    const data = localStorage.getItem(STORAGE_KEYS.PREFERENCES);
-    
-    if (!data) {
-      return this.initializePreferences();
-    }
-    
-    try {
-      return JSON.parse(this.decode(data)) as UserPreferences;
-    } catch (error) {
-      console.error('Erreur lors de la récupération des préférences:', error);
-      return this.initializePreferences();
-    }
-  }
-
-  /**
-   * Sauvegarder les préférences
-   */
-  static savePreferences(preferences: UserPreferences): void {
-    try {
-      const encoded = this.encode(JSON.stringify(preferences));
-      localStorage.setItem(STORAGE_KEYS.PREFERENCES, encoded);
-    } catch (error) {
-      console.error('Erreur lors de la sauvegarde des préférences:', error);
-    }
+  static getPreferences(): { showTimer: boolean } {
+    return { showTimer: false };
   }
 
   /**
@@ -393,8 +282,6 @@ export class StorageService {
       version: STORAGE_VERSION,
       exportedAt: new Date().toISOString(),
       profile: this.getUserProfile(),
-      achievements: this.getAchievements(),
-      preferences: this.getPreferences(),
     };
     
     return JSON.stringify(data, null, 2);
@@ -409,12 +296,6 @@ export class StorageService {
       
       if (data.profile) {
         this.saveUserProfile(data.profile);
-      }
-      if (data.achievements) {
-        this.saveAchievements(data.achievements);
-      }
-      if (data.preferences) {
-        this.savePreferences(data.preferences);
       }
       
       return true;
@@ -527,33 +408,14 @@ export class StorageService {
    * Migrer le profil vers la dernière version
    */
   private static migrateProfile(profile: UserProfile): UserProfile {
-    // Ajouter les champs manquants avec valeurs par défaut
-    const defaultPreferences = this.getPreferences();
-    const defaultAchievements = this.getAchievements();
-    const ensuredLearningPath = profile.learningPath ?? {
-      completedModules: [],
-      inProgressModules: [],
-      recommendedNext: [],
-    };
-    const ensuredQuestionsToReview = profile.questionsToReview ?? [];
-
+    // Ensure all required fields exist
     return {
       ...profile,
-      progression10percent: profile.progression10percent ?? 0,
       weakAreas: profile.weakAreas ?? [],
       strongAreas: profile.strongAreas ?? [],
-      achievements: profile.achievements ?? defaultAchievements,
-      preferences: profile.preferences ?? {
-        showTimer: defaultPreferences.showTimer,
-        feedbackDelay: defaultPreferences.feedbackDelay,
-        dailyGoal: defaultPreferences.dailyGoal,
-      },
-      learningPath: ensuredLearningPath,
-      onboarded: profile.onboarded ?? false,
-      startDate: profile.startDate ?? profile.createdAt ?? new Date().toISOString(),
       lastActivityDate: profile.lastActivityDate ?? profile.lastSessionAt ?? profile.createdAt,
-      questionsToReview: ensuredQuestionsToReview,
       moduleProgress: profile.moduleProgress ?? {},
+      recentScores: profile.recentScores ?? [],
     };
   }
 
@@ -586,22 +448,6 @@ export class StorageService {
     }
   }
 
-  /**
-   * Mettre à jour le niveau de l'utilisateur
-   */
-  private static updateLevel(profile: UserProfile): void {
-    const sessions = profile.totalSessions;
-    
-    if (sessions >= 100) {
-      profile.level = 'platinum';
-    } else if (sessions >= 50) {
-      profile.level = 'gold';
-    } else if (sessions >= 20) {
-      profile.level = 'silver';
-    } else {
-      profile.level = 'bronze';
-    }
-  }
 
   /**
    * Calculer la différence en jours entre deux dates
@@ -613,71 +459,5 @@ export class StorageService {
     return Math.floor(diffTime / (1000 * 60 * 60 * 24));
   }
 
-  /**
-   * Initialiser les achievements par défaut
-   */
-  private static initializeAchievements(): Achievement[] {
-    const achievements: Achievement[] = [
-      {
-        id: 'first_session',
-        title: 'Première Session',
-        description: 'Complétez votre première session',
-        icon: '🎓',
-        progress: 0,
-        threshold: 1,
-      },
-      {
-        id: 'streak_7',
-        title: 'Semaine Complète',
-        description: 'Maintenez un streak de 7 jours',
-        icon: '🔥',
-        progress: 0,
-        threshold: 7,
-      },
-      {
-        id: 'questions_100',
-        title: 'Centurion',
-        description: 'Répondez à 100 questions',
-        icon: '⭐',
-        progress: 0,
-        threshold: 100,
-      },
-      {
-        id: 'perfect_score',
-        title: 'Score Parfait',
-        description: 'Obtenez 100% dans une session',
-        icon: '🏆',
-        progress: 0,
-        threshold: 1,
-      },
-      {
-        id: 'sessions_10',
-        title: 'Marathon',
-        description: 'Complétez 10 sessions',
-        icon: '🎯',
-        progress: 0,
-        threshold: 10,
-      },
-    ];
-    
-    this.saveAchievements(achievements);
-    return achievements;
-  }
-
-  /**
-   * Initialiser les préférences par défaut
-   */
-  private static initializePreferences(): UserPreferences {
-    const preferences: UserPreferences = {
-      showTimer: false,
-      feedbackDelay: 2000,
-      dailyGoal: 3,
-      theme: 'light',
-      soundEnabled: false,
-    };
-    
-    this.savePreferences(preferences);
-    return preferences;
-  }
 }
 

@@ -1,37 +1,49 @@
-import { useState, useEffect } from 'react';
-import { useQuizSession } from '../hooks/useQuizSession';
-import { Link } from 'react-router-dom';
-import { Clock, AlertCircle, Trophy } from 'lucide-react';
+/**
+ * Mode Concours Blanc - 60 QCM chronométrés (2h)
+ */
 
-// Durée d'examen par défaut: 90 minutes (5400 secondes)
-const EXAM_DURATION = 90 * 60;
+import { useState, useEffect } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { Clock, Trophy, AlertTriangle, TrendingDown } from 'lucide-react';
+import { StorageService } from '../services/storageService';
+import type { Question } from '../types/pathology';
+import compiledQuestions from '../data/compiledQuestions.json';
+
+const EXAM_DURATION = 120 * 60; // 2 heures en secondes
+const TOTAL_QUESTIONS = 60;
 
 export default function ExamSimulationMode() {
-  const [time, setTime] = useState(EXAM_DURATION);
-  const [isRunning, setIsRunning] = useState(true);
+  const navigate = useNavigate();
   const [examStarted, setExamStarted] = useState(false);
-  const [difficulty, setDifficulty] = useState<'volume1' | 'volume2'>('volume1');
-  
-  const {
-    currentQuestion,
-    questionNumber,
-    totalQuestions,
-    progress,
-    score,
-    accuracy,
-    answerQuestion,
-    showFeedback,
-    lastAnswer,
-    isCompleted
-  } = useQuizSession();
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [userAnswers, setUserAnswers] = useState<(number | null)[]>([]);
+  const [time, setTime] = useState(EXAM_DURATION);
+  const [isRunning, setIsRunning] = useState(false);
+  const [showResults, setShowResults] = useState(false);
 
+  // Initialiser les questions
   useEffect(() => {
-    if (!isRunning || !examStarted) return;
+    if (!examStarted) return;
+
+    const allQuestions = compiledQuestions.questions || compiledQuestions;
+    const shuffled = [...allQuestions].sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, TOTAL_QUESTIONS);
+    
+    setQuestions(selected);
+    setUserAnswers(new Array(TOTAL_QUESTIONS).fill(null));
+    setIsRunning(true);
+  }, [examStarted]);
+
+  // Timer
+  useEffect(() => {
+    if (!isRunning) return;
     
     const timer = setInterval(() => {
       setTime(prev => {
         if (prev <= 1) {
           setIsRunning(false);
+          finishExam();
           return 0;
         }
         return prev - 1;
@@ -39,17 +51,13 @@ export default function ExamSimulationMode() {
     }, 1000);
     
     return () => clearInterval(timer);
-  }, [isRunning, examStarted]);
+  }, [isRunning]);
 
   const formatTime = (seconds: number) => {
     const hours = Math.floor(seconds / 3600);
     const mins = Math.floor((seconds % 3600) / 60);
     const secs = seconds % 60;
-    
-    if (hours > 0) {
-      return `${hours}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-    }
-    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    return `${hours}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
   const getTimerColor = () => {
@@ -59,63 +67,79 @@ export default function ExamSimulationMode() {
     return 'text-red-600';
   };
 
+  const handleAnswer = (answerIndex: number) => {
+    const newAnswers = [...userAnswers];
+    newAnswers[currentIndex] = answerIndex;
+    setUserAnswers(newAnswers);
+  };
+
+  const handleNext = () => {
+    if (currentIndex < questions.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+  const finishExam = () => {
+    setIsRunning(false);
+    
+    // Calculer score
+    let correct = 0;
+    questions.forEach((q, i) => {
+      if (userAnswers[i] !== null && q.options[userAnswers[i]!] === q.correct) {
+        correct++;
+      }
+    });
+
+    const sessionScore = Math.round((correct / questions.length) * 100);
+    
+    // Sauvegarder la session
+    StorageService.addSession({
+      date: new Date().toISOString(),
+      score: sessionScore,
+      questionsCount: questions.length,
+      mode: 'exam',
+      theme: 'Concours blanc'
+    });
+
+    setShowResults(true);
+  };
+
+  const currentQuestion = questions[currentIndex];
+
   // Écran de démarrage
   if (!examStarted) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-100 p-6">
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-violet-900 mb-8 flex items-center gap-3">
-            <Trophy className="w-10 h-10" />
-            🎯 Mode Concours Blanc
+          <Link to="/" className="text-gray-600 hover:text-gray-900 mb-4 inline-flex items-center gap-2">
+            ← Retour au dashboard
+          </Link>
+          
+          <h1 className="text-4xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+            <Trophy className="w-10 h-10 text-purple-600" />
+            Mode Concours Blanc
           </h1>
           
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">Configuration de l'examen</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-6">Simulation du concours IADE</h2>
             
-            <div className="mb-8">
-              <label className="block text-sm font-semibold text-gray-700 mb-3">
-                Choisir la difficulté
-              </label>
-              <div className="grid grid-cols-2 gap-4">
-                <button
-                  onClick={() => setDifficulty('volume1')}
-                  className={`p-4 rounded-xl border-2 transition-all ${
-                    difficulty === 'volume1'
-                      ? 'border-violet-500 bg-violet-50 shadow-md'
-                      : 'border-gray-200 hover:border-violet-300'
-                  }`}
-                >
-                  <div className="font-bold text-lg mb-1">Volume 1</div>
-                  <div className="text-sm text-gray-600">Questions standard</div>
-                  <div className="text-xs text-violet-600 mt-2">Recommandé pour débuter</div>
-                </button>
-                
-                <button
-                  onClick={() => setDifficulty('volume2')}
-                  className={`p-4 rounded-xl border-2 transition-all ${
-                    difficulty === 'volume2'
-                      ? 'border-violet-500 bg-violet-50 shadow-md'
-                      : 'border-gray-200 hover:border-violet-300'
-                  }`}
-                >
-                  <div className="font-bold text-lg mb-1">Volume 2</div>
-                  <div className="text-sm text-gray-600">Questions avancées</div>
-                  <div className="text-xs text-red-600 mt-2">Plus difficile</div>
-                </button>
-              </div>
-            </div>
-
-            <div className="bg-blue-50 border-2 border-blue-200 rounded-xl p-6 mb-6">
+            <div className="bg-purple-50 border-2 border-purple-200 rounded-xl p-6 mb-6">
               <div className="flex items-start gap-3">
-                <AlertCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
+                <AlertTriangle className="w-6 h-6 text-purple-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-blue-900 mb-2">Conditions d'examen</h3>
-                  <ul className="text-sm text-blue-800 space-y-1">
-                    <li>⏱️ Durée: <strong>90 minutes</strong> (chronomètre dégressif)</li>
-                    <li>📝 {totalQuestions} questions (QCM, QROC, Cas cliniques)</li>
-                    <li>🎯 Mix automatique: 60% QCM, 25% QROC, 15% Cas</li>
-                    <li>✅ Correction détaillée à la fin</li>
-                    <li>🚫 Pas de retour en arrière possible</li>
+                  <h3 className="font-bold text-purple-900 mb-2">Conditions d'examen</h3>
+                  <ul className="text-sm text-purple-800 space-y-1">
+                    <li>⏱️  Durée: <strong>2 heures</strong> (chronomètre dégressif)</li>
+                    <li>📝 {TOTAL_QUESTIONS} questions à traiter</li>
+                    <li>✅ Correction détaillée à la fin uniquement</li>
+                    <li>⏪ Navigation possible entre les questions</li>
+                    <li>⚠️  Temps limité - gérez votre rythme</li>
                   </ul>
                 </div>
               </div>
@@ -123,13 +147,10 @@ export default function ExamSimulationMode() {
 
             <div className="flex gap-4">
               <button
-                onClick={() => {
-                  setExamStarted(true);
-                  setIsRunning(true);
-                }}
-                className="flex-1 bg-violet-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-violet-700 transition-colors shadow-lg hover:shadow-xl"
+                onClick={() => setExamStarted(true)}
+                className="flex-1 bg-purple-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-purple-700 transition-colors shadow-lg"
               >
-                🚀 Démarrer le concours
+                Démarrer le concours
               </button>
               <Link
                 to="/"
@@ -144,118 +165,110 @@ export default function ExamSimulationMode() {
     );
   }
 
-  if (!currentQuestion) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-100 p-6">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl font-bold text-violet-900 mb-8">🎯 Mode Concours Blanc</h1>
-          <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
-            <p className="text-gray-600 text-lg">Chargement des questions...</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (isCompleted || time === 0) {
-    if (isRunning) setIsRunning(false);
-    
+  // Écran de résultats
+  if (showResults) {
     const timeSpent = EXAM_DURATION - time;
-    const timeoutOccurred = time === 0;
-    
+    const correctAnswers = questions.filter((q, i) => 
+      userAnswers[i] !== null && q.options[userAnswers[i]!] === q.correct
+    ).length;
+    const accuracy = (correctAnswers / questions.length) * 100;
+    const avgTimePerQuestion = Math.round(timeSpent / questions.length);
+
+    // Erreurs par domaine
+    const errorsByDomain: Record<string, number> = {};
+    questions.forEach((q, i) => {
+      if (userAnswers[i] === null || q.options[userAnswers[i]!] !== q.correct) {
+        const domain = q.domain || q.theme || 'Autre';
+        errorsByDomain[domain] = (errorsByDomain[domain] || 0) + 1;
+      }
+    });
+
+    const sortedErrors = Object.entries(errorsByDomain)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5);
+
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-100 p-6">
-        <div className="max-w-4xl mx-auto">
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
+        <div className="max-w-5xl mx-auto">
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <div className="text-center mb-6">
-              <div className="text-6xl mb-4">{timeoutOccurred ? '⏰' : '🎓'}</div>
+            <div className="text-center mb-8">
+              <div className="text-6xl mb-4">
+                {accuracy >= 70 ? '🏆' : accuracy >= 50 ? '📚' : '💪'}
+              </div>
               <h2 className="text-3xl font-bold text-gray-800 mb-2">
-                {timeoutOccurred ? 'Temps écoulé !' : 'Concours terminé !'}
+                Concours terminé !
               </h2>
-              {timeoutOccurred && (
-                <p className="text-red-600 font-medium">Le temps imparti est écoulé</p>
+              {time === 0 && (
+                <p className="text-red-600 font-medium">Temps écoulé</p>
               )}
             </div>
-            
-            <div className="grid grid-cols-3 gap-4 mb-6">
-              <div className="bg-purple-100 rounded-xl p-4 text-center">
-                <p className="text-sm text-gray-600 mb-1">Score final</p>
-                <p className="text-3xl font-bold text-purple-700">{score}/{totalQuestions}</p>
+
+            {/* Score principal */}
+            <div className="bg-gradient-to-r from-purple-500 to-violet-500 rounded-xl p-8 text-center mb-8">
+              <p className="text-white/90 text-lg mb-2">Score total</p>
+              <p className="text-7xl font-bold text-white mb-3">{accuracy.toFixed(1)}%</p>
+              <p className="text-2xl text-white/80">{correctAnswers}/{questions.length} bonnes réponses</p>
+            </div>
+
+            {/* Stats détaillées */}
+            <div className="grid grid-cols-3 gap-4 mb-8">
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <Clock className="w-8 h-8 text-blue-500 mx-auto mb-2" />
+                <p className="text-2xl font-bold text-gray-800">{formatTime(timeSpent)}</p>
+                <p className="text-sm text-gray-600">Temps utilisé</p>
               </div>
-              <div className="bg-purple-100 rounded-xl p-4 text-center">
-                <p className="text-sm text-gray-600 mb-1">Temps utilisé</p>
-                <p className="text-3xl font-bold text-purple-700">{formatTime(timeSpent)}</p>
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <div className="text-3xl mb-2">⚡</div>
+                <p className="text-2xl font-bold text-gray-800">{avgTimePerQuestion}s</p>
+                <p className="text-sm text-gray-600">Temps moyen/question</p>
               </div>
-              <div className="bg-purple-100 rounded-xl p-4 text-center">
-                <p className="text-sm text-gray-600 mb-1">Précision</p>
-                <p className="text-3xl font-bold text-purple-700">{accuracy.toFixed(0)}%</p>
+              <div className="bg-gray-50 rounded-lg p-4 text-center">
+                <div className="text-3xl mb-2">✓</div>
+                <p className="text-2xl font-bold text-gray-800">{questions.length - (userAnswers.filter(a => a === null).length)}</p>
+                <p className="text-sm text-gray-600">Questions répondues</p>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-purple-500 to-violet-500 rounded-xl p-6 mb-6 text-center">
-              <p className="text-5xl font-bold text-white mb-2">{accuracy.toFixed(1)}%</p>
-              <p className="text-xl text-purple-50">Taux de réussite</p>
-            </div>
-
-            {/* Analyse détaillée */}
-            <div className="bg-gray-50 rounded-xl p-6 mb-6">
-              <h3 className="font-bold text-gray-800 mb-4 text-lg">📊 Analyse de votre performance</h3>
-              
-              {accuracy >= 80 ? (
-                <div className="bg-green-50 border-2 border-green-500 rounded-lg p-4 mb-4">
-                  <p className="text-green-700 font-semibold text-lg">
-                    🎉 Excellent ! Vous êtes prêt pour le concours !
-                  </p>
-                  <p className="text-green-600 text-sm mt-2">
-                    Votre niveau de maîtrise est excellent. Continuez à réviser régulièrement pour maintenir ce niveau.
-                  </p>
-                </div>
-              ) : accuracy >= 60 ? (
-                <div className="bg-yellow-50 border-2 border-yellow-500 rounded-lg p-4 mb-4">
-                  <p className="text-yellow-700 font-semibold text-lg">
-                    💪 Bon travail ! Continuez vos révisions
-                  </p>
-                  <p className="text-yellow-600 text-sm mt-2">
-                    Vous avez un bon niveau mais quelques points à améliorer. Concentrez-vous sur vos points faibles.
-                  </p>
-                </div>
-              ) : (
-                <div className="bg-red-50 border-2 border-red-500 rounded-lg p-4 mb-4">
-                  <p className="text-red-700 font-semibold text-lg">
-                    📚 Poursuivez vos efforts !
-                  </p>
-                  <p className="text-red-600 text-sm mt-2">
-                    Revoyez les cours et entraînez-vous davantage. Utilisez le mode révision pour renforcer vos bases.
-                  </p>
-                </div>
-              )}
-
-              <div className="grid grid-cols-2 gap-4 text-sm">
-                <div className="bg-white rounded-lg p-3">
-                  <p className="text-gray-600 mb-1">Temps moyen/question</p>
-                  <p className="font-bold text-gray-800">
-                    {Math.round(timeSpent / totalQuestions)} secondes
-                  </p>
-                </div>
-                <div className="bg-white rounded-lg p-3">
-                  <p className="text-gray-600 mb-1">Difficulté</p>
-                  <p className="font-bold text-gray-800">{difficulty === 'volume1' ? 'Standard' : 'Avancée'}</p>
+            {/* Erreurs par domaine */}
+            {sortedErrors.length > 0 && (
+              <div className="bg-red-50 rounded-xl p-6 mb-6 border-2 border-red-200">
+                <h3 className="font-bold text-gray-800 mb-4 flex items-center gap-2">
+                  <TrendingDown className="w-5 h-5 text-red-600" />
+                  Domaines à revoir
+                </h3>
+                <div className="space-y-3">
+                  {sortedErrors.map(([domain, count]) => (
+                    <div key={domain} className="flex items-center justify-between">
+                      <span className="font-medium text-gray-800">{domain}</span>
+                      <span className="text-red-600 font-bold">{count} erreur{count > 1 ? 's' : ''}</span>
+                    </div>
+                  ))}
                 </div>
               </div>
-            </div>
+            )}
 
-            <div className="flex gap-4 justify-center">
-              <button 
-                onClick={() => window.location.reload()}
-                className="bg-purple-500 text-white px-8 py-3 rounded-xl font-semibold hover:bg-purple-600 transition-colors shadow-lg"
+            {/* Actions */}
+            <div className="flex gap-4">
+              <button
+                onClick={() => {
+                  // TODO: Implémenter "Revoir mes erreurs" - session ciblée sur les domaines faibles
+                  navigate('/entrainement');
+                }}
+                className="flex-1 bg-red-100 text-red-700 px-6 py-3 rounded-lg font-semibold hover:bg-red-200 transition-colors"
               >
-                🔄 Nouveau concours
+                Revoir mes erreurs
               </button>
-              <Link 
-                to="/"
-                className="bg-gray-200 text-gray-700 px-8 py-3 rounded-xl font-semibold hover:bg-gray-300 transition-colors"
+              <button
+                onClick={() => window.location.reload()}
+                className="flex-1 bg-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors"
               >
-                📊 Retour au Dashboard
+                Refaire un concours
+              </button>
+              <Link
+                to="/"
+                className="flex-1 bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-colors text-center"
+              >
+                Dashboard
               </Link>
             </div>
           </div>
@@ -264,96 +277,125 @@ export default function ExamSimulationMode() {
     );
   }
 
+  // Écran de question en cours
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-violet-100 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-6">
       <div className="max-w-4xl mx-auto">
-        {/* Header avec Timer */}
-        <div className="flex items-center justify-between mb-6">
-          <div>
-            <h1 className="text-4xl font-bold text-violet-900">🎯 Concours Blanc</h1>
-            <p className="text-sm text-gray-600 mt-1">Simulation d'examen chronométré</p>
-          </div>
-          
-          <div className="bg-white rounded-xl shadow-md p-4 border-2 border-gray-200">
-            <div className="text-center">
-              <div className="flex items-center justify-center gap-2 mb-1">
-                <Clock className="w-4 h-4 text-gray-500" />
-                <p className="text-xs text-gray-500">Temps restant</p>
-              </div>
-              <p className={`text-3xl font-bold font-mono ${getTimerColor()}`}>
+        {/* Timer */}
+        <div className="bg-white rounded-xl shadow-lg p-4 mb-6">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <Clock className={`w-6 h-6 ${getTimerColor()}`} />
+              <span className={`text-2xl font-bold ${getTimerColor()}`}>
                 {formatTime(time)}
-              </p>
-              {time < 300 && (
-                <p className="text-xs text-red-600 mt-1 font-medium animate-pulse">
-                  ⚠️ Moins de 5 min
-                </p>
-              )}
+              </span>
             </div>
+            <span className="text-sm text-gray-600">
+              Question {currentIndex + 1}/{questions.length}
+            </span>
           </div>
         </div>
 
-        {/* Progress */}
+        {/* Navigation questions */}
         <div className="bg-white rounded-xl shadow-md p-4 mb-6">
-          <div className="flex justify-between items-center mb-2">
-            <span className="text-sm font-semibold text-gray-700">
-              Question {questionNumber}/{totalQuestions}
-            </span>
-            <span className="text-sm font-semibold text-violet-600">
-              Score: {score}
-            </span>
-          </div>
-          <div className="w-full bg-gray-200 rounded-full h-3">
-            <div 
-              className="h-3 rounded-full bg-violet-500 transition-all"
-              style={{ width: `${progress}%` }}
-            ></div>
+          <div className="flex gap-2 flex-wrap">
+            {questions.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentIndex(index)}
+                className={`w-10 h-10 rounded-lg font-semibold transition-all ${
+                  index === currentIndex
+                    ? 'bg-purple-600 text-white'
+                    : userAnswers[index] !== null
+                    ? 'bg-green-200 text-green-800'
+                    : 'bg-gray-200 text-gray-600 hover:bg-gray-300'
+                }`}
+              >
+                {index + 1}
+              </button>
+            ))}
           </div>
         </div>
 
         {/* Question Card */}
         <div className="bg-white rounded-2xl shadow-lg p-8 mb-6">
-          <div className="flex items-start mb-6">
-            <span className="bg-violet-500 text-white px-3 py-1 rounded-full text-sm font-semibold mr-3">
-              {currentQuestion.type}
+          <div className="flex gap-2 mb-4">
+            <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-medium">
+              {currentQuestion?.domain || currentQuestion?.theme}
             </span>
-            <span className="bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm">
-              {currentQuestion.theme}
+            <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium">
+              {currentQuestion?.difficulty}
             </span>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-800 mb-6">
-            {currentQuestion.text}
+            {currentQuestion?.question}
           </h2>
 
           <div className="space-y-3">
-            {currentQuestion.options.map((option, index) => {
+            {currentQuestion?.options.map((option, index) => {
+              const isSelected = userAnswers[currentIndex] === index;
+
               return (
                 <button
                   key={index}
-                  onClick={() => answerQuestion(index)}
-                  disabled={showFeedback}
+                  onClick={() => handleAnswer(index)}
                   className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
-                    'bg-gray-50 border-gray-200 hover:border-violet-500 hover:bg-violet-50'
-                  } ${showFeedback ? 'opacity-50 cursor-not-allowed' : 'hover:scale-[1.02] cursor-pointer'}`}
+                    isSelected
+                      ? 'bg-purple-50 border-purple-500'
+                      : 'bg-gray-50 border-gray-200 hover:border-purple-400 hover:bg-purple-50'
+                  } cursor-pointer hover:scale-[1.01]`}
                 >
                   <div className="flex items-center">
                     <span className="font-bold text-gray-600 mr-3">
                       {String.fromCharCode(65 + index)}.
                     </span>
                     <span className="text-gray-800">{option}</span>
+                    {isSelected && <span className="ml-auto text-purple-600 font-bold">✓</span>}
                   </div>
                 </button>
               );
             })}
           </div>
+        </div>
 
-          {/* Explanation */}
-          {showFeedback && lastAnswer && (
-            <div className="mt-6 p-4 rounded-lg bg-gray-50">
-              <p className="font-semibold text-gray-800 mb-2">Explication :</p>
-              <p className="text-gray-700">{currentQuestion.explanation}</p>
-            </div>
+        {/* Navigation */}
+        <div className="flex gap-4">
+          <button
+            onClick={handlePrevious}
+            disabled={currentIndex === 0}
+            className="px-6 py-3 bg-gray-200 text-gray-700 rounded-lg font-semibold hover:bg-gray-300 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            ← Précédent
+          </button>
+          <div className="flex-1"></div>
+          {currentIndex < questions.length - 1 ? (
+            <button
+              onClick={handleNext}
+              className="px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-700 transition-colors"
+            >
+              Suivant →
+            </button>
+          ) : (
+            <button
+              onClick={finishExam}
+              className="px-8 py-3 bg-green-600 text-white rounded-lg font-bold hover:bg-green-700 transition-colors"
+            >
+              Terminer le concours
+            </button>
           )}
+        </div>
+
+        {/* Indicateur réponses */}
+        <div className="mt-6 bg-white rounded-xl shadow-md p-4">
+          <div className="flex items-center justify-between text-sm">
+            <span className="text-gray-600">
+              Questions répondues: <strong>{userAnswers.filter(a => a !== null).length}/{questions.length}</strong>
+            </span>
+            <span className="text-gray-600">
+              Non répondues: <strong>{userAnswers.filter(a => a === null).length}</strong>
+            </span>
+          </div>
         </div>
       </div>
     </div>
