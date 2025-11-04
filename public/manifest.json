@@ -1,7 +1,7 @@
 {
   "name": "IADE Learning Core",
-  "short_name": "IADE Learning",
-  "description": "Plateforme adaptative d'apprentissage pour la préparation aux concours IADE 2024-2025",
+  "short_name": "IADE Quiz",
+  "description": "Plateforme adaptative d'apprentissage pour la préparation aux concours IADE",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -9,13 +9,9 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/vite.svg",
-      "type": "image/svg+xml",
-      "sizes": "any"
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
     }
-  ],
-  "categories": ["education", "medical", "productivity"],
-  "lang": "fr",
-  "scope": "/",
-  "prefer_related_applications": false
+  ]
 }
