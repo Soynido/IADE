@@ -85,8 +85,8 @@ export class SuccessPredictionEngine {
 
     // 2. Couverture des modules (max +20)
     const totalModules = 53; // Nombre total de modules
-    const completedModules = userProfile.learningPath.completedModules.length;
-    const coverage = completedModules / totalModules;
+    const completedModules = userProfile.learningPath?.completedModules?.length || 0;
+    const coverage = totalModules > 0 ? completedModules / totalModules : 0;
     const coverageContribution = coverage * 20;
     
     if (coverage >= 0.8) {
@@ -183,7 +183,7 @@ export class SuccessPredictionEngine {
     baseScore += hardContribution;
 
     // 5. Zones faibles (-5 par zone faible)
-    const weakAreasCount = userProfile.weakAreas.length;
+    const weakAreasCount = userProfile.weakAreas?.length || 0;
     const weakPenalty = weakAreasCount * -5;
     
     if (weakAreasCount === 0) {
@@ -199,10 +199,12 @@ export class SuccessPredictionEngine {
         name: 'Peu de Zones Faibles',
         contribution: weakPenalty,
         status: 'warning',
-        description: `${weakAreasCount} thème(s) à renforcer : ${userProfile.weakAreas.join(', ')}`,
+        description: `${weakAreasCount} thème(s) à renforcer${userProfile.weakAreas ? ' : ' + userProfile.weakAreas.join(', ') : ''}`,
       });
       baseScore += weakPenalty;
-      recommendations.push(`Travailler vos zones faibles : ${userProfile.weakAreas.join(', ')}`);
+      if (userProfile.weakAreas) {
+        recommendations.push(`Travailler vos zones faibles : ${userProfile.weakAreas.join(', ')}`);
+      }
     } else {
       factors.push({
         name: 'Plusieurs Zones Faibles',
