@@ -10,6 +10,7 @@ import TrainingMode from './components/TrainingMode'
 import ExamSimulationMode from './components/ExamSimulationMode'
 import { StorageService } from './services/storageService'
 import KnowledgeGraphVisualization from './components/KnowledgeGraphVisualization'
+import { BugReportButton } from './components/BugReportButton'
 import './App.css'
 
 function MainApp() {
@@ -83,6 +84,7 @@ function App() {
   return (
     <Router>
       <MainApp />
+      <BugReportButton />
     </Router>
   );
 }

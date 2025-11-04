@@ -31,7 +31,8 @@
     "kv:dump": "tsx scripts/kv_dump_feedbacks.ts",
     "kv:analyze": "tsx scripts/analyzeFeedbacks.ts",
     "kv:export-csv": "tsx scripts/exportFeedbacksCSV.ts",
-    "kv:update-weights": "tsx scripts/updateAdaptiveWeights.ts"
+    "kv:update-weights": "tsx scripts/updateAdaptiveWeights.ts",
+    "bugs:export": "tsx scripts/exportBugs.ts"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
