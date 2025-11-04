@@ -1,0 +1,1143 @@
+{
+  "id": "simulation_3",
+  "title": "Simulation Concours IADE n°3",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 55,
+    "QCM": 3,
+    "rédactionnelle": 1,
+    "CasClinique": 1
+  },
+  "created_at": "2025-11-04T19:21:18.304325",
+  "questions": [
+    {
+      "id": "sim3_q1",
+      "text": "Quelle est la définition correcte de \"| PLASMA FRAIS CONGELE | Précher l'ndcation\" ?",
+      "options": [
+        "LL! Unité pédiatrique (quantité",
+        "RENSEICHEMETS CLINIQUES OT DENLDES SPECTALES |",
+        "de ………… 10 Pl",
+        "……beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_745715_he_movigilence_pre_paration__concours_iade_2025",
+      "tags": [
+        "| plasma frais congele | précher l'ndcation"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q2",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NUCTALON ?",
+      "options": [
+        "Zopicone",
+        "Estazolam",
+        "Loprazolam",
+        "Lormétazepam"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "nuctalon"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q3",
+      "question": "quel cas il s'applique.",
+      "answer": "",
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q4",
+      "text": "Quelle structure est responsable de : \"Ligament longitudinal\" ?",
+      "options": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_01_revision_neuro_support_prepa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q5",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de HBPM ?",
+      "options": [
+        "Fractionnées",
+        "Moléculaires",
+        "K",
+        "Directs"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "hbpm"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q6",
+      "text": "Quelle structure est responsable de : \"Lisament longitudinal\" ?",
+      "options": [
+        "B",
+        "",
+        "C",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_325655_revision_neuro_support_pre_pa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q7",
+      "text": "Quelle est la définition correcte de \"Dur or PFC\" ?",
+      "options": [
+        "….….. AU Lure Z",
+        "LL! Unité pédiatrique (quantité",
+        "de ………… 10 Pl",
+        "……beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_745715_he_movigilence_pre_paration__concours_iade_2025",
+      "tags": [
+        "dur or pfc"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q8",
+      "text": "Quelle est la définition correcte de \"➢Loi du 4 janvier 1993\" ?",
+      "options": [
+        "Découverte des groupes sanguins A B O",
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de  médicaments",
+        "Mise en place de l’ HEMOVIGILANCE"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_12_hemovigilence_preparation_concours_iade_2025",
+      "tags": [
+        "➢loi du 4 janvier 1993"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q9",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "A coller sur une zone non irritée",
+        "délai d'action long (12 à 24 h), durée d'action 72 h",
+        "patch à poser sur la peau pour 72 h,",
+        "12 μg/h = 30 mg / 24 h de morphine per os"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q10",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "patch à poser sur la peau pour 72 h,",
+        "délai d'action long (12 à 24 h), durée d'action 72 h",
+        "12 μg/h = 30 mg / 24 h de morphine per os",
+        "A coller sur une zone non irritée"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q11",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Les BZD ont des propriétés pharmacologiques commu ?",
+      "options": [
+        "anxiolytiques,",
+        "anticonvulsivantes ,",
+        "myorelaxantes",
+        "hypnotiques,"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q12",
+      "text": "Quelle structure est responsable de : \"Ligament supraépineux\" ?",
+      "options": [
+        "C",
+        "D",
+        "G",
+        "B"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_325655_revision_neuro_support_pre_pa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q13",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "Activité antagoniste des récepteurs GABA, Pas d'effet propre aux doses utilisées,",
+        "Activité antagoniste des récepteurs GABA, Pas d'effet propre aux doses utilisées,",
+        "Activité antagoniste des récepteurs GABA, Pas d'effet propre aux doses utilisées,"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q14",
+      "question": "Donnez le principe du don du sang, le délai entre deux dons et la fréquence des dons autorisés par an. Combien de temps sont valables les RAI?",
+      "answer": "",
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q15",
+      "type": "QCM",
+      "theme": "Urgences",
+      "text": "Quelle est la dose initiale d'adrénaline en arrêt cardiaque ?",
+      "options": [
+        "1 mg IV/IO toutes les 3-5 minutes",
+        "0,1 mg IV unique",
+        "10 mg IV toutes les 10 minutes",
+        "0,5 mg IM"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrénaline en ACR: 1 mg IV/IO toutes les 3-5 minutes. Première dose dès que possible après le 3ème choc.",
+      "difficulty": "advanced",
+      "themes": [
+        "Urgences"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "sim3_q16",
+      "text": "Quelle est la définition correcte de \"d’une pneumococcie) diarrhées digestifs ++\" ?",
+      "options": [
+        "dir. thoracique | modérés modérés |",
+        "diarrhées, douleurs",
+        "T* élevée, peu bruyant, non bruyant, gravité, |",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_076144_pneomopathies_prepa_eiade_2020",
+      "tags": [
+        "d’une pneumococcie) diarrhées digestifs ++"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q17",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Alcool : majoration des troubles de la vigilance (association",
+        "Contre-Indications",
+        "Peu d'interactions",
+        "Insuffisance respiratoire, apnées du sommel"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q18",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NOCTAMIDE ?",
+      "options": [
+        "Loprazolam",
+        "Nitrazépam",
+        "Lormétazépam",
+        "Estazolam"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "noctamide"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q19",
+      "type": "QCM",
+      "theme": "Hémodynamique",
+      "text": "Quels sont les moyens de l'organisme pour réguler la tension ? Citez-en un à court, moyen et long terme.",
+      "options": [
+        "Court : barorécepteurs | Moyen : facteur natriurétique | Long : système rénine-angiotensine-aldostérone",
+        "Seulement rénine",
+        "Pas de régulation",
+        "Variables"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Court terme : barorécepteurs (sinus carotidien, crosse aortique, oreillette droite). Moyen : facteur natriurétique. Long terme : système rénine-angiotensine-aldostérone.",
+      "difficulty": "advanced",
+      "themes": [
+        "Hémodynamique",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim3_q20",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Effet bactéricide lent",
+        "Concentration (ou dose) dépendant",
+        "Effet fonction de la dose, effet \"pic”",
+        "Effet bactéricide rapide"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q21",
+      "text": "Parmi les propositions suivantes, laquelle concerne o Effets Indésirables ?",
+      "options": [
+        "Glaucome à angle fermé",
+        "Constipation, aggravation d'un i[euS",
+        "\\ydriase, glaucome, trouble de [accommodation",
+        "Rétention d'urine (prostate)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q22",
+      "text": "Quelle est la définition correcte de \"▪MDRD\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "selon sexe, âge, ethnie",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "selon âge, sexe, ethnie"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "▪mdrd"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q23",
+      "question": "OO OO OO © Remplissez le schéma suivant: ANNALES CORRIGÉS DE L'ÉPREUVE ÉCRITE - PREPAC 3",
+      "answer": "",
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q24",
+      "text": "Quelle est la définition correcte de \"➢Antalgiques\" ?",
+      "options": [
+        "LEC, néphrolithotritie  percutanée ou urétéroscopie",
+        "Crise de colique néphrétique",
+        "PNA obstructive, terrain rein unique, grossesse",
+        "AINS Spasfon  +/- morphine"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "➢antalgiques"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q25",
+      "text": "Quelle est la définition correcte de \"Signes anticholinergiques ou atropiniques\" ?",
+      "options": [
+        "tachycardie majeure, convulsions, hallucinations,",
+        "sécheresse muqueuse, tachycardie,",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "signes anticholinergiques ou atropiniques"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q26",
+      "text": "À quelle catégorie appartient : \"Antalgiques non opioïdes\" ?",
+      "options": [
+        "Palier 3",
+        "Palier 2",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "classification",
+        "palier 1"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q27",
+      "text": "À quelle catégorie appartient : \"AINS, Aspirine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 3",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "classification",
+        "palier 1"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q28",
+      "text": "Quelle est la définition correcte de \"» En 2000\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Mise en place de l HEMOVIGILANCE",
+        "Nationalisation de la transfusion avec la création de l'EFS"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_745715_he_movigilence_pre_paration__concours_iade_2025",
+      "tags": [
+        "» en 2000"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q29",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● = favorisent l'endormissement et en général prol ?",
+      "options": [
+        "Loprazolam (HAVLANE) 8 h",
+        "Estazolam (NUCTALON) 17 h",
+        "Zopiclone (IMOVANE) 6 h",
+        "Lormétazépam (NOCTAMIDE) 10 h"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q30",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Hémorragies ?",
+      "options": [
+        "100 UAH neutralise 100 UI d’héparine",
+        "Plaquettes < 100 G/L ou diminution de 30%",
+        "HNF>HBPM, rare sous danaparoide , fondaparinux , argatrobanLES HÉPARINES",
+        "Antidote : Sulfate de protamine (sauf fondaparinux )"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q31",
+      "text": "Quelle est la définition correcte de \"Abouti à l’urine primitive\" ?",
+      "options": [
+        "eau  + petites molécules ou molécules dissoutes",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "abouti à l’urine primitive"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q32",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Effets indésirables ?",
+      "options": [
+        "Prélèvement d’un tube de sang pour faire le dosage initial de paracétamol,",
+        "Très bonne tolérance",
+        "Un traitement symptomatique est également préconisé",
+        "Signes associés : nausées, vomissements, anorexie, pâleur, douleurs abdominales"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q33",
+      "text": "Quelle structure est responsable de : \"Lisament longitudinal\" ?",
+      "options": [
+        "C",
+        "B",
+        "",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_182040_revision_neuro_support_pr_pa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q34",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de HNF ?",
+      "options": [
+        "Moléculaires",
+        "K",
+        "Fractionnées",
+        "Directs"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "hnf"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "qcm",
+      "question": "En chirurgie propre-contaminée, combien de doses de Céfazoline doit-on administrer en antibioprophylaxie chirurgicale si la durée est inférieure à 24h?",
+      "choices": [
+        "A. Une dose unique",
+        "B. Deux doses de 1g",
+        "C. Deux doses de 2g",
+        "D. Plusieurs doses au-delà de 24h"
+      ],
+      "correct": "A. Une dose unique",
+      "explanation": "En chirurgie propre-contaminée, l'antibioprophylaxie chirurgicale doit être administrée dans l'heure précédant l'incision et la dose de Céfazoline est de 2g IV. Si la durée est inférieure à 24h (c-à-d, pour une seule intervention), il n'y a pas besoin d'administrer plus d'une dose, puisque cela serait en contradiction avec les protocoles établis.",
+      "id": "sim3_q35",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Prévention infectieuse",
+      "concept_id": "gt_012",
+      "exam_mode": true,
+      "difficulty_level": "easy",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim3_q36",
+      "text": "À quelle catégorie appartient : \"Opioïdes forts (+ AINS + co-antalgiques)\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 1",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "classification",
+        "palier 3"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q37",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Inhibe ou ralentit la formation de la thrombine",
+        "Inhibe ou ralentit la formation de la thrombine",
+        "Inhibe ou ralentit la formation de la thrombine",
+        "Action directe sur les récepteurs NMDA du système nerveux central"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q38",
+      "text": "Quelle est la définition correcte de \"•Exemple\" ?",
+      "options": [
+        "fixation du médicament sur le sugammadex",
+        "déplacement du rocuronium",
+        "Contraceptifs hormonaux",
+        "Acide fucidique"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "•exemple"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q39",
+      "text": "Quelle structure est responsable de : \"Capsule articulaire\" ?",
+      "options": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_01_revision_neuro_support_prepa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q40",
+      "text": "Quelle est la définition correcte de \"ioniques). On obtient ainsi une paralysie musculaire atone\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "plus de transmission neuromusculaire Rc ACH«Mime » ACH",
+        "Processus d'activation des récepteurs périphériques",
+        "SUXAMÉTHONIUM"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "ioniques). on obtient ainsi une paralysie musculaire atone"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q41",
+      "text": "Quelle est la valeur normale de Protéines ?",
+      "options": [
+        "3,5-4,5 mmol /L",
+        "2,2-2,6 mmol /L",
+        "60-80 g/L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "category": "Biologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "norme",
+        "biologie",
+        "protéines"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q42",
+      "text": "Quelle est la définition correcte de \"Cya)\" ?",
+      "options": [
+        "IR au niveau cellulaire secondaire",
+        "IR au niveau sanguin",
+        "dite hypoxie de stase",
+        "dite hypoxie cytotoxique."
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_13_ira_prepa_eiade_2020",
+      "tags": [
+        "cya)"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q43",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Concentration (ou dose) dépendant",
+        "Effet bactéricide lent",
+        "Effet bactéricide rapide",
+        "Peu d'importance des concentrations minimales"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q44",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Citez les éléments figurés du sang et donnez leurs normes.",
+      "options": [
+        "Hématies: 4-5.5M/mm³ | Leucocytes: 4000-10000/mm³ | Plaquettes: 150000-400000/mm³",
+        "Tous identiques",
+        "Pas de normes",
+        "Variables selon l'humeur"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hématies : 4,0 à 5,5 millions/mm³. Leucocytes : 4000 à 10000/mm³. Plaquettes : 150000 à 400000/mm³.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Biologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim3_q45",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Hémorragies ?",
+      "options": [
+        "Plaquettes < 100 G/L ou diminution de 30%",
+        "Antidote : Sulfate de protamine (sauf fondaparinux )",
+        "Fréquence = 5%, HNF>HBPM, complication majeure (surdosage, non respect des",
+        "100 UAH neutralise 100 UI d’héparine"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q46",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Effets indésirables ?",
+      "options": [
+        "Signes associés : nausées, vomissements, anorexie, pâleur, douleurs abdominales",
+        "Prélèvement d’un tube de sang pour faire le dosage initial de paracétamol,",
+        "Les convulsions sont traitées par diazépamPARACETAMOL",
+        "Éruption cutanée allergique"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q47",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de PONSTYL ?",
+      "options": [
+        "Fénoprofène",
+        "méfénamique",
+        "Acéclofénac",
+        "prostaglandines"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "ponstyl"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q48",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Indications  ?",
+      "options": [
+        "Cardiaques : puissant inotrope, chronotrope, dromotrope , bathmotrope positif",
+        "Bronchospasme sévère réfractaire",
+        "Ampoules de 5mg/5 ml et 1mg/1 ml",
+        "1 mg pur IV à renouveler toutes les 3 minutes"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "qcm",
+      "question": "Quel est le dosage d'induction du propofol utilisé pour l'AIVOC ?",
+      "choices": [
+        "A. 1-1,5 mg/kg",
+        "B. 2,5-3 mg/kg",
+        "C. 3-3,5 mg/kg",
+        "D. 2-2,5 mg/kg"
+      ],
+      "correct": "D. 2-2,5 mg/kg",
+      "explanation": "Le dosage d'induction du propofol pour l'AIVOC est de 2 à 2,5 mg/kg en injectant le médicament intraveineux rapidement pour induire la conscience somnambule. Cette question est discriminante car nécessite une connaissance précise des protocoles d'utilisation du propofol dans le domaine médical.",
+      "id": "sim3_q49",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Pharmacologie",
+      "concept_id": "gt_004",
+      "exam_mode": true,
+      "difficulty_level": "intermediate",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim3_q50",
+      "text": "Quelle est la définition correcte de \"antibiotique sur la base de l'antidiogramme\" ?",
+      "options": [
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies",
+        "« désescalade antibiotique »)",
+        "doit aussi couvrir la légionnelle",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_076144_pneomopathies_prepa_eiade_2020",
+      "tags": [
+        "antibiotique sur la base de l'antidiogramme"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q51",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "Antagoniste des benzodiazépines (inhibition compétitive au niveau des",
+        "Antagoniste des benzodiazépines (activition compétitive au niveau des",
+        "Antagoniste des benzodiazépines (inhibition compétitive au niveau des"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q52",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●CURARISATION =  ?",
+      "options": [
+        "Curare dépolarisant",
+        "Curares non dépolarisants",
+        "Aminostéroïdes",
+        "Suxaméthonium ou succinylcholine (CELOCURINE®)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "rédactionnelle",
+      "question": "Qu'est-ce qui différencie la ropivacaïne de la bupivacaïne dans l'anesthésie péridurale ? Justifiez votre réponse avec des points clés sur les propriétés pharmacologiques et cliniques des deux agents.",
+      "choices": [],
+      "correct": "La ropivacaïne et la bupivacaïne présentent des différences notables dans leur utilisation pour l'anesthésie péridurale. Ropivacaïne possède une durée d'action plus longue et est associée à un risque plus élevé de toxicité systémique, alors que la bupivacaïne est connue pour sa faible toxicité systémique et son effet de blocage des Na+ avec une durée d'action plus courte. Les doses recommandées pour chaque agent sont également différentes.",
+      "explanation": "La question demande une réponse détaillant les différences entre ropivacaïne et bupivacaïne dans l'anesthésie péridurale, en se basant sur des informations scientifiques pertinentes. Le choix de la ropivacaïne ou de la bupivacaïne dépend de facteurs tels que le contexte clinique et les préférences du praticien. La réponse fournie résume correctement les propriétés pharmacologiques et cliniques des deux agents, en particulier leur durée d'action, leur toxicité systémique et leurs doses recommandées.",
+      "id": "sim3_q53",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Anesthésie locorégionale",
+      "concept_id": "gt_002",
+      "exam_mode": true,
+      "difficulty_level": "intermediate",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim3_q54",
+      "text": "Parmi les propositions suivantes, laquelle concerne 32 CLASSIFICATION DES ANTIBIOTIQUES  ?",
+      "options": [
+        "Polymyxine : Colistine",
+        "Pneumopathies à éosinophiles",
+        "Pas résorption per os",
+        "Augmentation des CPK, myalgies"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q55",
+      "text": "Quelle est la définition correcte de \"5 alvéoles\" ?",
+      "options": [
+        "paroi musculaire",
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "terrain de tennis"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018",
+      "tags": [
+        "5 alvéoles"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q56",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●CURARISATION =  ?",
+      "options": [
+        "Benzylisoquinoline",
+        "Curares non dépolarisants",
+        "Suxaméthonium ou succinylcholine (CELOCURINE®)",
+        "Mivacurium (MIVACRON®)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q57",
+      "type": "CasClinique",
+      "theme": "Pneumologie",
+      "text": "Vous êtes infirmière en service de pneumologie et vous avez en charge Mr G., patient BPCO. À l'arrivée dans la chambre, vous voyez qu'il a une saturation à 94% sous O₂ 2L/min. L'étudiant que vous encadrez vous propose d'augmenter à 6L/min pour améliorer sa saturation. Que lui répondez-vous ?",
+      "options": [
+        "Accepter l'augmentation du débit",
+        "Refuser car le risque d'hypoventilation existe chez le BPCO",
+        "Surveiller sans modifier",
+        "Proposer une intubation préventive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chez le patient BPCO, la capnie est élevée. Un patient BPCO ne réagit qu'à l'hypoxie. Si on met trop d'oxygène, les récepteurs stimulent moins les centres respiratoires. Le patient respire moins vite, sa bradypnée entraîne augmentation PCO₂ et aggrave acidose.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pneumologie",
+        "Soins infirmiers"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim3_q58",
+      "question": "donnez le sens de variation du PH, de la PCO2 et des HCO3- en cas d’acidose et d’alcalose métabolique et respiratoire.",
+      "answer": "",
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q59",
+      "text": "Quelle structure est responsable de : \"Ligament interépineux\" ?",
+      "options": [
+        "B",
+        "A",
+        "F",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_01_revision_neuro_support_prepa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim3_q60",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "d'inhiber la multiplication ( action bactériostatique ) ou",
+        "d'inhiber la multiplication ( action bactériostatique ) ou",
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "d'activer la multiplication ( action bactériostatique ) ou"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    }
+  ]
+}

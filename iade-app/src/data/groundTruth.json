@@ -1,0 +1,143 @@
+[
+  {
+    "id": "gt_001",
+    "concept": "Rachianesthésie",
+    "domain": "Anesthésie locorégionale",
+    "context": "La rachianesthésie utilise l'injection intrathécale d'un anesthésique local dans l'espace sous-arachnoïdien pour bloquer la conduction nerveuse. La bupivacaïne hyperbare à 0,5% est l'agent le plus utilisé, avec une durée d'action de 2 à 3 heures.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_002",
+    "concept": "Péridurale",
+    "domain": "Anesthésie locorégionale",
+    "context": "L'anesthésie péridurale consiste en l'injection d'un anesthésique local dans l'espace épidural. La ropivacaïne et la bupivacaïne sont les agents de choix. Le cathéter permet une analgésie prolongée.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_003",
+    "concept": "Intubation difficile",
+    "domain": "Voies aériennes",
+    "context": "L'intubation difficile est prédite par le score de Mallampati, la distance thyro-mentonnière, l'ouverture de bouche et la mobilité cervicale. Le matériel de secours et les algorithmes de prise en charge doivent être disponibles.",
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "gt_004",
+    "concept": "Propofol",
+    "domain": "Pharmacologie",
+    "context": "Le propofol est un agent hypnotique intraveineux à action rapide. Dose d'induction: 2-2,5 mg/kg. Effets: hypotension, apnée, douleur à l'injection. Utilisé pour l'induction et l'entretien en AIVOC.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_005",
+    "concept": "Fentanyl",
+    "domain": "Pharmacologie",
+    "context": "Le fentanyl est un morphinique de synthèse 100 fois plus puissant que la morphine. Dose d'induction: 1-5 µg/kg. Effets: analgésie, dépression respiratoire, rigidité thoracique à forte dose.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_006",
+    "concept": "Curares",
+    "domain": "Pharmacologie",
+    "context": "Les curares bloquent la transmission neuromusculaire. Le rocuronium (0,6 mg/kg) a un délai d'action de 60-90 secondes. L'atracurium est éliminé par dégradation de Hofmann, idéal en insuffisance rénale.",
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "gt_007",
+    "concept": "Monitorage per-opératoire",
+    "domain": "Surveillance",
+    "context": "Le monitorage standard comprend: ECG, PNI, SpO2, EtCO2, température. Le monitorage invasif (PA sanglante, PVC) est réservé aux patients à risque ou chirurgies majeures.",
+    "difficulty_hint": "easy"
+  },
+  {
+    "id": "gt_008",
+    "concept": "Choc hémorragique",
+    "domain": "Réanimation",
+    "context": "Le choc hémorragique nécessite un remplissage vasculaire (cristalloïdes, colloïdes), une transfusion si Hb < 7 g/dL, et l'arrêt du saignement. L'acide tranexamique réduit la mortalité si administré précocement.",
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "gt_009",
+    "concept": "Hyperthermie maligne",
+    "domain": "Urgences anesthésiques",
+    "context": "Urgence vitale déclenchée par les halogénés ou succinylcholine. Signes: hyperthermie, rigidité, acidose, rhabdomyolyse. Traitement: dantrolène 2,5 mg/kg, refroidissement, arrêt des agents déclencheurs.",
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "gt_010",
+    "concept": "Ventilation mécanique",
+    "domain": "Réanimation",
+    "context": "Les modes ventilatoires incluent VAC, VACI, VS-AI-PEP. Volume courant: 6-8 mL/kg poids idéal. PEP: 5-10 cmH2O. Objectif: normocapnie (PaCO2 35-45 mmHg), SpO2 > 94%.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_011",
+    "concept": "Analgésie multimodale",
+    "domain": "Douleur",
+    "context": "L'analgésie multimodale associe paracétamol (1g x4/j), AINS (kétoprofène 100mg x3/j), morphiniques (PCA morphine) et techniques locorégionales pour réduire la consommation de morphiniques.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_012",
+    "concept": "Antibioprophylaxie",
+    "domain": "Prévention infectieuse",
+    "context": "L'antibioprophylaxie chirurgicale doit être administrée dans l'heure précédant l'incision. Céfazoline 2g IV pour chirurgie propre-contaminée. Durée: dose unique ou < 24h selon le type de chirurgie.",
+    "difficulty_hint": "easy"
+  },
+  {
+    "id": "gt_013",
+    "concept": "Thrombo-prophylaxie",
+    "domain": "Prévention thromboembolique",
+    "context": "Prévention de la MTEV par HBPM (énoxaparine 40mg/j SC), bas de contention, mobilisation précoce. Score de risque hémorragique vs thrombotique guide l'indication et le dosage.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_014",
+    "concept": "Jeûne préopératoire",
+    "domain": "Préparation anesthésique",
+    "context": "Jeûne préopératoire: 6h pour solides, 2h pour liquides clairs. Exceptions: urgence (estomac plein), gastroparésie, reflux gastro-œsophagien nécessitant une induction en séquence rapide.",
+    "difficulty_hint": "easy"
+  },
+  {
+    "id": "gt_015",
+    "concept": "Lidocaïne",
+    "domain": "Anesthésiques locaux",
+    "context": "Anesthésique local de type amide. Dose maximale: 3 mg/kg (5 mg/kg avec adrénaline). Durée: 1-2h. Toxicité: neurologiques (convulsions) puis cardiovasculaires (troubles du rythme).",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_016",
+    "concept": "Bupivacaïne",
+    "domain": "Anesthésiques locaux",
+    "context": "Anesthésique local longue durée. Dose maximale: 2 mg/kg. Durée: 3-8h selon technique. Cardiotoxicité > lidocaïne. Traitement intoxication: émulsion lipidique 20% (Intralipide).",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_017",
+    "concept": "Bloc nerveux périphérique",
+    "domain": "Anesthésie locorégionale",
+    "context": "Le bloc du plexus brachial (interscalénique, supraclaviculaire, axillaire) assure analgésie chirurgie membre supérieur. Repérage échographique améliore sécurité et efficacité.",
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "gt_018",
+    "concept": "Sédation consciente",
+    "domain": "Sédation",
+    "context": "La sédation consciente associe hypnotique (propofol, midazolam) et analgésique (rémifentanil, alfentanil). Score de Ramsay 3-4. Surveillance: SpO2, PA, conscience, ventilation.",
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "gt_019",
+    "concept": "Arrêt cardiaque peropératoire",
+    "domain": "Urgences anesthésiques",
+    "context": "Causes: hypoxie, hypovolémie, embolie, ischémie myocardique, hyperkaliémie, hypothermie, pneumothorax, tamponnade. RCP immédiate, adrénaline 1mg IV toutes les 3-5 min.",
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "gt_020",
+    "concept": "Réaction anaphylactique",
+    "domain": "Urgences anesthésiques",
+    "context": "Réaction IgE-médiée. Signes: hypotension, bronchospasme, érythème, œdème. Traitement: adrénaline 0,1-0,5mg IV (titration), remplissage, corticoïdes, antihistaminiques. Bilan allergologique à distance.",
+    "difficulty_hint": "hard"
+  }
+]
+
