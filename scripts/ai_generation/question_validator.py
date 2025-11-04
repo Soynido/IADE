@@ -94,12 +94,12 @@ class QuestionValidator:
                 scores["format_quality"] * 0.10
             )
         else:
-            overall_score = (
+        overall_score = (
                 scores["semantic_similarity_q"] * 0.40 +
-                scores["keywords_coverage"] * 0.25 +
-                scores["choices_quality"] * 0.20 +
-                scores["format_quality"] * 0.15
-            )
+            scores["keywords_coverage"] * 0.25 +
+            scores["choices_quality"] * 0.20 +
+            scores["format_quality"] * 0.15
+        )
         
         return {
             "valid": overall_score >= 0.75 and len(issues) == 0,

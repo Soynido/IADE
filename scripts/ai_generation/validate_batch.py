@@ -66,7 +66,7 @@ def validate_batch(generated_path: str, ground_truth_path: str, output_path: str
             a_sim_sum += a_sim
             qa_coh_sum += qa_coh
         else:
-            print(f"[{i+1}] {'✅' if validation['valid'] else '❌'} Score: {validation['overall_score']:.2f}")
+        print(f"[{i+1}] {'✅' if validation['valid'] else '❌'} Score: {validation['overall_score']:.2f}")
         
         if validation["issues"]:
             for issue in validation["issues"]:

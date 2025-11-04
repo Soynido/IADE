@@ -1,68 +1,80 @@
 /**
- * Vercel Edge Function pour récupérer les stats de feedback
- * Retourne la moyenne et le nombre total de feedbacks pour une question
+ * API Edge Function pour récupérer les statistiques de feedback
+ * 
+ * Endpoint: GET /api/feedback/stats?questionId=xxx
+ * 
+ * Response: { questionId, averageRating, totalFeedbacks, lastUpdated }
  */
 
-import { kv } from '@vercel/kv';
+import { Redis } from "@upstash/redis";
 
-export const config = {
-  runtime: 'edge',
-};
+// Initialiser connexion Upstash Redis depuis .env
+const redis = Redis.fromEnv();
 
-export default async function handler(req: Request) {
-  // Vérifier la méthode
-  if (req.method !== 'GET') {
-    return new Response(
-      JSON.stringify({ error: 'Method Not Allowed' }),
-      { status: 405, headers: { 'Content-Type': 'application/json' } }
-    );
-  }
+interface FeedbackStats {
+  questionId: string;
+  averageRating: number;
+  totalFeedbacks: number;
+  lastUpdated: string;
+}
 
+export async function GET(req: Request) {
   try {
     const url = new URL(req.url);
-    const questionId = url.searchParams.get('questionId');
+    const questionId = url.searchParams.get("questionId");
 
     if (!questionId) {
       return new Response(
-        JSON.stringify({ error: 'Missing questionId parameter' }),
-        { status: 400, headers: { 'Content-Type': 'application/json' } }
+        JSON.stringify({ error: "questionId requis" }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // Récupérer les stats depuis KV
     const questionKey = `question:${questionId}`;
-    const count = await kv.hget(questionKey, 'count') as number || 0;
-    const sum = await kv.hget(questionKey, 'sum') as number || 0;
-    const lastUpdated = await kv.hget(questionKey, 'lastUpdated') as string || new Date().toISOString();
 
-    const averageRating = count > 0 ? sum / count : 0;
+    // Récupérer stats depuis Redis
+    const stats = await redis.hgetall(questionKey);
 
-    return new Response(
-      JSON.stringify({
+    if (!stats || !stats.totalFeedbacks) {
+      // Aucun feedback pour cette question
+      const emptyStats: FeedbackStats = {
         questionId,
-        averageRating,
-        totalFeedbacks: count,
-        lastUpdated
-      }),
-      { 
-        status: 200, 
-        headers: { 
-          'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*', // CORS pour dev local
-          'Cache-Control': 'public, s-maxage=60' // Cache 1 minute
-        } 
-      }
-    );
-  } catch (error) {
-    console.error('Stats error:', error);
-    return new Response(
-      JSON.stringify({ 
-        error: 'Internal server error',
         averageRating: 0,
-        totalFeedbacks: 0
-      }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
+        totalFeedbacks: 0,
+        lastUpdated: new Date().toISOString()
+      };
+
+      return new Response(
+        JSON.stringify(emptyStats),
+        { status: 200, headers: { "Content-Type": "application/json" } }
+      );
+    }
+
+    // Calculer moyenne
+    const totalFeedbacks = parseInt(stats.totalFeedbacks as string);
+    const totalRating = parseInt(stats.totalRating as string);
+    const averageRating = totalRating / totalFeedbacks;
+
+    const result: FeedbackStats = {
+      questionId,
+      averageRating: Math.round(averageRating * 100) / 100,
+      totalFeedbacks,
+      lastUpdated: (stats.lastUpdated as string) || new Date().toISOString()
+    };
+
+    return new Response(
+      JSON.stringify(result),
+      { status: 200, headers: { "Content-Type": "application/json" } }
+    );
+  } catch (error: any) {
+    console.error("Erreur GET /api/feedback/stats:", error);
+    return new Response(
+      JSON.stringify({ error: "Erreur serveur", details: error.message }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 }
 
+export const config = {
+  runtime: "edge",
+};

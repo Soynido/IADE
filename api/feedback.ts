@@ -1,64 +1,110 @@
 /**
- * Vercel Edge Function pour collecter les feedbacks utilisateur
- * Stocke dans Vercel KV (Redis) de manière asynchrone
+ * API Edge Function pour collecter les feedbacks utilisateurs
+ * 
+ * Endpoint: POST /api/feedback
+ * Body: { questionId, rating, timestamp, userId, sessionId, wasCorrect, responseTime }
+ * 
+ * Storage: Upstash Redis
  */
 
-import { kv } from '@vercel/kv';
-import type { QuestionFeedback } from '../src/types/feedback';
+import { Redis } from "@upstash/redis";
 
-export const config = {
-  runtime: 'edge',
-};
+// Initialiser connexion Upstash Redis depuis .env
+const redis = Redis.fromEnv();
 
-export default async function handler(req: Request) {
-  // Vérifier la méthode
-  if (req.method !== 'POST') {
-    return new Response(
-      JSON.stringify({ error: 'Method Not Allowed' }),
-      { status: 405, headers: { 'Content-Type': 'application/json' } }
-    );
-  }
+interface QuestionFeedback {
+  questionId: string;
+  rating: 1 | 2 | 3;
+  timestamp: number;
+  userId: string;
+  sessionId: string;
+  wasCorrect: boolean;
+  responseTime?: number;
+}
 
+/**
+ * POST - Enregistrer un nouveau feedback
+ */
+export async function POST(req: Request) {
   try {
-    // Parser le feedback
     const feedback: QuestionFeedback = await req.json();
 
     // Validation basique
-    if (!feedback.questionId || !feedback.rating || ![1, 2, 3].includes(feedback.rating)) {
+    if (!feedback.questionId || !feedback.rating || !feedback.userId) {
       return new Response(
-        JSON.stringify({ error: 'Invalid feedback data' }),
-        { status: 400, headers: { 'Content-Type': 'application/json' } }
+        JSON.stringify({ error: "Champs manquants" }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
       );
     }
 
-    // Stocker dans la liste des feedbacks (FIFO, max 10000)
-    await kv.lpush('feedbacks:all', JSON.stringify(feedback));
-    await kv.ltrim('feedbacks:all', 0, 9999); // Garder les 10000 derniers
+    if (![1, 2, 3].includes(feedback.rating)) {
+      return new Response(
+        JSON.stringify({ error: "Rating invalide (1-3)" }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
+      );
+    }
 
-    // Incrémenter les compteurs par question
+    // Stocker dans Redis (liste globale)
+    await redis.lpush("feedbacks:all", JSON.stringify(feedback));
+
+    // Stocker aussi par question (hash map pour stats rapides)
     const questionKey = `question:${feedback.questionId}`;
-    await kv.hincrby(questionKey, 'count', 1);
-    await kv.hincrbyfloat(questionKey, 'sum', feedback.rating);
+    await redis.hincrby(questionKey, "totalFeedbacks", 1);
+    await redis.hincrby(questionKey, "totalRating", feedback.rating);
 
-    // Mettre à jour le timestamp
-    await kv.hset(questionKey, { lastUpdated: new Date().toISOString() });
+    // Timestamp de dernière mise à jour
+    await redis.hset(questionKey, "lastUpdated", new Date().toISOString());
 
     return new Response(
-      JSON.stringify({ success: true }),
-      { 
-        status: 200, 
-        headers: { 
-          'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*' // CORS pour dev local
-        } 
-      }
+      JSON.stringify({ success: true, message: "Feedback enregistré" }),
+      { status: 200, headers: { "Content-Type": "application/json" } }
     );
-  } catch (error) {
-    console.error('Feedback error:', error);
+  } catch (error: any) {
+    console.error("Erreur POST /api/feedback:", error);
     return new Response(
-      JSON.stringify({ error: 'Internal server error' }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
+      JSON.stringify({ error: "Erreur serveur", details: error.message }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
     );
   }
 }
 
+/**
+ * GET - Récupérer tous les feedbacks (pour debug)
+ * Query: ?limit=100
+ */
+export async function GET(req: Request) {
+  try {
+    const url = new URL(req.url);
+    const limit = parseInt(url.searchParams.get("limit") || "100");
+
+    // Récupérer les N derniers feedbacks
+    const feedbacks = await redis.lrange("feedbacks:all", 0, limit - 1);
+
+    const parsed = feedbacks.map((f: any) => {
+      try {
+        return typeof f === "string" ? JSON.parse(f) : f;
+      } catch {
+        return null;
+      }
+    }).filter(Boolean);
+
+    return new Response(
+      JSON.stringify({
+        total: parsed.length,
+        feedbacks: parsed
+      }),
+      { status: 200, headers: { "Content-Type": "application/json" } }
+    );
+  } catch (error: any) {
+    console.error("Erreur GET /api/feedback:", error);
+    return new Response(
+      JSON.stringify({ error: "Erreur serveur", details: error.message }),
+      { status: 500, headers: { "Content-Type": "application/json" } }
+    );
+  }
+}
+
+// Export pour Vercel Edge Runtime
+export const config = {
+  runtime: "edge",
+};
