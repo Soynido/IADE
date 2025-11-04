@@ -5,11 +5,13 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Progress } from '@/components/ui/progress';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import { Trophy, Flame, Star, BookOpen, Target, TrendingUp, ArrowRight } from 'lucide-react';
+import { Trophy, Flame, Star, BookOpen, Target, TrendingUp, ArrowRight, ThumbsUp, ThumbsDown, Sparkles, Brain, Activity } from 'lucide-react';
 import { StorageService, type UserProfile, type Achievement } from '../../services/storageService';
 import { AchievementsEngine } from '../../services/achievementsEngine';
 import { QuestionGeneratorV3 } from '../../services/questionGeneratorV3';
 import { ModuleService, type Module } from '../../services/moduleService';
+import { feedbackService } from '../../services/feedbackService';
+import { adaptiveEngine } from '../../services/adaptiveEngine';
 
 export interface DashboardV3ShadcnProps {
   onStartSession?: (mode: 'revision' | 'simulation') => void;
@@ -21,6 +23,12 @@ export const DashboardV3Shadcn: React.FC<DashboardV3ShadcnProps> = ({ onStartSes
   const [achievements, setAchievements] = useState<Achievement[]>([]);
   const [predictions, setPredictions] = useState({ estimated: 50, confidence: 'low' as 'low' | 'medium' | 'high', reasoning: '' });
   const [recentModules, setRecentModules] = useState<Module[]>([]);
+  const [feedbackStats, setFeedbackStats] = useState<{
+    totalFeedbacks: number;
+    averageRating: number;
+    byDomain: Record<string, { avg: number; count: number }>;
+  }>({ totalFeedbacks: 0, averageRating: 0, byDomain: {} });
+  const [adaptiveProfile, setAdaptiveProfile] = useState<any>(null);
 
   useEffect(() => {
     // Charger le profil et les achievements
@@ -42,6 +50,25 @@ export const DashboardV3Shadcn: React.FC<DashboardV3ShadcnProps> = ({ onStartSes
     // Charger les modules recommandés
     const recommended = ModuleService.getRecommendedModules(profile as any);
     setRecentModules(recommended);
+    
+    // Calculer les stats de feedback
+    const allFeedbacks = feedbackService.getAll();
+    if (allFeedbacks.length > 0) {
+      const totalRating = allFeedbacks.reduce((sum, f) => sum + f.rating, 0);
+      const avgRating = totalRating / allFeedbacks.length;
+      
+      // Stats par domaine (nécessite de charger les questions pour mapper domaine)
+      // Pour l'instant, on garde une version simple
+      setFeedbackStats({
+        totalFeedbacks: allFeedbacks.length,
+        averageRating: avgRating,
+        byDomain: {}
+      });
+    }
+    
+    // Calculer le profil adaptatif
+    const adaptive = adaptiveEngine.computeProfile(profile);
+    setAdaptiveProfile(adaptive);
   }, []);
 
   // Calculer les valeurs dérivées
@@ -279,6 +306,144 @@ export const DashboardV3Shadcn: React.FC<DashboardV3ShadcnProps> = ({ onStartSes
             )}
           </CardContent>
         </Card>
+
+        {/* Qualité du Contenu */}
+        {feedbackStats.totalFeedbacks > 0 && (
+          <Card className="bg-white shadow-xl border-0">
+            <CardHeader>
+              <CardTitle className="text-2xl font-bold text-gray-900 flex items-center gap-3">
+                <Sparkles className="w-7 h-7 text-purple-600" />
+                Qualité du Contenu
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                {/* Moyenne globale */}
+                <div className="text-center p-6 bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl">
+                  <div className="text-5xl font-bold text-purple-700 mb-2">
+                    {feedbackStats.averageRating.toFixed(1)}
+                  </div>
+                  <div className="text-sm font-medium text-purple-600 mb-1">Satisfaction moyenne</div>
+                  <div className="flex items-center justify-center gap-1">
+                    {[1, 2, 3].map(rating => (
+                      <span key={rating} className={`text-lg ${feedbackStats.averageRating >= rating ? 'text-yellow-500' : 'text-gray-300'}`}>
+                        ⭐
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Total feedbacks */}
+                <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl">
+                  <ThumbsUp className="h-10 w-10 text-blue-600 mx-auto mb-3" />
+                  <div className="text-3xl font-bold text-blue-700 mb-1">
+                    {feedbackStats.totalFeedbacks}
+                  </div>
+                  <div className="text-sm font-medium text-blue-600">Feedbacks donnés</div>
+                </div>
+
+                {/* Contribution */}
+                <div className="text-center p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-xl">
+                  <Star className="h-10 w-10 text-green-600 mx-auto mb-3" />
+                  <div className="text-sm font-medium text-green-700 mb-2">
+                    Votre contribution
+                  </div>
+                  <p className="text-xs text-gray-600">
+                    Merci d'améliorer la qualité des questions pour tous ! 🙏
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        )}
+
+        {/* Profil d'apprentissage adaptatif */}
+        {adaptiveProfile && totalSessions >= 3 && (
+          <Card className="bg-white shadow-xl border-0">
+            <CardHeader>
+              <CardTitle className="text-2xl font-bold text-gray-900 flex items-center gap-3">
+                <Brain className="w-7 h-7 text-indigo-600" />
+                Votre Profil d'Apprentissage
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Difficulté actuelle */}
+                <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-xl">
+                  <div className="flex items-center gap-3 mb-3">
+                    <Activity className="h-6 w-6 text-indigo-600" />
+                    <h4 className="font-bold text-gray-900">Niveau actuel</h4>
+                  </div>
+                  <div className="text-3xl font-bold text-indigo-700 mb-2 capitalize">
+                    {adaptiveProfile.targetDifficulty === 'easy' ? '🟢 Facile' :
+                     adaptiveProfile.targetDifficulty === 'intermediate' ? '🟡 Intermédiaire' :
+                     '🔴 Difficile'}
+                  </div>
+                  <p className="text-sm text-gray-600">
+                    Taux de réussite: <span className="font-bold">{(adaptiveProfile.accuracyRate * 100).toFixed(0)}%</span>
+                  </p>
+                </div>
+
+                {/* Domaines faibles */}
+                {adaptiveProfile.weakDomains && adaptiveProfile.weakDomains.length > 0 && (
+                  <div className="bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl">
+                    <div className="flex items-center gap-3 mb-3">
+                      <Target className="h-6 w-6 text-red-600" />
+                      <h4 className="font-bold text-gray-900">Domaines à renforcer</h4>
+                    </div>
+                    <ul className="space-y-2">
+                      {adaptiveProfile.weakDomains.slice(0, 3).map((domain: string, idx: number) => {
+                        const score = adaptiveProfile.domainPerformance[domain] || 0;
+                        return (
+                          <li key={idx} className="flex items-center justify-between">
+                            <span className="text-sm text-gray-700">{domain}</span>
+                            <Badge variant={score < 50 ? 'destructive' : 'secondary'} className="text-xs">
+                              {score.toFixed(0)}%
+                            </Badge>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                )}
+              </div>
+
+              {/* Performance par domaine */}
+              {Object.keys(adaptiveProfile.domainPerformance).length > 0 && (
+                <div className="mt-6">
+                  <h4 className="font-bold text-gray-900 mb-4 text-sm">Performance par domaine</h4>
+                  <div className="space-y-3">
+                    {Object.entries(adaptiveProfile.domainPerformance)
+                      .sort(([, a], [, b]) => (b as number) - (a as number))
+                      .slice(0, 5)
+                      .map(([domain, score]) => (
+                        <div key={domain} className="space-y-1">
+                          <div className="flex items-center justify-between text-sm">
+                            <span className="text-gray-700 font-medium">{domain}</span>
+                            <span className={`font-bold ${
+                              (score as number) >= 70 ? 'text-green-600' :
+                              (score as number) >= 50 ? 'text-yellow-600' :
+                              'text-red-600'
+                            }`}>
+                              {(score as number).toFixed(0)}%
+                            </span>
+                          </div>
+                          <Progress 
+                            value={score as number} 
+                            className={`h-2 ${
+                              (score as number) >= 70 ? 'bg-green-200' :
+                              (score as number) >= 50 ? 'bg-yellow-200' :
+                              'bg-red-200'
+                            }`}
+                          />
+                        </div>
+                      ))}
+                  </div>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        )}
 
         {/* Progression Tips & Predictions */}
         <Card className="bg-gradient-to-r from-purple-50 to-pink-50 border-purple-200">

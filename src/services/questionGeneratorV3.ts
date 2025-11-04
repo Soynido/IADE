@@ -3,6 +3,8 @@ import { QuestionGenerator } from './questionGenerator';
 import { VariantGenerator } from './variantGenerator';
 import { StorageService } from './storageService';
 import { CompiledQuestionsLoader } from './compiledQuestionsLoader';
+import { adaptiveEngine } from './adaptiveEngine';
+import { feedbackService } from './feedbackService';
 
 /**
  * Générateur de questions V3 avec répétition espacée et scoring temps
@@ -20,6 +22,122 @@ interface QuestionWithMetadata extends Question {
 export class QuestionGeneratorV3 {
   // Intervalles de répétition espacée (en jours)
   private static readonly SPACED_REPETITION_INTERVALS = [1, 3, 7, 14, 30, 60];
+
+  /**
+   * Générer une session avec moteur adaptatif intelligent
+   * Utilise adaptiveEngine pour sélection optimale basée sur profil utilisateur
+   */
+  static generateAdaptiveSession(
+    questionCount: number = 10
+  ): {
+    questions: Question[];
+    theme: string;
+    difficulty: string;
+    adaptiveReasoning: string;
+  } {
+    const userProfile = StorageService.getUserProfile();
+    const adaptiveProfile = adaptiveEngine.computeProfile(userProfile);
+    const feedbacks = feedbackService.getAllFeedbackStats();
+    
+    // Charger toutes les questions disponibles
+    const allQuestions = this.loadAllAvailableQuestions();
+    
+    // Construire questionsSeen avec timestamps
+    const questionsSeen = userProfile.questionsSeen.map(qId => ({
+      questionId: qId,
+      timestamp: Date.now() - (7 * 24 * 60 * 60 * 1000) // Approximation: 7 jours
+    }));
+    
+    // Sélectionner les questions adaptativement
+    const selectedQuestions: Question[] = [];
+    let remainingQuestions = [...allQuestions];
+    
+    for (let i = 0; i < questionCount; i++) {
+      const nextQuestion = adaptiveEngine.selectNextQuestion(
+        remainingQuestions,
+        adaptiveProfile,
+        feedbacks,
+        questionsSeen
+      );
+      
+      if (!nextQuestion) break;
+      
+      selectedQuestions.push(nextQuestion);
+      // Retirer de la liste pour éviter doublons
+      remainingQuestions = remainingQuestions.filter(q => q.id !== nextQuestion.id);
+      
+      // Ajouter aux questionsSeen
+      questionsSeen.push({ questionId: nextQuestion.id, timestamp: Date.now() });
+    }
+    
+    // Fallback si pas assez de questions
+    if (selectedQuestions.length < questionCount) {
+      const remaining = questionCount - selectedQuestions.length;
+      const fallbackQuestions = remainingQuestions.slice(0, remaining);
+      selectedQuestions.push(...fallbackQuestions);
+    }
+    
+    // Générer le reasoning
+    const reasoning = this.generateAdaptiveReasoning(adaptiveProfile, selectedQuestions);
+    
+    return {
+      questions: selectedQuestions,
+      theme: this.extractDominantTheme(selectedQuestions),
+      difficulty: adaptiveProfile.targetDifficulty,
+      adaptiveReasoning: reasoning
+    };
+  }
+
+  /**
+   * Charger toutes les questions disponibles (compilées + générées)
+   */
+  private static loadAllAvailableQuestions(): Question[] {
+    try {
+      const compiled = CompiledQuestionsLoader.loadQuestions();
+      return compiled.length > 0 ? compiled : QuestionGenerator.getAllQuestions();
+    } catch {
+      return QuestionGenerator.getAllQuestions();
+    }
+  }
+
+  /**
+   * Extraire le thème dominant d'une liste de questions
+   */
+  private static extractDominantTheme(questions: Question[]): string {
+    if (questions.length === 0) return 'Mixte';
+    
+    const themes = questions.map(q => q.theme);
+    const themeCounts: Record<string, number> = {};
+    themes.forEach(t => themeCounts[t] = (themeCounts[t] || 0) + 1);
+    
+    const dominantTheme = Object.entries(themeCounts)
+      .sort((a, b) => b[1] - a[1])[0]?.[0];
+    
+    return dominantTheme || 'Mixte';
+  }
+
+  /**
+   * Générer le texte explicatif du raisonnement adaptatif
+   */
+  private static generateAdaptiveReasoning(
+    profile: any,
+    questions: Question[]
+  ): string {
+    const reasons = [];
+    
+    reasons.push(`Difficulté adaptée: ${profile.targetDifficulty}`);
+    
+    if (profile.weakDomains && profile.weakDomains.length > 0) {
+      reasons.push(`Focus sur: ${profile.weakDomains.join(', ')}`);
+    }
+    
+    const withFeedback = questions.filter(q => q.feedbackStats?.averageRating && q.feedbackStats.averageRating > 2);
+    if (withFeedback.length > 0) {
+      reasons.push(`${withFeedback.length} questions bien notées`);
+    }
+    
+    return reasons.join(' • ');
+  }
 
   /**
    * Générer une session avec répétition espacée

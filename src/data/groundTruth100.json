@@ -1,0 +1,57 @@
+[
+  {
+    "id": "concept_1",
+    "concept": "Morphine - Analgésie palier III",
+    "domain": "Pharmacologie",
+    "subcategory": "Analgésiques",
+    "keywords": ["morphine", "analgésie", "opiacés", "douleur", "titration"],
+    "context": "Analgésique opiacé majeur palier III OMS. Mécanisme : agoniste récepteurs mu. Dose : 0,1 mg/kg IV titration. Effets : dépression respiratoire, myosis, constipation. Surveillance FR, conscience, mydriase.",
+    "cours_refs": ["Pharmacologie"],
+    "annales_refs": [],
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "concept_2",
+    "concept": "Surdosage morphinique - Naloxone",
+    "domain": "Pharmacologie",
+    "subcategory": "Antagonistes",
+    "keywords": ["naloxone", "narcan", "surdosage", "bradypnée", "antidote"],
+    "context": "Triade : bradypnée < 10/min, myosis, troubles conscience. Traitement : Naloxone 0,4 mg IV toutes les 2-3 min. Demi-vie courte 30-45 min, surveillance prolongée nécessaire.",
+    "cours_refs": ["Pharmacologie", "Urgences"],
+    "annales_refs": [],
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "concept_3",
+    "concept": "Succinylcholine (Célocurine)",
+    "domain": "Pharmacologie",
+    "subcategory": "Curares",
+    "keywords": ["succinylcholine", "curare dépolarisant", "intubation rapide", "hyperkaliémie"],
+    "context": "Curare dépolarisant ultra-rapide 45-60s, durée 5-10 min. Dose 1-1,5 mg/kg IV. Contre-indications absolues : hyperkaliémie, brûlures > 24h, myopathies, hyperthermie maligne.",
+    "cours_refs": ["Pharmacologie", "Anesthésie"],
+    "annales_refs": [],
+    "difficulty_hint": "hard"
+  },
+  {
+    "id": "concept_4",
+    "concept": "Rocuronium (Esmeron)",
+    "domain": "Pharmacologie",
+    "subcategory": "Curares",
+    "keywords": ["rocuronium", "curare non dépolarisant", "sugammadex"],
+    "context": "Curare non dépolarisant rapide 60-90s, durée 30-40 min. Dose 0,6 mg/kg, séquence rapide 1,2 mg/kg. Antagonisation par sugammadex 2-4 mg/kg. Alternative à succinylcholine.",
+    "cours_refs": ["Pharmacologie"],
+    "annales_refs": [],
+    "difficulty_hint": "intermediate"
+  },
+  {
+    "id": "concept_5",
+    "concept": "Propofol (Diprivan)",
+    "domain": "Pharmacologie",
+    "subcategory": "Hypnotiques",
+    "keywords": ["propofol", "anesthésie", "sédation", "émulsion lipidique"],
+    "context": "Hypnotique IV référence. Émulsion lipidique 1-2%. Induction 2-2,5 mg/kg, entretien 4-12 mg/kg/h. Effets : hypotension, apnée, douleur injection. Contre-indication : allergie œuf/soja.",
+    "cours_refs": ["Pharmacologie", "Anesthésie"],
+    "annales_refs": [],
+    "difficulty_hint": "intermediate"
+  }
+]

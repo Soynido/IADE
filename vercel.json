@@ -7,5 +7,15 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "functions": {
+    "api/feedback.ts": {
+      "memory": 128,
+      "maxDuration": 10
+    },
+    "api/feedback/stats.ts": {
+      "memory": 128,
+      "maxDuration": 5
+    }
+  }
 }

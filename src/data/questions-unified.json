@@ -1,0 +1,1160 @@
+{
+  "questions": [
+    {
+      "id": "batch_1",
+      "text": "Quels sont les items du score de Glasgow et leurs valeurs respectives pour évaluer l'état de conscience ?",
+      "options": [
+        "Ouverture des yeux (1-4), réponse verbale (1-5), réponse motrice (1-6) - Score total de 3 à 15",
+        "Pression artérielle systolique, fréquence cardiaque, saturation en O₂ - Score de 0 à 20",
+        "État pupillaire (1-3), tonus musculaire (1-4), réflexes ostéotendineux (1-3) - Score de 3 à 10",
+        "Fréquence respiratoire, SpO₂, capnie - Évaluation hémodynamique uniquement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le score de Glasgow évalue la conscience selon 3 paramètres : ouverture des yeux (1-4 points), réponse verbale (1-5 points) et réponse motrice (1-6 points), totalisant 3 (coma profond) à 15 (conscience normale). Un score ≤8 indique une altération sévère nécessitant une protection des voies aériennes par intubation. Ce score guide les décisions d'anesthésie en neurotraumatologie.",
+      "theme": "Neurologie",
+      "difficulty": "base",
+      "themes": [
+        "Neurologie",
+        "Anesthésie",
+        "Réanimation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_2",
+      "text": "Quelles sont les fonctions exocrines et endocrines du rein ?",
+      "options": [
+        "Exocrines : régulation volémie, élimination déchets, équilibre acido-basique | Endocrines : rénine, EPO, activation vitamine D",
+        "Fonction unique : filtration du sang avec élimination des toxines hydrosolubles",
+        "Exocrines : sécrétion hormonale | Endocrines : filtration glomérulaire et réabsorption tubulaire",
+        "Régulation exclusive de la pression artérielle via le système sympathique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Fonctions exocrines rénales : maintien de la volémie et de l'homéostasie hydro-électrolytique, élimination des déchets métaboliques (urée, créatinine), régulation de l'équilibre acido-basique. Fonctions endocrines : sécrétion de rénine (système rénine-angiotensine-aldostérone régulant la pression artérielle), d'érythropoïétine (EPO stimulant l'érythropoïèse), et activation de la vitamine D (calcitriol). Ces fonctions sont critiques en péri-opératoire.",
+      "theme": "Néphrologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Néphrologie",
+        "Physiologie",
+        "Réanimation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_3",
+      "text": "Quelles sont les variations du pH, de la PaCO₂ et des HCO₃⁻ dans une acidose métabolique ?",
+      "options": [
+        "pH < 7,38 (↓), PaCO₂ diminue par compensation respiratoire (↓), HCO₃⁻ < 22 mmol/L (↓)",
+        "pH > 7,42 (↑), PaCO₂ augmente (↑), HCO₃⁻ > 26 mmol/L (↑) - alcalose métabolique",
+        "pH stable entre 7,35-7,45, PaCO₂ et HCO₃⁻ normaux - équilibre acido-basique conservé",
+        "pH < 7,38 (↓), PaCO₂ augmente (↑), HCO₃⁻ normal - acidose respiratoire pure"
+      ],
+      "correctAnswer": 0,
+      "explanation": "En acidose métabolique, le pH chute sous 7,38 par diminution primitive des bicarbonates (HCO₃⁻ < 22 mmol/L). L'organisme compense par hyperventilation, diminuant la PaCO₂ (formule de Winter : PaCO₂ attendue = 1,5 × [HCO₃⁻] + 8 ±2). Causes : acidocétose diabétique, acidose lactique, insuffisance rénale. En anesthésie, cela impacte la pharmacocinétique des agents et la ventilation mécanique.",
+      "theme": "Équilibre acido-basique",
+      "difficulty": "intermediate",
+      "themes": [
+        "Équilibre acido-basique",
+        "Physiologie",
+        "Réanimation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_4",
+      "text": "Quels sont les signes cliniques d'un surdosage morphinique et la prise en charge immédiate ?",
+      "options": [
+        "Somnolence importante, bradypnée < 10/min, myosis punctiforme, dépression respiratoire → naloxone IV titrée",
+        "Tachycardie, hypertension artérielle, mydriase, agitation psychomotrice → benzodiazépines",
+        "Diarrhée, crampes abdominales, hyperthermie, tachypnée → réhydratation et antipyrétiques",
+        "Prurit généralisé, nausées isolées, euphorique → antihistaminiques et antiémétiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Signes de surdosage morphinique : somnolence profonde (score de Ramsay 5-6), bradypnée progressive puis dépression respiratoire (FR < 10/min), myosis punctiforme bilatéral, hypotension. Conduite IADE : arrêt immédiat de l'opioïde, stimulation verbale et tactile, oxygénation (≥6 L/min), surveillance scope, antagonisation par naloxone IV 0,04-0,4 mg titrée toutes les 2-3 min jusqu'à FR > 10/min. Risque de resédation nécessitant surveillance prolongée.",
+      "theme": "Pharmacologie",
+      "difficulty": "base",
+      "themes": [
+        "Pharmacologie",
+        "Analgésie",
+        "Urgences"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_5",
+      "text": "Quelle est la différence structurelle et fonctionnelle entre muscles striés et muscles lisses ?",
+      "options": [
+        "Striés : contraction volontaire rapide, innervation somatique (ex: squelettiques, myocarde) | Lisses : contraction involontaire lente, SN végétatif (ex: tube digestif, vaisseaux)",
+        "Tous les muscles possèdent la même structure histologique et le même mode de contraction",
+        "Striés : localisés uniquement au niveau de la colonne vertébrale | Lisses : présents dans les os longs",
+        "Lisses : contraction volontaire uniquement | Striés : contraction réflexe automatique"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscles striés : innervation somatique par le système nerveux cérébro-spinal, contraction volontaire rapide et puissante (muscles squelettiques) ou automatique rythmique (myocarde). Structure en sarcomères visibles en microscopie. Muscles lisses : innervation par le système nerveux autonome (sympathique/parasympathique), contraction involontaire lente et tonique, présents dans les viscères creux (tractus digestif, vessie, bronches, vaisseaux). En anesthésie, les curares ciblent la jonction neuromusculaire des muscles striés squelettiques.",
+      "theme": "Anatomie",
+      "difficulty": "base",
+      "themes": [
+        "Anatomie",
+        "Physiologie",
+        "Pharmacologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_6",
+      "text": "Quelles sont les conditions réglementaires du don de sang total (volume, intervalles, fréquence) ?",
+      "options": [
+        "Volume 420-480 mL selon poids (≥50 kg), intervalle minimum 8 semaines, fréquence maximale : femmes 4/an, hommes 6/an",
+        "Volume libre sans limite, intervalle de 4 semaines, fréquence illimitée selon disponibilité du donneur",
+        "Volume fixe de 250 mL, intervalle d'1 semaine entre chaque don, maximum 10 dons par an",
+        "Don de sang interdit en France depuis la mise en place de produits sanguins synthétiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Don de sang total réglementé : volume prélevé de 420-480 mL (selon poids corporel, minimum 50 kg requis). Intervalle obligatoire de 8 semaines entre deux dons pour reconstitution complète des réserves en fer et hémoglobine. Fréquence annuelle maximale : 4 dons pour les femmes (risque anémie ferriprive lié aux menstruations), 6 dons pour les hommes. Critères d'aptitude : âge 18-70 ans, Hb ≥ 12 g/dL (femmes) ou 13 g/dL (hommes), absence de contre-indications infectieuses ou médicamenteuses.",
+      "theme": "Transfusion",
+      "difficulty": "base",
+      "themes": [
+        "Transfusion",
+        "Hématologie",
+        "Réglementation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_7",
+      "text": "Quelle est la durée de validité réglementaire d'une recherche d'agglutinines irrégulières (RAI) pré-transfusionnelle ?",
+      "options": [
+        "3 jours en standard, ou 21 jours si absence de transfusion/grossesse dans les 6 derniers mois avec attestation médicale",
+        "Validité permanente d'1 an renouvelable sans condition particulière",
+        "30 jours maximum dans tous les cas, sans dérogation possible",
+        "Pas de délai de validité : une RAI négative reste valable indéfiniment"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La RAI doit dater de moins de 3 jours avant toute transfusion de produits sanguins labiles (CGR, CPA, PFC). Exception réglementaire : validité étendue à 21 jours si attestation médicale signée confirmant l'absence de transfusion, de grossesse ou d'événement immunisant (greffe, injection immunoglobulines) dans les 6 mois précédents. Cette règle prévient les accidents transfusionnels par allo-immunisation méconnue. En pratique IADE péri-opératoire, une RAI récente est systématiquement demandée pour toute chirurgie à risque hémorragique.",
+      "theme": "Transfusion",
+      "difficulty": "intermediate",
+      "themes": [
+        "Transfusion",
+        "Immunologie",
+        "Réglementation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_8",
+      "text": "Quels sont les produits sanguins labiles (PSL) disponibles pour la transfusion ?",
+      "options": [
+        "Concentrés de globules rouges (CGR), concentrés de plaquettes d'aphérèse (CPA), plasma frais congelé (PFC)",
+        "Sang total uniquement, conservé à température ambiante pendant 48 heures",
+        "Aucun produit sanguin n'est actuellement transfusable pour des raisons de sécurité sanitaire",
+        "Concentrés de globules blancs exclusivement, utilisés en cas d'immunodéficience sévère"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Les trois PSL transfusables sont : CGR (concentrés de globules rouges) stockés à +4°C pour 42 jours, indiqués si Hb < 7-8 g/dL ; CPA (concentrés de plaquettes d'aphérèse) conservés à 22°C sous agitation pendant 5-7 jours, transfusés si plaquettes < 50 000/mm³ (chirurgie) ou < 10 000/mm³ (prophylaxie) ; PFC (plasma frais congelé) à -25°C pour 1 an, utilisé en cas de déficit en facteurs de coagulation ou TP < 40%. Chaque transfusion nécessite compatibilité ABO, RAI négative et traçabilité complète.",
+      "theme": "Transfusion",
+      "difficulty": "base",
+      "themes": [
+        "Transfusion",
+        "Hématologie",
+        "Réanimation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_9",
+      "text": "Que sont les médicaments dérivés du sang (MDS) et citez trois exemples utilisés en pratique clinique ?",
+      "options": [
+        "Médicaments industriels issus du fractionnement plasmatique : albumine humaine, facteurs de coagulation (FVIII, FIX), immunoglobulines polyvalentes (IgIV)",
+        "Médicaments synthétiques courants : aspirine, paracétamol, anti-inflammatoires non stéroïdiens (AINS)",
+        "Peptides totalement artificiels fabriqués par génie génétique sans origine humaine ou animale",
+        "Aucun médicament actuel ne contient de composants dérivés du sang humain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Les MDS sont des médicaments fabriqués industriellement à partir du fractionnement du plasma humain par chromatographie et ultrafiltration. Principaux exemples : albumine humaine 4% ou 20% (expansion volémique, hypoalbuminémie < 20 g/L), facteurs de coagulation recombinants ou plasmatiques (FVIII, FIX, complexe prothrombinique pour hémophilies ou AVK à reverser), immunoglobulines polyvalentes IV (déficits immunitaires, Guillain-Barré, purpura thrombopénique). Contrairement aux PSL, les MDS subissent des procédés d'inactivation virale poussés.",
+      "theme": "Hématologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Hématologie",
+        "Pharmacologie",
+        "Transfusion"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_10",
+      "text": "Quels sont les diagnostics différentiels urgents à évoquer face à une douleur thoracique aiguë en préhospitalier ?",
+      "options": [
+        "Syndrome coronarien aigu (SCA), embolie pulmonaire (EP), pneumothorax, dissection aortique (mnémonique PIED avec péricardite)",
+        "Infarctus du myocarde exclusivement, toute autre cause est bénigne et ne nécessite pas de régulation SMUR",
+        "Douleur musculo-squelettique simple ne justifiant qu'un traitement antalgique ambulatoire",
+        "Aucun diagnostic différentiel n'est possible sans bilan biologique et imagerie hospitalière complète"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le mnémonique PIED aide à mémoriser les urgences vitales : P = Pneumothorax (douleur latéralisée, polypnée, tympanisme) et Péricardite (douleur rétrosternale soulagée en position penchée en avant), I = Infarctus/SCA (douleur constrictive irradiant mâchoire/bras gauche, sus-décalage ST), E = Embolie pulmonaire (dyspnée brutale, hémoptysie, facteurs de risque thrombo-emboliques), D = Dissection aortique (douleur transfixiante migratrice, asymétrie tensionnelle). En régulation SMUR/IADE, l'ECG 18 dérivations, la gazométrie et l'examen clinique orientent le diagnostic et la thérapeutique initiale.",
+      "theme": "Cardiologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Cardiologie",
+        "Urgences",
+        "Pneumologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_11",
+      "text": "Quel diagnostic évoque un sus-décalage du segment ST à l'ECG et quelle est la stratégie thérapeutique immédiate ?",
+      "options": [
+        "Syndrome coronarien aigu ST+ (STEMI) → Aspégic 250-500 mg IV, Clopidogrel 300-600 mg PO, fibrinolyse (Métalyse/TNK) ou coronarographie urgente, morphine titrée",
+        "Bronchite aiguë bactérienne → antibiothérapie par amoxicilline-acide clavulanique 1g x3/j",
+        "Gastrite érosive → inhibiteurs de la pompe à protons (IPP) type oméprazole 40 mg, antiacides",
+        "Tachycardie sinusale bénigne ne nécessitant aucun traitement spécifique immédiat"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le sus-décalage persistant du segment ST (≥0,1 mV dans ≥2 dérivations contiguës) signe un infarctus du myocarde avec élévation du ST (STEMI), nécessitant une reperfusion coronaire urgente (délai < 90 min). Traitement pré-hospitalier IADE : double anti-agrégation plaquettaire (Aspégic 250-500 mg IV + clopidogrel 300-600 mg PO ou ticagrelor 180 mg), antalgie morphinique titrée (2-3 mg IVD répétés), dérivés nitrés si PA > 90 mmHg, fibrinolyse pré-hospitalière (TNK-Métalyse) si délai de coronarographie > 90 min. Surveillance scope, scope 12 dérivations, accès veineux, bilan biologique (troponine).",
+      "theme": "Cardiologie",
+      "difficulty": "advanced",
+      "themes": [
+        "Cardiologie",
+        "Urgences",
+        "Pharmacologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_12",
+      "text": "Quel est le volume sanguin total moyen d'un adulte et comment se répartit-il ?",
+      "options": [
+        "5-6 litres (70-80 mL/kg) répartis en 55% plasma et 45% éléments figurés (hématocrite), soit environ 3 L plasma et 2-3 L globules",
+        "3-4 litres uniquement composés de plasma sans cellules sanguines",
+        "10-12 litres répartis équitablement entre tous les organes du corps humain",
+        "Volume impossible à déterminer car variant continuellement selon l'hydratation"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La volémie totale d'un adulte est d'environ 5-6 litres, soit 70-80 mL/kg de poids corporel (70 mL/kg chez la femme, 75-80 mL/kg chez l'homme). Composition : 55% de plasma (fraction liquide : eau, protéines dont albumine 40 g/L, facteurs de coagulation, électrolytes) et 45% d'éléments figurés (hématocrite : globules rouges, leucocytes, plaquettes). En anesthésie, une perte sanguine de 10-15% (500-750 mL) est généralement bien tolérée ; au-delà de 20-30% (1-1,5 L), un choc hémorragique nécessite un remplissage vasculaire et une transfusion (protocole de transfusion massive).",
+      "theme": "Hématologie",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Physiologie",
+        "Réanimation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_13",
+      "text": "Quels sont les éléments figurés du sang et leurs valeurs normales chez l'adulte ?",
+      "options": [
+        "Hématies : 4,0-5,5 M/mm³ (H: 4,5-5,5 / F: 4,0-5,0) | Leucocytes : 4 000-10 000/mm³ | Plaquettes : 150 000-400 000/mm³",
+        "Tous les éléments figurés possèdent les mêmes valeurs normales sans distinction sexuelle",
+        "Aucune norme biologique n'existe car les valeurs fluctuent en permanence",
+        "Hématies : 1-2 M/mm³ | Leucocytes : 50 000-100 000/mm³ | Plaquettes : 10 000-50 000/mm³"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Valeurs normales des éléments figurés : Hématies (globules rouges) 4,0-5,5 millions/mm³ (hommes 4,5-5,5 M/mm³, femmes 4,0-5,0 M/mm³) assurant le transport d'O₂ ; Leucocytes (globules blancs) 4 000-10 000/mm³ avec formule leucocytaire normale (polynucléaires neutrophiles 40-75%, lymphocytes 20-40%, monocytes 2-10%, éosinophiles 1-6%, basophiles < 2%) ; Plaquettes 150 000-400 000/mm³ pour l'hémostase primaire. En péri-opératoire, une anémie (Hb < 7-8 g/dL), leucopénie (< 4 000/mm³) ou thrombopénie (< 50 000/mm³) modifie la stratégie anesthésique et transfusionnelle.",
+      "theme": "Hématologie",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Biologie",
+        "Physiologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_14",
+      "text": "Chez un patient BPCO avec SpO₂ à 94% sous O₂ 2 L/min, faut-il augmenter l'oxygénothérapie pour améliorer la saturation ?",
+      "options": [
+        "NON : risque d'hypoventilation par perte du stimulus hypoxique. Objectif SpO₂ 88-92% chez le BPCO. Surveillance capnie impérative.",
+        "OUI : augmenter systématiquement à 6-15 L/min pour obtenir SpO₂ > 98% comme chez tout patient",
+        "Surveiller passivement sans modifier les paramètres ni alerter le médecin",
+        "Intuber immédiatement en prévention d'une détresse respiratoire imminente"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chez le patient BPCO chronique (bronchopneumopathie chronique obstructive), l'hypercapnie chronique (PaCO₂ élevée) désensibilise les chémorécepteurs centraux au CO₂. Le stimulus respiratoire principal devient l'hypoxémie détectée par les chémorécepteurs périphériques. Une oxygénothérapie excessive (SpO₂ > 92-95%) supprime ce stimulus hypoxique, entraînant hypoventilation, acidose respiratoire aggravée (↑PaCO₂, ↓pH) et potentiellement coma hypercapnique. Objectif SpO₂ : 88-92% chez le BPCO. Surveillance IADE : capnographie/gazométrie, fréquence respiratoire, état de conscience. Si hypercapnie sévère : ventilation non invasive (VNI) en première intention.",
+      "theme": "Pneumologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pneumologie",
+        "Réanimation",
+        "Physiologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_15",
+      "text": "Quel est le débit horaire d'une seringue pour administrer 24 000 UI d'héparine/24h avec des seringues de 50 mL renouvelées toutes les 6h (héparine 25 000 UI/5 mL) ?",
+      "options": [
+        "8 mL/h (préparation : 1,2 mL héparine + 46,8 mL sérum physiologique = 48 mL contenant 6 000 UI à administrer en 6h)",
+        "1 mL/h sans dilution particulière du flacon d'héparine",
+        "16,7 mL/h en utilisant uniquement le flacon d'héparine concentrée",
+        "24 mL/h selon la règle simplifiée 1 UI = 1 mL"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Calcul de dose héparine : 24 000 UI/24h = 1 000 UI/h. Sur 6h : 1 000 UI/h × 6h = 6 000 UI. Concentration héparine : 25 000 UI/5 mL = 5 000 UI/mL. Volume d'héparine pour 6 000 UI : 6 000 UI ÷ 5 000 UI/mL = 1,2 mL. Préparation seringue 50 mL : 1,2 mL héparine + 46,8 mL sérum physiologique = 48 mL contenant 6 000 UI. Débit PSE : 48 mL / 6h = 8 mL/h. Vérification : 8 mL/h × 6h = 48 mL ✓. Surveillance IADE : TCA (temps de céphaline activée) cible 1,5-2,5× témoin, plaquettes (risque TIH thrombopénie induite), signes hémorragiques.",
+      "theme": "Calcul de dose",
+      "difficulty": "advanced",
+      "themes": [
+        "Calcul de dose",
+        "Pharmacologie",
+        "Hématologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_16",
+      "text": "Quelle est la différence entre transfusion autologue et transfusion homologue ?",
+      "options": [
+        "Autologue : patient reçoit son propre sang prélevé préalablement (auto-transfusion) | Homologue : transfusion d'un donneur compatible vers un receveur différent",
+        "Les deux termes sont strictement synonymes et interchangeables en pratique transfusionnelle",
+        "Homologue : transfusion entre individus du même groupe sanguin | Autologue : groupes différents avec compatibilité croisée",
+        "Aucune différence significative entre les deux types de transfusion sanguine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transfusion autologue : le patient reçoit son propre sang, prélevé soit en pré-opératoire programmé (auto-transfusion différée, 2-5 semaines avant chirurgie élective, stockage CGR), soit en peropératoire (récupération Cell Saver, lavage et réinjection des globules rouges). Avantages : zéro risque immunologique (allo-immunisation, incompatibilité), zéro risque infectieux viral. Transfusion homologue : transfusion d'un donneur (EFS) vers un receveur différent, nécessitant compatibilité ABO-RhD stricte, RAI négative, respect des règles transfusionnelles. Risques : réactions immunologiques (TRALI, allo-immunisation), infections résiduelles malgré dépistage.",
+      "theme": "Transfusion",
+      "difficulty": "intermediate",
+      "themes": [
+        "Transfusion",
+        "Hématologie",
+        "Chirurgie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_17",
+      "text": "Où sont localisés les antigènes et les anticorps du système ABO dans le sang ?",
+      "options": [
+        "Antigènes ABO : à la surface membranaire des globules rouges | Anticorps naturels anti-A et/ou anti-B : dans le plasma",
+        "Antigènes et anticorps sont tous localisés exclusivement dans le plasma sanguin",
+        "Antigènes et anticorps sont tous fixés uniquement sur les globules rouges",
+        "Localisation aléatoire sans distribution anatomique particulière dans le compartiment sanguin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Système ABO : les antigènes A et/ou B sont des glycoprotéines membranaires exprimées à la surface des globules rouges (hématies). Les anticorps naturels réguliers (IgM) correspondants sont présents dans le plasma : groupe A possède anticorps anti-B, groupe B possède anti-A, groupe O possède anti-A et anti-B, groupe AB n'a aucun anticorps (receveur universel). En transfusion IADE, le respect de la compatibilité ABO est impératif : les CGR transfusés ne doivent pas porter l'antigène contre lequel le receveur possède des anticorps (risque d'hémolyse aiguë intravasculaire potentiellement fatale par activation du complément).",
+      "theme": "Immunologie",
+      "difficulty": "base",
+      "themes": [
+        "Immunologie",
+        "Transfusion",
+        "Hématologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_18",
+      "text": "Quels sont les déterminants physiologiques du débit cardiaque et comment se calcule-t-il ?",
+      "options": [
+        "Débit cardiaque (L/min) = Fréquence cardiaque × Volume d'éjection systolique (VES). VES dépend de : précharge, postcharge et contractilité myocardique",
+        "Débit cardiaque dépend uniquement de la pression artérielle systolique sans autre facteur",
+        "Débit cardiaque est déterminé exclusivement par l'âge du patient (décroissance linéaire)",
+        "Aucun facteur physiologique identifiable ne régit le débit cardiaque"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le débit cardiaque (DC, valeur normale 5-6 L/min chez l'adulte au repos) se calcule : DC = FC × VES. La fréquence cardiaque (FC, normale 60-100 bpm) dépend du système nerveux autonome. Le volume d'éjection systolique (VES, normal 60-80 mL) dépend de trois déterminants : (1) Précharge (retour veineux, volémie, compliance ventriculaire), (2) Postcharge (résistances vasculaires systémiques, impédance aortique), (3) Contractilité myocardique intrinsèque (inotropisme, stimulation sympathique). En anesthésie, l'optimisation hémodynamique (remplissage vasculaire, vasopresseurs, inotropes) vise à maintenir un DC et une DO₂ (transport d'O₂) adéquats.",
+      "theme": "Cardiologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Cardiologie",
+        "Physiologie",
+        "Hémodynamique"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_19",
+      "text": "Qu'est-ce que l'effet de premier passage hépatique et quelles voies d'administration permettent de le contourner ?",
+      "options": [
+        "Métabolisation hépatique du médicament avant d'atteindre la circulation systémique (voie orale) | Voies évitant l'EPP : sublinguale, transdermique, inhalée, nasale, intraveineuse, rectale",
+        "Effet inexistant : tous les médicaments atteignent directement la circulation générale quelle que soit la voie",
+        "Seule la voie orale permet d'éviter le métabolisme hépatique précoce",
+        "Toutes les voies d'administration subissent le même degré de métabolisme hépatique initial"
+      ],
+      "correctAnswer": 0,
+      "explanation": "L'effet de premier passage hépatique (EPP) désigne le métabolisme pré-systémique d'un médicament par les enzymes hépatiques (cytochromes P450) après absorption digestive (voie orale). Le médicament transite par la circulation porte vers le foie avant d'atteindre la circulation générale, réduisant sa biodisponibilité (ex : propranolol biodisponibilité 25%, morphine 30%). Voies contournant l'EPP : sublinguale (absorption veineuse cave supérieure), transdermique (absorption cutanée directe), inhalée (alvéoles → circulation pulmonaire), intraveineuse (injection directe), intramusculaire, sous-cutanée, rectale (drainage veineux mixte). Impact clinique IADE : doses IV < doses PO pour même effet (ex : morphine IV 10 mg ≈ 30 mg PO).",
+      "theme": "Pharmacologie",
+      "difficulty": "advanced",
+      "themes": [
+        "Pharmacologie",
+        "Pharmacocinétique",
+        "Physiologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_20",
+      "text": "Quels sont les volumes respiratoires mobilisables et leurs valeurs normales chez l'adulte ?",
+      "options": [
+        "Volume courant (VC) : 500 mL | Volume de réserve inspiratoire (VRI) : 2500-3000 mL | Volume de réserve expiratoire (VRE) : 1000-1500 mL | Capacité vitale (CV) : ~4500-5000 mL",
+        "Seuls les mouvements d'inspiration et d'expiration existent sans subdivision volumétrique",
+        "Les volumes respiratoires ne sont pas mesurables et varient en permanence",
+        "Volume courant fixe à 100 mL chez tous les adultes sans variation possible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volumes respiratoires mobilisables (spirométrie) : Volume courant (VC/Vt) : 500 mL (6-8 mL/kg), volume d'air inspiré/expiré lors d'une respiration normale au repos. Volume de réserve inspiratoire (VRI) : 2500-3000 mL, volume supplémentaire mobilisable par inspiration forcée après inspiration normale. Volume de réserve expiratoire (VRE) : 1000-1500 mL, volume supplémentaire mobilisable par expiration forcée après expiration normale. Capacité vitale (CV) : VC + VRI + VRE ≈ 4500-5000 mL (75 mL/kg), volume maximal mobilisable. Volume résiduel (VR, non mobilisable) : 1200 mL. Capacité pulmonaire totale (CPT) : CV + VR ≈ 6000 mL. En ventilation mécanique IADE, le VC cible est 6-8 mL/kg poids idéal théorique.",
+      "theme": "Pneumologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pneumologie",
+        "Physiologie",
+        "Réanimation"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_21",
+      "text": "Quelles sont les complications post-opératoires immédiates spécifiques d'une thyroïdectomie en salle de réveil ?",
+      "options": [
+        "Hématome compressif cervical (urgence vitale), lésion du nerf récurrent (dysphonie/aphonie), atteinte bilatérale (détresse respiratoire), hypocalcémie par hypoparathyroïdie",
+        "Douleur post-opératoire modérée uniquement, sans risque vital particulier",
+        "Aucune complication spécifique, surveillance post-opératoire standard",
+        "Complications identiques à toute chirurgie cervicale bénigne sans particularité"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Complications spécifiques thyroïdectomie en SSPI : (1) Hématome compressif cervical (1-2% incidence) = urgence vitale nécessitant ouverture chirurgicale immédiate au lit (dyspnée, stridor, turgescence jugulaire, angoisse) ; (2) Lésion nerveuse : nerf récurrent (dysphonie unilatérale si atteinte unilatérale, détresse respiratoire si atteinte bilatérale par paralysie cordes vocales en adduction), nerf laryngé supérieur (troubles déglutition), nerf phrénique (rare) ; (3) Hypocalcémie par hypoparathyroïdie iatrogène (paresthésies péribuccales, signe de Chvostek, tétanie). Surveillance IADE : drain aspiratif, pansement, stridor, voix, calcémie H6-H12.",
+      "theme": "Chirurgie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Chirurgie",
+        "ORL",
+        "SSPI"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_22",
+      "text": "Quels sont les mécanismes physiologiques de régulation de la pression artérielle à court, moyen et long terme ?",
+      "options": [
+        "Court terme (secondes) : barorécepteurs artériels | Moyen terme (minutes-heures) : système rénine-angiotensine-aldostérone, peptide natriurétique auriculaire | Long terme (jours) : régulation rénale volémie",
+        "Régulation unique par le système nerveux sympathique sans autre mécanisme",
+        "Court terme : système rénal | Moyen terme : aucun | Long terme : barorécepteurs",
+        "Mécanismes de régulation tensionnelle inconnus et variables selon les individus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Régulation tensionnelle multi-niveaux : (1) Court terme (arc réflexe, secondes à minutes) : barorécepteurs à haute pression (sinus carotidien, crosse aortique) détectent l'étirement artériel et modulent le tonus sympathique/parasympathique via le centre cardiovasculaire bulbaire, et volorécepteurs auriculaires (réflexe de Bainbridge). (2) Moyen terme (minutes à heures) : système rénine-angiotensine-aldostérone (SRAA) activé par baisse de pression de perfusion rénale, et peptide natriurétique auriculaire (ANP) sécrété si distension auriculaire (vasodilatation, natriurèse). (3) Long terme (jours) : régulation rénale de la volémie par contrôle de l'excrétion hydrosodée (pression-natriurèse). En anesthésie IADE, ces mécanismes sont modifiés par agents anesthésiques (sympatholyse, vasodilatation).",
+      "theme": "Hémodynamique",
+      "difficulty": "advanced",
+      "themes": [
+        "Hémodynamique",
+        "Physiologie",
+        "Cardiologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_23",
+      "text": "Quel est le mécanisme d'action détaillé de la morphine et où agit-elle au niveau du système nerveux ?",
+      "options": [
+        "Agoniste complet des récepteurs opioïdes μ (mu) situés au niveau central (tronc cérébral, moelle épinière, système limbique) et périphérique, inhibant la transmission nociceptive",
+        "Antagoniste des récepteurs GABA-A entraînant une désinhibition des voies de la douleur",
+        "Inhibiteur sélectif de la cyclo-oxygénase 2 (COX-2) réduisant la synthèse des prostaglandines",
+        "Bloqueur des canaux calciques voltage-dépendants de type L au niveau cardiaque"
+      ],
+      "correctAnswer": 0,
+      "explanation": "La morphine (opioïde fort, palier 3 OMS) est un agoniste complet des récepteurs opioïdes μ (mu), avec affinité moindre pour δ (delta) et κ (kappa). Localisation : (1) Sites supra-spinaux : substance grise péri-aqueducale (PAG), noyaux du raphé, thalamus, système limbique (effet émotionnel de la douleur) ; (2) Sites spinaux : corne dorsale de la moelle (transmission nociceptive ascendante) ; (3) Sites périphériques : terminaisons nerveuses (inflammation). Mécanisme : inhibition pré-synaptique de la libération de neurotransmetteurs nociceptifs (substance P, glutamate) et hyperpolarisation post-synaptique (ouverture canaux K+, fermeture canaux Ca2+). Effets : analgésie puissante, sédation, euphorie, dépression respiratoire (centre bulbaire), bradycardie (tonus vagal), myosis, constipation (plexus myentérique).",
+      "theme": "Pharmacologie",
+      "difficulty": "advanced",
+      "themes": [
+        "Pharmacologie",
+        "Analgésie",
+        "Neurophysiologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_24",
+      "text": "Quelle est la classification OMS du paracétamol et quelles sont ses propriétés pharmacologiques ?",
+      "options": [
+        "Antalgique palier 1 (non-opioïde), antipyrétique central, sans activité anti-inflammatoire périphérique significative, inhibiteur faible COX (mécanisme partiellement élucidé)",
+        "Anti-inflammatoire stéroïdien de synthèse avec puissante action immunosuppressive",
+        "Antalgique palier 3 (opioïde morphinique) avec risque de dépendance physique et psychique",
+        "Antibiotique à large spectre de la famille des bêta-lactamines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le paracétamol (acétaminophène) est classé antalgique palier 1 OMS (douleur légère à modérée) et antipyrétique. Mécanisme d'action partiellement compris : inhibition de la cyclo-oxygénase (COX) principalement au niveau central (hypothalamus), avec très faible effet périphérique (d'où absence d'effet anti-inflammatoire clinique significatif). Hypothèses récentes : inhibition COX-3 (isoforme centrale), modulation système endocannabinoïde, inhibition voies sérotoninergiques descendantes. Pharmacocinétique : biodisponibilité 70-90%, métabolisme hépatique (glucurono/sulfo-conjugaison 90%, CYP2E1 → NAPQI toxique 5-10% détoxifié par glutathion). Posologie adulte : 1g x 4/jour maximum 4g/24h. Toxicité : hépatotoxicité si surdosage > 10g ou intoxication chronique (cytolyse, insuffisance hépatocellulaire fulminante).",
+      "theme": "Pharmacologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pharmacologie",
+        "Analgésie",
+        "Toxicologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_25",
+      "text": "Quelles sont les valeurs normales de la créatininémie et que reflète ce paramètre biologique ?",
+      "options": [
+        "Homme : 60-110 µmol/L (7-13 mg/L) | Femme : 45-90 µmol/L (5-10 mg/L) - Marqueur de la fonction de filtration glomérulaire rénale",
+        "Homme : 200-300 µmol/L | Femme : 150-250 µmol/L - Marqueur de la fonction hépatique",
+        "Valeur unique identique chez tous : 100 µmol/L indépendamment du sexe et de l'âge",
+        "Variable exclusivement selon l'heure du prélèvement sans valeur de référence établie"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Créatininémie normale : Homme 60-110 µmol/L (7-13 mg/L), Femme 45-90 µmol/L (5-10 mg/L), valeurs inférieures chez la femme (masse musculaire moindre). La créatinine est un déchet métabolique produit par le muscle (dégradation de la créatine phosphate), libéré de façon constante, filtré librement par le glomérule et non réabsorbé. Marqueur imparfait du débit de filtration glomérulaire (DFG) : sa concentration sérique augmente quand le DFG diminue (insuffisance rénale), mais avec délai et seuil (créatininémie normale jusqu'à perte de 50% de la fonction rénale). Estimation DFG : formules CKD-EPI ou Cockcroft-Gault (intégrant âge, sexe, poids). En péri-opératoire IADE, créatinine élevée (> 150 µmol/L) impose adaptation posologique médicaments à élimination rénale (curares, morphine, antibiotiques), optimisation volémie, éviction néphrotoxiques (AINS, produits de contraste iodés).",
+      "theme": "Biologie",
+      "difficulty": "base",
+      "themes": [
+        "Biologie",
+        "Néphrologie",
+        "Physiologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_26",
+      "text": "Quelles sont les valeurs normales de la glycémie à jeun et les seuils diagnostiques du diabète ?",
+      "options": [
+        "Glycémie normale à jeun : 0,7-1,1 g/L (3,9-6,1 mmol/L) | Diabète si ≥ 1,26 g/L (7 mmol/L) à 2 reprises | Pré-diabète (intolérance au glucose) : 1,1-1,25 g/L",
+        "Glycémie normale : 1,5-2,0 g/L avec large variation physiologique sans seuil pathologique",
+        "Glycémie normale : 0,3-0,5 g/L, tout dépassement de 0,5 g/L constitue un diabète",
+        "Glycémie variable sans limite définie, diagnostic de diabète uniquement sur symptômes cliniques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycémie à jeun normale (≥ 8h de jeûne) : 0,7-1,1 g/L (3,9-6,1 mmol/L ou 70-110 mg/dL). Critères diagnostiques diabète (OMS) : (1) Glycémie à jeun ≥ 1,26 g/L (7 mmol/L) à 2 reprises, ou (2) Glycémie aléatoire ≥ 2 g/L (11,1 mmol/L) + symptômes (polyurie, polydipsie, amaigrissement), ou (3) HbA1c ≥ 6,5% (hémoglobine glyquée), ou (4) Hyperglycémie provoquée orale (HGPO) : glycémie ≥ 2 g/L à H2. Pré-diabète : glycémie à jeun 1,1-1,25 g/L. En péri-opératoire IADE, objectif glycémique : 1,4-1,8 g/L (stress chirurgical, insulino-résistance). Complications hyperglycémie aiguë : déshydratation, acidocétose diabétique (DKA), coma hyperosmolaire. Hypoglycémie (< 0,6 g/L) : sueurs, tremblements, confusion, coma si < 0,3 g/L (resucrage IV : 30 mL G30% = 10g de glucose).",
+      "theme": "Biologie",
+      "difficulty": "base",
+      "themes": [
+        "Biologie",
+        "Endocrinologie",
+        "Diabétologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_27",
+      "text": "Quelle est la séquence de réanimation cardio-pulmonaire (RCP) de base chez l'adulte selon les recommandations ERC 2021 ?",
+      "options": [
+        "30 compressions thoraciques : 2 insufflations | Fréquence 100-120/min | Profondeur 5-6 cm | Défibrillation précoce si rythme choquable (FV/TV sans pouls)",
+        "15 compressions thoraciques : 2 insufflations à fréquence de 60-80 compressions/min",
+        "5 compressions thoraciques : 1 insufflation avec profondeur de 2-3 cm maximum",
+        "Compressions thoraciques continues sans interruption, aucune insufflation nécessaire (obsolète)"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RCP de base adulte (ERC 2021, European Resuscitation Council) : Ratio 30:2 (30 compressions thoraciques pour 2 insufflations), que ce soit 1 ou 2 sauveteurs. Paramètres compressions : fréquence 100-120/min (≈ 2 compressions/seconde), profondeur 5-6 cm (≥ 5 cm sans dépasser 6 cm), recompression thoracique complète entre chaque compression, minimiser les interruptions (< 10 secondes), relais sauveteur toutes les 2 min (fatigue). Position mains : 1/3 inférieur du sternum, talon d'une main, seconde main par-dessus, bras tendus verticalement. Insufflations : 1 seconde, volume suffisant pour soulèvement thoracique visible (500-600 mL). Défibrillation précoce si FV/TV (rythmes choquables) : choc biphasique 150-200J puis reprise RCP immédiate 2 min. Chaîne de survie : alerte précoce (15), RCP précoce, défibrillation précoce, réanimation médicalisée précoce.",
+      "theme": "Urgences",
+      "difficulty": "intermediate",
+      "themes": [
+        "Urgences",
+        "Réanimation",
+        "Cardiologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_28",
+      "text": "Quelle est la posologie de l'adrénaline en arrêt cardiaque selon les recommandations ERC 2021 ?",
+      "options": [
+        "1 mg IV/IO (intra-osseux) toutes les 3-5 minutes dès que possible | En rythme choquable (FV/TV) : après le 3ème choc | En rythme non choquable (asystolie/AESP) : dès que possible",
+        "0,1 mg IV dose unique sans répétition quel que soit le rythme cardiaque",
+        "10 mg IV bolus toutes les 10 minutes en titration progressive",
+        "0,5 mg IM (intramusculaire) répété toutes les 15 minutes maximum 3 doses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrénaline en arrêt cardio-respiratoire (ACR) selon ERC 2021 : Dose : 1 mg (= 1 ampoule = 1 mL d'adrénaline 1/1000 = 1 mg/mL) en IV directe ou intra-osseuse (IO), répétée toutes les 3-5 minutes (soit 1 cycle de RCP de 2 min) sans limite de doses totales tant que l'ACR persiste. Timing selon rythme initial : (1) Rythmes choquables (FV fibrillation ventriculaire / TV tachycardie ventriculaire sans pouls) : adrénaline APRÈS le 3ème choc électrique externe (CEE), puis toutes les 3-5 min ; (2) Rythmes non choquables (asystolie / AESP activité électrique sans pouls) : adrénaline dès que possible, puis toutes les 3-5 min. Mécanisme : effet alpha-adrénergique (vasoconstriction périphérique → augmentation pression de perfusion coronaire et cérébrale). Flush NaCl 0,9% 20 mL après injection + surélévation membre. En cas de bradycardie extrême avec pouls : adrénaline 2-10 µg/min IVSE (0,05-0,5 mg dilués dans 50 mL).",
+      "theme": "Urgences",
+      "difficulty": "advanced",
+      "themes": [
+        "Urgences",
+        "Réanimation",
+        "Pharmacologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_29",
+      "text": "Quels sont les sites d'action et les effets pharmacodynamiques multiples de la morphine au-delà de l'analgésie ?",
+      "options": [
+        "Effets centraux : dépression respiratoire (centre bulbaire), myosis (noyau Edinger-Westphal), sédation, nausées/vomissements (CTZ) | Périphériques : bradycardie (↑ tonus vagal), constipation (plexus myentérique), rétention urinaire",
+        "Effet unique exclusivement antalgique sans aucun effet secondaire associé",
+        "Tachycardie réflexe, diarrhée osmotique, mydriase bilatérale, hyperventilation compensatrice",
+        "Aucun effet central, action périphérique locale uniquement au site d'injection"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Effets pharmacodynamiques de la morphine (agoniste μ) : CENTRAUX : (1) Analgésie supra-spinale et spinale (PAG, raphé, corne dorsale moelle) ; (2) Dépression respiratoire dose-dépendante (↓ sensibilité centre bulbaire au CO₂, ↓ FR, puis ↓ volume courant) = effet indésirable majeur, réversible par naloxone ; (3) Myosis punctiforme (stimulation noyau Edinger-Westphal, résiste à l'hypoxie) = signe diagnostique ; (4) Sédation, euphorie, dysphorie (système limbique) ; (5) Nausées/vomissements (stimulation zone gâchette chémoréceptrice CTZ, area postrema) ; (6) Toux diminuée (centre bulbaire antitussif). PÉRIPHÉRIQUES : (1) Bradycardie (↑ tonus vagal) ; (2) Constipation opiacée (↓ péristaltisme, ↑ tonus sphinctérien, ↓ sécrétions) par action plexus myentérique ; (3) Rétention urinaire (↑ tonus sphincter vésical, ↓ détrusor) ; (4) Prurit (libération histamine mastocytaire, non allergique). Tolérance (tachyphylaxie) et dépendance physique en administration prolongée.",
+      "theme": "Pharmacologie",
+      "difficulty": "advanced",
+      "themes": [
+        "Pharmacologie",
+        "Neurophysiologie",
+        "Analgésie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "batch_30",
+      "text": "Quelles sont la posologie maximale et la toxicité du paracétamol chez l'adulte ?",
+      "options": [
+        "Dose unitaire : 1g | Intervalle minimum : 6h (4h si douleur intense) | Dose maximale : 4g/24h (3g si < 50 kg, insuffisance hépatique, alcoolisme) | Toxicité : hépatotoxicité par NAPQI si surdosage (> 10-15g)",
+        "Dose libre sans limite maximale, aucune toxicité hépatique ou rénale rapportée",
+        "Dose maximale : 500 mg/24h en raison d'un index thérapeutique très étroit",
+        "Posologie identique pour tous : 2g toutes les 2h sans limite journalière"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Posologie paracétamol adulte (≥ 50 kg) : Dose unitaire 1g (voie orale ou IV), intervalle minimum 6h entre prises (peut être réduit à 4h si douleur aiguë intense), dose maximale quotidienne 4g/24h soit 4 prises. Populations à risque (dose réduite 3g/24h) : poids < 50 kg, insuffisance hépatocellulaire, alcoolisme chronique (déplétion en glutathon), dénutrition sévère. Voie IV : perfusion 15 min, dose 1g x 4/j ou 15 mg/kg x 4/j. TOXICITÉ (surdosage aigu) : Dose toxique > 150 mg/kg ou > 10-15g chez l'adulte. Métabolite toxique NAPQI (N-acétyl-para-benzoquinone imine) produit par CYP2E1 sature les réserves hépatiques en glutathion → nécrose hépatocellulaire centrolobulaire (cytolyse H12-H24, insuffisance hépatocellulaire fulminante H72-H96). Traitement antidote : N-acétylcystéine (NAC) IV protocole 21h, efficace si administrée < 8h post-ingestion. Surveillance : transaminases ASAT/ALAT, TP/facteur V, paracétamolémie H4 (nomogramme de Rumack-Matthew).",
+      "theme": "Pharmacologie",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pharmacologie",
+        "Toxicologie",
+        "Hépatologie"
+      ],
+      "type": "QCM"
+    },
+    {
+      "id": "q1",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Définissez le score de Glasgow. Indiquez ses 3 items d'évaluation, le score minimum et maximum.",
+      "options": [
+        "Score de 3 à 15 : ouverture des yeux (1-4), réponse verbale (1-5), réponse motrice (1-6)",
+        "Score de 10 à 20 : pression artérielle, fréquence cardiaque, saturation",
+        "Score de 0 à 30 : âge, antécédents, bilan biologique",
+        "Le score de Glasgow n'existe pas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le score de Glasgow évalue l'état de conscience selon 3 paramètres : l'ouverture des yeux (1-4), la réponse verbale (1-5) et la réponse motrice (1-6). Le score va de 3 (coma profond) à 15 (conscience normale). Une intubation est possible si le score est inférieur à 8.",
+      "difficulty": "base",
+      "themes": [
+        "Neurologie",
+        "Réanimation"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "QCM",
+      "theme": "Néphrologie",
+      "text": "Citez les différentes fonctions du rein.",
+      "options": [
+        "Excrétion des déchets uniquement",
+        "Fonctions exocrines : maintien volémie, élimination déchets, équilibre acido-basique | Endocrines : rénine, EPO, vitamine D",
+        "Seulement régulation tension artérielle",
+        "Aucune fonction métabolique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Fonctions exocrines : maintien de la volémie, élimination des déchets du métabolisme, maintien équilibre acido-basique et électrolytique. Fonctions endocrines : régulation pression artérielle (rénine), sécrétion EPO, transformation vitamine D en forme active.",
+      "difficulty": "base",
+      "themes": [
+        "Néphrologie",
+        "Physiologie"
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "QCM",
+      "theme": "Acidose-Base",
+      "text": "Donnez la norme du PH et le sens de variation du PH, de la PCO₂ et des HCO₃⁻ en cas d'acidose métabolique.",
+      "options": [
+        "PH < 7,38 | PCO₂ diminue | HCO₃⁻ diminue",
+        "PH > 7,42 | PCO₂ augmente | HCO₃⁻ augmente",
+        "PH normal 6,5-7,5 | Pas de variation",
+        "PH toujours stable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Norme PH : 7,38 à 7,42. Acidose métabolique : PH < 7,38 (diminue), PCO₂ diminue (compensation), HCO₃⁻ diminue.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Acidose-Base",
+        "Réanimation"
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quels sont les signes de surdosage en morphinique et la conduite à tenir ?",
+      "options": [
+        "Tachycardie, hypertension, agitation",
+        "Somnolence, bradypnée, dépression respiratoire, myosis extrême",
+        "Diarrhée, crampes abdominales, hyperthermie",
+        "Aucun signe clinique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Signes : somnolence, bradypnée voire dépression respiratoire, hypotension, myosis extrême. Conduite : surveillance multiparamétrique, arrêt morphine, prévenir médecin, stimuler patient, O₂ si besoin, antagonisation avec naloxone.",
+      "difficulty": "base",
+      "themes": [
+        "Pharmacologie",
+        "Réanimation"
+      ]
+    },
+    {
+      "id": "q5",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Définir muscles lisses et muscles striés. Donnez un exemple pour chacun.",
+      "options": [
+        "Muscles striés : contraction volontaire (myocarde) | Muscles lisses : contraction involontaire (viscères)",
+        "Tous les muscles sont identiques",
+        "Striés = colonne vertébrale | Lisses = côtes",
+        "Pas de différence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscles striés : innervés par système nerveux cérébro-spinal, contraction soumise à volonté (ex: myocarde). Muscles lisses : contraction involontaire, soumis au système nerveux végétatif, dans viscères creux (tube digestif, voies biliaires, voies urinaires).",
+      "difficulty": "base",
+      "themes": [
+        "Anatomie",
+        "Physiologie"
+      ]
+    },
+    {
+      "id": "q6",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Donnez le principe du don du sang. Quel est le volume prélevé, le délai entre deux dons, et la fréquence des dons autorisés par an ?",
+      "options": [
+        "420-480ml, délai 8 semaines, femme 4x/an, homme 6x/an",
+        "500ml, délai 4 semaines, illimité",
+        "250ml, délai 1 semaine, 10x/an",
+        "Le don de sang est interdit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume : 420 à 480 ml selon poids. Délai minimum 8 semaines entre 2 dons. Fréquence : femme maximum 4 fois/an, homme 6 fois/an.",
+      "difficulty": "base",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ]
+    },
+    {
+      "id": "q7",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Combien de temps sont valables les RAI (Recherche d'Agglutinines Irrégulières) ?",
+      "options": [
+        "3 jours (6 mois si attestation médicale)",
+        "1 an sans limite",
+        "30 jours maximum",
+        "Pas de délai de validité"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Délai validité RAI : 3 jours sauf en l'absence de transfusion ou événement immunisant dans les 6 mois avec attestation médicale signée : 21 jours.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Quels éléments du sang peut-on transfuser ?",
+      "options": [
+        "Globules rouges, plaquettes, plasma",
+        "Uniquement le sang total",
+        "Pas de transfusion possible",
+        "Seulement les globules blancs"
+      ],
+      "correctAnswer": 0,
+      "explanation": "On peut transfuser des globules rouges, des plaquettes ou du plasma.",
+      "difficulty": "base",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ]
+    },
+    {
+      "id": "q9",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Que sont les médicaments dérivés du sang ? Citez-en 3.",
+      "options": [
+        "Albumine, facteurs de coagulation, immunoglobulines",
+        "Aspirine, paracétamol, ibuprofène",
+        "Peptides artificiels uniquement",
+        "Aucun médicament"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Médicaments dérivés du sang : médicaments à base de sang ou composants de sang préparés industriellement. Exemples : albumine, facteurs de coagulation, immunoglobulines d'origine humaine.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Pharmacologie"
+      ]
+    },
+    {
+      "id": "q10",
+      "type": "CasClinique",
+      "theme": "Cardiologie",
+      "text": "Vous êtes infirmier au SAMU et vous êtes appelé pour une douleur thoracique. À quoi pouvez-vous vous attendre ?",
+      "options": [
+        "Pneumothorax, infarctus myocarde, embolie pulmonaire, dissection aortique",
+        "Seulement infarctus",
+        "Problème bénin",
+        "Pas de diagnostic possible"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mnémonique PIED : P=Pneumothorax/péricardite, I=Infarctus myocarde, E=Embolie pulmonaire, D=Dissection aortique.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Cardiologie",
+        "Urgences"
+      ]
+    },
+    {
+      "id": "q11",
+      "type": "CasClinique",
+      "theme": "Cardiologie",
+      "text": "À la lecture de l'ECG, le médecin voit un sus-décalage du segment ST. De quoi semble souffrir le patient ? Citez les médicaments utilisés.",
+      "options": [
+        "Syndrome coronarien aigu | Aspegic, clopidogrel, métalyse, morphine",
+        "Bronchite, antibiotiques",
+        "Gastrite, antiacides",
+        "Pas de traitement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sus-décalage ST évoque syndrome coronarien aigu. Traitements : antiagrégant plaquettaire (aspegic), bloqueur récepteur ADP (clopidogrel), fibrinolytique (métalyse), paracétamol, morphine.",
+      "difficulty": "advanced",
+      "themes": [
+        "Cardiologie",
+        "Urgences"
+      ]
+    },
+    {
+      "id": "q12",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Donnez le volume sanguin moyen d'un adulte.",
+      "options": [
+        "5 à 6 litres",
+        "3 à 4 litres",
+        "10 à 12 litres",
+        "Pas de volume standard"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le volume sanguin moyen d'un adulte est d'environ 5L à 6L.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Physiologie"
+      ]
+    },
+    {
+      "id": "q13",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Citez les éléments figurés du sang et donnez leurs normes.",
+      "options": [
+        "Hématies: 4-5.5M/mm³ | Leucocytes: 4000-10000/mm³ | Plaquettes: 150000-400000/mm³",
+        "Tous identiques",
+        "Pas de normes",
+        "Variables selon l'humeur"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hématies : 4,0 à 5,5 millions/mm³. Leucocytes : 4000 à 10000/mm³. Plaquettes : 150000 à 400000/mm³.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Biologie"
+      ]
+    },
+    {
+      "id": "q14",
+      "type": "CasClinique",
+      "theme": "Pneumologie",
+      "text": "Vous êtes infirmière en service de pneumologie et vous avez en charge Mr G., patient BPCO. À l'arrivée dans la chambre, vous voyez qu'il a une saturation à 94% sous O₂ 2L/min. L'étudiant que vous encadrez vous propose d'augmenter à 6L/min pour améliorer sa saturation. Que lui répondez-vous ?",
+      "options": [
+        "Accepter l'augmentation du débit",
+        "Refuser car le risque d'hypoventilation existe chez le BPCO",
+        "Surveiller sans modifier",
+        "Proposer une intubation préventive"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chez le patient BPCO, la capnie est élevée. Un patient BPCO ne réagit qu'à l'hypoxie. Si on met trop d'oxygène, les récepteurs stimulent moins les centres respiratoires. Le patient respire moins vite, sa bradypnée entraîne augmentation PCO₂ et aggrave acidose.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pneumologie",
+        "Soins infirmiers"
+      ]
+    },
+    {
+      "id": "q15",
+      "type": "CasClinique",
+      "theme": "Calcul de dose",
+      "text": "Un patient doit recevoir 24 000 UI/24h d'héparine à l'aide d'un pousse-seringue électrique. Vous disposez de seringues de 50 ml renouvelées toutes les 6h et de flacons de 5 ml d'héparine (25 000 UI). Indiquez le débit horaire.",
+      "options": [
+        "1 ml/h",
+        "8 ml/h",
+        "16,7 ml/h",
+        "24 ml/h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "24 000 UI/24h = 1000 UI/h = 6000 UI/6h. Avec 1 ml = 5000 UI, on a 6000 UI = 1,2 ml d'héparine dans 48 ml de sérum physiologique (46,8 ml + 1,2 ml). 48 ml en 6h = 8 ml/h.",
+      "difficulty": "advanced",
+      "themes": [
+        "Calculs infirmiers",
+        "Hématologie"
+      ]
+    },
+    {
+      "id": "q16",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Donnez la définition des termes suivants : transfusion homologue et transfusion autologue.",
+      "options": [
+        "Homologue : donneur différent receveur | Autologue : patient reçoit son propre sang",
+        "Les deux sont identiques",
+        "Homologue : même groupe | Autologue : autre groupe",
+        "Pas de différence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Transfusion homologue = transfusion d'un donneur à un receveur autre. Transfusion autologue = transfusion du patient avec son propre sang prélevé en amont.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ]
+    },
+    {
+      "id": "q17",
+      "type": "QCM",
+      "theme": "Immunologie",
+      "text": "Où se trouvent les anticorps et les antigènes ?",
+      "options": [
+        "Anticorps dans le plasma | Antigènes dans les globules rouges",
+        "Tous dans le plasma",
+        "Tous dans les globules rouges",
+        "Pas de localisation précise"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Les anticorps sont dans le plasma et les antigènes dans les globules rouges.",
+      "difficulty": "base",
+      "themes": [
+        "Immunologie",
+        "Biologie"
+      ]
+    },
+    {
+      "id": "q18",
+      "type": "QCM",
+      "theme": "Cardiologie",
+      "text": "Quels sont les déterminants du débit cardiaque ?",
+      "options": [
+        "Volume d'éjection systolique (déterminé par précharge, postcharge, contractilité) et fréquence cardiaque",
+        "Seulement la tension",
+        "Seulement l'âge",
+        "Pas de facteurs identifiés"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Déterminants : volume d'éjection systolique (précharge, postcharge, contractilité cœur) et fréquence cardiaque.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Cardiologie",
+        "Physiologie"
+      ]
+    },
+    {
+      "id": "q19",
+      "type": "QROC",
+      "theme": "Pharmacologie",
+      "text": "Expliquez l'effet du premier passage hépatique. Quelles voies permettent de l'éviter ?",
+      "options": [
+        "Métabolisation hépatique avant circulation générale | Voies : sublinguale, transdermique, inhalée, nasale",
+        "Pas d'effet",
+        "Seulement voie orale",
+        "Toutes les voies sont identiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Premier passage hépatique : après résorption gastro-intestinale, médicament va au foie via circulation porte où il peut être métabolisé avant arrivée circulation générale. Voies pour l'éviter : sublinguale, transdermique, inhalée, nasale.",
+      "difficulty": "advanced",
+      "themes": [
+        "Pharmacologie",
+        "Physiologie"
+      ]
+    },
+    {
+      "id": "q20",
+      "type": "QROC",
+      "theme": "Pneumologie",
+      "text": "Définissez les volumes respiratoires mobilisables, citez-les et décrivez-les.",
+      "options": [
+        "Volume courant (500ml), VRI (2500-3000ml), VRE (1000ml), CV totale (4500ml)",
+        "Seulement inspiration/expiration",
+        "Pas de volumes",
+        "Variables"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume courant VT : 500ml. VRI : 2500-3000ml (au-delà inspiration normale). VRE : 1000ml (au-delà expiration normale). Capacité vitale CV : VT+VRI+VRE = 4500ml totale.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Pneumologie",
+        "Physiologie"
+      ]
+    },
+    {
+      "id": "q21",
+      "type": "CasClinique",
+      "theme": "Chirurgie",
+      "text": "Vous êtes infirmier en salle de réveil et recevez M. M. opéré d'une thyroïdectomie. Quels sont les principaux risques encourus ?",
+      "options": [
+        "Hématome compressif, lésion nerf récurrent (aphonie), atteinte bilatérale (difficulté respiratoire), lésions nerfs phrénique/laryngé",
+        "Seulement douleur",
+        "Pas de risque",
+        "Complications bénignes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Risque hématome compressif (urgence vitale). Lésion nerf récurrent (aphonie). Atteinte bilatérale (difficulté respiratoire). Lésion nerf phrénique (paralysie diaphragme). Lésion nerf laryngé (troubles déglutition). Risque douleur et infectieux.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Chirurgie",
+        "Soins infirmiers"
+      ]
+    },
+    {
+      "id": "q22",
+      "type": "QCM",
+      "theme": "Hémodynamique",
+      "text": "Quels sont les moyens de l'organisme pour réguler la tension ? Citez-en un à court, moyen et long terme.",
+      "options": [
+        "Court : barorécepteurs | Moyen : facteur natriurétique | Long : système rénine-angiotensine-aldostérone",
+        "Seulement rénine",
+        "Pas de régulation",
+        "Variables"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Court terme : barorécepteurs (sinus carotidien, crosse aortique, oreillette droite). Moyen : facteur natriurétique. Long terme : système rénine-angiotensine-aldostérone.",
+      "difficulty": "advanced",
+      "themes": [
+        "Hémodynamique",
+        "Physiologie"
+      ]
+    },
+    {
+      "id": "ocr_1",
+      "text": "Définissez le score de Glasgow (en citant les 3 items, le score minimum et maxi- mum) et dites dans",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_2",
+      "text": "quel cas il s'applique.",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_3",
+      "text": "Citez les différentes fonctions du rein. Donnez la norme du PH et",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_4",
+      "text": "donnez le sens de variation du PH, de la PCO2 et des HCO3- en cas d’acidose et d’alcalose métabolique et respiratoire.",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_5",
+      "text": "Quels sont les signes de surdosage en morphinique et la conduite à tenir.",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_6",
+      "text": "Définir muscles lisses et muscles striés.",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_7",
+      "text": "Donnez un exemple pour chacun.",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_8",
+      "text": "Donnez le principe du don du sang, le délai entre deux dons et la fréquence des dons autorisés par an. Combien de temps sont valables les RAI?",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_9",
+      "text": "Quels é1éments du sang peut-on transfuser? Que sont les médicaments dérivés du sang? Citez-en",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    },
+    {
+      "id": "ocr_10",
+      "text": "OO OO OO © Remplissez le schéma suivant: ANNALES CORRIGÉS DE L'ÉPREUVE ÉCRITE - PREPAC 3",
+      "options": [],
+      "correctAnswer": -1,
+      "explanation": "",
+      "theme": "Extrait OCR",
+      "difficulty": "base",
+      "themes": [
+        "Extrait OCR"
+      ],
+      "type": "QROC"
+    }
+  ],
+  "metadata": {
+    "source": "BATCH_1 + Mock + OCR",
+    "totalQuestions": 62,
+    "batchQuestions": 30,
+    "mockQuestions": 22,
+    "ocrQuestions": 10,
+    "createdAt": "2025-10-28T12:40:55.218Z"
+  }
+}

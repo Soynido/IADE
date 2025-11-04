@@ -1,0 +1,173 @@
+🔄 Génération de 50 questions via Ollama...
+
+[1/50] 🧠 Morphine palier III (Pharmacologie)
+  ✅ Question générée
+
+[2/50] 🧠 Surdosage morphinique (Pharmacologie)
+  ✅ Question générée
+
+[3/50] 🧠 Succinylcholine (Pharmacologie)
+  ✅ Question générée
+
+[4/50] 🧠 Rocuronium (Pharmacologie)
+  ✅ Question générée
+
+[5/50] 🧠 Propofol (Pharmacologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[6/50] 🧠 Midazolam (Pharmacologie)
+  ✅ Question générée
+
+[7/50] 🧠 Sufentanil (Pharmacologie)
+  ✅ Question générée
+
+[8/50] 🧠 Néostigmine (Pharmacologie)
+  ✅ Question générée
+
+[9/50] 🧠 Atropine (Pharmacologie)
+  ✅ Question générée
+
+[10/50] 🧠 Adrénaline (Pharmacologie)
+  ✅ Question générée
+
+[11/50] 🧠 Noradrénaline (Pharmacologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[12/50] 🧠 Dobutamine (Pharmacologie)
+  ✅ Question générée
+
+[13/50] 🧠 Héparine non fractionnée (Pharmacologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[14/50] 🧠 HBPM - Énoxaparine (Pharmacologie)
+  ✅ Question générée
+
+[15/50] 🧠 AOD - Apixaban (Pharmacologie)
+  ✅ Question générée
+
+[16/50] 🧠 Amoxicilline (Pharmacologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[17/50] 🧠 Vancomycine (Pharmacologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[18/50] 🧠 Gentamicine (Pharmacologie)
+  ✅ Question générée
+
+[19/50] 🧠 Métronidazole (Pharmacologie)
+  ✅ Question générée
+
+[20/50] 🧠 Furosémide (Lasilix) (Pharmacologie)
+  ✅ Question générée
+
+[21/50] 🧠 Score de Glasgow (Réanimation)
+  ✅ Question générée
+
+[22/50] 🧠 Choc anaphylactique (Réanimation)
+  ✅ Question générée
+
+[23/50] 🧠 ACR - Réanimation cardiopulmonaire (Réanimation)
+  ✅ Question générée
+
+[24/50] 🧠 OAP cardiogénique (Réanimation)
+  ✅ Question générée
+
+[25/50] 🧠 Ventilation mécanique - Modes (Physiologie)
+  ✅ Question générée
+
+[26/50] 🧠 Équilibre acido-basique (Physiologie)
+  ✅ Question générée
+
+[27/50] 🧠 Volumes respiratoires (Physiologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ⚠️ JSON incomplet (tentative 2)
+  ✅ Question générée
+
+[28/50] 🧠 Débit cardiaque (Physiologie)
+  ✅ Question générée
+
+[29/50] 🧠 Surfactant pulmonaire (Physiologie)
+  ✅ Question générée
+
+[30/50] 🧠 Hémoglobine et transport O2 (Physiologie)
+  ✅ Question générée
+
+[31/50] 🧠 Groupes sanguins ABO (Transfusion)
+  ✅ Question générée
+
+[32/50] 🧠 Transfusion CGR (Transfusion)
+  ⚠️ JSON incomplet (tentative 1)
+  ⚠️ JSON incomplet (tentative 2)
+  ✅ Question générée
+
+[33/50] 🧠 Plasma frais congelé (Transfusion)
+  ⚠️ JSON incomplet (tentative 1)
+  ⚠️ JSON incomplet (tentative 2)
+  ⚠️ JSON incomplet (tentative 3)
+  ✅ Question générée
+
+[34/50] 🧠 Plaquettes (Transfusion)
+  ✅ Question générée
+
+[35/50] 🧠 Incompatibilité transfusionnelle (Transfusion)
+  ✅ Question générée
+
+[36/50] 🧠 Normes biologiques - Ionogramme (Biologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[37/50] 🧠 Normes hématologiques (Biologie)
+  ✅ Question générée
+
+[38/50] 🧠 Coagulation - TP INR TCA (Biologie)
+  ✅ Question générée
+
+[39/50] 🧠 Créatinine et DFG (Biologie)
+  ✅ Question générée
+
+[40/50] 🧠 Troponine (Biologie)
+  ✅ Question générée
+
+[41/50] 🧠 Lactates (Biologie)
+  ✅ Question générée
+
+[42/50] 🧠 Gaz du sang artériel (Biologie)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[43/50] 🧠 Choc septique (Réanimation)
+  ✅ Question générée
+
+[44/50] 🧠 Choc hypovolémique (Réanimation)
+  ✅ Question générée
+
+[45/50] 🧠 Choc cardiogénique (Réanimation)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[46/50] 🧠 SDRA (Réanimation)
+  ⚠️ JSON incomplet (tentative 1)
+  ✅ Question générée
+
+[47/50] 🧠 Intubation orotrachéale (Anesthésie)
+  ✅ Question générée
+
+[48/50] 🧠 Extubation - Critères (Anesthésie)
+  ✅ Question générée
+
+[49/50] 🧠 Rachianesthésie (Anesthésie)
+  ✅ Question générée
+
+[50/50] 🧠 Anesthésie péridurale (Anesthésie)
+  ✅ Question générée
+
+📊 RÉSULTATS
+  Total: 50
+  Succès: 50 (100.0%)
+  Échecs: 0
+  Fichier: src/data/questions-generated.json

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import questionsData from '../data/mock/questions.json';
+import questionsData from '../data/questions-unified.json';
 
 interface Answer {
   questionId: string;

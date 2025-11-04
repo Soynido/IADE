@@ -7,9 +7,11 @@ import { Progress } from './ui/progress';
 import { QuestionGeneratorV3 } from '../services/questionGeneratorV3';
 import { StorageService } from '../services/storageService';
 import { AchievementsEngine } from '../services/achievementsEngine';
+import { QuestionFeedbackComponent } from './QuestionFeedback';
+import { PdfViewer } from './PdfViewer';
 import { 
   BookOpen, Clock, Target, Trophy, ArrowLeft, CheckCircle2, 
-  XCircle, Lightbulb, Timer, Zap 
+  XCircle, Lightbulb, Timer, Zap, FileText 
 } from 'lucide-react';
 import type { Question } from '../types/pathology';
 import type { LearningSession } from '../types/pathology';
@@ -22,6 +24,7 @@ export const QuizSessionV3: React.FC<QuizSessionV3Props> = ({ mode = 'revision' 
   const navigate = useNavigate();
   const { moduleId } = useParams<{ moduleId?: string }>();
   const [session, setSession] = useState<LearningSession | null>(null);
+  const [sessionId] = useState(() => crypto.randomUUID()); // ID de session unique
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [score, setScore] = useState(0);
@@ -30,6 +33,8 @@ export const QuizSessionV3: React.FC<QuizSessionV3Props> = ({ mode = 'revision' 
   const [isCorrect, setIsCorrect] = useState(false);
   const [timeLeft, setTimeLeft] = useState(mode === 'simulation' ? 120 : 0);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
+  const [showPdfModal, setShowPdfModal] = useState(false);
+  const [pdfToShow, setPdfToShow] = useState<{ filename: string; page: number; section: string } | null>(null);
 
   // Démarrer la session automatiquement
   useEffect(() => {
@@ -50,10 +55,10 @@ export const QuizSessionV3: React.FC<QuizSessionV3Props> = ({ mode = 'revision' 
     const userProfile = StorageService.getUserProfile();
     
     // Si moduleId présent (mode révision d'un module), générer session du module
-    // Sinon, session mixte normale
+    // Sinon, utiliser le moteur adaptatif intelligent
     const { questions, theme, difficulty } = moduleId 
       ? QuestionGeneratorV3.generateModuleSession(moduleId, 10)
-      : QuestionGeneratorV3.generateSessionWithSpacedRepetition(userProfile as any, 10, true);
+      : QuestionGeneratorV3.generateAdaptiveSession(10);
 
     const newSession: LearningSession = {
       questions,
@@ -396,9 +401,36 @@ export const QuizSessionV3: React.FC<QuizSessionV3Props> = ({ mode = 'revision' 
                             {currentQuestion.explanation}
                           </p>
                         </div>
+
+                        {/* Bouton "Voir le cours" si PDF disponible */}
+                        {currentQuestion.pdfSource && (
+                          <Button
+                            onClick={() => {
+                              setPdfToShow({
+                                filename: currentQuestion.pdfSource!.filename,
+                                page: currentQuestion.pdfSource!.page,
+                                section: currentQuestion.pdfSource!.section
+                              });
+                              setShowPdfModal(true);
+                            }}
+                            variant="outline"
+                            className="mt-3 w-full flex items-center justify-center gap-2 border-blue-300 hover:bg-blue-50 dark:border-blue-600 dark:hover:bg-blue-900/30"
+                          >
+                            <FileText className="h-4 w-4" />
+                            📖 Voir le cours (page {currentQuestion.pdfSource.page})
+                          </Button>
+                        )}
                       </div>
                     </div>
                   </div>
+
+                  {/* Feedback utilisateur sur la qualité */}
+                  <QuestionFeedbackComponent
+                    questionId={currentQuestion.id}
+                    sessionId={sessionId}
+                    wasCorrect={isCorrect}
+                    responseTime={Date.now() - questionStartTime}
+                  />
 
                   {/* Bouton suivant */}
                   <Button
@@ -427,6 +459,19 @@ export const QuizSessionV3: React.FC<QuizSessionV3Props> = ({ mode = 'revision' 
           </div>
         )}
       </div>
+
+      {/* Modal PDF Viewer */}
+      {showPdfModal && pdfToShow && (
+        <PdfViewer
+          filename={pdfToShow.filename}
+          initialPage={pdfToShow.page}
+          section={pdfToShow.section}
+          onClose={() => {
+            setShowPdfModal(false);
+            setPdfToShow(null);
+          }}
+        />
+      )}
     </div>
   );
 };

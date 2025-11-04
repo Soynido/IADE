@@ -1,0 +1,20 @@
+{
+  "total_questions": 202,
+  "ai_generated": 201,
+  "manual": 1,
+  "mean_score": 0,
+  "median_score": 0,
+  "by_domain": {
+    "Réanimation": 3,
+    "Physiologie": 2,
+    "Pharmacologie": 196
+  },
+  "by_difficulty": {
+    "Moyen": 97,
+    "Facile": 44,
+    "Difficile": 60
+  },
+  "excellent_count": 0,
+  "good_count": 0,
+  "acceptable_count": 0
+}

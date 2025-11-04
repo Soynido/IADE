@@ -10,4 +10,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  assetsInclude: ['**/*.pdf'],
+  optimizeDeps: {
+    include: ['pdfjs-dist']
+  },
 })

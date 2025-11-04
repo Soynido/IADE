@@ -13,5 +13,3623 @@
     "tags": [
       "general"
     ]
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle est la dose adrénaline à injecter dans une hypotension artérielle sévère associée à un choc anaphylactique ?",
+    "options": [
+      "0,1 mg",
+      "0,25 mg",
+      "0,5 mg",
+      "1 mg"
+    ],
+    "correct": "0,5 mg",
+    "explanation": "Lors d'un choc anaphylactique sévère, le traitement de première intention consiste à injecter 0,5 mg (0,5 mL d'une solution à 1/1000) d'adrénaline IM dans la face antérolatérale de la cuisse. Cette dose doit être renouvelée toutes les 5-15 minutes si besoin.",
+    "theme": "Réanimation",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Réanimation"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la pression expiratoire positive (PEEP) habituellement recommandée en ventilation mécanique?",
+    "options": [
+      "2 cmH2O",
+      "15 cmH2O",
+      "5-10 cmH2O",
+      "20 cmH2O"
+    ],
+    "correct": "5-10 cmH2O",
+    "explanation": "La pression expiratoire positive (PEEP) est habituellement recommandée entre 5 et 10 cmH2O pour prévenir le collapsus alvéolaire et améliorer l'oxygénation.",
+    "theme": "Physiologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Physiologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quel est l'antidote pour le surdosage morphinique manifestant une dépression respiratoire, myosis et troubles de la conscience?",
+    "options": [
+      "A) Atropine",
+      "B) Dextropropoxyphene",
+      "C) Naloxone",
+      "D) Morphine"
+    ],
+    "correct": "C) Naloxone",
+    "explanation": "Le surdosage de morphine peut entraîner une dépression respiratoire (bradypnée < 10/min), myosis et troubles de la conscience pouvant aller jusqu'au coma. La naloxone est un antidote utilisé pour traiter ce surdosage, administré par voie IV immédiatement à répétition toutes les 2-3 minutes jusqu'à amélioration clinique. La surveillance respiratoire est primordiale car la demi-vie de la naloxone est courte et un nouveau surdosage peut survenir.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Le score total de l'évaluation Glasgow en réanimation est-il compris entre 3 et 15?",
+    "options": [
+      "Oui, le score est compris entre 3 et 15",
+      "Non, le score est inférieur à 3",
+      "Non, le score dépasse 15",
+      "Le score n'a pas de limite supérieure"
+    ],
+    "correct": "Oui, le score est compris entre 3 et 15",
+    "explanation": "Le score Glasgow en réanimation évalue l'état de conscience en fonction de 3 critères : ouverture des yeux (1-4 points), réponse verbale (1-5 points), réponse motrice (1-6 points). Ainsi, le total de points peut aller de 3 à 15.",
+    "theme": "Réanimation",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Réanimation"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle est la durée d'action de la succinylcholine après l'intubation en séquence rapide ?",
+    "options": [
+      "5-10 minutes précis",
+      "30-40 minutes précis",
+      "60-90 secondes précis",
+      "45-60 secondes précis"
+    ],
+    "correct": "5-10 minutes précis",
+    "explanation": "La succinylcholine est un curare dépolarisant d'action ultra-rapide (45-60 secondes) mais de courte durée (5-10 minutes).",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "En ce qui concerne la ventilation mécanique, quels sont les modes principaux de ventilation et leurs caractéristiques respectives?",
+    "options": [
+      "VC (Volume Contrôlé) : Ventilation où le volume est imposé et la pression variable ; VAC (Volume Assisté Contrôlé) : Le patient peut déclencher des cycles supplémentaires ; AI (Aide Inspiratoire) : Ventilation spontanée assistée",
+      "VC (Contrainte de Pression) : Ventilation où la pression est imposée et le volume variable ; VAC (Volume Assisté Contrôlé) : Le patient peut déclencher des cycles supplémentaires ; AI (Aide Inspiratoire) : Ventilation spontanée assistée",
+      "VC (Ventilation Contrainte de Volume) : Ventilation où le volume est imposé et la pression variable ; VAC (Volume Assisté Contrôlé) : Le patient peut déclencher des cycles supplémentaires ; AI (Aide Inspiratoire) : Ventilation spontanée assistée",
+      "VC (Ventilation de Volume) : Ventilation où le volume est imposé et la pression variable ; VAC (Volume Assisté Contrôlé) : Le patient peut déclencher des cycles supplémentaires ; AI (Aide Inspiratoire) : Ventilation spontanée assistée"
+    ],
+    "correct": "VC (Volume Contrôlé) : Ventilation où le volume est imposé et la pression variable ; VAC (Volume Assisté Contrôlé) : Le patient peut déclencher des cycles supplémentaires ; AI (Aide Inspiratoire) : Ventilation spontanée assistée",
+    "explanation": "VC, ou Volume Contrôlé, est un mode de ventilation mécanique où le volume imposé est contrôlé et la pression peut varier en réponse. VAC, ou Volume Assisté Contrôlé, permet au patient de déclencher des cycles supplémentaires. AI, ou Aide Inspiratoire, est un mode de ventilation qui assiste la ventilation spontanée du patient.",
+    "theme": "Physiologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Physiologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quel est le premier traitement urgent pour un choc anaphylactique ?",
+    "options": [
+      "Inhalation de corticoïdes",
+      "Transfusion de sang",
+      "Utilisation d'antihistaminiques",
+      "Administration d'adrénaline à la cuisse"
+    ],
+    "correct": "Administration d'adrénaline à la cuisse",
+    "explanation": "Le premier traitement urgent pour un choc anaphylactique est l'administration d'adrénaline intramusculaire (IM) à une dose de 0.5 mg (0.5 mL de solution à 1/1000) dans la face antérolatérale de la cuisse. Cette administration est rapide et doit être renouvelée toutes les 5-15 minutes si nécessaire, jusqu'à l'arrivée des soins intensifs.",
+    "theme": "Réanimation",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Réanimation"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quel effet secondaire majeur est associé à l'utilisation d'une dose de morphine IV titrée à 0,1 mg/kg en tant qu'analgésique opiacé palier III ?",
+    "options": [
+      "Hypersensibilité cutanée",
+      "Arythmie cardiaque",
+      "Dépression respiratoire",
+      "Hyperactivité musculaire"
+    ],
+    "correct": "Dépression respiratoire",
+    "explanation": "La dépression respiratoire est un effet secondaire majeur de l'utilisation de morphine en tant qu'analgésique opiacé palier III, en particulier à une dose titrée à 0.1 mg/kg IV. Ce phénomène peut être surveillé en suivant la fréquence respiratoire et en établissant le niveau de conscience du patient.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle est la conséquence possible d'un surdosage en naloxone pour le traitement de la triade caractérisée par une bradypnée inférieure à 10/min, myosis et coma ?",
+    "options": [
+      "Hypertension artérielle",
+      "Arrêt cardiaque",
+      "Hypothermie",
+      "Résuscitation prolongée"
+    ],
+    "correct": "Arrêt cardiaque",
+    "explanation": "Un surdosage en naloxone peut causer une hyperactivité du système nerveux central, ce qui peut conduire à la bradypnée. Cependant, le traitement de cette bradypnée avec un excès de naloxone peut également entraîner une activation excessive du centre respiratoire et potentiellement mener à l'arrêt cardiaque.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel anticholinesterase inhibiteur est utilisé pour l'intubation rapide en raison de son effet dépolarisant ultra-rapide (45-60s) avec une durée d'action de 5-10 minutes et un dose de 1-1,5 mg/kg ?",
+    "options": [
+      "Succinylcholine",
+      "Atracurium",
+      "Rocuronium",
+      "Cisatracurium"
+    ],
+    "correct": "Succinylcholine",
+    "explanation": "Succinylcholine est un anticholinesterase inhibiteur dépolarisant ultra-rapide utilisé pour l'intubation rapide en raison de son effet dépolarisant ultra-rapide (45-60s) avec une durée d'action de 5-10 minutes et un dose de 1-1,5 mg/kg. Cependant, les risques d'hyperkaliémie, brûlures > 24h et myopathies nécessitent une surveillance attentive.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel antagoniste est utilisé pour réversibiliser l'effet de rocuronium ?",
+    "options": [
+      "Atracurium",
+      "Sugammadex",
+      "Cisatracurium",
+      "Vecuronium"
+    ],
+    "correct": "Sugammadex",
+    "explanation": "Sugammadex est un antagoniste utilisé pour réversibiliser l'effet de rocuronium. Il a une meilleure efficacité et une durée d'action plus courte que les autres antagonistes classiques tels que neostigmine ou edrophonium.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose initiale d'induction de propofol lors de l'hypnotique IV?",
+    "options": [
+      "1 mg/kg",
+      "2-2,5 mg/kg",
+      "4 mg/kg",
+      "8 mg/kg"
+    ],
+    "correct": "2-2,5 mg/kg",
+    "explanation": "La dose initiale d'induction de propofol lors de l'hypnotique IV est de 2-2,5 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "En cas d'urgence, quel antagoniste est utilisé pour réverser les effets du midazolam (Hypnovel), benzodiazépine hypnotique et anxiolytique, utilisé dans une dose sédative de 0,05-0,1 mg/kg ou lors de la prémédication de 0,1-0,2 mg/kg ?",
+    "options": [
+      "Chlorpromazine",
+      "Flunitrazepam",
+      "Naloxone",
+      "Flumazénil"
+    ],
+    "correct": "Flumazénil",
+    "explanation": "Flumazénil est un antagoniste de benzodiazépine utilisé pour réverser les effets du midazolam. Le midazolam peut entraîner une amnésie antérograde et une dépression respiratoire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle substance opiacé peut être utilisée pour l'analgésie peropératoire avec un risque de rigidité thoracique à haute dose et pour combien de temps?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Remifentanil",
+      "Sufentanil"
+    ],
+    "correct": "Sufentanil",
+    "explanation": "Sufentanil est une substance opiacé plus puissante que la morphine. Il peut être utilisé pour l'analgésie peropératoire avec un risque de rigidité thoracique à haute dose, et son effet dure environ 20-30 minutes.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_9",
+    "question": "Quelle est la première mesure à prendre ?",
+    "options": [
+      "Administrer une dose IV d'atropine pour contrer l'effet bradypnéique",
+      "Donner de la glucose orale pour soigner le diabète sucré",
+      "Transférer le patient dans un lit d'hôpital",
+      "Effectuer des examens complémentaires avant traitement"
+    ],
+    "correct": "Administrer une dose IV d'atropine pour contrer l'effet bradypnéique",
+    "explanation": "La priorité est de traiter la bradycardie, car elle peut entraîner une insuffisance cardiaque et un dysfonctionnement systémique. L'administration d'atropine pourrait contrer l'effet bradypnéique en bloquant les récepteurs muscariniques du parasympathique. Cependant, il est important de veiller à la surveillance des effets secondaires tels que une tachycardie excessive et des mydriases.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_10",
+    "question": "Quelle est la première mesure à prendre ?",
+    "options": [
+      "Administration de salbutamol par inhalation,",
+      "Administration d'adrénaline par voie intramusculaire",
+      "Dépistage des antigènes responsables de l'anaphylaxie",
+      "Hospitalisation urgente"
+    ],
+    "correct": "Administration d'adrénaline par voie intramusculaire",
+    "explanation": "L'anaphylaxie étant une réaction allergique grave, la première mesure à prendre est l'administration d'adrénaline. L'asthme bronchique et l'urticaria sont des symptômes de l'anaphylaxie, qui nécessite un traitement immédiat afin de prévenir le choc anaphylactique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quel effet secondaire pouvait être observé en cas d'administration IV de morphine à une dose de 0,1 mg/kg et suivi par titration?",
+    "options": [
+      "Hypersensibilité anaphylactique",
+      "Dépression respiratoire",
+      "Myosis",
+      "Hyperactivité cérébrale"
+    ],
+    "correct": "Dépression respiratoire",
+    "explanation": "La morphine, un analgésique opiacé de palier III, peut provoquer des effets secondaires tels que la dépression respiratoire, la myosis et la constipation. Le risque principal en cas de dose IV titrée est l'arrêt respiratoire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quel est le risque potentiel en cas de surdosage de Naloxone pour traiter la bradypnée dans la triade du coma?",
+    "options": [
+      "Hypersensibilité",
+      "Rétardement d'évolution",
+      "Arrêt cardiaque",
+      "Résuscitation prolongée"
+    ],
+    "correct": "Arrêt cardiaque",
+    "explanation": "Le surdosage de Naloxone peut provoquer une hyperstimulation des récepteurs opioïdes, qui en cas de bradypnée dans la triade du coma pourrait entraîner un arrêt cardiaque.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel effet secondaire peut être associé à la succinylcholine lors d'une intubation et pourquoi cela se produit-il?",
+    "options": [
+      "Hyperkaliémie",
+      "Hypokaliémie",
+      "Brûlures > 24h",
+      "Myopathies"
+    ],
+    "correct": "Hyperkaliémie",
+    "explanation": "Succinylcholine est un dépolarisant ultra-rapide utilisé pour l'intubation. Il provoque une décharge musculaire qui libère du potassium intracellulaire dans le plasma, ce qui peut entraîner une hyperkaliémie qui peut être dangereuse en raison de son effet sur le rythme cardiaque.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle dose de sugammadex est utilisée pour antagoniser la curare non dépolarisant rapide rocuronium avec une durée d'action de 30-40 minutes et une dose de 0,6 mg/kg?",
+    "options": [
+      "1.5 mg/kg",
+      "2 mg/kg",
+      "4 mg/kg",
+      "6 mg/kg"
+    ],
+    "correct": "2 mg/kg",
+    "explanation": "Sugammadex, un agent réversible de la curare rapide rocuronium, est administré à une dose de 2-4 mg/kg pour annuler son effet.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quel est l'antidote pour le remède provoquant hypotension et apnée après administration d'une dose inappropriée chez une personne allergique à l'œuf ou soja?",
+    "options": [
+      "Antihistamines",
+      "Atropine",
+      "Flumazénil",
+      "Naloxone"
+    ],
+    "correct": "Flumazénil",
+    "explanation": "Flumazénil est un antagoniste du receptor benzodiazépine utilisé pour traiter les effets secondaires de l'administration de propofol, notamment la sédation excessive ou la réspiratoire. En revanche, Antihistamines et Naloxone n'ont pas d'effet sur les effets du propofol tandis qu'Atropine est un anticholinergique utilisé pour traiter des symptômes liés à l'utilisation de certains médicaments tels que la curare.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel antagoniste est utilisé pour annuler les effets du midazolam utilisé comme sédation ou pré-médication ?",
+    "options": [
+      "Dextropropoxyphene",
+      "Flumazénil",
+      "Morphine",
+      "Oxycodone"
+    ],
+    "correct": "Flumazénil",
+    "explanation": "Flumazénil est un antagoniste connu pour être utilisé pour annuler les effets du midazolam, un benzodiazépine utilisé comme sédation ou pré-médication. Les effets secondaires de ce médicament comprennent l'amnésie antérograde et une dépression respiratoire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel opiacé peut être utilisé pour la gestion de l'analgésie peropératoire en tant qu'alternative au morphinique puissant (10x morphine), tout en minimisant le risque de rigidité thoracique ?",
+    "options": [
+      "Fentanyl",
+      "Remifentanil",
+      "Sufentanil",
+      "Alfentanil"
+    ],
+    "correct": "Sufentanil",
+    "explanation": "Sufentanil est un opiacé puissant utilisé pour l'anesthésie et l'analgésie. Il possède des propriétés analgésiques similaires à celles du morphinique, mais a une demi-vie plus courte (1-3 heures contre 20-30 minutes pour le morphinique), ce qui peut réduire le risque de rigidité thoracique. Fentanyl et remifentanil ont des demi-vies trop courtes pour l'analgésie peropératoire, tandis qu'alfentanil est un opiacé utilisé principalement en anesthésie générale.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quel effet secondaire est le plus grave pour un patient administrant des doses de morphine à un palier III (0,1 mg/kg IV titration) ?",
+    "options": [
+      "Dépression respiratoire",
+      "Hypertension",
+      "Nausees et vomissements",
+      "Tachycardie"
+    ],
+    "correct": "Dépression respiratoire",
+    "explanation": "La dépression respiratoire est le plus grand risque en cas d'utilisation de morphine dans ce palier (0,1 mg/kg IV titration), car elle peut mener à une insuffisance respiratoire et finalement à l'arrêt cardio-respiratoire. Il est donc important de surveiller le rythme respiratoire et la conscience du patient.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "En cas de surdosage de naloxone avec bradypnée < 10/min comme symptôme, quel traitement devrait être donné dans un premier temps ?",
+    "options": [
+      "Atropine IV q 3-5 min",
+      "Flumazénil IV q 1 min",
+      "Dextropropoxyphene IV q 2-3 h",
+      "Naloxone IV q 2-3 min"
+    ],
+    "correct": "Naloxone IV q 2-3 min",
+    "explanation": "Naloxone est un antagoniste des récepteurs opioides. Dans le cas d'un surdosage, il pourrait être nécessaire de continuer l'administration de naloxone, mais en diminuant la dose et l'intervalle entre les administrations. Les autres médicaments proposés sont plausibles dans un contexte différent.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel type d'effet secondaire est associé à l'utilisation de succinylcholine et pourquoi ?",
+    "options": [
+      "Hyperkaliémie",
+      "Hypokaliémie",
+      "Brûlures > 24h",
+      "Nausées"
+    ],
+    "correct": "Hyperkaliémie",
+    "explanation": "Succinylcholine est un dépolarisant ultra-rapide qui agit sur les muscles squelettiques et les ganglions paravertebraux pour induire la paralysie. Cette action provoque une libération de potassium intracellulaire dans le sang qui peut entraîner une hyperkaliémie si l'équilibre entre la production et l'élimination du potassium est perturbé, ce qui peut avoir des conséquences graves pour le patient en cours d'intubation.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle dose de sugammadex est utilisée pour l'antagonisation du rocuronium rapide (60-90s) avec une durée d'action de 30-40 minutes?",
+    "options": [
+      "1 mg/kg",
+      "2 mg/kg",
+      "3 mg/kg",
+      "4 mg/kg"
+    ],
+    "correct": "2 mg/kg",
+    "explanation": "La dose de sugammadex pour l'antagonisation du rocuronium rapide est de 2-4 mg/kg. Cette dose permet de rétablir les réponses musculaires au niveau neuromusculaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose initiale de propofol dans l'induction d'une anesthésie ou sédation (en mg/kg) ?",
+    "options": [
+      "1,5-2 mg/kg",
+      "2-2,5 mg/kg",
+      "3-3,5 mg/kg",
+      "4-4,5 mg/kg"
+    ],
+    "correct": "2-2,5 mg/kg",
+    "explanation": "La dose d'induction de propofol pour l'anesthésie ou la sédation varie entre 1,5 à 2,5 mg/kg. La dose donnée est de 2-2,5 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel est l'antagoniste utilisé pour la réversibilité des effets de midazolam ?",
+    "options": [
+      "Diazepam",
+      "Flunitrazepam",
+      "Zolpidem",
+      "Flumazénil"
+    ],
+    "correct": "Flumazénil",
+    "explanation": "Flumazénil est un antagoniste connu pour réverse les effets de la benzodiazépine midazolam. Il est utilisé dans des situations où il est souhaité réduire ou neutraliser les effets désirables de cette molécule.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel opiacé peut être utilisé pour la péri-opératoire avec un risque potentiel de rigidité thoracique à haute dose et une durée d'action de 20-30 minutes?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Sufentanil",
+      "Remifentanil"
+    ],
+    "correct": "Sufentanil",
+    "explanation": "Sufentanil est un opiacé plus puissant que la morphine, et avec une durée d'action de 20-30 minutes, il convient pour l'analgésie peropératoire. Il y a un risque potentiel de rigidité thoracique à haute dose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle surveillance est nécessaire en cas d'administration de morphine, un opiacé palier III à la dose de 0,1 mg/kg IV titrée ?",
+    "options": [
+      "Monitoring du taux de glucose",
+      "Surveillance de l'état d'agitation",
+      "Examen des voies biliaires",
+      "Surveillance FR, conscience"
+    ],
+    "correct": "Surveillance FR, conscience",
+    "explanation": "Lorsque la morphine est administrée en intraveineuse à une dose de 0.1 mg/kg et titrée, il est nécessaire d'effectuer une surveillance étroite du patient pour détecter les effets secondaires tels que la dépression respiratoire, la myosis et la constipation. Cela inclut la surveillance des paramètres vitaux fondamentaux (fréquence cardiaque, tension artérielle) et de l'état de conscience du patient.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle est la conséquence possible d'un surdosage de Naloxone ?",
+    "options": [
+      "Rappel de la conscience plus rapide",
+      "Hyperventilation",
+      "Bradypnée récurrentes",
+      "Coma profond"
+    ],
+    "correct": "Bradypnée récurrentes",
+    "explanation": "Naloxone est un antidote contre l'opiacé. Un surdosage peut provoquer une bradypnée (réspiration lente) en bloquant trop efficacement les récepteurs opiacés responsables de la respiration.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Pour quelle indication est utilisée la succinylcholine en pratique médicale ?",
+    "options": [
+      "Intubation rapide",
+      "Traitement d'une hyperkaliémie",
+      "Soins pour des brûlures antérieures à 24h",
+      "Traitement de certaines myopathies"
+    ],
+    "correct": "Intubation rapide",
+    "explanation": "La succinylcholine est un dépolarisant ultra-rapide utilisé pour la courte durée nécessaire à l'intubation rapide. Il agit en bloquant les canaux ioniques de potassium au niveau des muscles squelettiques, provoquant une paralysie musculaire. Cela permet d'effectuer une intubation sans que le patient puisse respirer spontanément et éviter la détresse respiratoire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle dose de sugammadex est utilisée pour l'antagonisation de rocuronium à une dose de 0,6 mg/kg?",
+    "options": [
+      "1 mg/kg",
+      "2 mg/kg",
+      "3 mg/kg",
+      "4 mg/kg"
+    ],
+    "correct": "4 mg/kg",
+    "explanation": "En antagonisant le rocuronium, la dose de sugammadex utilisée est de 2-4 mg/kg. Dans ce cas spécifique avec une dose de 0,6 mg/kg de rocuronium, il est nécessaire d'utiliser une dose de 4 mg/kg de sugammadex pour la neutralisation.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quel est le produit anesthésiant utilisé lors de la sédation avec l'émulsion lipidique 1-2% ?",
+    "options": [
+      "Midazolam",
+      "Ketamine",
+      "Fentanyl",
+      "Propofol"
+    ],
+    "correct": "Propofol",
+    "explanation": "Le produit anesthésiant utilisé est Propofol. L'émulsion lipidique de 1-2% est un composant de la solution de Propofol, et l'induction se fait à une dose de 2-2,5 mg/kg, suivie d'une dose entre 4 et 12 mg/kg/h pour le maintien. Cette sédation peut entraîner des effets indésirables comme l'hypotension et l'apnée, avec un risque de réaction allergique en cas d'allergie à l'œuf ou au soja.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel antagoniste est utilisé pour inverser l'effet de la midazolam, une benzodiazépine utilisée en prémédication et sédation ?",
+    "options": [
+      "Diazepam",
+      "Haloperidol",
+      "Flumazénil",
+      "Fentanyl"
+    ],
+    "correct": "Flumazénil",
+    "explanation": "Flumazénil est utilisé pour inverser l'effet de la midazolam car il est un antagoniste spécifique des récepteurs de benzodiazépine. En raison de ses propriétés amnésiantes et respiratoires, la midazolam peut provoquer une dépression respiratoire et de l'amnésie antérograde.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel opiacé peut être utilisé pour l'analgésie peropératoire avec un risque possible de rigidité thoracique à haute dose ?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Remifentanil",
+      "Sufentanil"
+    ],
+    "correct": "Sufentanil",
+    "explanation": "Sufentanil est un opiacé plus puissant que la morphine et possède une demi-vie longue, ce qui le rend approprié pour l'analgésie peropératoire. Cependant, à haute dose, il peut entraîner une rigidité thoracique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "En cas d'administration de morphine en palier III (0,1 mg/kg IV) avec titration, quel effet secondaire est particulièrement à surveiller ?",
+    "options": [
+      "Hypotension",
+      "Tachycardie",
+      "Dépression respiratoire",
+      "Diarrhée"
+    ],
+    "correct": "Dépression respiratoire",
+    "explanation": "La morphine appartenant aux opiacés peut entraîner une dépression respiratoire en cas de surdosage ou d'insuffisante surveillance de la fréquence respiratoire et de conscience du patient.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Le surdosage de Naloxone peut causer une bradypnée persistante. Pour quelle dose doit-on s'attendre à un effet maximal?",
+    "options": [
+      "0,2 mg IV q 2-3 min",
+      "0,8 mg IV q 2-3 min",
+      "1,6 mg IV q 2-3 min",
+      "0,4 mg IV q 2-3 min"
+    ],
+    "correct": "0,4 mg IV q 2-3 min",
+    "explanation": "Le Naloxone est utilisé pour traiter la surdosage de certains opioïdes. Il a un effet antagoniste et peut provoquer une réponse sympathique excessive chez un patient ayant pris un surdosage, dont l'une des conséquences peut être une bradypnée. Cependant, le traitement est à la dose de 0,4 mg IV q 2-3 min. Les doses plus élevées peuvent provoquer des effets indésirables tels que un hypertension artérielle ou un arrêt cardiaque.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quelle est l'indication pour laquelle succinylcholine est utilisé en anesthésie ?",
+    "options": [
+      "Intubation rapide",
+      "Analgésie",
+      "Anticonvulsivant",
+      "Sedation"
+    ],
+    "correct": "Intubation rapide",
+    "explanation": "Succinylcholine est un dépolarisant ultra-rapide utilisé en anesthésie pour la réalisation d'une intubation rapide, car il provoque rapidement la paralysie musculaire sans affecter le système nerveux central. Il est généralement administré lorsqu'il est nécessaire de procéder à une intubation endotrachéale dans des situations d'urgence ou en cas de difficultés attendues pour l'intubation.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel antagoniste est le plus approprié pour la réversibilisation de la curare non dépolarisante rapide rocuronium d'une dose de 0,6 mg/kg ?",
+    "options": [
+      "Atropine",
+      "Neostigmine",
+      "Suxamethonium",
+      "Sugammadex"
+    ],
+    "correct": "Sugammadex",
+    "explanation": "Sugammadex est un antagoniste spécifique et hautement sélectif du rocuronium, il permet une réversibilisation plus rapide et prévisible que les autres agents tels que atropine ou neostigmine.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose initiale d'induction pour l'émulsion lipidique de propofol lorsqu'il est utilisé pour l'anesthésie ou la sédation ?",
+    "options": [
+      "1-4 mg/kg",
+      "2-2,5 mg/kg",
+      "5-8 mg/kg",
+      "10-15 mg/kg"
+    ],
+    "correct": "2-2,5 mg/kg",
+    "explanation": "La dose initiale d'induction pour l'émulsion lipidique de propofol est de 2 à 2,5 mg/kg en fonction de la taille et de la sensibilité du patient. La dose entretien varie entre 4 à 12 mg/kg/h.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quelle est la dose recommandée pour la prémédication avec Midazolam (Hypnovel), une benzodiazépine utilisée comme hypnotique et anxiolytique ?",
+    "options": [
+      "0,04-0,06 mg/kg",
+      "0,15-0,17 mg/kg",
+      "0,1-0,2 mg/kg",
+      "0,3-0,4 mg/kg"
+    ],
+    "correct": "0,1-0,2 mg/kg",
+    "explanation": "La dose recommandée pour la prémédication avec Midazolam (Hypnovel) est comprise entre 0,1 et 0,2 mg/kg. Cette benzodiazépine est utilisée comme hypnotique et anxiolytique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel opiacé peut être utilisé pour une anesthésie peropératoire avec un risque de rigidité thoracique élevée et quelle est la durée d'action?",
+    "options": [
+      "Fentanyl (durée 30-60 min)",
+      "Remifentanil (durée 5-10 min)",
+      "Sufentanil (durée 20-30 min)",
+      "Alfentanil (durée 30-45 min)"
+    ],
+    "correct": "Sufentanil (durée 20-30 min)",
+    "explanation": "Le sufentanil est un opiacé utilisé pour l'anesthésie peropératoire. Il est plus puissant que la morphine avec une dose de 0,1-0,5 µg/kg et peut être administré en 1-3 minutes. Cependant, il présente un risque élevé de rigidité thoracique à haute dose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_9",
+    "question": "Quelle est la première mesure à prendre pour stabiliser le rythme cardiaque du patient ?",
+    "options": [
+      "Administrer une dose de 0,02 mg/kg d'Atropine intraveineuse (IV)",
+      "Enregistrer l'EKG et observer les signes vitales",
+      "Consulter le médecin spécialiste en cardiologie",
+      "Demander un transfert vers la salle des soins intensifs"
+    ],
+    "correct": "Administrer une dose de 0,02 mg/kg d'Atropine intraveineuse (IV)",
+    "explanation": "La première mesure à prendre pour stabiliser le rythme cardiaque du patient est l'administration d'un parasympatholytique. En particulier, Atropine est un médicament couramment utilisé en urgence pour traiter la bradycardie en raison de son action sur les récepteurs muscariniques. Il augmente la fréquence cardiaque (tachycardie) et dilate les pupilles (mydriase). Cette mesure permettra d'améliorer le flux sanguin vers l'organisme et de renforcer ainsi le rythme cardiaque.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle surveillance est recommandée lors d'une administration intraveineuse de morphine à titre thérapeutique en palier III avec une dose de 0.1 mg/kg ?",
+    "options": [
+      "Respiration unique",
+      "Conscience unique",
+      "Myocardium unique",
+      "Colon unique"
+    ],
+    "correct": "Conscience unique",
+    "explanation": "Une surveillance de la conscience est importante lors d'une administration intraveineuse de morphine en palier III à titre thérapeutique, car les effets indésirables comprennent une dépression respiratoire, myosis et constipation. La conscience doit être surveillée pour détecter toute perte de conscience ou état d'alerte.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "En cas de surdosage de Naloxone qui présente une bradypnée persistante (<10/min), quelle est la mesure la plus appropriée en priorité pour réversible la dépression des centers respiratoires?",
+    "options": [
+      "Administrer de la morphine",
+      "Mettre en place un support respiratoire non invasif",
+      "Administrer un antagoniste des H2",
+      "Donner une dose supplémentaire de Naloxone"
+    ],
+    "correct": "Mettre en place un support respiratoire non invasif",
+    "explanation": "Le surdosage de Naloxone peut provoquer une bradypnée persistante en bloquant les récepteurs opioïdes endogènes et laissant les effets des opiates residuels. Une ventilation assistée est la mesure appropriée pour remédier à cette situation.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quelle est la durée d'action du succinylcholine en milieu clinique?",
+    "options": [
+      "1-2 heures",
+      "5-10 minutes",
+      "30 minutes à 1 heure",
+      "Plus de 2 heures"
+    ],
+    "correct": "5-10 minutes",
+    "explanation": "Le succinylcholine est un dépolarisant ultra-rapide, sa durée d'action dans le milieu clinique est de 5 à 10 minutes.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle dose de sugammadex est recommandée pour antagoniser une dose de rocuronium rapide de 0.6 mg/kg ?",
+    "options": [
+      "1 mg/kg",
+      "2 mg/kg",
+      "3 mg/kg",
+      "4 mg/kg"
+    ],
+    "correct": "4 mg/kg",
+    "explanation": "Sugammadex est un agent de rétro-antagonisme rapide et spécifique du rocuronium. La dose recommandée pour antagoniser une dose de rocuronium de 0.6 mg/kg est de 2-4 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose recommandée pour l'entretien d'une anesthésie et sédation avec l'émulsion lipidique PropoFol à 1-2% ?",
+    "options": [
+      "0,5-5 mg/kg/h",
+      "4-8 mg/kg",
+      "16-32 mg/kg/h",
+      "4-12 mg/kg/h"
+    ],
+    "correct": "4-12 mg/kg/h",
+    "explanation": "La dose recommandée pour l'entretien est de 4 à 12 mg/kg par heure en fonction du patient. L'hypotension et l'apnée peuvent être des effets indésirables.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quelle est la dose recommandée pour une sédation avec le Midazolam (Hypnovel) ?",
+    "options": [
+      "0,01-0,05 mg/kg",
+      "0,2-0,4 mg/kg",
+      "0,5-1 mg/kg",
+      "0,1-0,2 mg/kg"
+    ],
+    "correct": "0,1-0,2 mg/kg",
+    "explanation": "La dose recommandée pour la sédation avec le Midazolam est de 0,1 à 0,2 mg/kg. La dose pour la prémédication peut aller jusqu'à 0,2 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle substance peut être utilisée en tant qu'opiacé pour la gestion de l'analgésie peropératoire avec un faible risque de rigidité thoracique, comparativement au morphine puissant 10x ?",
+    "options": [
+      "Sufentanil",
+      "Fentanyl",
+      "Morphine",
+      "Remifentanil"
+    ],
+    "correct": "Sufentanil",
+    "explanation": "Le sufentanil est un opiacé plus puissant que la morphine, mais il a une dose réduite comparativement au morphine 10x (10 fois plus fort). Il est également connu pour avoir un faible risque de rigidité thoracique en comparaison à d'autres opiacés tels que la morphine. Les autres options sont des opiacés, mais n'offrent pas les avantages de sufentanil en ce qui concerne sa dose et son effet sur la rigidité thoracique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "En quelle dose initiale est la titration de morphine opiacé palier III IV administrée à un patient en cas de douleur intense?",
+    "options": [
+      "0,2 mg/kg",
+      "0,5 mg/kg",
+      "1 mg/kg",
+      "0,1 mg/kg"
+    ],
+    "correct": "0,1 mg/kg",
+    "explanation": "La dose initiale de titration par bolus de morphine pour un patient en cas de douleur intense est de 0,1 mg/kg IV. Cette dose peut être augmentée de 2-3 mg toutes les 5 minutes selon la douleur persistante et l'évolution clinique du patient.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quel opiacé peut être utilisé pour l'analgésie peropératoire avec une dose de 1-2 µg/kg IV et un délai d'effet de 1-2 min, mais qui pourrait provoquer une rigidité thoracique si administré trop rapidement ?",
+    "options": [
+      "Fentanyl",
+      "Morphine",
+      "Remifentanil",
+      "Hydromorphone"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé puissant à effet rapide (1-2 min), utilisé pour l'analgésie peropératoire et postopératoire. Toutefois, son administration trop rapide peut provoquer une rigidité thoracique en raison de son effet sur les muscles respiratoires.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel est le médicament utilisé pour la perfusion continue en morphinique ultra-court durant l'analgésie précoce peri- et postopératoire ?",
+    "options": [
+      "Rémifentanyl",
+      "Fentanyl",
+      "Morphine",
+      "Hydromorphone"
+    ],
+    "correct": "Rémifentanyl",
+    "explanation": "Le Rémifentanyl est un opioïde de court terme utilisé pour la perfusion continue en morphinique ultra-court. C'est une substance de synthèse qui agit rapidement et est métabolisée par les esterases plasmatiques. Il permet une analgésie per et postopératoire précoce avec un réveil immédiat à l'arrêt.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le traitement topalgique de palier II qui possède un double mécanisme, opioïde et inhibition recapture, avec une dose maximale journalière de 400 mg et des effets secondaires potentiels comme les nausées et vertiges ?",
+    "options": [
+      "Tramadol",
+      "Codeine",
+      "Morphine",
+      "Fentanyl"
+    ],
+    "correct": "Tramadol",
+    "explanation": "Tramadol est un opioïde faible de palier II qui possède un double mécanisme, opioïde et inhibition recapture. Sa dose maximale journalière est de 400 mg et les effets secondaires potentiels comprennent les nausées et vertiges. Son utilisation peut être associée à un risque de convulsions avec une dose élevée.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose maximale journalière du paracétamol (Perfalgan) en palier I pour une personne pesant moins de 50 kg ?",
+    "options": [
+      "3g q 6h max 4g/j",
+      "4g q 6h max 6g/j",
+      "5g q 6h max 10g/j",
+      "6g q 6h max 12g/j"
+    ],
+    "correct": "3g q 6h max 4g/j",
+    "explanation": "La dose maximale journalière de paracétamol pour une personne pesant moins de 50 kg est de 3g par dose toutes les 6 heures, avec un total quotidien de 4 g. Un surdosage supérieur à 10 g peut provoquer une hépatotoxicité.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel analogique central non opiacé peut provoquer des convulsions comme effet secondaire?",
+    "options": [
+      "Nefopam",
+      "Acupan",
+      "Placebo",
+      "Morphine"
+    ],
+    "correct": "Nefopam",
+    "explanation": "Le néfopam est un analogique central non opiacé qui peut provoquer des convulsions comme effet secondaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel est l'effet principal de la kétamine dans un contexte d'anesthésie dissociative NMDA?",
+    "options": [
+      "Analgésie",
+      "Paralysie",
+      "Sedation",
+      "Hypersensibilité"
+    ],
+    "correct": "Analgésie",
+    "explanation": "Kétamine est un médicament utilisé pour l'anesthésie dissociative NMDA, avec une dose d'analgésie variant entre 0,25-0,5 mg/kg IV et une dose d'anesthésie de 1-2 mg/kg. Elle produit des effets comme les hallucinations, HTA (hypertension artérielle) et tachycardie, mais son principal effet dans ce contexte est l'analgésie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Quel effet secondaire peut être induit par l'étomidate dans un patient instable chez qui il est administré en dose de 0,2-0,3 mg/kg ?",
+    "options": [
+      "Myoclonies",
+      "Hypertension",
+      "Hypoglycémie",
+      "Hyperthyroïdie"
+    ],
+    "correct": "Myoclonies",
+    "explanation": "L'étomidate est un médicament utilisée pour l'induction de la conscience sous anesthésie générale. Elle peut induire des myoclonies ainsi qu'une inhibition de l'enzyme 11-bêta-hydroxylase qui peut entraîner une insuffisance surrénalienne.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel barbiturique est décrit comme ayant des effets hypotensifs et dépressants myocardiques après une dose de 3-5 mg/kg IV administrée pendant un délai de 30s ?",
+    "options": [
+      "Pentobarbital",
+      "Thiopental",
+      "Secobarbital",
+      "Phenobarbital"
+    ],
+    "correct": "Thiopental",
+    "explanation": "Thiopental, également connu sous le nom de pentothal, est un barbiturique qui peut causer hypotension et dépression myocardique après une dose intraveineuse (IV) de 3-5 mg/kg administrée pendant un delai de 30s. Il a également des effets neuroprotecteurs, accumule dans les tissus adipeux et est quasi abandonné au profit du propofol.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quelle est la dose maxi de lidocaïne en anesthésie locale ?",
+    "options": [
+      "1 mg/kg",
+      "3 mg/kg",
+      "5 mg/kg",
+      "7 mg/kg"
+    ],
+    "correct": "3 mg/kg",
+    "explanation": "La dose maximale de lidocaïne en anesthésie locale est de 3 mg/kg. La dose peut atteindre 7 mg/kg avec l'ajout d'adrénaline.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle est la molécule qui a des effets anesthésiques similaires à ceux de la bupivacaine mais moins cardiotoxique ?",
+    "options": [
+      "Naropeine",
+      "Ropivacaïne",
+      "Bupivacaïne",
+      "Lidocaïne"
+    ],
+    "correct": "Ropivacaïne",
+    "explanation": "La ropivacaïne est une molécule d'anesthésique local qui a des effets similaires à ceux de la bupivacaine, mais moins cardiotoxique. Elle est utilisée pour l'anesthésie périphérique et la rachianesthésie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quelle des quatre solutions suivantes est un antidote pour la toxicité de la bupivacaïne lors d'une rachianesthésie hyperbare?",
+    "options": [
+      "Émulsion glucosée",
+      "Glucagon intraveineux",
+      "Épinephrine intra-articulaire",
+      "Émulsion lipidique"
+    ],
+    "correct": "Émulsion lipidique",
+    "explanation": "L'émulsion lipidique est un antidote utilisé pour traiter la toxicité de la bupivacaïne lors d'une rachianesthésie hyperbare. Elle permet de réduire les effets secondaires cardiotoxiques rapidement en dissipant l'agent toxique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle antibiotique céphalosporine est utilisée pour la prophylaxie chirurgicale dans le contexte de Céphalo 1G et pourquoi l'administration doit-elle être répétée si plus de 4 heures ont passées?",
+    "options": [
+      "Ceftazidime",
+      "Cefepime",
+      "Cefotaxime",
+      "Céfazoline"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "Céfazoline est une céphalosporine utilisée pour la prophylaxie chirurgicale dans le contexte de Céphalo 1G. Elle possède un spectre d'action qui inclut les staphylocoques et streptocoques. Bien que l'administration d'une dose de 2g IV soit suffisante, si plus de 4 heures ont passées avant l'incision chirurgicale, une réinjection est nécessaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie d'élimination du médicament C3G (ceftriaxone ou rocéphine) ?",
+    "options": [
+      "2 heures",
+      "6 heures",
+      "8 heures",
+      "12 heures"
+    ],
+    "correct": "8 heures",
+    "explanation": "La demi-vie d'élimination du médicament C3G est de 8 heures. Cette durée permet de déduire qu'une dose journalière est nécessaire pour traiter des maladies telles que les méningites, les pneumonies et la sepsis.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_19",
+    "question": "Quelle est la première mesure à prendre pour traiter cette infection ?",
+    "options": [
+      "Commencer une thérapie de carbapénème spectre ultra-large à une dose de 0,5g q6h en attendant les résultats des cultures microbiologiques.",
+      "Commencer un antibiotique différent bien que connu pour être incompatible avec le profil allergique du patient.",
+      "Commencer immédiatement une thérapie à cilastatine associée au carbapénème spectre ultra-large, même sans confirmation de la résistance des bactéries responsables.",
+      "Demander un redirige vers un établissement spécialisé en antibiothérapie pour consultation immédiate."
+    ],
+    "correct": "Commencer une thérapie de carbapénème spectre ultra-large à une dose de 0,5g q6h en attendant les résultats des cultures microbiologiques.",
+    "explanation": "En raison du profil allergique du patient et l'urgence de traiter une infection grave d'origine bactérienne suspectée de résistance au spectre ultra-large de carbapénèmes, la première mesure à prendre est de commencer une thérapie de carbapénème spectre ultra-large à une dose de 0,5g q6h en attendant les résultats des cultures microbiologiques. Cette décision se fonde sur le protocole IADE qui préconise la mise en place d'une thérapie antibiotique appropriée pour traiter une infection grave tout en minimisant le risque d'anaphylaxie et autres effets secondaires graves.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la dose initiale de morphine titrée intraveineuse pour un palier III selon le protocole IADE ?",
+    "options": [
+      "0,2 mg/kg IV",
+      "0,15 mg/kg IV",
+      "0,08 mg/kg IV",
+      "0,1 mg/kg IV"
+    ],
+    "correct": "0,1 mg/kg IV",
+    "explanation": "La dose initiale de morphine pour un palier III est de 0,1 mg/kg IV selon le protocole IADE. La douleur doit être surveillée avec FR, conscience et myosis. L'objectif EVA est inférieur à 3.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quel opiacé peut être utilisé pour l'analgésie peropératoire avec une dose de 1-2 µg/kg IV et un délai d'action de 1-2 minutes, mais qui peut également causer rigideur thoracique en cas de bolus rapide ?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Dexmedetomidine",
+      "Remifentanil"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé plus puissant que la morphine, avec une dose de 1-2 µg/kg IV et un délai d'action de 1-2 minutes. Cependant, en cas de bolus rapide, il peut causer rigideur thoracique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel est le principal médicament utilisé lors d'une perfusion continue pour l'analgésie précoce en chirurgie?",
+    "options": [
+      "Fentanyl",
+      "Morphine",
+      "Rémifentanil",
+      "Hydromorphone"
+    ],
+    "correct": "Rémifentanil",
+    "explanation": "Rémifentanil est un analgésique opioïde utilisé pour la perfusion continue en chirurgie, avec un métabolisme plasmatique par des esterases. Il permet une analgésie précoce en se liant au récepteur μ-opioïde du système nerveux central.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle est la dose maximale journalière d'un médicament opioïde faible palier II à double mécanisme (opioïde + inhibition recapture) tels que tramadol pour adultes en cas de douleur topalgique?",
+    "options": [
+      "150-200 mg q 4-6h max 800 mg/j",
+      "300-400 mg q 4-6h max 1200 mg/j",
+      "50-100 mg q 4-6h max 400 mg/j",
+      "200-300 mg q 8h max 1600 mg/j"
+    ],
+    "correct": "50-100 mg q 4-6h max 400 mg/j",
+    "explanation": "La dose maximale journalière de tramadol pour adultes est de 50-100 mg q 4-6h, avec un maximum total de 400 mg par jour. Cette dose peut être augmentée en fonction des effets secondaires et de la tolérance individuelle du patient, mais il faut être vigilant au risque de nausées, vertiges, ou convulsions à haute dose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose maximale journalière en cas d'administration intraveineuse du Paracétamol Palier I ?",
+    "options": [
+      "6g",
+      "10g",
+      "4g",
+      "7.5g"
+    ],
+    "correct": "4g",
+    "explanation": "La dose maximale journalière en cas d'administration intraveineuse du Paracétamol Palier I est de 4g, avec un minimum de perfusion de 15 minutes. Une surdosage supérieure à 10g peut entraîner une hépatotoxicité.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel analgésique central non opiacé peut causer des convulsions en cas d'administration?",
+    "options": [
+      "Néfopam",
+      "Acupan",
+      "Placebo",
+      "Paracétamol"
+    ],
+    "correct": "Néfopam",
+    "explanation": "Le néfopam est un analgésique central non opiacé connu pour potentiellement causer des convulsions.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle est la dose usuelle d'anesthésie avec le kétamine?",
+    "options": [
+      "0,1 mg/kg IV",
+      "0,25-0,5 mg/kg IV",
+      "3-4 mg/kg IV",
+      "1-2 mg/kg"
+    ],
+    "correct": "1-2 mg/kg",
+    "explanation": "La dose usuelle d'anesthésie avec le kétamine est de 1 à 2 mg/kg. Cette dose permet un maintien de la ventilation spontanée, mais peut entraîner des effets secondaires tels que les hallucinations, une hypertension artérielle et une tachycardie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Quel est le principal effet secondaire potentiel d'Etomidate sur les glandes surrénales ?",
+    "options": [
+      "Hypertension artérielle",
+      "Hypoglycemie",
+      "Inhibition de la phosphatase alcaline",
+      "Inhibition 11-bêta-hydroxylase"
+    ],
+    "correct": "Inhibition 11-bêta-hydroxylase",
+    "explanation": "L'Etomidate est un anesthésique de la classe des imidazoles qui inhibe l'enzyme 11-bêta-hydroxylase dans les glandes surrénales, ce qui entraîne une suppression de la production d'hormones corticostéroïdes et peut provoquer une insuffisance surrénalienne.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel est le principal effet secondaire potentiel d'une dose IV de Thiopental (Pentothal) comprise entre 3-5 mg/kg, et quelle maladie cardiaque peut être induite par cette substance?",
+    "options": [
+      "Hypotension et dépression rénale",
+      "Hypertension et dépression pulmonaire",
+      "Hyper tension et dépression myocardique",
+      "Hypotension et dépression hépatique"
+    ],
+    "correct": "Hypertension et dépression pulmonaire",
+    "explanation": "Thiopental (Pentothal) est un barbiturique utilisé comme anesthésique. Il peut induire une hypotension, qui est une baisse de la pression artérielle systolique. Cependant, sa principale propriété secondaire potentielle est l'hypotension et non pas la dépression rénale ou hépatique. La dépression myocardique n'est pas liée à Thiopental, mais à d'autres agents anesthésiques comme le propofol qui a remplacé souvent Thiopental en pratique médicale.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quelle est la dose maximale de lidocaïne en anesthésie locale chez l'adulte ?",
+    "options": [
+      "2 mg/kg",
+      "3 mg/kg",
+      "4 mg/kg",
+      "5 mg/kg"
+    ],
+    "correct": "3 mg/kg",
+    "explanation": "La dose maximale recommandée de lidocaïne pour l'anesthésie locale chez un adulte est de 3 mg/kg. Cela peut être porté à 7 mg/kg lorsqu'elle est administrée avec de l'adrénaline.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle anesthésique périphérique longue durée est moins cardiotoxique que la bupivacaïne ?",
+    "options": [
+      "Naropeine",
+      "Ropivacaïne",
+      "Dexmethorfane",
+      "Lidocaïne"
+    ],
+    "correct": "Ropivacaïne",
+    "explanation": "La ropivacaïne est une anesthésique périphérique longue durée, moins cardiotoxique que la bupivacaïne. Elle est souvent utilisée pour la péridurale et nécessite des doses entre 15-20 mg pour la rachianesthésie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quel antidote est recommandé en cas de toxicité avec l'utilisation de bupivacaïne durant la rachianesthésie hyperbare ?",
+    "options": [
+      "Héparine",
+      "Émulsion glucosée",
+      "Antihistaminiques",
+      "Émulsion lipidique"
+    ],
+    "correct": "Émulsion lipidique",
+    "explanation": "En cas de toxicité importante avec l'utilisation de bupivacaïne durant la rachianesthésie hyperbare, un antidote est nécessaire. L'émulsion lipidique est le traitement recommandé.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle céphalosporine est généralement utilisée en antibioprophylaxie chirurgicale pour la prévention d'infections par des staphylocoques et streptocoques, mais dont l'utilisation doit être évitée dans le cas de allergie croisée pénicillines supérieure à 10% ?",
+    "options": [
+      "Céphalothine",
+      "Céfotaxime",
+      "Céfazoline",
+      "Ceftriaxone"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "Céfazoline est une céphalosporine de première génération utilisée en antibioprophylaxie chirurgicale pour prévenir des infections par des staphylocoques et streptocoques. En revanche, sa prescription doit être évitée dans le cas d'une allergie croisée pénicillines supérieure à 10%. Les trois autres antibiotiques cités (Céphalothine, Céfotaxime, Ceftriaxone) ne sont pas de la même classe que la céphalosporine et ont donc un spectre d'activité différent.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quel est l'antibiotique C3G utilisé pour les méningites, pneumonies et sepsis qui a une demi-vie de 8 heures et nécessite donc une injection par jour?",
+    "options": [
+      "Ceftazidime",
+      "Rocéphine",
+      "Cefotaxime",
+      "Ceftriaxone"
+    ],
+    "correct": "Ceftriaxone",
+    "explanation": "Le Ceftriaxone a une durée d'action de demi-vie de 8 heures. Il est administré par voie intraveineuse ou intramusculaire pour les méningites, pneumonies et sepsis. Son traitement implique donc une injection par jour.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la dose initiale en mg pour une titration de morphine IV en cas de douleur?",
+    "options": [
+      "0,2 mg",
+      "0,15 mg",
+      "0,1 mg",
+      "0,05 mg"
+    ],
+    "correct": "0,1 mg",
+    "explanation": "La dose initiale de morphine IV en cas de douleur est de 0,1 mg/kg pour une titration par bolus de 2-3 mg toutes les 5 min. Cette valeur est calculée en multipliant la masse du patient en kg par 0,1 mg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle molécule peut être utilisée en tant qu'opiacé pour l'analgésie peropératoire et présente des effets similaires à 100x morphine ?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Dextropropoxyphene",
+      "Paracetamol"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé très puissant, qui présente des effets similaires à 100 fois celui de la morphine. Il est souvent utilisé en tant qu'analgésique pour l'analgésie peropératoire et la durée d'action varie entre 20-30 minutes.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le nom du médicament opioïde faible qui fonctionne par un double mécanisme (opioïde et inhibition de recapture) avec une dose allant de 50 à 100 mg toutes les 4 à 6 heures, maximum de 400 mg/jour ?",
+    "options": [
+      "Codeine",
+      "Fentanyl",
+      "Morphine",
+      "Tramadol"
+    ],
+    "correct": "Tramadol",
+    "explanation": "Tramadol est un opioïde faible qui fonctionne par double mécanisme (opioïde et inhibition de recapture). Sa dose recommandée va de 50 à 100 mg toutes les 4 à 6 heures, avec un maximum journalier de 400 mg. Ses effets secondaires comprennent des nausées et des vertiges. Il y a un risque de convulsions en cas d'overdose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose maximale journalière de Paracétamol selon le palier I, avec une perfusion minimale de quoi ?",
+    "options": [
+      "2g q 6h max 8g/j (5g si < 50kg) avec un minimum de 10 min perfusion",
+      "1g q 6h max 4g/j (3g si < 50kg) avec un minimum de 15 min perfusion",
+      "2g q 4h max 8g/j (5g si < 50kg) avec un minimum de 5 min perfusion",
+      "1.5g q 6h max 4.5g/j (3g si < 50kg) avec un minimum de 10 min perfusion"
+    ],
+    "correct": "1g q 6h max 4g/j (3g si < 50kg) avec un minimum de 15 min perfusion",
+    "explanation": "La dose maximale journalière de Paracétamol selon le palier I est de 4g, avec une dose de 1g par prise et une fréquence de prise de tous les 6 heures (q6h). La perfusion doit être minimale de 15 minutes. Si la masse corporelle du patient est inférieure à 50kg, la dose maximum journalière est de 3g.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel est le médicament central analgésique non opiacé qui peut causer des convulsions comme effet secondaire?",
+    "options": [
+      "Nefopam",
+      "Acupan",
+      "Placebo",
+      "Morphine"
+    ],
+    "correct": "Nefopam",
+    "explanation": "Nefopam est un analgésique central non opiacé connu pour être associé à des risques de convulsions en tant qu'effet secondaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle est la dose IV d'anesthésie dissociative Kéтамиne pour un adulte ?",
+    "options": [
+      "0,125 mg/kg",
+      "0,25-0,5 mg/kg",
+      "3 mg/kg",
+      "1-2 mg/kg"
+    ],
+    "correct": "1-2 mg/kg",
+    "explanation": "La dose d'anesthésie dissociative Kéтамиne pour un adulte se situe entre 1 et 2 mg/kg intraveineux. La dose d'analgésie est de 0,25 à 0,5 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Est le patient susceptible d'avoir une crise d'insuffisance surrénalienne secondaire à l'utilisation de l'étomidate ?",
+    "options": [
+      "Non, étomidate n'affecte pas la fonction des surrénales",
+      "Oui, étomidate peut induire une insuffisance surrénalienne en inhibant l'11-bêta-hydroxylase",
+      "L'étomidate a un effet anticholinergique",
+      "Les myoclonies observées dans le patient sont dues à une intoxication au mercure"
+    ],
+    "correct": "Oui, étomidate peut induire une insuffisance surrénalienne en inhibant l'11-bêta-hydroxylase",
+    "explanation": "L'étomidate est un dérivé de l'acétat de propionyle d'hydrazine qui inhibe l'enzyme 11-bêta-hydroxylase, ce qui entraîne une inhibition des glucocorticoïdes et peut donc provoquer une insuffisance surrénalienne.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel barbiturique est le neuroprotecteur HTIC (thiopental ou pentothal)?",
+    "options": [
+      "Thiopental",
+      "Pentothal",
+      "Midazolam",
+      "Propofol"
+    ],
+    "correct": "Thiopental",
+    "explanation": "Thiopental, également connu sous le nom de Pentothal, est un barbiturique qui a des propriétés neuroprotectrices. Il est utilisé pour induire la anesthésie et pour procurer une amnésie à des fins médicales.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quelle est la dose maximale de lidocaïne pour une anesthésie locale ?",
+    "options": [
+      "2 mg/kg",
+      "3 mg/kg",
+      "4 mg/kg",
+      "5 mg/kg"
+    ],
+    "correct": "3 mg/kg",
+    "explanation": "La dose maximale recommandée pour la lidocaïne est de 3 mg/kg. Cependant, lorsqu'elle est utilisée en association avec l'adrénaline, elle peut atteindre 7 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle est la différence principale entre ropivacaïne et bupivacaïne ?",
+    "options": [
+      "A) Ropivacaïne est plus efficace que bupivacaïne",
+      "B) Ropivacaïne est moins cardiotoxique que bupivacaïne",
+      "C) Ropivacaïne est plus utilisé pour la chirurgie que bupivacaïne",
+      "D) Bupivacaïne est plus longue durée d'action que ropivacaïne"
+    ],
+    "correct": "B) Ropivacaïne est moins cardiotoxique que bupivacaïne",
+    "explanation": "Ropivacaïne et bupivacaine sont tous deux des anesthésiques locaux de la classe des amides. La principale différence entre les deux est la toxicité cardiaque. Bien qu'ils aient un effet similaire sur le système nerveux périphérique, ropivacaïne a une moindre toxicité cardiaque comparée à bupivacaine.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quel est l'antidote pour la toxicité de bupivacaïne utilisée dans une rachianesthésie hyperbare d'une durée de 2-4h ?",
+    "options": [
+      "Flumazénil",
+      "Naloxone",
+      "Émulsion lipidique",
+      "Atropine"
+    ],
+    "correct": "Émulsion lipidique",
+    "explanation": "L'émulsion lipidique est un antidote pour la toxicité de bupivacaïne qui est très cardiotoxique et doit être évitée un bolus rapide. Le risque de toxicité est particulièrement élevé lorsqu'elle est utilisée dans une rachianesthésie hyperbare d'une durée de 2-4h.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle céphalosporine est utilisée pour la prévention antibiotique chirurgicale avec une dose IV de 2g donnée 30-60 minutes avant l'incision, et dont les patients sont sensibles à une allergie croisée de 10% à la pénicilline?",
+    "options": [
+      "Céfotaxime",
+      "Cefazoline",
+      "Aztreonam",
+      "Piperacillin-Tazobactam"
+    ],
+    "correct": "Cefazoline",
+    "explanation": "Le médicament cité est en effet la céphalosporine de première génération Cefazoline, qui est utilisé pour prévenir les infections liées à l'intervention chirurgicale. Le fait que le patient soit sensible à 10% à la pénicilline indique un risque d'allergie croisée, ce qui implique une céphalosporine plutôt qu'une pénicilline comme antibiotique préventif.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie du produit Céphalo 3G (ceftriaxone ou rocéphine) ?",
+    "options": [
+      "24 heures",
+      "12 heures",
+      "6 heures",
+      "8 heures"
+    ],
+    "correct": "8 heures",
+    "explanation": "La demi-vie du produit Céphalo 3G est de 8 heures. Il doit donc être administré à raison d'une injection par jour pour traiter des meningites, pneumonies et sepsis.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_19",
+    "question": "Quelle est la première mesure à prendre pour ce patient ?",
+    "options": [
+      "Commencer immédiatement une thérapie de carbapénème (0,5-1g q 6-8h)",
+      "Effectuer un test d'allergie aux carbapénèmes avant commencer la thérapie",
+      "Consulter le service neurologique pour gérer l'épilepsie avant commencer la thérapie",
+      "Commencer une therapy digestive avant de commencer la thérapie"
+    ],
+    "correct": "Commencer immédiatement une thérapie de carbapénème (0,5-1g q 6-8h)",
+    "explanation": "En raison du contexte médical critique et de l'état grave du patient, la priorité doit être de commencer un traitement immédiat pour combattre la pneumonie potentiellement mortelle. La thérapie avec carbapénème est le dernier recours en cas d'allergie aux bêta-lactamines et est la meilleure option pour les infections résistantes aux antibiotiques courants. Bien que l'épilepsie soit un antécédent, il n'est pas nécessaire de consulter le service neurologique avant la thérapie car le risque des convulsions liées au carbapénème est faible et peut être traité si cela se produit.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la dose initiale de morphine en titration pour le palier III en cas d'analgésie intraveineuse ?",
+    "options": [
+      "0,2 mg/kg IV",
+      "0,5 mg/kg IV",
+      "1 mg/kg IV",
+      "0,1 mg/kg IV"
+    ],
+    "correct": "0,1 mg/kg IV",
+    "explanation": "La dose initiale de morphine en titration pour le palier III en cas d'analgésie intraveineuse est de 0,1 mg/kg. Cette dose doit être administrée en bolus de 2-3 mg toutes les 5 minutes selon la douleur, avec surveillance FR, conscience et myosis. L'objectif EVA (Échelle de vigilance d'Edinburgh) doit rester inférieur à 3.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quel opiacé peut être utilisé pour l'analgésie peropératoire avec une dose de 1-2 µg/kg IV, durée 20-30 minutes et un risque de rigidité thoracique si bolus est administré rapidement?",
+    "options": [
+      "Fentanyl",
+      "Morphine",
+      "Diazepam",
+      "Ketamine"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé potent qui peut être utilisé pour l'analgésie peropératoire avec une dose de 1-2 µg/kg IV. Il a une durée d'action de 20-30 minutes et il peut entraîner une rigidité thoracique si administré trop rapidement.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quelle est la molécule utilisée pour une analgésie précoce et à effet court durée (<30 minutes) dans le cadre de perfusion continue ?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Remifentanil",
+      "Dexmedetomidine"
+    ],
+    "correct": "Remifentanil",
+    "explanation": "Remifentanil est un opioïde ultra-court agissant en tant que modulateur du récepteur delta opioïde. Il est métabolisé par les esterases plasmatiques et sa demi-vie est de 3 à 4 minutes, ce qui permet une analgésie rapide et précoce pour la période postopératoire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le nom du médicament topalgique appartenant au palier II qui fonctionne par double mécanisme (opioïde + inhibition recapture) avec une dose de 50-100 mg toutes les 4-6 heures et ne dépassant pas 400 mg par jour, qui est associé à des effets secondaires tels que nausées et vertiges et risque de convulsions à haute dose?",
+    "options": [
+      "Tramadol",
+      "Codeine",
+      "Morphine",
+      "Fentanyl"
+    ],
+    "correct": "Tramadol",
+    "explanation": "Tramadol est un médicament opioïde de palier II qui fonctionne par double mécanisme (opioïde + inhibition recapture). Il a une dose recommandée de 50-100 mg toutes les 4-6 heures et ne dépassant pas 400 mg par jour. Les effets secondaires incluent nausées et vertiges, ainsi qu'un risque de convulsions à haute dose. Codeine, morphine et fentanyl sont d'autres médicaments opioïdes mais ne correspondent pas au profil décrit.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la posologie journalière maximale en poids adulte pour le paracétamol (Perfalgan), un antipyrétique appartenant au palier I ?",
+    "options": [
+      "5g",
+      "6g",
+      "7g",
+      "4g"
+    ],
+    "correct": "4g",
+    "explanation": "La posologie journalière maximale en poids adulte pour le paracétamol est de 4g. Cette limite sert à minimiser les effets indésirables, notamment hépatotoxicité.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel effet secondaire est possible avec une dose IV lente de néfopam à raison de 20 mg toutes les 4 à 6 heures ?",
+    "options": [
+      "Convulsions",
+      "Glaucome",
+      "Rétention urinaire",
+      "Dyspnée"
+    ],
+    "correct": "Convulsions",
+    "explanation": "Néfopam est un analgésique central non opiacé qui peut provoquer des convulsions comme effet secondaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle est la dose recommandée pour l'analgésie avec le kétamine ?",
+    "options": [
+      "0 mg/kg IV",
+      "3-4 mg/kg",
+      "0,25-0,5 mg/kg IV",
+      "10-15 mg/kg"
+    ],
+    "correct": "0,25-0,5 mg/kg IV",
+    "explanation": "La dose recommandée pour l'analgésie avec le kétamine est de 0,25 à 0,5 mg/kg intraveineuse.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Quelle est la principale propriété pharmacologique de l'hypnomidate qui fait qu'il peut induire des myoclonies et inhiber l'activité surrénalienne en inhibant l'11-bêta-hydroxylase ?",
+    "options": [
+      "Activation du récepteur GABA-A",
+      "Inhibition de la phosphodiestérase type 4",
+      "Activation du récepteur adrénergique alpha-2",
+      "Inhibition de l'enzyme 11-bêta-hydroxylase"
+    ],
+    "correct": "Inhibition de l'enzyme 11-bêta-hydroxylase",
+    "explanation": "L'étomidate (ou hypnomidate) est un anesthésique de la classe des imides qui se lie à des récepteurs GABA-A dans le cortex du cerveau. Il inhibe l'enzyme 11-bêta-hydroxylase, ce qui entraîne une suppression de la production d'adrénaline et de cortisol par les surrénales, ce qui peut conduire à des myoclonies et à une insuffisance surrénalienne.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel effet secondaire est lié au thiopental (pentothal), barbiturique utilisé à une dose de 3-5 mg/kg IV et suivi d'une hypotension, après un délai de 30s ?",
+    "options": [
+      "Hypèrexcitation neuromusculaire",
+      "Hypertension",
+      "Dépression respiratoire",
+      "Dépression myocardique"
+    ],
+    "correct": "Dépression myocardique",
+    "explanation": "Le thiopental (pentothal) est un barbiturique qui peut causer une dépression myocardique secondaire à l'hypotension, ce qui peut entraîner des complications cardiovasculaires. Les autres choix sont des effets possibles de médicaments différents.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle anesthésique locale utilise-t-on pour l'anesthésie rachianesthésie et quelle est sa durée d'action en fonction de la concentration?",
+    "options": [
+      "Bupivacaïne",
+      "Naropeine",
+      "Lidocaïne",
+      "Ropivacaïne"
+    ],
+    "correct": "Ropivacaïne",
+    "explanation": "Ropivacaïne est utilisée pour l'anesthésie rachianesthésie et sa durée d'action varie entre 3-6 heures en fonction de la concentration.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quelle est la dose maximale pour une administration périphérique de bupivacaine en rachianesthésie avec un risque élevé de toxicité cardiaque?",
+    "options": [
+      "0,125%",
+      "0,25-0,5%",
+      "1%, 2%",
+      "4-6%"
+    ],
+    "correct": "0,25-0,5%",
+    "explanation": "La dose maximale pour une administration périphérique de bupivacaine dans un contexte de rachianesthésie avec un risque élevé de toxicité cardiaque est comprise entre 0,25% et 0,5%. Une dose plus élevée doit être évitée en raison du risque important de complications cardiaques.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle céphalosporine est utilisée pour l'antibioprophylaxie chirurgicale dans le contexte de Céphalo 1G, et quelle dose doit-elle être injectée intraveineuse 30-60 minutes avant incision avec une réinjection possible après plus de 4 heures ?",
+    "options": [
+      "Céfuroxime",
+      "Aztreonam",
+      "Céfazoline",
+      "Clindamycin"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "Le protocole Céphalo 1G utilise la céphalosporine céfazoline pour l'antibioprophylaxie chirurgicale. Elle doit être administrée à une dose de 2g intraveineuse 30-60 minutes avant l'incision, avec une réinjection possible si plus de 4 heures ont transcrit depuis la première injection. L'allergie croisée aux pénicillines est de 10%.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie du céphalo 3G (ceftriaxone) dans le corps humain ?",
+    "options": [
+      "4h",
+      "12h",
+      "8h",
+      "24h"
+    ],
+    "correct": "8h",
+    "explanation": "La demi-vie du céphalo 3G est de 8 heures, ce qui signifie qu'une dose de cette substance serait éliminée à hauteur de la moitié de sa concentration initiale au bout de 8 heures.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la fréquence de bolus morphiniques en titration lors d'une administration initiale de 0.1 mg/kg IV pour soulager une douleur intense ?",
+    "options": [
+      "Bolus toutes les 1 minute",
+      "Bolus toutes les 3 minutes",
+      "Bolus toutes les 5 minutes",
+      "Bolus toutes les 10 minutes"
+    ],
+    "correct": "Bolus toutes les 5 minutes",
+    "explanation": "La dose de morphine est initialement administrée à raison de 0.1 mg/kg IV en bolus de 2-3 mg toutes les 5 minutes, jusqu'à ce que le score d'évaluation des effets secondaires soit inférieur à 3.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle substance opiacé peut être utilisée pour l'analgésie peropératoire avec une durée d'effet de 20-30 minutes et un risque de rigidité thoracique si le bolus est rapide ?",
+    "options": [
+      "Fentanyl",
+      "Morphine",
+      "Diazepam",
+      "Paracétamol"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé très puissant utilisé pour l'analgésie peropératoire. Sa durée d'effet varie entre 30 et 60 minutes. Il peut être administré par voie intraveineuse avec une dose de 1-2 micrograms par kilogramme, mais son administration rapide peut entraîner une rigidité thoracique. Diazepam est utilisé pour la relaxation musculaire et non comme analgésique, tandis que le Paracétamol n'est pas un opiacé.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel est le médicament utilisé en perfusion continue pour l'analgésie précoce et postopératoire lors d'une dose de 0,1-0.5 µg/kg/min ?",
+    "options": [
+      "Fentanyl",
+      "Remifentanil",
+      "Morphine",
+      "Ketamine"
+    ],
+    "correct": "Remifentanil",
+    "explanation": "Le Remifentanil est un analgésique opioïde de courte durée d'action qui est métabolisé par les esterases plasmatiques. Il est utilisé pour l'analgésie précoce et postopératoire lorsqu'une perfusion continue est requise à une dose comprise entre 0,1-0.5 µg/kg/min.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle est la dose maximale journalière de tramadol lorsqu'il est utilisé en tant qu'opioïde faible de palier II avec un double mécanisme d'action, combinant l'effet opioïde et l'inhibition de recapture ?",
+    "options": [
+      "150 mg/j",
+      "250 mg/j",
+      "400 mg/j",
+      "600 mg/j"
+    ],
+    "correct": "400 mg/j",
+    "explanation": "La dose maximale journalière de tramadol est de 400mg lorsqu'il est utilisé en tant qu'opioïde faible de palier II avec un double mécanisme d'action. Cette dose peut être administrée toutes les 4 à 6 heures.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose maximale journalière de Paracétamol selon le protocole IV ?",
+    "options": [
+      "2g",
+      "3g",
+      "4g",
+      "5g"
+    ],
+    "correct": "4g",
+    "explanation": "La dose maximale journière de Paracétamol selon le protocole IV est de 4g. En cas de surdosage supérieur à 10g, il y a risque d'hépatotoxicité. Un antidote utilisable en cas de surdosage est l'N-acétylcystéine.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel analgésique central non opiacé peut provoquer des convulsions comme effet secondaire ?",
+    "options": [
+      "Nefopam",
+      "Acupan",
+      "Placebo",
+      "Morphine"
+    ],
+    "correct": "Nefopam",
+    "explanation": "Le néfopam est un analgésique central non opiacé qui peut être associé à des convulsions comme effet secondaire, tandis que l'acupan, le placebo et la morphine ne sont pas connus pour causer cette réaction.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Pour quelle dose d'anesthésique dissociatif NMDA (kétamine ou kétalar) est-il préconisé de maintenir la ventilation spontanée ?",
+    "options": [
+      "0,25 mg/kg IV",
+      "1 mg/kg",
+      "2 mg/kg",
+      "4 mg/kg"
+    ],
+    "correct": "1 mg/kg",
+    "explanation": "Une dose de 1 à 2 mg/kg est utilisée pour l'anesthésie, tandis que la dose de 0,25 à 0,5 mg/kg est utilisée pour l'analgésie. L'administration doit être intraveineuse et il faut veiller à maintenir la ventilation spontanée car le médicament peut provoquer des hallucinations, une hypertension artérielle, une tachycardie et une dilatation bronchique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_9",
+    "question": "Quelle est la première mesure à prendre pour curariser le patient afin de permettre une intubation et assurer une ventilation mécanique ?",
+    "options": [
+      "Administrer un antagoniste du neuromusculaire, n'utiliser pas d'atracurium.",
+      "Demander une dose initiale d'atrocureum à 0,15 mg/kg par voie intraveineuse.",
+      "Vérifier l'absence de libération histamino-médiée avant administration.",
+      "Effectuer un test de métabolisme Hofmann."
+    ],
+    "correct": "Demander une dose initiale d'atrocureum à 0,15 mg/kg par voie intraveineuse.",
+    "explanation": "L'atrocureum est un curare dépolariseur non-dégradé qui est utilisé pour la curarisation prolongée dans le cadre de l'intubation et de la ventilation mécanique. Il ne présente pas de libération histamino-médiée ni d'accumulation chez les patients en réanimation. Le test de métabolisme Hofmann n'est pas nécessaire car ce mécanisme n'est pas impliqué avec l'atrocureum.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Quel est l'effet secondaire potentiel de l'étomidate chez un patient instable hémodynamiquement?",
+    "options": [
+      "Hypertension",
+      "Myoclonies",
+      "Insuffisance rénale",
+      "Hypoglycemie"
+    ],
+    "correct": "Myoclonies",
+    "explanation": "L'étomidate, connu sous le nom de Hypnomidate, est utilisé comme un anesthésique induisant une amnésie et une sedation. Il peut provoquer des myoclonies et inhiber la 11-bêta-hydroxylase ce qui peut entraîner une insuffisance surrénalienne en cas d'induction chez un patient instable hémodynamiquement.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Le barbiturique Thiopental (Pentothal) est quasi abandonné en faveur du quel autre anesthésique intraveineux ?",
+    "options": [
+      "Chloral hydrate",
+      "Diazepam",
+      "Propofol",
+      "Etomidate"
+    ],
+    "correct": "Propofol",
+    "explanation": "Thiopental (Pentothal) est un barbiturique utilisé historiquement comme anesthésique intraveineux, mais il a été remplacé en pratique courante par Propofol à cause de son effet plus favorable sur le système cardiovasculaire et moins d'accumulation dans les tissus adipeux.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quel est le délai maximal de dose pour l'amide AL en mg/kg?",
+    "options": [
+      "1 mg/kg",
+      "3 mg/kg",
+      "5 mg/kg",
+      "7 mg/kg"
+    ],
+    "correct": "7 mg/kg",
+    "explanation": "La dose maximale de lidocaïne et xylocaïne (amide AL) est de 3 mg/kg. Cependant, si l'on utilise de l'adrénaline avec la technique de bloquage adrénergique, la dose peut aller jusqu'à 7 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quelle est la dose maximale de bupivacaïne que l'on peut administrer lors d'une rachianesthésie en évitant un bolus rapide pour limiter les effets cardiotoxiques ?",
+    "options": [
+      "2 mg",
+      "10-15 mg",
+      "0,25%",
+      "0,5%"
+    ],
+    "correct": "10-15 mg",
+    "explanation": "La dose maximale de bupivacaïne lors d'une rachianesthésie est de 10 à 15 mg pour limiter les effets cardiotoxiques. Les doses supérieures doivent être administrées lentement pour réduire le risque de toxicité.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle céphalosporine est recommandée pour une antibioprophylaxie chirurgicale avec un spectre couvrant les staphylocoques et les streptocoques, en cas d'allergie croisée pénicillines de 10% ?",
+    "options": [
+      "Céfalexine",
+      "Céfoxitine",
+      "Céphazoline",
+      "Aztreonam"
+    ],
+    "correct": "Céphazoline",
+    "explanation": "La céphalosporine de premier génération céphazoline est la meilleure choix en cas d'allergie croisée pénicillines, car elle est moins souvent impliquée dans les allergies pénicilliniques. Elle est également active contre les staphylocoques et les streptocoques.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie du Céphalo 3G (ceftriaxone) ?",
+    "options": [
+      "24 heures",
+      "12 heures",
+      "6 heures",
+      "8 heures"
+    ],
+    "correct": "8 heures",
+    "explanation": "La demi-vie du Céphalo 3G (ceftriaxone) est de 8 heures. La dose recommandée est 1-2g/j, l'administration peut être IV ou IM et il présente un risque d'effets indésirables tels que la formation de calculs biliaires ou allergie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_19",
+    "question": "Quelle est la première mesure à prendre pour cette patient, connaissant son état critique et son antécédent d'allergie aux bêta-lactamines?",
+    "options": [
+      "Commencer une thérapie de carbapénème spectre ultra-large sans prévenir la possibilité d'anaphylaxie",
+      "Continuer l'antibiothérapie empirique actuelle",
+      "Administrer immédiatement un traitement antihistaminique pour prévenir une anaphylaxie",
+      "Arrêter tout traitement et attendre l'arrivée du médecin spécialiste"
+    ],
+    "correct": "Administrer immédiatement un traitement antihistaminique pour prévenir une anaphylaxie",
+    "explanation": "En raison de l'antécédent d'allergie aux bêta-lactamines du patient, la première mesure à prendre est de mettre en place un traitement antihistaminique pour prévenir une anaphylaxie potentielle. Il est ensuite nécessaire de discuter avec le médecin spécialiste pour déterminer la meilleure voie de traitement antibiotique, étant donné que les carbapénèmes sont un dernier recours BMR. Ensuite, il est important de continuer l'antibiothérapie empirique actuelle jusqu'à ce que le spécialiste décide de la meilleure voie de traitement antibiotique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la dose initiale de morphine par voie intraveineuse pour une titration en bolus de 2-3 mg toutes les 5 minutes selon la douleur et l'objectif d'EVA < 3 ?",
+    "options": [
+      "0,2 mg/kg",
+      "0,05 mg/kg",
+      "0,15 mg/kg",
+      "0,1 mg/kg"
+    ],
+    "correct": "0,1 mg/kg",
+    "explanation": "La dose initiale de morphine par voie intraveineuse pour une titration en bolus de 2-3 mg toutes les 5 minutes selon la douleur et l'objectif d'EVA < 3 est de 0,1 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle substance opioïde peut être utilisée pour l'analgésie peropératoire en dose inférieure à la morphine (100x morphine) et présenter une rigidité thoracique si bolus rapide ?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Dexmedetomidine",
+      "Remifentanil"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé plus puissant que la morphine. En dose de 1-2 µg/kg IV, il peut être utilisé pour l'analgésie peropératoire et postopératoire. Si administré trop rapidement, il peut provoquer une rigidité thoracique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel analgésique est utilisé dans une perfusion continue à une dose de 0,1-0.5 µg/kg/min pour l'analgésie précoce per et postopératoire ?",
+    "options": [
+      "Fentanyl",
+      "Remifentanil",
+      "Morphine",
+      "Alfentanil"
+    ],
+    "correct": "Remifentanil",
+    "explanation": "Remifentanil est un analgésique opioïde ultra-court qui est rapidement métabolisé par les esterases plasmatiques. Il offre une analgésie précoce, avec un réveil immédiat à l'arrêt de la perfusion. Ce médicament est utilisé pour sa courte demi-vie et son effet de blocage du récepteur µ-opioïde.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le mécanisme d'action du Tramadol, un opioïde faible de palier II utilisé dans la topalgie ?",
+    "options": [
+      "Il agit en bloquant les récepteurs mu-opioïdes",
+      "Il agit en inhibant la recapture des neurotransmetteurs opioïdes",
+      "Il agit en activant les canaux sodium",
+      "Il agit en inhibant les canaux calcium"
+    ],
+    "correct": "Il agit en inhibant la recapture des neurotransmetteurs opioïdes",
+    "explanation": "Tramadol est un opioïde faible de palier II qui fonctionne en tant qu'analgésique, antitussif et anti-douleur modérée. Son mécanisme d'action principal est l'inhibition de la recapture des neurotransmetteurs opioïdes endogènes tels que la dynorphine, l'enkephaline et la méténkephaline. Cela entraîne une augmentation de leur concentration au niveau synaptique ce qui a pour effet d'activer les récepteurs opioïdes µ-agonistes dans le système nerveux central, provoquant ainsi des effets analgésiques.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Combien de temps doit être effectué le minimum la perfusion du Paracétamol (Perfalgan) lors d'une perfusion IV ?",
+    "options": [
+      "10 minutes",
+      "20 minutes",
+      "30 minutes",
+      "15 minutes"
+    ],
+    "correct": "15 minutes",
+    "explanation": "Le minimum est de 15 minutes pour la perfusion du Paracétamol (Perfalgan) IV.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel analgésique central non opiacé est associé aux effets secondaires tels que nausées, sudation et tachycardie, mais présente également des risques de convulsions, glaucome et rétention urinaire ?",
+    "options": [
+      "Néfopam",
+      "Acupan",
+      "Dextropropoxyphene",
+      "Paracetamol"
+    ],
+    "correct": "Néfopam",
+    "explanation": "Néfopam est un analgésique central non opiacé qui est associé aux effets secondaires tels que nausées, sudation et tachycardie. Il présente également des risques de convulsions, glaucome et rétention urinaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle est la dose IV pour l'analgésie avec le kétamine dissociatif ?",
+    "options": [
+      "0,15 mg/kg",
+      "0,25-0,5 mg/kg",
+      "3 mg/kg",
+      "1-2 mg/kg"
+    ],
+    "correct": "0,25-0,5 mg/kg",
+    "explanation": "La dose d'analgésie pour le kétamine dissociatif varie entre 0,25 et 0,5 mg/kg intraveineuse.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Quel effet peut avoir l'étomidate (Hypnomidate) en inhibant la 11-bêta-hydroxylase sur les surrénales ?",
+    "options": [
+      "Hypertension artérielle",
+      "Insuffisance surrénalienne",
+      "Hypoglycémiem",
+      "Rétention d'eau"
+    ],
+    "correct": "Insuffisance surrénalienne",
+    "explanation": "L'inhibition de la 11-bêta-hydroxylase par l'étomidate provoque une insuffisance surrénalienne en bloquant la synthèse des corticostéroïdes. Le surrénale est un glande endocrine responsable de la production d'hormones comme la cortisol et l'aldosterone.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel est le principal effet indésirable d'une dose IV de Thiopental (Pentothal) compris entre 3-5 mg/kg avec un délai de 30s?",
+    "options": [
+      "Hypotension",
+      "Hypertension",
+      "Arrythmie",
+      "Hyperthermie"
+    ],
+    "correct": "Hypotension",
+    "explanation": "La dose IV de Thiopental (Pentothal) compris entre 3-5 mg/kg entraîne souvent une hypotension en raison de son effet sur la pression artérielle. Le délai de 30s entre l'administration et l'effet ne fait pas non plus partie des signes d'un effet indésirable, mais est plutôt un temps normal pour observer les effets.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle est la différence entre le ropivacaïne et la bupivacaïne en termes de cardiotoxicité?",
+    "options": [
+      "A) Ropivacaïne est plus cardiotoxique que bupivacaïne",
+      "B) Ropivacaïne est moins cardiotoxique que bupivacaïne",
+      "C) Les deux médicaments ont une cardiotoxicité comparable",
+      "D) La cardiotoxicité de ropivacaïne et bupivacaïne dépend de la concentration"
+    ],
+    "correct": "B) Ropivacaïne est moins cardiotoxique que bupivacaïne",
+    "explanation": "La ropivacaïne présente une cardiotoxicité moindre comparée à la bupivacaïne. En effet, les effets indésirables cardiaques de la ropivacaïne sont rares et relativement peu sévères, tandis que ceux de la bupivacaïne sont plus fréquents et plus graves.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quel antidote est utilisé pour la toxicité liée à l'administration de bupivacaïne et de marcain pendant une rachianesthésie hyperbare?",
+    "options": [
+      "Epinephrine",
+      "Atropine",
+      "Naloxone",
+      "Émulsion lipidique"
+    ],
+    "correct": "Émulsion lipidique",
+    "explanation": "L'émulsion lipidique est l'antidote utilisé pour la toxicité liée à l'administration rapide de bupivacaïne et de marcain, qui sont des analgésiques locaux très cardiotoxiques. En cas de toxicité, il faut éviter un bolus rapide et administrer l'antidote immédiatement pour réduire les effets indésirables.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle antibiotique céphalosporine est recommandée pour la prophylaxie chirurgicale en cas d'allergie croisée aux pénicillines (10%) et qui a un spectre de couverture contre les staphylocoques et streptocoques ?",
+    "options": [
+      "Céfotaxime",
+      "Aztreonam",
+      "Céphalexine",
+      "Céfazoline"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "La céfazoline est une céphalosporine à spectre limité qui ne comprend pas d'agent pénicillinase et offre donc une bonne alternative aux patients allergiques croisés aux pénicillines pour la prophylaxie chirurgicale. Les staphylocoques et streptocoques sont des bactéries responsables de nombreuses infections à risque post-opératoire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "En quelle dose initiale le palier III d'analgésique opiacé morphine est administré intraveineux en titration par bolus de 2-3 mg toutes les 5 minutes selon douleur et avec surveillance FR, conscience, myosis ?",
+    "options": [
+      "0.2 mg/kg",
+      "0.05 mg/kg",
+      "1 mg/kg",
+      "0.1 mg/kg"
+    ],
+    "correct": "0.1 mg/kg",
+    "explanation": "La dose initiale de palier III d'analgésique opiacé morphine est de 0.1 mg/kg, suivie de bolus de 2-3 mg toutes les 5 minutes selon la douleur en surveillance FR, conscience et myosis. La concentration des autres choix n'est pas appropriée.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle dose de Fentanyl (opiacé) peut être utilisée pour l'analgésie peropératoire et postopératoire en remplacement du morphine puissant 100x ?",
+    "options": [
+      "3-4 µg/kg IV",
+      "20-30 µg/kg IV",
+      "60-70 µg/kg IV",
+      "150-200 µg/kg IV"
+    ],
+    "correct": "20-30 µg/kg IV",
+    "explanation": "Fentanyl est un opiacé plus puissant que le morphine, un rapport de 80-100 pour la dose équivalente d'analgésie. En considérant qu'une dose de 1-2 µg/kg IV de morphine 100x est utilisée, une dose de 20-30 µg/kg IV de fentanyl serait appropriée.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel analgésique à effet rapide et d'action brève est utilisé en perfusion continue pour l'analgésie peri- et postopératoire précoce, qui possède un métabolisme plasmatique par estérases et dont la dose se situe entre 0,1 et 0,5 µg/kg/min?",
+    "options": [
+      "Remifentanil",
+      "Fentanyl",
+      "Morphine",
+      "Hydromorphone"
+    ],
+    "correct": "Remifentanil",
+    "explanation": "Le rémifentanil est un analogue du fentanyl, utilisé en perfusion continue pour l'analgésie peri- et postopératoire précoce. Il possède un effet rapide et d'action brève grâce à son métabolisme plasmatique par les esterases. La dose se situe entre 0,1 et 0,5 µg/kg/min et l'arrêt de la perfusion entraîne généralement un réveil immédiat.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le mécanisme d'action du Tramadol qui fait partie du palier II ?",
+    "options": [
+      "Opioïde seul",
+      "Inhibition recapture seulement",
+      "Antagoniste des récepteurs NMDA",
+      "Tout les trois"
+    ],
+    "correct": "Tout les trois",
+    "explanation": "Tramadol fonctionne en tant qu'opioïde agoniste partiel et inhibiteur de la recapture d'acide dopamine et de noradrénaline. Il est utilisé pour traiter la douleur modérée à sévère dans le palier II.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel analgésique central non opiacé peut provoquer des convulsions ?",
+    "options": [
+      "Nefopam",
+      "Acupan",
+      "Placebo",
+      "Dextropropoxyphene"
+    ],
+    "correct": "Nefopam",
+    "explanation": "Le néfopam est un analgésique central non opiacé dont l'un des effets indésirables peut être la survenue de convulsions.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle est la dose usuelle d'anesthésique dissociatif NMDA (kétamine) pour une analgésie?",
+    "options": [
+      "0,25-0,75 mg/kg IV",
+      "1,5-3 mg/kg IV",
+      "3-6 mg/kg IV",
+      "4-8 mg/kg"
+    ],
+    "correct": "0,25-0,75 mg/kg IV",
+    "explanation": "La dose usuelle d'anesthésique dissociatif NMDA (kétamine) pour une analgésie est comprise entre 0,25 et 0,5 mg/kg IV. L'anesthésie requiert généralement une dose de 1 à 2 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel anticonvulsivant barbiturique est utilisé pour induire une anesthésie générale et a des effets de hypotension et dépression myocardique?",
+    "options": [
+      "Diazepam (Valium)",
+      "Thiopental (Pentothal)",
+      "Midazolam (Versed)",
+      "Propofol (Diprivan)"
+    ],
+    "correct": "Thiopental (Pentothal)",
+    "explanation": "Thiopental, aussi connu sous le nom de Pentothal, est un barbiturique utilisé pour induire une anesthésie générale. Il a des effets de hypotension et dépression myocardique comme effets secondaires.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quel est le dose maximum de Lidocaïne en anesthésie locale ?",
+    "options": [
+      "1 mg/kg",
+      "3 mg/kg",
+      "5 mg/kg",
+      "7 mg/kg"
+    ],
+    "correct": "3 mg/kg",
+    "explanation": "La dose maximale de Lidocaïne est de 3mg/kg dans le cadre d'anesthésie locale. Le dosage peut être augmenté à 7mg/kg en présence d'adrénaline.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle est la molécule moins cardiotoxique utilisé pour la rachianesthésie comparée à la bupivacaine ?",
+    "options": [
+      "Bupivacaïne",
+      "Ropivacaïne",
+      "Naropeine",
+      "Lidocaïne"
+    ],
+    "correct": "Ropivacaïne",
+    "explanation": "La ropivacaïne est moins cardiotoxique que la bupivacaine lors de la rachianesthésie. Cette molécule est souvent utilisée dans les traitements périduraux à longue durée, avec une concentration différente pour l'entretien (0,2%) et la chirurgie (0,75%). Elle est également connue pour son efficacité sur une durée de 3-6h selon la concentration.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quel antidote est utilisé pour traiter une surdose de bupivacaïne pendant la rachianesthésie?",
+    "options": [
+      "Émulsion glucosée",
+      "Sodium nitrate",
+      "Héparine",
+      "Émulsion lipidique"
+    ],
+    "correct": "Émulsion lipidique",
+    "explanation": "L'émulsion lipidique est l'antidote recommandé pour traiter la toxicité de bupivacaïne pendant la rachianesthésie, en raison de sa capacité à réduire l'absorption systémique du médicament. Les autres choix sont des substances non utilisées comme antidotes pour cette surdose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle est la molécule active de la céphalosporine utilisée pour l'antibioprophylaxie chirurgicale avec spectre staphylocoques et streptocoques lorsque l'allergie croisée aux pénicillines est de 10%, et nécessitant une réinjection si plus de 4h ont passé avant l'incision ?",
+    "options": [
+      "Ceftriaxone",
+      "Cefuroxime",
+      "Cephalexine",
+      "Céfazoline"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "La céphalosporine utilisée pour cette antibioprophylaxie chirurgicale est la céfazoline car elle couvre les staphylocoques et streptocoques, et le patient a une allergie croisée aux pénicillines de 10%. Il doit recevoir la dose de 2g IV 30-60 min avant l'incision, et il peut être réinjecté si plus de 4h ont passé avant l'incision.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie d'élimination de la rocéphine C3G (ceftriaxone) ?",
+    "options": [
+      "4h",
+      "8h",
+      "12h",
+      "24h"
+    ],
+    "correct": "8h",
+    "explanation": "La demi-vie d'élimination de la rocéphine C3G (ceftriaxone) est de 8 heures, ce qui signifie qu'il faut donner une injection par jour pour maintenir les niveaux thérapeutiques.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la dose initiale d'une titration intraveineuse (IV) de morphine pour un palier III en fonction du poids?",
+    "options": [
+      "0,2 mg/kg",
+      "0,05 mg/kg",
+      "0,1 mg/kg",
+      "0,3 mg/kg"
+    ],
+    "correct": "0,1 mg/kg",
+    "explanation": "La dose initiale de morphine pour un palier III est de 0,1 mg/kg IV en titration par bolus de 2-3 mg toutes les 5 minutes selon la douleur. Le but étant une EVA inférieure à 3.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle substance opiacé pourrait être utilisée pour une analgésie peropératoire et postopératoire et quelle n'aurait pas un délai d'effet de plus de 2 minutes?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Remifentanil",
+      "Dextropropoxyphene"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est une substance opiacé utilisée pour l'analgésie peropératoire et postopératoire. Ses effets peuvent être observés en moins de 2 minutes.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quelle substance analgésique est administrée en perfusion continue pour la morphinique ultracourt rémifentanil (Ultiva) ?",
+    "options": [
+      "Héparine",
+      "Morphine",
+      "Fentanyl",
+      "Rémifentanil"
+    ],
+    "correct": "Rémifentanil",
+    "explanation": "Le rémifentanil est la substance analgésique qui est administrée en perfusion continue pour la morphinique ultracourt. Cette méthode permet une analgésie efficace et précise, ainsi qu'un réveil immédiat à l'arrêt de la perfusion.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le médicament opioïde faible palier II qui fonctionne par un double mécanisme (opioïde + inhibition recapture) et dont la dose maximale journalière est de 400 mg?",
+    "options": [
+      "Codeine",
+      "Fentanyl",
+      "Morphine",
+      "Tramadol"
+    ],
+    "correct": "Tramadol",
+    "explanation": "Tramadol est un médicament opioïde faible palier II qui fonctionne par un double mécanisme (opioïde + inhibition recapture) et dont la dose maximale journalière est de 400 mg. Cette molécule présente des effets secondaires comme les nausées et les vertiges, ainsi qu'un risque élevé de convulsions en cas d'overdose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose maximale journalière en prise continue d'un antalgique antipyrétique palier I, comme le paracétamol ou Perfalgan (nomeclature générique), et comment doit-il être administré ?",
+    "options": [
+      "1g q 6h max 5g/j avec perfusion de 10 minutes minimum",
+      "1g q 6h max 4g/j avec perfusion de 15 minutes minimum",
+      "2g q 8h max 6g/j avec perfusion de 7 minutes maximum",
+      "3g q 6h max 7g/j sans perfusion nécessaire"
+    ],
+    "correct": "1g q 6h max 4g/j avec perfusion de 15 minutes minimum",
+    "explanation": "La dose maximale journalière continue du paracétamol ou Perfalgan est de 1g à la prise, administrée tous les 6 heures et ne doit pas dépasser 4g au total sur une journée. L'administration doit être associée à une perfusion d'au moins 15 minutes pour réduire le risque hépatotoxicité en cas de surdosage supérieur à 10g.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quelle est l'interaction potentielle entre le néfopam et l'acupan en cas d'administration concomitante?",
+    "options": [
+      "Amélioration des effets secondaires (nausées, sudation, tachycardie)",
+      "Agrgravation des effets indésirables (convulsions, glaucome, rétention urinaire)",
+      "Incompatibilité thérapeutique",
+      "Synergie pour un effet analgésique plus puissant"
+    ],
+    "correct": "Agrgravation des effets indésirables (convulsions, glaucome, rétention urinaire)",
+    "explanation": "La combinaison de néfopam et d'acupan peut augmenter le risque de convulsions en raison de leur action sur les récepteurs des neurotransmetteurs. De plus, il a été rapporté une potentielle aggravation du glaucome et de la rétention urinaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel est l'effet secondaire potentiel le plus courant lors de l'utilisation de la kétamine en anesthésie dissociative?",
+    "options": [
+      "Hallucinations",
+      "Bradycardie",
+      "Hypertension artérielle",
+      "Asthme"
+    ],
+    "correct": "Hallucinations",
+    "explanation": "L'effet secondaire le plus courant de la kétamine en anesthésie dissociative est l'hallucination. D'autres effets peuvent inclure une hypertension artérielle et une tachycardie, mais l'hallucination est considérée comme le plus fréquent.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Quelle est l'inhibition hépatique liée à l'étomidate qui peut causer des problèmes chez un patient instable?",
+    "options": [
+      "Inhibition de la synthèse de cholestérol",
+      "Inhibition de la 17-alpha-hydroxylase",
+      "Inhibition de l'aldolase A",
+      "Inhibition 11-bêta-hydroxylase"
+    ],
+    "correct": "Inhibition 11-bêta-hydroxylase",
+    "explanation": "L'étomidate est un induisant du système de réponse au stress et inhibe la 11-bêta-hydroxylase, ce qui peut causer une insuffisance surrénalienne. Cela est particulièrement dangereux chez un patient instable en raison de leur mauvais état général.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel effet secondaire est associé à l'utilisation du thiopental (Pentothal), un barbiturique ?",
+    "options": [
+      "Hyper tension artérielle",
+      "Hypotension",
+      "Hypertrophie cardiaque",
+      "Hyper activité nerveuse"
+    ],
+    "correct": "Hypotension",
+    "explanation": "L'hypotension est un effet secondaire connu du thiopental (Pentothal), un barbiturique, qui affecte le système cardiovasculaire en réduisant la pression artérielle.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quelle est la dose maximale pour l'AL amide en anesthésie locale ?",
+    "options": [
+      "1 mg/kg",
+      "3 mg/kg",
+      "5 mg/kg",
+      "7 mg/kg (avec adrénaline)"
+    ],
+    "correct": "7 mg/kg (avec adrénaline)",
+    "explanation": "La dose maximale pour l'AL amide en anesthésie locale est de 3 mg/kg, mais avec l'adrénaline elle peut être portée jusqu'à 7 mg/kg. Cette dose plus élevée doit être précisée pour inclure l'utilisation d'adrénaline.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle est la différence principale entre ropivacaïne et bupivacaïne en ce qui concerne leur cardiotoxicité ?",
+    "options": [
+      "A) Ropivacaïne est moins efficace que bupivacaïne.",
+      "B) Ropivacaïne est moins cardiotoxique que bupivacaïne.",
+      "C) Ropivacaïne est plus durable que bupivacaïne.",
+      "D) Ropivacaïne et bupivacaïne ont la même toxicité cardiaque."
+    ],
+    "correct": "B) Ropivacaïne est moins cardiotoxique que bupivacaïne.",
+    "explanation": "Ropivacaïne est un local anesthésique de longue durée qui présente une toxicité cardiaque moindre par rapport à la bupivacaïne. Cette différence peut être liée à leur structure chimique et aux propriétés physico-chimiques qui influent sur la distribution et l'élimination des molécules dans le corps.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quel est l'antidote pour la toxicité induite par l'administration d'une dose rapide de bupivacaïne lors d'une rachianesthésie hyperbare ?",
+    "options": [
+      "Atropine",
+      "Naloxone",
+      "Epinephrine",
+      "Émulsion lipidique"
+    ],
+    "correct": "Émulsion lipidique",
+    "explanation": "L'émulsion lipidique est l'antidote pour la toxicité induite par l'administration d'une dose rapide de bupivacaïne. La bupivacaïne étant très cardiotoxique, son administration doit être évitée lors du bolus rapide. Dans le cas contraire, l'émulsion lipidique peut être administrée pour neutraliser la toxicité.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle antibiotique est utilisée pour la prophylaxie chirurgicale dans ce contexte ?",
+    "options": [
+      "Amoxicilline",
+      "Clindamycin",
+      "Céfotaxime",
+      "Céfazoline"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "Le patient est allergique à la pénicilline avec un taux de 10%. Or, Céfazoline est une céphalosporine à spectre étroit, qui a pour principal avantage d'être peu toxique pour les patients allergiques aux pénicillines. La dose prescrite est de 2g IV administration veineuse 30-60 minutes avant l'incision, avec une réinjection si nécessaire après plus de 4h.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie d'élimination de la rocéphine (C3G) en heure?",
+    "options": [
+      "2 heures",
+      "4 heures",
+      "6 heures",
+      "8 heures"
+    ],
+    "correct": "8 heures",
+    "explanation": "La demi-vie d'élimination de la rocéphine (C3G) est de 8 heures, ce qui implique que chaque injection doit être administrée à ce rythme pour une exposition thérapeutique constante. La durée de demi-vie est de 8 heures car le médicament a un taux d'élimination biliaire de 40%, ce qui signifie que la moitié de la dose est éliminée par voie biliaire toutes les 8 heures.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_19",
+    "question": "Quelle est la première mesure à prendre pour le patient ?",
+    "options": [
+      "Continuer les traitements actuels de carbapénèmes et cilastatine",
+      "Arrêter immédiatement les traitements de carbapénèmes et commencer des antibiotiques alternatives",
+      "Consulter le dossier médical pour vérifier si l'épilepsie est sous contrôle efficace",
+      "Effectuer un examen neurologique pour détecter tout possible effet secondaire convulsif du carbapénème"
+    ],
+    "correct": "Consulter le dossier médical pour vérifier si l'épilepsie est sous contrôle efficace",
+    "explanation": "Le patient a une allergie connue aux bêta-lactamines, une classe d'antibiotiques qui inclut les carbapénèmes. Il est également en traitement de cilastatine pour aider au métabolisme des antibiotiques. En raison de l'épilepsie connu du patient, il est important de vérifier si la maladie est sous contrôle efficace pour éviter les convulsions secondaires aux antibiotiques. Dans ce cas, le traitement doit être adapté en conséquence.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la fréquence de bolus initiale de morphine en IV pour une dose de 0.1 mg/kg ?",
+    "options": [
+      "A- Toutes les 3 min",
+      "B- Toutes les 5 min",
+      "C- Toutes les 10 min",
+      "D- Toutes les 15 min"
+    ],
+    "correct": "B- Toutes les 5 min",
+    "explanation": "La dose initiale de morphine est donnée en bolus toutes les 5 minutes, selon la douleur du patient. Cette fréquence est recommandée pour surveiller efficacement l'évolution de l'analgésie et minimiser les risques d'effet secondaire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quel opiacé peut être utilisé pour l'analgésie peropératoire et avoir un effet similaire au morphine puissant 100x ?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Hydromorphone",
+      "Meperidine"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé qui peut être utilisé pour l'analgésie peropératoire. Il a un effet similaire à la morphine, mais son pouvoir analgésique est environ 100 fois plus fort.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quelle substance à effet analgésique est utilisée en perfusion continue avec un métabolisme plasmatique par estérases et une dose de 0,1-0.5 µg/kg/min pour obtenir une analgésie précoce per et postopératoire ?",
+    "options": [
+      "Fentanyl",
+      "Remifentanil",
+      "Morphine",
+      "Hydromorphone"
+    ],
+    "correct": "Remifentanil",
+    "explanation": "Remifentanil est un opioïde ultra-court d'action qui est métabolisé par des esterases plasmatiques. Sa dose est de 0,1 à 0,5 µg/kg/min pour une analgésie précoce per et postopératoire.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le nom du médicament utilisé dans un traitement palier II avec double mécanisme : opioïde + inhibition recapture, dont la dose varie entre 50 et 100 mg toutes les 4-6 heures et ne doit pas dépasser 400 mg par jour ; il peut causer des effets secondaires tels que nausées et vertiges, ainsi que risque de convulsions à haute dose ?",
+    "options": [
+      "Tramadol",
+      "Codeine",
+      "Morphine",
+      "Oxycodone"
+    ],
+    "correct": "Tramadol",
+    "explanation": "Tramadol est un analgésique opioïde de palier II qui fonctionne en utilisant deux mécanismes : opioïde et inhibition recapture. Il est utilisé pour le traitement des douleurs modérées à sévères. Les effets secondaires comprennent les nausées, les vertiges ainsi qu'un risque élevé de convulsions à haute dose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quel est le maximum journalier en poids de Paracétamol (Perfalgan) lorsque la dose est administrée par voie intraveineuse à un patient qui ne pèse pas plus de 50 kg?",
+    "options": [
+      "3g",
+      "4g",
+      "6g",
+      "10g"
+    ],
+    "correct": "3g",
+    "explanation": "Lorsque la dose de Paracétamol (Perfalgan) est administrée par voie intraveineuse à un patient qui ne pèse pas plus de 50 kg, le maximum journalier est de 3g. Si la dose dépasse les 10g, il y a risque d'hépatotoxicité.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel analogique central non opiacé peut provoquer des nausées, sudation et tachycardie ?",
+    "options": [
+      "Néfopam",
+      "Acupan",
+      "Placebo",
+      "Dextropropoxyphene"
+    ],
+    "correct": "Néfopam",
+    "explanation": "Le néfopam est un analogique central non opiacé qui peut provoquer des effets secondaires tels que les nausées, la sudation et la tachycardie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quelle est la dosage recommandée pour l'analgésie avec le kétamine dissociatif NMDA ?",
+    "options": [
+      "0-0.25 mg/kg IV",
+      "0.75-1 mg/kg IV",
+      "1-2 mg/kg",
+      "2.5-3 mg/kg"
+    ],
+    "correct": "1-2 mg/kg",
+    "explanation": "La dosage recommandée pour l'analgésie avec le kétamine dissociatif NMDA est de 1 à 2 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quelle est la principale indication du thiopental (pentothal), un barbiturique ?",
+    "options": [
+      "Anesthésie générale",
+      "Neuroprotection",
+      "Anti-épileptique",
+      "Traitement de l'hypertension artérielle"
+    ],
+    "correct": "Anesthésie générale",
+    "explanation": "Le thiopental est un barbiturique qui est utilisé principalement comme anesthésique général pour induire la somnolence et la perte de conscience avant une intervention chirurgicale. Il possède également des propriétés neuroprotectrices, mais c'est son usage en anesthésie qui domine. Cependant, l'utilisation de propofol est de plus en plus préférée pour cette application.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quelle est la dose maximale d'AL amide en anesthésie locale ?",
+    "options": [
+      "1 mg/kg",
+      "3 mg/kg",
+      "7 mg/kg (avec adrénaline)",
+      "9 mg/kg"
+    ],
+    "correct": "7 mg/kg (avec adrénaline)",
+    "explanation": "La dose maximale pour AL amide dans un contexte d'anesthésie locale est de 3mg/kg, mais avec l'ajout d'adrénaline, la dose peut atteindre 7mg/kg. L'AL amide est utilisé comme anesthésique local et son début rapide se fait entre 2-5 minutes, avec une durée d'action de 60-120 minutes.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle anesthésique est moins cardiotoxique que la bupivacaïne et dure environ 3-6 heures selon la concentration ?",
+    "options": [
+      "Naropeine",
+      "Ropivacaïne",
+      "Lidocaïne",
+      "Morphine"
+    ],
+    "correct": "Ropivacaïne",
+    "explanation": "La ropivacaïne est une anesthésique locale qui est moins cardiotoxique que la bupivacaïne. Sa durée d'action varie entre 3 et 6 heures selon sa concentration, en tant que peridurale (0,2% pour entretien et 0,75% pour chirurgie) ou lorsqu'elle est utilisée dans une rachianesthésie (15-20 mg).",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quelle est la durée standard d'administration pour la rachianesthésie hyperbare utilisant l'almidé bupivacaïne et marcain avec une dose de 10-15 mg et de 0,25-0,5%, considérant son effet cardiotoxique important (éviter bolus rapide)?",
+    "options": [
+      "1 h",
+      "6 h",
+      "2-4h",
+      "8-12 h"
+    ],
+    "correct": "2-4h",
+    "explanation": "La durée standard d'administration pour une rachianesthésie hyperbare avec l'almidé bupivacaïne et marcain est de 2 à 4 heures, en évitant un bolus rapide car ce produit est très cardiotoxique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle est l'antibiotique céphalosporine utilisée pour la prophylaxie chirurgicale dans ce contexte ?",
+    "options": [
+      "Ceftriaxone",
+      "Cefotaxime",
+      "Cephalexin",
+      "Céfazoline"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "Céphalosporine de première génération, active contre les staphylocoques et streptocoques. Utilisée dans la prophylaxie chirurgicale à une dose de 2g par voie intraveineuse 30-60 minutes avant l'incision, avec possibilité de réinjection si plus de 4h ont écoulé.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quel est le régime d'administration préféré pour la céphalo 3G dans les cas de méningites, pneumonies et sepsis ?",
+    "options": [
+      "Inhalation",
+      "Oral",
+      "IV ou IM",
+      "Subcutanée"
+    ],
+    "correct": "IV ou IM",
+    "explanation": "La rocéphine (Céphalo 3G) est administrée intraveineusement (IV) ou intramusculairement (IM). Ces modes d'administrations sont préférés pour les cas de méningites, pneumonies et sepsis car ils assurent une bonne absorption du médicament, étant donné que la demi-vie du produit est de 8 heures.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la dose initiale d'analgésique opiacé palier III en titration par bolus de 2-3 mg toutes les 5 minutes selon douleur, suivie d'une surveillance FR, conscience et myosis avec un objectif EVA < 3?",
+    "options": [
+      "0.1 mg/kg IV",
+      "0.5 mg/kg IV",
+      "1 mg/kg IV",
+      "2 mg/kg IV"
+    ],
+    "correct": "0.1 mg/kg IV",
+    "explanation": "La dose initiale d'analgésique opiacé palier III est de 0.1 mg/kg IV, en titration par bolus de 2-3 mg toutes les 5 minutes selon douleur avec surveillance FR, conscience et myosis et un objectif EVA < 3.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle est la molécule du médicament opioïde qui peut être utilisée pour l'analgésie peropératoire avec une dose de 1-2 µg/kg IV et qui peut provoquer une rigidité thoracique si administré trop rapidement ?",
+    "options": [
+      "Fentanyl",
+      "Morphine",
+      "Hydromorphone",
+      "Meperidine"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Le fentanyl est un opiacé plus puissant que la morphine avec une durée d'action courte. Il peut être utilisé pour l'analgésie peropératoire et postopératoire, mais son administration rapide peut causer une rigidité thoracique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_3",
+    "question": "Quel analgésique à effet rapide utilisé pendant et après l'opération est administré par perfusion continue en tant que morphinique ultra-court ?",
+    "options": [
+      "Fentanyl",
+      "Remifentanil",
+      "Morphine",
+      "Dexmedetomidine"
+    ],
+    "correct": "Remifentanil",
+    "explanation": "Remifentanil est un opioïde à effet rapide qui agit en tant que morphinique ultra-court. Sa rapidité et son court temps d'action le rendent approprié pour une analgésie précoce après l'opération et sa perfusion continue permet de maintenir un apport continu de médicament en raison de son élimination plasmatique par des estérases.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quel est le nom du médicament opioïde faible de palier II utilisé pour le traitement du douleur topalgique et qui agit par un double mécanisme d'opioïde et inhibition recapture, avec une dose maximale journalière de 400 mg et présentant des effets secondaires tels que les nausées et les vertiges ?",
+    "options": [
+      "Codein",
+      "Fentanyl",
+      "Tramadol",
+      "Morphine"
+    ],
+    "correct": "Tramadol",
+    "explanation": "Tramadol est le seul des quatre médicaments listés qui correspond au profil décrit. Il est un opioïde faible de palier II, utilisé pour le traitement du douleur topalgique par un double mécanisme d'opioïde et inhibition recapture. Son dose maximale journalière est de 400 mg et il présente des effets secondaires tels que les nausées et les vertiges.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose maximale journalière d'un antalgique-antipyrétique du palier I en cas de perfusion IV et le temps minimal nécessaire?",
+    "options": [
+      "2g q 6h max 8g/j (10g si < 50kg). Perfusion 10 min minimum.",
+      "1g q 6h max 4g/j (3g si < 50kg). Perfusion 15 min minimum.",
+      "1.5g q 6h max 5g/j (2g si < 50kg). Perfusion 10 min maximum.",
+      "2g q 4h max 8g/j (3g si < 50kg). Perfusion 10 min minimum."
+    ],
+    "correct": "1g q 6h max 4g/j (3g si < 50kg). Perfusion 15 min minimum.",
+    "explanation": "La dose maximale journalière du Paracétamol en cas de perfusion IV est de 4g par jour, avec un traitement de 15 minutes minimales. Cela est valable pour les patients poids < 50kg qui doivent prendre une dose de 3g au maximum.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "En cas d'effets indésirables tels que nausées, sudation et tachycardie sur une dose IV lente de 20 mg q 4-6h d'un analgésique central non opiacé, quelle maladie peut être considérée comme contre-indication?",
+    "options": [
+      "Convulsions",
+      "Diabète sucrée",
+      "Hypertension artérielle",
+      "Anémie ferriprive"
+    ],
+    "correct": "Convulsions",
+    "explanation": "Le néfopam, un analgésique central non opiacé peut être associé à des convulsions comme effet indésirable. Le glaucome et la rétention urinaire sont également possibles mais moins fréquents.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel est le dosage de kétamine pour obtenir une analgésie entre 0,25-0,5 mg/kg intraveineuse ?",
+    "options": [
+      "0,3 mg/kg",
+      "0,75 mg/kg",
+      "1 mg/kg",
+      "2 mg/kg"
+    ],
+    "correct": "0,3 mg/kg",
+    "explanation": "Le dosage de kétamine pour obtenir une analgésie entre 0,25-0,5 mg/kg intraveineuse est de 0,3 mg/kg. Les taux plus élevés seraient adaptés à l'anesthésie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Est-il probable que l'hypnotique IV administré dans ce contexte provoque des troubles de la surrénaline ?",
+    "options": [
+      "Non",
+      "Oui",
+      "Peut être",
+      "Inconnu"
+    ],
+    "correct": "Oui",
+    "explanation": "L'étomidate, un hypnotique IV utilisé dans ce contexte, peut inhiber l'11-bêta-hydroxylase et donc causer des troubles de la surrénaline.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quelle est la principale propriété secondaire du Thiopental (Pentothal), barbiturique utilisé en anesthésie générale ?",
+    "options": [
+      "Causation de l'hypertonie artérielle",
+      "Inhibition de la dépression myocardique",
+      "Promotion de l'accumulation de glycogène dans le foie",
+      "Accumulation tissulaire adipeux"
+    ],
+    "correct": "Accumulation tissulaire adipeux",
+    "explanation": "Le Thiopental, ou pentobarbital sodium, est un barbiturique utilisé pour induire l'anesthésie générale. Ses effets secondaires incluent une hypotension et une dépression myocardique. Cependant, sa principale propriété secondaire réside dans son accumulation tissulaire adipeux.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_13",
+    "question": "Quelle est la dose maxime de Lidocaïne pour une anesthésie locale ?",
+    "options": [
+      "2 mg/kg",
+      "3 mg/kg",
+      "5 mg/kg",
+      "7 mg/kg (avec adrénaline)"
+    ],
+    "correct": "7 mg/kg (avec adrénaline)",
+    "explanation": "La dose maxime de Lidocaïne sans adrénaline est de 3 mg/kg, mais elle peut être portée à 7 mg/kg avec l'ajout d'adrénaline. Cette dose a un début rapide (2-5 min) et une durée d'action de 60-120 minutes.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle est la différence entre le ropivacaïne et la bupivacaïne en termes de toxicité cardiaque ?",
+    "options": [
+      "A. Ropivacaïne a une toxicité cardiaque plus faible que la bupivacaïne",
+      "B. La bupivacaïne a une toxicité cardiaque plus faible que le ropivacaïne",
+      "C. Les deux médicaments ont la même toxicité cardiaque",
+      "D. Il n'existe pas de différence de toxicité cardiaque entre les deux médicaments"
+    ],
+    "correct": "A. Ropivacaïne a une toxicité cardiaque plus faible que la bupivacaïne",
+    "explanation": "La ropivacaïne est un analgésique local plus récent, dont la toxicité cardiaque semble être inférieure à celle de la bupivacaïne.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quelle est la dose maximale recommandée pour l'administration bolus rapide de bupivacaine lors d'une rachianesthésie, en considérant sa toxicité cardiaque élevée?",
+    "options": [
+      "30 mg",
+      "15 mg",
+      "200 mg",
+      "400 mg"
+    ],
+    "correct": "15 mg",
+    "explanation": "La bupivacaine est très cardiotoxique. Pour éviter une toxicité, il est recommandé de ne pas administrer plus de 15 mg en bolus rapide pendant une rachianesthésie.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle céphalosporine est utilisée pour la prévention antibiotique chirurgicale dans le cas du Céphalo 1G avec spectre staphylocoques et streptocoques ?",
+    "options": [
+      "Céfuroxime",
+      "Cefotaxime",
+      "Céfazoline",
+      "Aztreonam"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "Dans le contexte spécifié, la céphalosporine appropriée est la céfazoline en raison de son spectre antistaphylocoïque et antistreptocoïque. Cette molécule est également utilisée pour une prévention antibiotique chirurgicale avec des doses IV de 2 g administrées 30-60 min avant l'incision. En cas d'injection plus tardive (plus de 4h), une réinjection doit être effectuée.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie du médicament Céphalo 3G (ceftriaxone ou rocéphine) chez un adulte ?",
+    "options": [
+      "4 heures",
+      "8 heures",
+      "12 heures",
+      "24 heures"
+    ],
+    "correct": "8 heures",
+    "explanation": "La demi-vie du Céphalo 3G est de 8 heures chez un adulte. Ceci explique qu'une dose doit être donnée une fois par jour lorsqu'elle est administrée intraveineusement ou intramusculairement.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_1",
+    "question": "Quelle est la dose initiale de morphine pour palier III selon la titration par bolus de 2-3 mg toutes les 5 minutes en fonction de la douleur ?",
+    "options": [
+      "0,2 mg/kg IV",
+      "0,05 mg/kg IV",
+      "0,12 mg/kg IV",
+      "0,1 mg/kg IV"
+    ],
+    "correct": "0,1 mg/kg IV",
+    "explanation": "La dose initiale de morphine pour palier III selon la titration par bolus de 2-3 mg toutes les 5 minutes en fonction de la douleur est de 0,1 mg/kg IV. Cette dose peut être augmentée ou diminuée en fonction de la réponse clinique du patient.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_2",
+    "question": "Quelle molécule peut être utilisée comme alternative pour l'analgésie peropératoire et postopératoire avec un délai rapide d'action et une durée de 20-30 minutes, sans risque de rigidité thoracique liée à un bolus rapide ?",
+    "options": [
+      "Morphine",
+      "Fentanyl",
+      "Remifentanil",
+      "Dexmedetomidine"
+    ],
+    "correct": "Fentanyl",
+    "explanation": "Fentanyl est un opiacé plus puissant que la morphine (100 fois) avec un délai d'action rapide (1-2 minutes) et une durée d'effet de 20 à 30 minutes. Son utilisation peut réduire le risque de rigidité thoracique liée à un bolus rapide, car sa durée d'action est plus courte.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_4",
+    "question": "Quelle est la dose maximale journalière pour le tramadol, un opioïde faible de palier II qui fonctionne par double mécanisme (opioïde et inhibition recapture), avec des effets secondaires tels que nausées et vertiges ?",
+    "options": [
+      "200 mg/j",
+      "300 mg/j",
+      "450 mg/j",
+      "400 mg/j"
+    ],
+    "correct": "400 mg/j",
+    "explanation": "La dose maximale journalière pour le tramadol est de 400 mg. Cette médication est un opioïde faible de palier II qui fonctionne par double mécanisme (opioïde et inhibition recapture), avec des effets secondaires tels que nausées et vertiges. Il existe un risque élevé de convulsions en cas d'overdose.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_5",
+    "question": "Quelle est la dose maximale par jour du Paracétamol en perfusion, et pourquoi il faut un temps minimum de perfusion ?",
+    "options": [
+      "4g/j sans limite de perfusion",
+      "5g/j avec une durée minimale de perfusion de 10 min",
+      "6g/j avec une durée minimale de perfusion de 15 min",
+      "7g/j sans limite de perfusion"
+    ],
+    "correct": "6g/j avec une durée minimale de perfusion de 15 min",
+    "explanation": "La dose maximale journalière du Paracétamol est de 4g, et en perfusion doit être inférieure à 3g si le poids corporel est inférieur à 50kg. En raison de l'hépatotoxicité qui peut survenir avec un surdosage supérieur à 10g, il est recommandé d'effectuer une perfusion minimale de 15 min pour réduire le risque de surdosage.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_6",
+    "question": "Quel effet secondaire peut survenir en cas d'administration de néfopam et pourquoi cela est dangereux?",
+    "options": [
+      "Convulsions",
+      "Nausées",
+      "Sudation",
+      "Tachycardie"
+    ],
+    "correct": "Convulsions",
+    "explanation": "Le risque de convulsions est un effet secondaire potentiel de l'utilisation de néfopam. Cela est dangereux car les convulsions peuvent entraîner des dommages cérébraux et des complications graves, notamment en cas de statut épileptique préexistant.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_7",
+    "question": "Quel est la dose usuelle d'anesthésie avec le kétamine lorsqu'on maintient la ventilation spontanée ?",
+    "options": [
+      "0-0.25 mg/kg IV",
+      "3-4 mg/kg",
+      "1-2 mg/kg",
+      "5-6 mg/kg"
+    ],
+    "correct": "1-2 mg/kg",
+    "explanation": "La dose usuelle d'anesthésie avec le kétamine pour maintenir la ventilation spontanée est comprise entre 1 et 2 mg/kg.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_11",
+    "question": "Quel effet secondaire peut-être observé chez un patient instable lorsqu'on lui administre l'étomidate en doses de 0,2-0,3 mg/kg ?",
+    "options": [
+      "Hypertension artérielle",
+      "Myoclonies",
+      "Insuffisance surrénalienne (inhibition 11-bêta-hydroxylase)",
+      "Ressuscitation cardiopulmonaire"
+    ],
+    "correct": "Insuffisance surrénalienne (inhibition 11-bêta-hydroxylase)",
+    "explanation": "L'étomidate peut inhiber l'enzyme 11-bêta-hydroxylase du système surrénalien, causant une insuffisance surrénalienne secondaire. Les myoclonies peuvent également être un effet indésirable de cet hypnotique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Facile",
+    "points": 1,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_12",
+    "question": "Quel effet secondaire est associé à l'administration intraveineuse de Thiopental (Barbiturique) qui peut conduire à une hypotension et une dépression myocardique ?",
+    "options": [
+      "Accumulation hépatique",
+      "Accumulation rénale",
+      "Accumulation tissu adipeux",
+      "Accumulation pulmonaire"
+    ],
+    "correct": "Accumulation tissu adipeux",
+    "explanation": "L'administration de Thiopental (Barbiturique) peut entraîner une accumulation dans les tissus graisseux, ce qui peut provoquer une hypotension et une dépression myocardique.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_14",
+    "question": "Quelle est la différence entre le ropivacaïne et la bupivacaïne en termes de cardiotoxicité ?",
+    "options": [
+      "A) Ropivacaïne est plus cardiotoxique que bupivacaïne",
+      "B) Ropivacaïne est moins cardiotoxique que bupivacaïne",
+      "C) Les deux médicaments ont la même cardiotoxicité",
+      "D) Il n'est pas possible de comparer leur cardiotoxicité"
+    ],
+    "correct": "B) Ropivacaïne est moins cardiotoxique que bupivacaïne",
+    "explanation": "Ropivacaïne a été démontré comme étant moins cardiotoxique que la bupivacaïne. Elle est une amide longue durée utilisée pour l'anesthésie nerveuse et l'analgésie péri- et postopératoires.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_15",
+    "question": "Quel antidote est recommandé en cas de toxicité pour la rachianesthésie réalisée avec bupivacaïne et marcain ?",
+    "options": [
+      "Sodium bicarbonate",
+      "Atropine",
+      "Epinephrine",
+      "Émulsion lipidique"
+    ],
+    "correct": "Émulsion lipidique",
+    "explanation": "En cas de toxicité pour la rachianesthésie réalisée avec bupivacaïne et marcain, un antidote utilisé est l'émulsion lipidique, car ces produits sont très cardiotoxiques (éviter bolus rapide).",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_16",
+    "question": "Quelle céphalosporine est utilisée pour l'antibioprophylaxie chirurgicale avec une dose de 2g IV et un spectre contre les staphylocoques et streptocoques, chez un patient allergique croisée aux pénicillines à un taux de 10% ?",
+    "options": [
+      "Céphalexine",
+      "Cefotaxime",
+      "Céfazoline",
+      "Azithromycine"
+    ],
+    "correct": "Céfazoline",
+    "explanation": "Le patient a besoin d'une céphalosporine de troisième génération comme céfazoline pour son antibioprophylaxie chirurgicale en raison de sa sensibilité croisée aux pénicillines. La dose est de 2g IV, et le spectre d'action couvre les staphylocoques et streptocoques.",
+    "theme": "Pharmacologie",
+    "difficulty": "Difficile",
+    "points": 3,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
+  },
+  {
+    "id": "ai_gen_17",
+    "question": "Quelle est la demi-vie d'élimination du Céphalo 3G (ceftriaxone ou rocéphine) ?",
+    "options": [
+      "2h",
+      "4h",
+      "8h",
+      "12h"
+    ],
+    "correct": "8h",
+    "explanation": "Le Céphalo 3G a une demi-vie d'élimination de 8 heures, ce qui implique qu'une seule injection par jour est nécessaire pour traiter des maladies telles que les méningites, les pneumonies ou la sepsis. Cependant, une dose de 1-2g/jour doit être administrée soit intraveineusement (IV) soit intramusculairement (IM). Il est également à noter qu'une élimination biliaire de 40% peut entraîner des lithiases biliaires ou des allergies.",
+    "theme": "Pharmacologie",
+    "difficulty": "Moyen",
+    "points": 2,
+    "source": "ai-generated",
+    "generator": "ollama-meditron",
+    "pathology": "Pharmacologie"
   }
 ]

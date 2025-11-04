@@ -19,6 +19,19 @@ export interface Question {
   theme: string;
   difficulty: string;
   pathology: string;
+  // Feedback et qualité
+  feedbackStats?: {
+    averageRating: number;
+    totalFeedbacks: number;
+    lastUpdated: string;
+  };
+  userRating?: 1 | 2 | 3; // Rating local de l'utilisateur
+  // Source PDF pour contextualisation
+  pdfSource?: {
+    filename: string;
+    page: number;
+    section: string;
+  };
 }
 
 export interface LearningSession {

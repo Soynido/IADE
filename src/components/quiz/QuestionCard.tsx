@@ -104,6 +104,11 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
         >
           {question.difficulty}
         </Badge>
+        {(question as any).source === 'ai-generated' && (
+          <Badge variant="secondary" className="bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300">
+            🤖 IA
+          </Badge>
+        )}
       </div>
 
       {/* Question */}

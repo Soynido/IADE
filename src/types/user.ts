@@ -34,6 +34,13 @@ export interface UserProfile extends UserStats {
     nextReviewDate: string;
     repetitionLevel: number;  // 0-5 pour spaced repetition
   }[];
+  // Profil adaptatif pour recommandations intelligentes
+  adaptiveProfile?: {
+    accuracyRate: number;
+    domainPerformance: Record<string, number>;
+    targetDifficulty: string;
+    lastUpdated: string;
+  };
 }
 
 export interface QuestionAttempt {

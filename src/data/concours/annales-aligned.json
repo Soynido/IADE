@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "generatedAt": "2025-11-04T10:42:20.014Z",
+    "totalQuestions": 10,
+    "withAnswer": 7,
+    "coverageRate": "70.0%"
+  },
+  "questions": [
+    {
+      "id": "Volume-1-1",
+      "questionNumber": 1,
+      "question": "Définissez le score de Glasgow (en citant les 3 items, le score minimum et maxi- mum) et dites dans",
+      "answer": "Le score de Glasgow est un score universel qui permet d’évaluer la gr",
+      "confidence": "high",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-2",
+      "questionNumber": 2,
+      "question": "quel cas il s'applique.",
+      "answer": "té d’un traumatisme crânien,il permet de suivre l’évolution de l’état de conscience du patient. || consiste à tester trois paramètres : l'ouverture des yeux, la réponse verbale et la réponse motrice. Le score va de 3 (coma profond) à I5 (conscience normale)",
+      "confidence": "high",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-3",
+      "questionNumber": 3,
+      "question": "Citez les différentes fonctions du rein. Donnez la norme du PH et",
+      "answer": "ec une possibilité d’intubation si le score est inférieur à",
+      "confidence": "high",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-4",
+      "questionNumber": 4,
+      "question": "donnez le sens de variation du PH, de la PCO2 et des HCO3- en cas d’acidose et d’alcalose métabolique et respiratoire.",
+      "answer": "car il n’y a plus de protection des voies aériennes supérieures.",
+      "confidence": "high",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-6",
+      "questionNumber": 6,
+      "question": "Définir muscles lisses et muscles striés.",
+      "answer": "ntien de la volémie - Elimination des déchets du métabolisme - M",
+      "confidence": "high",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-7",
+      "questionNumber": 7,
+      "question": "Donnez un exemple pour chacun.",
+      "answer": "ntien de l’équilibre acido-basique - M",
+      "confidence": "medium",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-8",
+      "questionNumber": 8,
+      "question": "Donnez le principe du don du sang, le délai entre deux dons et la fréquence des dons autorisés par an. Combien de temps sont valables les RAI?",
+      "answer": "ntien de l’équilibre électrolytique Fonctions endocrines : - Régulation de la pression artérielle par la sécrétion de la rénine - Sécrétion d’EPO qui régule la production de globules rouges - Transforme la vitamine D en sa forme active",
+      "confidence": "high",
+      "source": "Volume-1"
+    }
+  ],
+  "questionsWithoutAnswers": [
+    {
+      "id": "Volume-1-5",
+      "questionNumber": 5,
+      "question": "Quels sont les signes de surdosage en morphinique et la conduite à tenir.",
+      "answer": "",
+      "confidence": "low",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-9",
+      "questionNumber": 9,
+      "question": "Quels é1éments du sang peut-on transfuser? Que sont les médicaments dérivés du sang? Citez-en",
+      "answer": "",
+      "confidence": "low",
+      "source": "Volume-1"
+    },
+    {
+      "id": "Volume-1-10",
+      "questionNumber": 10,
+      "question": "OO OO OO © Remplissez le schéma suivant: ANNALES CORRIGÉS DE L'ÉPREUVE ÉCRITE - PREPAC 3",
+      "answer": "",
+      "confidence": "low",
+      "source": "Volume-1"
+    }
+  ]
+}

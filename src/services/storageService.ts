@@ -28,6 +28,26 @@ export interface UserProfile {
   strongAreas: string[];
   recentScores: SessionScore[];
   progression10percent: number;
+  achievements?: Achievement[];
+  preferences?: {
+    showTimer: boolean;
+    feedbackDelay: number;
+    dailyGoal: number;
+  };
+  learningPath?: {
+    completedModules: string[];
+    inProgressModules: string[];
+    recommendedNext: string[];
+  };
+  onboarded?: boolean;
+  initialLevel?: 'facile' | 'moyen' | 'difficile';
+  startDate?: string;
+  lastActivityDate?: string;
+  questionsToReview?: {
+    questionId: string;
+    nextReviewDate: string;
+    repetitionLevel: number;
+  }[];
   moduleProgress?: {
     [moduleId: string]: {
       questionsSeenIds: string[];
@@ -35,6 +55,13 @@ export interface UserProfile {
       averageScore: number;
       lastReviewDate: string;
     };
+  };
+  // Profil adaptatif pour recommandations intelligentes
+  adaptiveProfile?: {
+    accuracyRate: number;
+    domainPerformance: Record<string, number>;
+    targetDifficulty: string;
+    lastUpdated: string;
   };
 }
 
@@ -69,9 +96,13 @@ export class StorageService {
    * Initialiser le profil utilisateur par défaut
    */
   static initializeUserProfile(): UserProfile {
+    const defaultPreferences = this.getPreferences();
+    const defaultAchievements = this.getAchievements();
+    const nowIso = new Date().toISOString();
+
     const profile: UserProfile = {
       id: this.generateUserId(),
-      createdAt: new Date().toISOString(),
+      createdAt: nowIso,
       totalSessions: 0,
       questionsSeen: [],
       averageScore: 0,
@@ -82,6 +113,23 @@ export class StorageService {
       strongAreas: [],
       recentScores: [],
       progression10percent: 0,
+      achievements: defaultAchievements,
+      preferences: {
+        showTimer: defaultPreferences.showTimer,
+        feedbackDelay: defaultPreferences.feedbackDelay,
+        dailyGoal: defaultPreferences.dailyGoal,
+      },
+      learningPath: {
+        completedModules: [],
+        inProgressModules: [],
+        recommendedNext: [],
+      },
+      onboarded: false,
+      initialLevel: 'moyen',
+      startDate: nowIso,
+      lastActivityDate: nowIso,
+      questionsToReview: [],
+      moduleProgress: {},
     };
     
     this.saveUserProfile(profile);
@@ -89,7 +137,39 @@ export class StorageService {
   }
 
   /**
-   * Récupérer le profil utilisateur
+   * Appliquer le déclin de confiance (confidence decay)
+   * Réduit accuracyRate de 2% par jour sans activité
+   */
+  private static applyConfidenceDecay(profile: UserProfile): void {
+    if (!profile.adaptiveProfile || !profile.lastActivityDate) return;
+
+    const lastActivity = new Date(profile.lastActivityDate);
+    const now = new Date();
+    const daysSince = (now.getTime() - lastActivity.getTime()) / (24 * 60 * 60 * 1000);
+
+    if (daysSince < 1) return; // Moins d'un jour, pas de decay
+
+    // Déclin de 2% par jour (0.98^jours)
+    const decayFactor = Math.pow(0.98, Math.floor(daysSince));
+    profile.adaptiveProfile.accuracyRate *= decayFactor;
+
+    // Limiter à minimum 30% pour éviter reset total
+    profile.adaptiveProfile.accuracyRate = Math.max(0.3, profile.adaptiveProfile.accuracyRate);
+
+    // Recalculer targetDifficulty si changement significatif
+    if (profile.adaptiveProfile.accuracyRate > 0.85) {
+      profile.adaptiveProfile.targetDifficulty = 'hard';
+    } else if (profile.adaptiveProfile.accuracyRate < 0.65) {
+      profile.adaptiveProfile.targetDifficulty = 'easy';
+    } else {
+      profile.adaptiveProfile.targetDifficulty = 'intermediate';
+    }
+
+    profile.adaptiveProfile.lastUpdated = now.toISOString();
+  }
+
+  /**
+   * Récupérer le profil utilisateur avec application du confidence decay
    */
   static getUserProfile(): UserProfile {
     const data = localStorage.getItem(STORAGE_KEYS.USER_PROFILE);
@@ -100,7 +180,12 @@ export class StorageService {
     
     try {
       const profile = JSON.parse(this.decode(data)) as UserProfile;
-      return this.migrateProfile(profile);
+      const migrated = this.migrateProfile(profile);
+      
+      // Appliquer confidence decay
+      this.applyConfidenceDecay(migrated);
+      
+      return migrated;
     } catch (error) {
       console.error('Erreur lors de la récupération du profil:', error);
       return this.initializeUserProfile();
@@ -159,6 +244,69 @@ export class StorageService {
     profile.totalXP += session.score;
     
     profile.lastSessionAt = session.date;
+    
+    this.saveUserProfile(profile);
+  }
+
+  /**
+   * Mettre à jour le profil adaptatif après une réponse
+   * Recalcule accuracyRate, domainPerformance et targetDifficulty
+   */
+  static updateAdaptiveProfile(
+    questionId: string,
+    wasCorrect: boolean,
+    responseTime: number,
+    domain: string
+  ): void {
+    const profile = this.getUserProfile();
+    
+    // Initialiser adaptiveProfile si inexistant
+    if (!profile.adaptiveProfile) {
+      profile.adaptiveProfile = {
+        accuracyRate: 0.5,
+        domainPerformance: {},
+        targetDifficulty: 'intermediate',
+        lastUpdated: new Date().toISOString()
+      };
+    }
+
+    // Recalculer accuracyRate depuis recentScores
+    if (profile.recentScores && profile.recentScores.length > 0) {
+      const totalScore = profile.recentScores.reduce((sum, s) => sum + s.score, 0);
+      profile.adaptiveProfile.accuracyRate = totalScore / (profile.recentScores.length * 100);
+    }
+
+    // Mettre à jour domainPerformance
+    if (!profile.adaptiveProfile.domainPerformance[domain]) {
+      profile.adaptiveProfile.domainPerformance[domain] = [];
+    }
+    
+    // Ajouter le nouveau score (100 si correct, 0 sinon)
+    const domainScores = profile.adaptiveProfile.domainPerformance[domain] as any;
+    if (Array.isArray(domainScores)) {
+      domainScores.push(wasCorrect ? 100 : 0);
+      // Garder les 10 derniers
+      if (domainScores.length > 10) {
+        domainScores.shift();
+      }
+      // Calculer moyenne
+      const avg = domainScores.reduce((sum: number, s: number) => sum + s, 0) / domainScores.length;
+      profile.adaptiveProfile.domainPerformance[domain] = avg;
+    } else {
+      profile.adaptiveProfile.domainPerformance[domain] = wasCorrect ? 100 : 0;
+    }
+
+    // Recalculer targetDifficulty
+    const accuracyRate = profile.adaptiveProfile.accuracyRate;
+    if (accuracyRate > 0.85) {
+      profile.adaptiveProfile.targetDifficulty = 'hard';
+    } else if (accuracyRate < 0.65) {
+      profile.adaptiveProfile.targetDifficulty = 'easy';
+    } else {
+      profile.adaptiveProfile.targetDifficulty = 'intermediate';
+    }
+
+    profile.adaptiveProfile.lastUpdated = new Date().toISOString();
     
     this.saveUserProfile(profile);
   }
@@ -380,11 +528,32 @@ export class StorageService {
    */
   private static migrateProfile(profile: UserProfile): UserProfile {
     // Ajouter les champs manquants avec valeurs par défaut
+    const defaultPreferences = this.getPreferences();
+    const defaultAchievements = this.getAchievements();
+    const ensuredLearningPath = profile.learningPath ?? {
+      completedModules: [],
+      inProgressModules: [],
+      recommendedNext: [],
+    };
+    const ensuredQuestionsToReview = profile.questionsToReview ?? [];
+
     return {
       ...profile,
       progression10percent: profile.progression10percent ?? 0,
       weakAreas: profile.weakAreas ?? [],
       strongAreas: profile.strongAreas ?? [],
+      achievements: profile.achievements ?? defaultAchievements,
+      preferences: profile.preferences ?? {
+        showTimer: defaultPreferences.showTimer,
+        feedbackDelay: defaultPreferences.feedbackDelay,
+        dailyGoal: defaultPreferences.dailyGoal,
+      },
+      learningPath: ensuredLearningPath,
+      onboarded: profile.onboarded ?? false,
+      startDate: profile.startDate ?? profile.createdAt ?? new Date().toISOString(),
+      lastActivityDate: profile.lastActivityDate ?? profile.lastSessionAt ?? profile.createdAt,
+      questionsToReview: ensuredQuestionsToReview,
+      moduleProgress: profile.moduleProgress ?? {},
     };
   }
 
