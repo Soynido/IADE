@@ -1,0 +1,124 @@
+{
+  "cycle_id": "IADE-1",
+  "generated_at": "2025-10-28T00:21:00.000Z",
+  "context": "post-autopilot-cycle-0",
+  "confidence_target": 0.94,
+  "tasks": [
+    {
+      "id": "task_1_fix_generators",
+      "priority": "critical",
+      "title": "Corriger exports TypeScript générateurs",
+      "description": "Résoudre l'erreur 'GeneratedQuestion' export. Tester exécution complète. Générer 10+ questions de validation.",
+      "estimated_time_minutes": 15,
+      "dependencies": [],
+      "success_criteria": [
+        "npx tsx scripts/generators/index.ts s'exécute sans erreur",
+        "Fichier generated-questions-v2.json créé avec 10+ questions",
+        "Validation coherenceScore > 0.8 pour toutes les questions"
+      ],
+      "impact": "high",
+      "bias_addressed": "generator_implementation_incomplete"
+    },
+    {
+      "id": "task_2_consolidate_docs",
+      "priority": "high",
+      "title": "Consolider documentation (3 fichiers max)",
+      "description": "Fusionner 10+ fichiers markdown en 3 documents principaux: README.md (overview), CHANGELOG.md (historique), ARCHITECTURE.md (technique).",
+      "estimated_time_minutes": 30,
+      "dependencies": [],
+      "success_criteria": [
+        "Maximum 3 fichiers markdown à la racine",
+        "Tous les autres fichiers archivés dans docs/archive/",
+        "README.md contient liens vers documentation complète"
+      ],
+      "impact": "medium",
+      "bias_addressed": "documentation_proliferation"
+    },
+    {
+      "id": "task_3_add_unit_tests",
+      "priority": "high",
+      "title": "Ajouter tests unitaires (générateurs + KG)",
+      "description": "Créer tests Jest/Vitest pour: BaseQuestionGenerator, DefinitionGenerator, QCMGenerator, buildSimpleKnowledgeGraph.",
+      "estimated_time_minutes": 60,
+      "dependencies": ["task_1_fix_generators"],
+      "success_criteria": [
+        "Coverage > 70% pour scripts/generators/",
+        "Tests passent en CI",
+        "Validation automatique coherenceScore"
+      ],
+      "impact": "high",
+      "bias_addressed": "test_coverage_zero"
+    },
+    {
+      "id": "task_4_exclude_reasoning_traces",
+      "priority": "medium",
+      "title": "Exclure .reasoning/ des traces",
+      "description": "Configurer Reasoning Layer pour ne pas analyser ses propres fichiers. Éviter biais méta-récursion.",
+      "estimated_time_minutes": 10,
+      "dependencies": [],
+      "success_criteria": [
+        "Fichiers .reasoning/ exclus des traces",
+        "Aucune référence circulaire dans les analyses",
+        "Confiance recalculée sans biais auto-confirmation"
+      ],
+      "impact": "low",
+      "bias_addressed": "reasoning_layer_meta_recursion"
+    },
+    {
+      "id": "task_5_pdf_extraction_complete",
+      "priority": "medium",
+      "title": "Extraction PDF complète (100+ questions)",
+      "description": "Exécuter extraction complète des annales IADE. Parser 100+ questions réelles. Régénérer Knowledge Graph avec vraies données.",
+      "estimated_time_minutes": 120,
+      "dependencies": [],
+      "success_criteria": [
+        "100+ questions extraites des PDFs",
+        "Confidence moyenne > 0.85",
+        "Knowledge Graph régénéré avec 100+ noeuds",
+        "Questions mockées remplacées par vraies questions"
+      ],
+      "impact": "high",
+      "bias_addressed": "mock_data_dependency"
+    },
+    {
+      "id": "task_6_deploy_production",
+      "priority": "low",
+      "title": "Déploiement production Vercel",
+      "description": "Build final, tests E2E, déploiement Vercel avec domaine custom.",
+      "estimated_time_minutes": 30,
+      "dependencies": ["task_1_fix_generators", "task_3_add_unit_tests"],
+      "success_criteria": [
+        "Build production sans erreurs",
+        "Déploiement Vercel réussi",
+        "URL publique accessible",
+        "Lighthouse score > 90"
+      ],
+      "impact": "medium",
+      "bias_addressed": "none"
+    }
+  ],
+  "execution_strategy": {
+    "mode": "sequential_critical_first",
+    "order": [
+      "task_1_fix_generators",
+      "task_2_consolidate_docs",
+      "task_4_exclude_reasoning_traces",
+      "task_3_add_unit_tests",
+      "task_5_pdf_extraction_complete",
+      "task_6_deploy_production"
+    ],
+    "estimated_total_time_minutes": 265,
+    "estimated_total_time_hours": 4.4,
+    "parallelizable": ["task_2_consolidate_docs", "task_4_exclude_reasoning_traces"]
+  },
+  "success_metrics": {
+    "confidence_target": 0.94,
+    "biases_to_resolve": 4,
+    "tests_coverage_target": 0.70,
+    "documentation_files_max": 3,
+    "real_questions_min": 100
+  }
+}
+
+
+

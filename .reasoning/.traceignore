@@ -1,0 +1,17 @@
+# Reasoning Layer - Fichiers à exclure des traces
+# Pour éviter biais méta-récursion
+
+# Exclure tous les fichiers .reasoning/
+.reasoning/**
+
+# Exclure logs et security
+*.log
+security/private_key.pem
+keys/private.pem
+
+# Exclure fichiers temporaires
+tmp/
+*.tmp
+*.cache
+
+

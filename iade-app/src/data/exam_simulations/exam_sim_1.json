@@ -1,0 +1,1192 @@
+{
+  "id": "simulation_1",
+  "title": "Simulation Concours IADE n°1",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 52,
+    "QCM": 4,
+    "cas_clinique": 2,
+    "QROC": 1,
+    "CasClinique": 1
+  },
+  "created_at": "2025-11-04T19:21:18.298568",
+  "questions": [
+    {
+      "id": "sim1_q1",
+      "text": "Parmi les propositions suivantes, laquelle concerne 34 CLASSIFICATION DES ANTIBIOTIQUES  ?",
+      "options": [
+        "Néomycine    utilisation locale",
+        "Recherche de pics de concentration",
+        "Ajustement à la fonction rénale si",
+        "Action concentration dépendante"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q2",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Donnez le principe du don du sang. Quel est le volume prélevé, le délai entre deux dons, et la fréquence des dons autorisés par an ?",
+      "options": [
+        "420-480ml, délai 8 semaines, femme 4x/an, homme 6x/an",
+        "500ml, délai 4 semaines, illimité",
+        "250ml, délai 1 semaine, 10x/an",
+        "Le don de sang est interdit"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Volume : 420 à 480 ml selon poids. Délai minimum 8 semaines entre 2 dons. Fréquence : femme maximum 4 fois/an, homme 6 fois/an.",
+      "difficulty": "base",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim1_q3",
+      "text": "Quelle est la définition correcte de \"» Rythme à moduler si indication médicale\" ?",
+      "options": [
+        "test de coagulation",
+        "activité anti-Xa (HNF et HBPM)",
+        "temps de céphaline avec activateur (Uniquement pour HN",
+        "Surveillance plaquettaire non systématique >"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "» rythme à moduler si indication médicale"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q4",
+      "text": "Quelle est la définition correcte de \"Fondaparinux\" ?",
+      "options": [
+        "Oran SC 283",
+        "Cakcpamet SCO 2à)) Zà)]",
+        "Are SC miéé 1j",
+        "Frapaie SN 0"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "fondaparinux"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q5",
+      "type": "QCM",
+      "theme": "general",
+      "text": "des sujets « RH+ »=«D+h=1",
+      "options": [
+        "rad (ordi). re"
+      ],
+      "correctAnswer": 0,
+      "explanation": "",
+      "difficulty": "easy",
+      "themes": [
+        "Général"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim1_q6",
+      "text": "Quelle est la définition correcte de \"onaires\" ?",
+      "options": [
+        "apportent sang saturé aux tissus",
+        "rapportent sang désaturé au cœur via VCS et",
+        "apportent du sang désaturé aux",
+        "rapportent du sang saturé au"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018",
+      "tags": [
+        "onaires"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q7",
+      "type": "QCM",
+      "theme": "Transfusion",
+      "text": "Combien de temps sont valables les RAI (Recherche d'Agglutinines Irrégulières) ?",
+      "options": [
+        "3 jours (6 mois si attestation médicale)",
+        "1 an sans limite",
+        "30 jours maximum",
+        "Pas de délai de validité"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Délai validité RAI : 3 jours sauf en l'absence de transfusion ou événement immunisant dans les 6 mois avec attestation médicale signée : 21 jours.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Transfusion",
+        "Hématologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "type": "qcm",
+      "question": "Dans le cas d'un choc hémorragique, quel type de remplissage vasculaire doit être privilégié lorsque la Hb est inférieure à 7 g/dL ?",
+      "choices": [
+        "A. Cristalloïdes",
+        "B. Colloïdes",
+        "C. Sang humain",
+        "D. Insuline"
+      ],
+      "correct": "A. Cristalloïdes",
+      "explanation": "Dans un choc hémorragique, la perte de sang entraîne une diminution de la concentration en hématocrite (Hb). Le remplissage vasculaire par des cristalloïdes comme le saline est privilégié pour compenser cette perte de volume extracellulaire et préserver les fonctions vitales du patient. En cas d'hémoglobinemie inférieure à 7 g/dL, il est recommandé d'administrer des cristalloïdes pour maintenir une pression artérielle suffisante et éviter la choc hémorragique sévère. La transfusion sanguine doit être considérée lorsque l'hémoglobinemie est inférieure à 4 g/dL ou en cas de présence de symptômes dus à une anoxie.",
+      "id": "sim1_q8",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Réanimation",
+      "concept_id": "gt_008",
+      "exam_mode": true,
+      "difficulty_level": "hard",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim1_q9",
+      "text": "Parmi les propositions suivantes, laquelle concerne Effets indesirables ?",
+      "options": [
+        "Armnesie antérograde,",
+        "Confusion, iritabilité, agressivité, excitation",
+        "Somnolence, sensation ébrieuse,",
+        "Difficultés de concentration, hypotonie"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q10",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Médicaments à marge thérapeutique étroite ?",
+      "options": [
+        "Signaler son tttaux autres professionnels de santé",
+        "Signes annonciateurs de surdosage",
+        "Risques liés à automédication",
+        "Utiliser le carnet de suivi"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q11",
+      "text": "Quelle est la définition correcte de \"9 NM\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine (vesicules),",
+        "vésicules déversent l'ACH dans la fente",
+        "passage d'ions à travers la membrane",
+        "structure anatomo-physiologique spécialisée qui"
+      ],
+      "correctAnswer": 0,
+      "category": "Neurologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "9 nm"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q12",
+      "text": "Quelle est la valeur normale de DFG ?",
+      "options": [
+        "2,2-2,6 mmol /L",
+        "3,5-4,5 mmol /L",
+        "90-120 mL/min/",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "category": "Biologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "norme",
+        "biologie",
+        "dfg"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "cas_clinique",
+      "question": "Cas clinique: Patient de 58 ans, pesant 80 kg avec antécédents d'arthrose lombaire et arthrite rhumatoïde réfractaire à traitement. La patiente présente actuellement une douleur chronique importante en zone lombaire et articulaire, malgré un traitement paracétamolique et AINS continu depuis plusieurs mois. Elle est également en traitement morphinique PCA (pump contrôlée par le patient) de 1 mg/h à 4 mg/h avec des prises supplémentaires de 2 mg tous les 30 minutes, qui ne permettent pas de satisfaire ses besoins en douleur. Elle est candidate à une intervention chirurgicale mais doit attendre plusieurs mois avant que l'opération soit possible. Quelle prise en charge peut être proposée pour réduire la consommation de morphiniques?",
+      "choices": [
+        "A. Augmenter la dose de morphine PCA et augmenter les prises supplémentaires tous les 15 minutes",
+        "B. Associer des techniques locorégionales (épidural, blocs nerveux) à la prise en charge multimodale existante pour réduire la consommation de morphiniques",
+        "C. Augmenter le traitement paracétamolique et AINS jusqu'à une dose maximale",
+        "D. Ignorer la situation, car il n'y a pas d'autre option disponible"
+      ],
+      "correct": "B. Associer des techniques locorégionales (épidural, blocs nerveux) à la prise en charge multimodale existante pour réduire la consommation de morphiniques",
+      "explanation": "En ajoutant des techniques locorégionales à la prise en charge multimodale existante, on peut augmenter l'effet analgésique tout en réduisant la consommation de morphiniques. Cela permettra ainsi de minimiser les risques de dépendance aux morphiniques et d'améliorer la qualité de vie du patient.",
+      "id": "sim1_q13",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Douleur",
+      "concept_id": "gt_011",
+      "exam_mode": true,
+      "difficulty_level": "intermediate",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim1_q14",
+      "text": "Quelle est la définition correcte de \"| Hémoelhise\" ?",
+      "options": [
+        "de ………… 10 Pl",
+        "…o! — ouDéttprCCR…mdim | Pid",
+        "……beures | Dépomatsé O Dur par CP",
+        "LL! Unité pédiatrique (quantité"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_745715_he_movigilence_pre_paration__concours_iade_2025",
+      "tags": [
+        "| hémoelhise"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q15",
+      "text": "Quelle est la définition correcte de \"*_SFAR\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "Recommandations pour l'organisation de la prise en charge des y"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau",
+      "tags": [
+        "*_sfar"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q16",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Rétention d'urine (prostate)",
+        "Contre-Indications",
+        "Tachycardie, arythmie",
+        "\\ydriase, glaucome, trouble de [accommodation"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q17",
+      "text": "Quelle est la définition correcte de \"➢TTT\" ?",
+      "options": [
+        "restric  hydro -NaSIADH",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "restric  hydriquePertes rénales, cut, dig",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "➢ttt"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q18",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Pré-anesthésie : protection des manifestations vagales (bradycardie à l'induction)",
+        "Dans lInfarctus : prévention et traitement des blocs auriculoventriculaires et des bradycardies",
+        "Bloc auriculoventriculaire ou atrioventriculaire",
+        "Traitement symptomatique des manifestations douloureuses aiguës liées aux troubles"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q19",
+      "text": "Quelle est la définition correcte de \"Danaparoide\" ?",
+      "options": [
+        "Cakcpamet SCO 2à)) Zà)]",
+        "Frapaie SN 0",
+        "Oran SC 283",
+        "Are SC miéé 1j"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "danaparoide"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q20",
+      "text": "Quelle est la définition correcte de \"* Le nerf moteur\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine (vesicules),",
+        "vésicules déversent l'ACH dans la fente",
+        "structure anatomo-physiologique spécialisée qui",
+        "passage d'ions à travers la membrane"
+      ],
+      "correctAnswer": 0,
+      "category": "Neurologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "* le nerf moteur"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q21",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Médicaments à marge thérapeutique étroite ?",
+      "options": [
+        "Risque d’inefficacité en cas de sous -dosage",
+        "Risque hémorragique en cas de surdosage",
+        "Signes annonciateurs de surdosage",
+        "Le patient doit connaitre : EDUCATION DU PATIENT INDISPENSABLE"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "cas_clinique",
+      "question": "Cas clinique: Patient de 45 ans, pesant 78 kg, antécédents d'allergie à la pénicilline et un règime alimentaire basé sur les aliments riches en halogénés. L'anesthésiste a administré du succinylcholine pour une intubation rapide en urgence vitale. Les signes cliniques sont : hyperthermie, rigidité musculaire, acidose, rhabdomyolyse. Quelle prise en charge?",
+      "choices": [
+        "A. Administration de propofol et rocuronium pour la réintubation",
+        "B. Administration de dantrolène à la dose de 2,5 mg/kg intraveineux, refroidissement actif des parties du corps en hyperthermie, arrêt des agents halogénés",
+        "C. Hydratation intraveineuse et administration de glucocorticoïdes",
+        "D. Administration de naloxone pour antagoniser les effets du succinylcholine"
+      ],
+      "correct": "B. Administration de dantrolène à la dose de 2,5 mg/kg intraveineux, refroidissement actif des parties du corps en hyperthermie, arrêt des agents halogénés",
+      "explanation": "Le succinylcholine peut provoquer une réaction allergique chez certains patients sensibles à l'halogène. La rhabdomyolyse est une conséquence possible de cette réaction allergique, avec hyperthermie, rigidité musculaire et acidose. Le traitement consiste à arrêter les agents déclencheurs, administrer du dantrolène pour inhibiter la dépolarisation musculaire, et appliquer un refroidissement actif.",
+      "id": "sim1_q22",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Urgences anesthésiques",
+      "concept_id": "gt_009",
+      "exam_mode": true,
+      "difficulty_level": "hard",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim1_q23",
+      "text": "À quelle catégorie appartient : \"Néfopam\" ?",
+      "options": [
+        "Palier 1",
+        "Palier 2",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "classification",
+        "palier 1"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q24",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de MOBIC ?",
+      "options": [
+        "Meloxicam",
+        "méfénamique",
+        "prostaglandines",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "mobic"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q25",
+      "text": "À quelle catégorie appartient : \"Morphine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 1",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "classification",
+        "palier 3"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q26",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Diminuent la réaction inflammatoire au stade aig ?",
+      "options": [
+        "Arthroses douloureuses et invalidantes",
+        "Urologie : traitement de la colique néphrétique",
+        "Rhumatismes inflammatoires chroniques",
+        "ORL et stomatologie"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q27",
+      "text": "Quelle est la définition correcte de \"pouti à l'urine primitive\" ?",
+      "options": [
+        "eau < petites molécules ou molécules dissoufes",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_442028_cours_concours_iade_2025_pdf",
+      "tags": [
+        "pouti à l'urine primitive"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q28",
+      "text": "Quelle est la définition correcte de \"1 CKCD-EPI\" ?",
+      "options": [
+        "selon âge, sexe, ethme",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "selon sexe, âge, ethnie"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_442028_cours_concours_iade_2025_pdf",
+      "tags": [
+        "1 ckcd-epi"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q29",
+      "text": "Parmi les propositions suivantes, laquelle concerne Effets indesirables ?",
+      "options": [
+        "Confusion, iritabilité, agressivité, excitation",
+        "Armnesie antérograde,",
+        "Développement d'une tolérance",
+        "Dépendance physique et psychique > syndrome de sevrage à l'arrêt anxiété,"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q30",
+      "type": "QCM",
+      "theme": "Anatomie",
+      "text": "Définir muscles lisses et muscles striés. Donnez un exemple pour chacun.",
+      "options": [
+        "Muscles striés : contraction volontaire (myocarde) | Muscles lisses : contraction involontaire (viscères)",
+        "Tous les muscles sont identiques",
+        "Striés = colonne vertébrale | Lisses = côtes",
+        "Pas de différence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Muscles striés : innervés par système nerveux cérébro-spinal, contraction soumise à volonté (ex: myocarde). Muscles lisses : contraction involontaire, soumis au système nerveux végétatif, dans viscères creux (tube digestif, voies biliaires, voies urinaires).",
+      "difficulty": "base",
+      "themes": [
+        "Anatomie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim1_q31",
+      "text": "Parmi les propositions suivantes, laquelle concerne 34 CLASSIFICATION DES ANTIBIOTIQUES  ?",
+      "options": [
+        "En association avec les ßlactamine",
+        "Etat de choc infectieux•Pharmacocinétique:",
+        "Biodisponibilité orale nulle",
+        "Néomycine    utilisation locale"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q32",
+      "text": "Quelle structure est responsable de : \"Ligament supraépineux\" ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "G"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_01_revision_neuro_support_prepa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q33",
+      "text": "Quelle est la définition correcte de \"D\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Lisament longitudinal",
+        "Capsule articulaire",
+        "Ligament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_325655_revision_neuro_support_pre_pa_iade_2025",
+      "tags": [
+        "d"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q34",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Curare dépolarisant (Suxaméthonium ou succinylcho ?",
+      "options": [
+        "Allergie aux curares",
+        "Antécédent personnel ou familial d’hyperthermie maligne",
+        "Fragilité musculaire : myopathie, myotonie",
+        "Paraplégie, hémiplégie, dénervation ( > 48 h )"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "qcm",
+      "question": "Quelle est la dose maximale d'un anesthésique local longue durée, et quelle substance peut être utilisée dans le traitement d'une intoxication liée à cette anesthésique ?",
+      "choices": [
+        "A. 1 mg/kg de lidocaïne avec glucose comme traitement",
+        "B. 2 mg/kg de ropivacaine avec émulsion lipidique 40% en cas d'intoxication",
+        "C. 3 mg/kg de prilocain avec Intralipide en tant que traitement d'une intoxication",
+        "D. 2 mg/kg de bupivacaine avec glucose comme traitement"
+      ],
+      "correct": "D. 2 mg/kg de bupivacaine avec glucose est incorrect, Intralipide (émulsion lipidique 20%) est utilisé en cas d'intoxication liée à un anesthésique local longue durée",
+      "explanation": "L'anesthésique local longue durée considéré est celui qui a une dose maximale de 2 mg/kg. Son traitement en cas d'intoxication doit être l'émulsion lipidique 20% et non pas Intralipide 40%. Il n'y a pas de mention de lidocaïne, prilocain ou bupivacaine avec glucose dans la question.",
+      "id": "sim1_q35",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Anesthésiques locaux",
+      "concept_id": "gt_016",
+      "exam_mode": true,
+      "difficulty_level": "intermediate",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim1_q36",
+      "text": "Quelle est la définition correcte de \"Microbiologique\" ?",
+      "options": [
+        "examen direct et culture du prélèvement microbiologique si réalisé (réduction du spectre",
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus",
+        "doit aussi couvrir la légionnelle"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_076144_pneomopathies_prepa_eiade_2020",
+      "tags": [
+        "microbiologique"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q37",
+      "text": "Parmi les propositions suivantes, laquelle concerne Cervicales ?",
+      "options": [
+        "Mydriase (0",
+        "Tachycardie",
+        "Épaississement",
+        "Vasoconstriction"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_182040_revision_neuro_support_pr_pa_iade_2025",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q38",
+      "text": "Quelle est la définition correcte de \"– Pouls régulier, bien frappé\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "130 réguliers",
+        "86 % sous 5L/min Masque hte[C]"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_13_ira_prepa_eiade_2020",
+      "tags": [
+        "– pouls régulier, bien frappé"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q39",
+      "text": "Quelle est la définition correcte de \"À\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Ligament longitudinal",
+        "Lisament longitudinal",
+        "Capsule articulaire"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_182040_revision_neuro_support_pr_pa_iade_2025",
+      "tags": [
+        "à"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q40",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Bloc auriculoventriculaire ou atrioventriculaire",
+        "Pré-anesthésie : protection des manifestations vagales (bradycardie à l'induction).",
+        "Dans l'infarctus : prévention et traitement des blocs auriculoventriculaires et des bradycardies",
+        "Traitement symptomatique des manifestations douloureuses aiguës liées aux troubles"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q41",
+      "text": "Parmi les propositions suivantes, laquelle concerne cette substance ?",
+      "options": [
+        "à l'examen, PAS de signe en foyer",
+        "début moins brutal",
+        "contexte épidémique fréquent",
+        "Syndrome pseudo-grippal"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_076144_pneomopathies_prepa_eiade_2020",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q42",
+      "text": "Quelle est la définition correcte de \"1 MIDRD\" ?",
+      "options": [
+        "selon sexe, âge, ethnie",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "selon âge, sexe, ethme",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_442028_cours_concours_iade_2025_pdf",
+      "tags": [
+        "1 midrd"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q43",
+      "text": "Quelle est la définition correcte de \"Héparines (suffixe DCI\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "-parine) Lu",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "héparines (suffixe dci"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q44",
+      "text": "Parmi les propositions suivantes, laquelle concerne Cervicales ?",
+      "options": [
+        "Mydriase (0",
+        "Épaississement",
+        "Vasoconstriction",
+        "Tachycardie"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_325655_revision_neuro_support_pre_pa_iade_2025",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q45",
+      "text": "Quelle est la définition correcte de \"» Organisme\" ?",
+      "options": [
+        "libération de gaz carbonique et d'eau.",
+        "Immunoglobulines À / macrophages",
+        "Consommation d'énergie.",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018",
+      "tags": [
+        "» organisme"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q46",
+      "text": "Parmi les propositions suivantes, laquelle concerne Cervicales ?",
+      "options": [
+        "Contractions",
+        "Épaississement",
+        "Vasoconstriction",
+        "Mydriase (0"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_325655_revision_neuro_support_pre_pa_iade_2025",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q47",
+      "text": "Quelle est la définition correcte de \"+oxygène\" ?",
+      "options": [
+        "Immunoglobulines À / macrophages",
+        "libération de gaz carbonique et d'eau.",
+        "Processus d'activation des récepteurs périphériques",
+        "Consommation d'énergie."
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018",
+      "tags": [
+        "+oxygène"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q48",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "●Activité antagoniste des récepteurs GABA.  Pas d’effet propre aux doses utilisées.",
+        "●Activité antagoniste des récepteurs GABA.  Pas d’effet propre aux doses utilisées.",
+        "●Activité antagoniste des récepteurs GABA.  Pas d’effet propre aux doses utilisées.",
+        "Action directe sur les récepteurs NMDA du système nerveux central"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q49",
+      "text": "Quelle est la définition correcte de \"●Héparines\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "médicaments antithrombotiques à activité anticoagulante"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "●héparines"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q50",
+      "text": "Quelle est la définition correcte de \"* (uvrent un canal onique\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine (vesicules),",
+        "structure anatomo-physiologique spécialisée qui",
+        "passage d'ions à travers la membrane",
+        "vésicules déversent l'ACH dans la fente"
+      ],
+      "correctAnswer": 0,
+      "category": "Neurologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "* (uvrent un canal onique"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q51",
+      "type": "QROC",
+      "theme": "Pharmacologie",
+      "text": "Expliquez l'effet du premier passage hépatique. Quelles voies permettent de l'éviter ?",
+      "options": [
+        "Métabolisation hépatique avant circulation générale | Voies : sublinguale, transdermique, inhalée, nasale",
+        "Pas d'effet",
+        "Seulement voie orale",
+        "Toutes les voies sont identiques"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Premier passage hépatique : après résorption gastro-intestinale, médicament va au foie via circulation porte où il peut être métabolisé avant arrivée circulation générale. Voies pour l'éviter : sublinguale, transdermique, inhalée, nasale.",
+      "difficulty": "advanced",
+      "themes": [
+        "Pharmacologie",
+        "Physiologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim1_q52",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "délai d'action court (5 à 10 min), durée d'action courte 1h",
+        "patch à poser sur la peau pour 72 h,",
+        "12 μg/h = 30 mg / 24 h de morphine per os",
+        "délai d'action long (12 à 24 h), durée d'action 72 h"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "qcm",
+      "question": "Quel agent anesthésique est utilisé pour la rachianesthésie avec une durée d'action de 2 à 3 heures ?",
+      "choices": [
+        "A. Bupivacaïne normbare à 0,5%",
+        "B. Bupivacaïne hyperbare à 1%",
+        "C. Lidocaïne à 2%",
+        "D. Rocovidaire à 3%"
+      ],
+      "correct": "A. Bupivacaïne hyperbare à 0,5%",
+      "explanation": "La bupivacaïne hyperbare à 0,5% est le seul agent anesthésique local couramment utilisé pour la rachianesthésie avec une durée d'action de 2 à 3 heures. Son taux de concentration est exactement de 0,5%, et il n'existe pas de formulation normbare ou de composé comme le rocovidaire dans ce contexte.",
+      "id": "sim1_q53",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Anesthésie locorégionale",
+      "concept_id": "gt_001",
+      "exam_mode": true,
+      "difficulty_level": "intermediate",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim1_q54",
+      "type": "CasClinique",
+      "theme": "Cardiologie",
+      "text": "À la lecture de l'ECG, le médecin voit un sus-décalage du segment ST. De quoi semble souffrir le patient ? Citez les médicaments utilisés.",
+      "options": [
+        "Syndrome coronarien aigu | Aspegic, clopidogrel, métalyse, morphine",
+        "Bronchite, antibiotiques",
+        "Gastrite, antiacides",
+        "Pas de traitement"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Sus-décalage ST évoque syndrome coronarien aigu. Traitements : antiagrégant plaquettaire (aspegic), bloqueur récepteur ADP (clopidogrel), fibrinolytique (métalyse), paracétamol, morphine.",
+      "difficulty": "advanced",
+      "themes": [
+        "Cardiologie",
+        "Urgences"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim1_q55",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de CELEBREX ?",
+      "options": [
+        "Célécoxib",
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "celebrex"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q56",
+      "text": "Quelle est la valeur normale de Na ?",
+      "options": [
+        "40-60 mmol /L",
+        "2,2-2,6 mmol /L",
+        "3,5-4,5 mmol /L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "category": "Biologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "norme",
+        "biologie",
+        "na"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q57",
+      "text": "Quelle est la définition correcte de \"– Pour tous\" ?",
+      "options": [
+        "HbCO, cyanures.",
+        "RP (mauvaise qualité brancard )",
+        "ECG, ddimères, scanner,",
+        "NFSpl, Hémocult ae+anae"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_13_ira_prepa_eiade_2020",
+      "tags": [
+        "– pour tous"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "qcm",
+      "question": "Dans le contexte de la prévention de la MTEV par HBPM, quelle est la dose journalière en mg de l'énoxaparine lorsque la mobilisation précoce est prévue ?",
+      "choices": [
+        "A. 20mg",
+        "B. 30mg",
+        "C. 40mg",
+        "D. 50mg"
+      ],
+      "correct": "C. 40mg",
+      "explanation": "Dans le cadre de la prévention thromboembolique, la dose journalière en mg d'énoxaparine est de 40mg lorsque la mobilisation précoce est prévue selon les protocoles IADE. Les autres choix sont des doses incorrectes.",
+      "id": "sim1_q58",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Prévention thromboembolique",
+      "concept_id": "gt_013",
+      "exam_mode": true,
+      "difficulty_level": "intermediate",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim1_q59",
+      "text": "Quelle est la définition correcte de \"Bronchioles\" ?",
+      "options": [
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "paroi musculaire",
+        "terrain de tennis"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018",
+      "tags": [
+        "bronchioles"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim1_q60",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "électrique) en une activité mécanique (contraction",
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "électrique) en une activité mécanique (contraction",
+        "électrique) en une activité mécanique (contraction"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-10-28T00:25:00.000Z",
+  "patterns": [
+    {
+      "id": "pattern_autopilot_execution",
+      "name": "Autopilot Execution Pattern",
+      "type": "workflow",
+      "confidence": 0.92,
+      "frequency": 1,
+      "first_seen": "2025-10-28T00:00:00.000Z",
+      "last_seen": "2025-10-28T00:20:00.000Z",
+      "description": "Exécution autonome de 6 tâches prioritaires en mode autopilot avec validation continue",
+      "triggers": [
+        "User command: 'Go. En autopilot.'",
+        "Reasoning Layer V3 activation",
+        "Internal memory mode enabled"
+      ],
+      "steps": [
+        "Analyse Reasoning Layer (biais detection)",
+        "Génération tâches prioritaires",
+        "Exécution séquentielle avec validation",
+        "Build & test continu",
+        "Commit structuré avec tagging"
+      ],
+      "outcomes": {
+        "success_rate": 1.0,
+        "average_confidence_gain": 0.05,
+        "tasks_completed": 6,
+        "biases_resolved": 4
+      },
+      "related_files": [
+        ".reasoning/CYCLE_IADE_0_EXECUTION_REPORT.json",
+        "AUTOPILOTE_FINAL_SUMMARY.md",
+        "iade-app/src/components/CourseReviewMode.tsx",
+        "iade-app/src/components/ExamSimulationMode.tsx",
+        "iade-app/src/components/ProgressDashboard.tsx"
+      ],
+      "tags": ["autopilot", "autonomous", "high-confidence", "production-ready"]
+    },
+    {
+      "id": "pattern_knowledge_graph_generation",
+      "name": "Knowledge Graph Generation Pattern",
+      "type": "data_processing",
+      "confidence": 0.88,
+      "frequency": 2,
+      "first_seen": "2025-10-27T13:00:00.000Z",
+      "last_seen": "2025-10-28T00:15:00.000Z",
+      "description": "Génération automatique de graphes de connaissances à partir de questions structurées",
+      "triggers": [
+        "Questions JSON disponibles",
+        "Script buildKnowledgeGraph.ts exécuté"
+      ],
+      "steps": [
+        "Chargement questions depuis JSON",
+        "Extraction thèmes et concepts",
+        "Création noeuds (themes, questions, concepts)",
+        "Génération liens sémantiques",
+        "Calcul poids relations",
+        "Sauvegarde graph JSON"
+      ],
+      "outcomes": {
+        "success_rate": 1.0,
+        "average_nodes": 42,
+        "average_edges": 102,
+        "generation_time_seconds": 2
+      },
+      "related_files": [
+        "iade-app/scripts/buildSimpleKnowledgeGraph.ts",
+        "iade-app/src/data/concours/knowledge-graph.json"
+      ],
+      "tags": ["knowledge-graph", "semantic", "automated"]
+    },
+    {
+      "id": "pattern_documentation_proliferation",
+      "name": "Documentation Proliferation Anti-Pattern",
+      "type": "anti_pattern",
+      "confidence": 0.73,
+      "frequency": 1,
+      "first_seen": "2025-10-28T00:00:00.000Z",
+      "last_seen": "2025-10-28T00:20:00.000Z",
+      "description": "Création excessive de fichiers markdown de documentation (10+) entraînant fragmentation",
+      "triggers": [
+        "Mode autopilot activé",
+        "Multiples tâches complétées",
+        "Documentation de chaque étape"
+      ],
+      "impact": "negative",
+      "severity": "low",
+      "recommendation": "Consolider en 3 fichiers max: README.md, CHANGELOG.md, ARCHITECTURE.md",
+      "related_files": [
+        "AUTOPILOTE_FINAL_SUMMARY.md",
+        "AUTOPILOTE_EXECUTION_REPORT.md",
+        "ANALYSE_REASONING_LAYER_AMELIORATIONS_IADE.md",
+        "PLAN_ACTION_INTELLIGENCE_IADE.md",
+        "MODE_AUTOPILOTE_ACTIONS_IADE.md"
+      ],
+      "tags": ["anti-pattern", "documentation", "consolidation-needed"]
+    }
+  ],
+  "statistics": {
+    "total_patterns": 3,
+    "positive_patterns": 2,
+    "anti_patterns": 1,
+    "average_confidence": 0.84,
+    "most_frequent_type": "workflow"
+  }
+}
+

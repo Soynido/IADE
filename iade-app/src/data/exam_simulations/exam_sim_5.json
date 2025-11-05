@@ -1,0 +1,1183 @@
+{
+  "id": "simulation_5",
+  "title": "Simulation Concours IADE n°5",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 54,
+    "QCM": 6
+  },
+  "created_at": "2025-11-04T19:21:18.308755",
+  "questions": [
+    {
+      "id": "sim5_q1",
+      "text": "Quelle structure est responsable de : \"le tissu conjonctif\" ?",
+      "options": [
+        "Cellules de soutien",
+        "Cellule nerveuses",
+        "Cellules de soutien"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_01_revision_neuro_support_prepa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q2",
+      "text": "Quelle structure est responsable de : \"Capsule articulaire\" ?",
+      "options": [
+        "B",
+        "D",
+        "E",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_182040_revision_neuro_support_pr_pa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q3",
+      "text": "Quelle est la définition correcte de \"–Somatosensitif\" ?",
+      "options": [
+        "A alpha (I) et A gamma (II)",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "A alpha (I), A beta ( II) et A delta ( III, dlr toucher, temp )",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_01_revision_neuro_support_prepa_iade_2025",
+      "tags": [
+        "–somatosensitif"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q4",
+      "text": "Quelle est la valeur normale de mnllg ?",
+      "options": [
+        "138-742",
+        "40-100 mmlg",
+        "42-44 mme",
+        "95-100"
+      ],
+      "correctAnswer": 0,
+      "category": "Biologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_442028_cours_concours_iade_2025_pdf",
+      "tags": [
+        "norme",
+        "biologie",
+        "mnllg"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q5",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Intervention de très courte durée ?",
+      "options": [
+        "intubation difficiles, en urgence (ex : estomac plein)",
+        "retentissement moindre sur la PA et le rythme cardiaque et faible pouvoir",
+        "intubation pour intervention ne nécessitant pas de relâchement",
+        "atracurium , rocuronium , cisatracurium"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q6",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Inhibiteurs directs de la thrombine : Argatroban",
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "Inhibiteurs directs de la thrombine : Argatroban",
+        "Inhibiteurs directs de la thrombine : Argatroban"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q7",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●CURARISATION =  ?",
+      "options": [
+        "Atracurium (TRACURIUM®)",
+        "Suxaméthonium ou succinylcholine (CELOCURINE®)",
+        "Rocuronium (ESMERON®)",
+        "Curare dépolarisant"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "qcm",
+      "question": "Un patient présente un score de Mallampati III, une distance thyro-mentonnière supérieure à 3 doigts, une ouverture de bouche limitée et une mobilité cervicale réduite. Dans ce contexte, il convient d'utiliser :",
+      "choices": [
+        "A. Une voie aérienne nasale",
+        "B. Un matériel de prise en charge intubationniste conventionnel",
+        "C. Un matériel de prise en charge intubation bronchique",
+        "D. Un matériel d'intubation vide"
+      ],
+      "correct": "B. Un matériel de prise en charge intubationniste conventionnel",
+      "explanation": "Un patient avec un score Mallampati III, une distance thyro-mentonnière supérieure à 3 doigts, une ouverture de bouche limitée et une mobilité cervicale réduite présente un risque élevé d'intubation difficile. Dans ce contexte, il est recommandé de préparer l'équipement nécessaire pour effectuer une intubation conventionnelle, utilisant un matériel adapté à cette prise en charge.",
+      "id": "sim5_q8",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Voies aériennes",
+      "concept_id": "gt_003",
+      "exam_mode": true,
+      "difficulty_level": "hard",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim5_q9",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●CURARISATION =  ?",
+      "options": [
+        "Aminostéroïdes",
+        "Curares non dépolarisants",
+        "Curare dépolarisant",
+        "Suxaméthonium ou succinylcholine (CELOCURINE®)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q10",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de NIFLURIL ?",
+      "options": [
+        "niflumique",
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "nifluril"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q11",
+      "text": "Quelle structure est responsable de : \"structure anatomo -physiologique spécialisée qui\" ?",
+      "options": [
+        "Ouvrent un canal ionique",
+        "Le nerf moteur",
+        "JNM"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q12",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Indications ?",
+      "options": [
+        "Ampoules de 10mg/10 m",
+        "Posologie d'entretien : 2 à 15 mg/",
+        "Posologie initiale: 2 à 4 mg/h",
+        "mg en bolus sur 2 minutes puis entretien PSE"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q13",
+      "text": "Quelle est la définition correcte de \"➢Loi de 1952\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de  médicaments",
+        "Mise en place de l’ HEMOVIGILANCE",
+        "Découverte des groupes sanguins A B O"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_12_hemovigilence_preparation_concours_iade_2025",
+      "tags": [
+        "➢loi de 1952"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q14",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de INH ?",
+      "options": [
+        "périphériques",
+        "hémolytique",
+        "menstruel",
+        "psychiques"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "inh"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q15",
+      "text": "Quelle est la définition correcte de \"À l'Everest\" ?",
+      "options": [
+        "8848 m , PpO2",
+        "Processus d'activation des récepteurs périphériques",
+        "760 mm de Hg",
+        "0,21 X Pression atmosphérique"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018",
+      "tags": [
+        "à l'everest"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q16",
+      "text": "Parmi les propositions suivantes, laquelle concerne à Indications ?",
+      "options": [
+        "Adjuvant de lanesthésie générale permettant l'intubation endotrachéale à",
+        "Curare déplolarisant (olocage de la transmission neuromusculairé)",
+        "L ampoule dans 10 mi de dilvant",
+        "Ampoules de 100mg/2 mi,"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q17",
+      "type": "QCM",
+      "theme": "Hématologie",
+      "text": "Que sont les médicaments dérivés du sang ? Citez-en 3.",
+      "options": [
+        "Albumine, facteurs de coagulation, immunoglobulines",
+        "Aspirine, paracétamol, ibuprofène",
+        "Peptides artificiels uniquement",
+        "Aucun médicament"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Médicaments dérivés du sang : médicaments à base de sang ou composants de sang préparés industriellement. Exemples : albumine, facteurs de coagulation, immunoglobulines d'origine humaine.",
+      "difficulty": "base",
+      "themes": [
+        "Hématologie",
+        "Pharmacologie"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "type": "qcm",
+      "question": "Quel traitement est préconisé en cas de réaction IgE-médiée associant hypotension, bronchospasme, érythème et œdème ?",
+      "choices": [
+        "A. Adrénaline 0.6mg IV",
+        "B. Remplissage intraveineux",
+        "C. Corticoïdes oraux",
+        "D. Antihistaminiques par voie intramusculaire"
+      ],
+      "correct": "A. Adrénaline 0.6mg IV",
+      "explanation": "La réaction IgE-médiée nécessite un traitement urgent incluant adrénaline, remplissage intraveineux et corticoïdes oral ou IV ainsi que des antihistaminiques mais l'adrénaline est le médicament d'urgence de première intention en raison de sa capacité à réversibiliser les symptômes. La dose recommandée est 0,1-0,5mg IV.",
+      "id": "sim5_q18",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Urgences anesthésiques",
+      "concept_id": "gt_020",
+      "exam_mode": true,
+      "difficulty_level": "hard",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim5_q19",
+      "type": "QCM",
+      "theme": "Neurologie",
+      "text": "Définissez le score de Glasgow. Indiquez ses 3 items d'évaluation, le score minimum et maximum.",
+      "options": [
+        "Score de 3 à 15 : ouverture des yeux (1-4), réponse verbale (1-5), réponse motrice (1-6)",
+        "Score de 10 à 20 : pression artérielle, fréquence cardiaque, saturation",
+        "Score de 0 à 30 : âge, antécédents, bilan biologique",
+        "Le score de Glasgow n'existe pas"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Le score de Glasgow évalue l'état de conscience selon 3 paramètres : l'ouverture des yeux (1-4), la réponse verbale (1-5) et la réponse motrice (1-6). Le score va de 3 (coma profond) à 15 (conscience normale). Une intubation est possible si le score est inférieur à 8.",
+      "difficulty": "base",
+      "themes": [
+        "Neurologie",
+        "Réanimation"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim5_q20",
+      "text": "Quelle est la définition correcte de \"H\" ?",
+      "options": [
+        "40–54 % ; F",
+        "13–17 g/dL ; F",
+        "60–115 µmol/L ; F",
+        "4,5–5,7 T/L ; F"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_10_normes_biologiques_concours_iade",
+      "tags": [
+        "h"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q21",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "»Inhibiteurs directs de la thrombine : Argatroban",
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "»Inhibiteurs directs de la thrombine : Argatroban",
+        "»Inhibiteurs directs de la thrombine : Argatroban"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q22",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Les BZD ont des propriétés pharmacologiques commu ?",
+      "options": [
+        "anticonvulsivantes ,",
+        "myorelaxantes",
+        "anxiolytiques,",
+        "hypnotiques,"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q23",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "→Elle n’ est plus activeLes Curares Profil Pharmaco Indications Effets secondaires Contre -indications Décurarisation",
+        "→Elle n’ est plus activeLes Curares Profil Pharmaco Indications Effets secondaires Contre -indications Décurarisation",
+        "→Elle n’ est plus activeLes Curares Profil Pharmaco Indications Effets secondaires Contre -indications Décurarisation"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q24",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Les anxiolytiques doivent être considérés comme d ?",
+      "options": [
+        "Oxazépam (SÉRESTA)",
+        "Alprazolam (XANAX)",
+        "Nordazépam (NORDAZ)",
+        "Clorazépate (TRANXENE)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q25",
+      "text": "Quelle est la définition correcte de \"5 alvéoles\" ?",
+      "options": [
+        "petits sacs recouverts de",
+        "lobule pulmonaire",
+        "terrain de tennis",
+        "paroi musculaire"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018",
+      "tags": [
+        "5 alvéoles"
+      ],
+      "type": "qcm"
+    },
+    {
+      "type": "qcm",
+      "question": "Quel bloc du plexus brachial est utilisé pour l'analgésie en chirurgie du membre supérieur ?",
+      "choices": [
+        "A. Plexus interscalénique",
+        "B. Plexus supraclaviculaire",
+        "C. Plexus axillaire",
+        "D. Plexus cervical"
+      ],
+      "correct": "A. Plexus interscalénique",
+      "explanation": "Le plexus interscalénique est utilisé pour l'analgésie en chirurgie du membre supérieur car il assure une couverture nerveuse de tous les muscles des membres supérieurs. Les autres options sont les plexus supraclaviculaire, axillaire et cervical qui ne fournissent pas la même couverture.",
+      "id": "sim5_q26",
+      "source": "exam-generated",
+      "generator": "ollama-mistral-exam-v2",
+      "domain": "Anesthésie locorégionale",
+      "concept_id": "gt_017",
+      "exam_mode": true,
+      "difficulty_level": "hard",
+      "semantic_score": 0.8
+    },
+    {
+      "id": "sim5_q27",
+      "text": "Quelle est la définition correcte de \"CP\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Plasma Frais Congelé",
+        "Concentré de Globules",
+        "Concentré de Plaquettes"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_12_hemovigilence_preparation_concours_iade_2025",
+      "tags": [
+        "cp"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q28",
+      "text": "Quelle est la définition correcte de \"B\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Ligament longitudinal",
+        "Capsule articulaire",
+        "Lisament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_325655_revision_neuro_support_pre_pa_iade_2025",
+      "tags": [
+        "b"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q29",
+      "text": "Parmi les propositions suivantes, laquelle concerne Cervicales ?",
+      "options": [
+        "Contractions",
+        "Épaississement",
+        "Vasoconstriction",
+        "Tachycardie"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_182040_revision_neuro_support_pr_pa_iade_2025",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q30",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Dans lInfarctus : prévention et traitement des blocs auriculoventriculaires et des bradycardies",
+        "Intoxication aux organo-phosphores",
+        "Bloc auriculoventriculaire ou atrioventriculaire",
+        "Pré-anesthésie : protection des manifestations vagales (bradycardie à l'induction)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_420937_5__les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q31",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "● Inhibent la synthèse des prostaglandines (PG)",
+        "● Inhibent la synthèse des prostaglandines (PG)",
+        "● Inhibent la synthèse des prostaglandines (PG)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "mécanisme",
+        "pharmacodynamie"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q32",
+      "type": "QCM",
+      "theme": "Normes biologiques",
+      "text": "Quelle est la norme de la glycémie à jeun ?",
+      "options": [
+        "0,7-1,1 g/L (3,9-6,1 mmol/L)",
+        "1,5-2,0 g/L",
+        "0,3-0,5 g/L",
+        "Variable sans limite"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycémie à jeun normale: 0,7-1,1 g/L. Diabète si ≥ 1,26 g/L à 2 reprises.",
+      "difficulty": "base",
+      "themes": [
+        "Normes biologiques"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "sim5_q33",
+      "text": "À quelle catégorie appartient : \"Tramadol\" ?",
+      "options": [
+        "Palier 1",
+        "Palier 2",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "classification",
+        "palier 2"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q34",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Surveillance continue de l’ECG , PA et FC",
+        "Pré-anesthésie : protection des manifestations vagales (bradycardie à l'induction).",
+        "Bloc auriculoventriculaire ou atrioventriculaire",
+        "Dans l'infarctus : prévention et traitement des blocs auriculoventriculaires et des bradycardies"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q35",
+      "text": "Quelle est la définition correcte de \"Genre Klebsiella\" ?",
+      "options": [
+        "aminosides (imperméabilité)",
+        "vancomycine (structure)",
+        "Amoxicilline",
+        "CéphalosporinesRésistance qui existe d’emblée"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "genre klebsiella"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q36",
+      "text": "Quelle est la valeur normale de H ?",
+      "options": [
+        ": 13–17 g/dL",
+        ": 12–16 g/dL",
+        ": 40–54 %",
+        ": 37–47 %"
+      ],
+      "correctAnswer": 0,
+      "category": "Biologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_10_normes_biologiques_concours_iade",
+      "tags": [
+        "norme",
+        "biologie",
+        "h"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q37",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Traçabilité des PSL, information et suivi du patient transfusé dans l’ES",
+        "Le receveur auquel il a été administréMissions de l’Hémovigilance :",
+        "L’historique, l’utilisation et la localisation d’un PSL à toutes les étapes de préparation, de",
+        "Déclaration des Effets Indésirables Receveur à l’ ANSM -FEIR (Fiche Effet Indésirable Receveur)"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_12_hemovigilence_preparation_concours_iade_2025",
+      "tags": [
+        "contre-indication",
+        "sécurité"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q38",
+      "type": "QCM",
+      "theme": "Pharmacologie",
+      "text": "Quels sont les signes de surdosage en morphinique et la conduite à tenir ?",
+      "options": [
+        "Tachycardie, hypertension, agitation",
+        "Somnolence, bradypnée, dépression respiratoire, myosis extrême",
+        "Diarrhée, crampes abdominales, hyperthermie",
+        "Aucun signe clinique"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Signes : somnolence, bradypnée voire dépression respiratoire, hypotension, myosis extrême. Conduite : surveillance multiparamétrique, arrêt morphine, prévenir médecin, stimuler patient, O₂ si besoin, antagonisation avec naloxone.",
+      "difficulty": "base",
+      "themes": [
+        "Pharmacologie",
+        "Réanimation"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim5_q39",
+      "text": "Quelle structure est responsable de : \"Disque intervertébral\" ?",
+      "options": [
+        "D",
+        "C",
+        "E",
+        "B"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_182040_revision_neuro_support_pr_pa_iade_2025",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q40",
+      "text": "Quelle est la définition correcte de \"▪CKD -EPI\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "selon âge, sexe, ethnie",
+        "selon sexe, âge, ethnie"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "▪ckd -epi"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q41",
+      "text": "Quelle est la définition correcte de \"| CI\" ?",
+      "options": [
+        "CL | Protocole Transhsione Porc |",
+        "de ………… 10 Pl",
+        "LL! Unité pédiatrique (quantité",
+        "……beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_745715_he_movigilence_pre_paration__concours_iade_2025",
+      "tags": [
+        "| ci"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q42",
+      "type": "QCM",
+      "theme": "Acidose-Base",
+      "text": "Donnez la norme du PH et le sens de variation du PH, de la PCO₂ et des HCO₃⁻ en cas d'acidose métabolique.",
+      "options": [
+        "PH < 7,38 | PCO₂ diminue | HCO₃⁻ diminue",
+        "PH > 7,42 | PCO₂ augmente | HCO₃⁻ augmente",
+        "PH normal 6,5-7,5 | Pas de variation",
+        "PH toujours stable"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Norme PH : 7,38 à 7,42. Acidose métabolique : PH < 7,38 (diminue), PCO₂ diminue (compensation), HCO₃⁻ diminue.",
+      "difficulty": "intermediate",
+      "themes": [
+        "Acidose-Base",
+        "Réanimation"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "sim5_q43",
+      "text": "Quelle est la définition correcte de \"➢Loi du 1 °juillet 1998\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Découverte des groupes sanguins A B O",
+        "Renforcement de la veille sanitaire et du contrôle des produits destinés à l’homme",
+        "Sécurité en matière de transfusion sanguine et de  médicaments"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_12_hemovigilence_preparation_concours_iade_2025",
+      "tags": [
+        "➢loi du 1 °juillet 1998"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q44",
+      "text": "Quelle est la définition correcte de \"+ Secteur plasmatique\" ?",
+      "options": [
+        "20° du poids du corps",
+        "40'/o du poids du corps",
+        "15 du potds du corps",
+        "a du poids du corps"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_442028_cours_concours_iade_2025_pdf",
+      "tags": [
+        "+ secteur plasmatique"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q45",
+      "text": "Quelle est la définition correcte de \"•Signes anticholinergiques\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "sécheresse muqueuse, tachycardie,",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "tachycardie majeure, convulsions, hallucinations,"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "•signes anticholinergiques"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q46",
+      "type": "QCM",
+      "theme": "Urgences",
+      "text": "En cas d'arrêt cardiaque, quelle est la séquence RCP selon les recommandations ERC 2021 ?",
+      "options": [
+        "30 compressions thoraciques : 2 insufflations",
+        "15 compressions thoraciques : 2 insufflations",
+        "5 compressions thoraciques : 1 insufflation",
+        "Compressions continues sans insufflations"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RCP adulte: 30:2 (30 compressions thoraciques pour 2 insufflations). Fréquence 100-120/min, profondeur 5-6 cm.",
+      "difficulty": "advanced",
+      "themes": [
+        "Urgences"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "id": "sim5_q47",
+      "text": "Quelle structure est responsable de : \"vésicules déversent l'ACH dans la fente\" ?",
+      "options": [
+        "Ouvrent un canal ionique",
+        "influx nerveux",
+        "Le nerf moteur"
+      ],
+      "correctAnswer": 0,
+      "category": "Anatomie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_08_5_les_curares_c_doudet_2025_ifcs",
+      "tags": [
+        "anatomie",
+        "fonction"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q48",
+      "text": "Quelle est la définition correcte de \"Alvéoles\" ?",
+      "options": [
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "terrain de tennis",
+        "paroi musculaire"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018",
+      "tags": [
+        "alvéoles"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q49",
+      "text": "Quelle est la DCI (Dénomination Commune Internationale) de URBANYL ?",
+      "options": [
+        "Diazépam",
+        "Nordazépam",
+        "Bromazépam",
+        "Clobazam"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "medium",
+      "points": 2,
+      "sourceModule": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs",
+      "tags": [
+        "molécule",
+        "dci",
+        "urbanyl"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q50",
+      "text": "Parmi les propositions suivantes, laquelle concerne ● Diminuent la réaction inflammatoire au stade aig ?",
+      "options": [
+        "Néonatologie : fermeture du canal artériel",
+        "Urologie : traitement de la colique néphrétique",
+        "ORL et stomatologie",
+        "Traumatologie"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_05_1_les_antalgiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q51",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Effet fonction de la dose, effet \"pic”",
+        "Concentration (ou dose) dépendant",
+        "Peu d'importance des concentrations minimales",
+        "Effet bactéricide rapide"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q52",
+      "text": "Quelle est la définition correcte de \"H\" ?",
+      "options": [
+        "4,5–5,7 T/L ; F",
+        "40–54 % ; F",
+        "60–115 µmol/L ; F",
+        "13–17 g/dL ; F"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_10_normes_biologiques_concours_iade",
+      "tags": [
+        "h"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q53",
+      "text": "Quelle est la valeur normale de Urée ?",
+      "options": [
+        "2-8mmol /L",
+        "2,2-2,6 mmol /L",
+        "135-145 mmol /L",
+        "3,5-4,5 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "category": "Biologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_04_cours_concours_iade_2025_pdf",
+      "tags": [
+        "norme",
+        "biologie",
+        "urée"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q54",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Effet post -antibiotique dose -dépendant",
+        "Concentration (ou dose) dépendant",
+        "Effet fonction de la dose, effet \"pic”",
+        "Effet bactéricide rapide"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_06_2_les_antibiotiques_c_doudet_2025_ifcs",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q55",
+      "text": "Quelle est la valeur normale de pH ?",
+      "options": [
+        "40-100 mmlg",
+        "138-742",
+        "95-100",
+        "42-44 mme"
+      ],
+      "correctAnswer": 0,
+      "category": "Biologie",
+      "difficulty": "hard",
+      "points": 3,
+      "sourceModule": "module_442028_cours_concours_iade_2025_pdf",
+      "tags": [
+        "norme",
+        "biologie",
+        "ph"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q56",
+      "question": "Quels é1éments du sang peut-on transfuser? Que sont les médicaments dérivés du sang? Citez-en",
+      "answer": "",
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q57",
+      "text": "Parmi les propositions suivantes, laquelle concerne ●Indications  ?",
+      "options": [
+        "Dilution 1 mg/1 ml dans du G5%",
+        "Métaboliques : hyperglycémie",
+        "Cardiaques : inotrope positif,",
+        "Vasculaires : vasoconstriction intense"
+      ],
+      "correctAnswer": 0,
+      "category": "Pharmacologie",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau",
+      "tags": [
+        "propriété",
+        "effet"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q58",
+      "text": "Quelle est la définition correcte de \"Pneumopathie communautaire\" ?",
+      "options": [
+        "autres examens",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_076144_pneomopathies_prepa_eiade_2020",
+      "tags": [
+        "pneumopathie communautaire"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q59",
+      "text": "Quelle est la définition correcte de \"courbe d’apprentissage de l’opérateurPneumopathie communautaire\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "autres examens",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_03_pneomopathies_prepa_eiade_2020",
+      "tags": [
+        "courbe d’apprentissage de l’opérateurpneumopathie communautaire"
+      ],
+      "type": "qcm"
+    },
+    {
+      "id": "sim5_q60",
+      "text": "Quelle est la définition correcte de \"immunologique local\" ?",
+      "options": [
+        "Consommation d'énergie.",
+        "libération de gaz carbonique et d'eau.",
+        "Processus d'activation des récepteurs périphériques",
+        "Immunoglobulines À / macrophages"
+      ],
+      "correctAnswer": 0,
+      "category": "Général",
+      "difficulty": "easy",
+      "points": 1,
+      "sourceModule": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018",
+      "tags": [
+        "immunologique local"
+      ],
+      "type": "qcm"
+    }
+  ]
+}
