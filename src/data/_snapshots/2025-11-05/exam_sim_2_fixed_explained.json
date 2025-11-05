@@ -1,0 +1,963 @@
+{
+  "id": "simulation_2",
+  "title": "Simulation Concours IADE n°2",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 58,
+    "rédactionnelle": 2
+  },
+  "created_at": "2025-11-04T19:21:18.302304",
+  "questions": [
+    {
+      "id": "sim2_q1",
+      "text": "Quelle est la définition correcte de \" 1900\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Mise en place de l’ HEMOVIGILANCE",
+        "Découverte des groupes sanguins A B O",
+        "Sécurité en matière de transfusion sanguine et de médicaments"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La définition de \"1900\" dans le contexte médical est liée à une période significative de l'histoire des groupes sanguins. En 1900, Karl Landsteiner et Alexander Sahibzada découvrirent les trois principaux groupes sanguins A, B et O, ce qui a permis de réduire considérablement le nombre de transfusions sanguines mortelles dues à des réactions hémolytiques incompatibles.\n2. La bonne réponse est \"Découverte des groupes sanguins A B O\". Cette découverte a marqué un tournant dans la sécurité en ma...",
+      "text_hash": "ff4bab7615020afb751a09bbad37f6ed"
+    },
+    {
+      "id": "sim2_q2",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de LYSANXIA ?",
+      "options": [
+        "Prazépam",
+        "Nordazépam",
+        "Diazépam",
+        "Bromazépam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Lysanxia est une désintolérance aux benzodiazépines, principalement à l'hypnotique Zolpidem. Ce trouble psychologique se traduit par un refus ou une aversion chez certaines personnes à reprendre leur médicament après sa première utilisation, malgré des effets bénéfiques précédents.\n2. Parmi les options proposées, Bromazépam est la bonne réponse car il est un benzodiazépine et peut être impliqué dans le développement de lysanxia en raison de son long temps de demi-vie et de son effet hypnotiqu...",
+      "text_hash": "40ee94c6cb7ff0ae20a4dc195c7fc16e"
+    },
+    {
+      "id": "sim2_q3",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "12 μg/h = 30 mg / 24 h de morphine per os",
+        "Changer de site à chaque fois et enlever le patch usagé ne pas les oublier...sinon risque de surdosage",
+        "délai d'action long 12 à 24 h , durée d'action 72 h",
+        "patch à poser sur la peau pour 72 h,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Principle: Morphine patch is a transdermal drug delivery system, providing controlled and sustained release of morphine through the skin into the systemic circulation for pain management. Proper handling and disposal are crucial to avoid overdose or accidental exposure.\n\n2. Justification: Incorrect disposal of the used patch can lead to inadvertent application by someone else, potentially causing overdose. Therefore, option \"Changer de site à chaque fois et enlever le patch usagé ne pas les o...",
+      "text_hash": "d8fbc28530bdcfd042565c6ad1feb6da"
+    },
+    {
+      "id": "sim2_q4",
+      "text": "Quelle est la définition correcte de \" Loi du 4 janvier 1993\" ?",
+      "options": [
+        "Nationalisation de la transfusion avec la création de l'EFS",
+        "Mise en place de l HEMOVIGILANCE",
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de médicaments"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La Loi du 4 janvier 1993 établit le cadre légal et réglementaire pour l'organisation, la sécurité et la transparence de la transfusion sanguine en France.\n2. Cette loi a contribué à la mise en place d'un système national de transfusion sanguine assurant une hémovigilance stricte et garantissant une sécurité optimale pour les donneurs et les récipiendaires de produits sanguins.",
+      "text_hash": "9edc61a3ae672e235c13c0e3713e3b52"
+    },
+    {
+      "id": "sim2_q5",
+      "text": "Quelle est la définition correcte de \" SFAR\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "Recommandations pour l’organisation de la prise en charge des",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. SFAR (Sphingosine-1-phosphate Receptor) est une famille de récepteurs G protein-couplés membranaires qui jouent un rôle crucial dans la régulation de l'homéostasie cellulaire et du fonctionnement immunologique en modulant la perméabilité des membranes cellulaires.\n2. La bonne réponse est \"Régulation de l'homéostasie cellulaire\" car les SFARs sont impliqués dans le maintien de l'équilibre des paramètres biologiques au sein de la cellule, en contrôlant la prolifération, la survie et les mouveme...",
+      "text_hash": "eb2f4d774de4b7ecf0e3e5ccc93a80e4"
+    },
+    {
+      "id": "sim2_q6",
+      "text": "Quelle est la définition correcte de \"+ Perte rénale d'eau\" ?",
+      "options": [
+        "diabète Insipide",
+        "TC, cirrhose, hypoalbu",
+        "Pertes rénales cut, dig",
+        "HIC hyperNa"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La perte rénale d'eau est un trouble de régulation du corps humain caractérisé par une perte inappropriée et excessive de liquide, notamment via l'urine. Cela peut être causé par divers facteurs, tels que diabète insipide ou maladie rénale, mais pas la cirrhose ou les pertes cutanées/digestives.\n2. La bonne réponse \"diabète insipide\" est la seule option qui correspond à une cause possible de perte rénale d'eau. Le diabète insipide est une maladie endocrine rare causée par une déficience fonct...",
+      "text_hash": "422127bc06878bedf4835a00127db14f"
+    },
+    {
+      "id": "sim2_q8",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de HAVLANE ?",
+      "options": [
+        "Loprazolam",
+        "Estazolam",
+        "Zopicone",
+        "Lormétazepam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Hávlané est un nom générique utilisé pour désigner les benzodiazépines, une classe de médicaments anxiolytiques qui agissent en bloquant le récepteur GABA_{A} du système nerveux central.\n2. Parmi les options proposées, Lormétazepam est la DCI (Dénomination Commune Internationale) de Hávlané. C'est un benzodiazépine utilisée pour traiter l'insomnie et les troubles anxieux.",
+      "text_hash": "96f7f12f90bfa9e930002ab2452def87"
+    },
+    {
+      "id": "sim2_q9",
+      "text": "À quelle catégorie appartient : \"Codéine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 3",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Codéine est une substance opiacée utilisée comme analgésique et antitussifavec un effet principal lié à l'activation des récepteurs opioïdes µ.\n2. Elle appartient au Palier 2 selon la classification de l'Organisation Mondiale de la Santé (OMS) pour les médicaments opiacés, étant moins puissante que les analgésiques du Palier 3 tels que la morphine ou la fentanyl.",
+      "text_hash": "0de4772ea1f9fc748e93e8e203411dfb"
+    },
+    {
+      "id": "sim2_q10",
+      "text": "Parmi les propositions suivantes, laquelle concerne Indications ?",
+      "options": [
+        "Bronchospasme sévère réfractaire",
+        "Métaboliques : élévation de la glycémieETAT DE CHOC",
+        "Détresse circulatoire aigue choc cardiogénique, anaphylactique, septique",
+        "Oculaires : mydriase"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Indications sont les cas d'utilisation justifiés pour une thérapie médicamenteuse ou une intervention chirurgicale en fonction des symptômes, diagnostic et état général du patient.\n2. Parmi les propositions, la bonne réponse est \"Détresse circulatoire aigue choc cardiogénique, anaphylactique, septique\". Ces situations impliquent une détresse circulatoire aigüe pour laquelle des traitements pour soulager le choc peuvent être nécessaires. Par exemple, les antihistaminiques et les corticoïdes so...",
+      "text_hash": "10d9851dd13098aad96683196fecb98d"
+    },
+    {
+      "id": "sim2_q11",
+      "text": "Quel est le volume courant recommandé pour les modes ventilatoires VAC, VS-AI-PEP lorsque le poids idéal est de 70 kg ?",
+      "options": [
+        "A. 420 mL",
+        "B. 490 mL",
+        "C. 560 mL",
+        "D. 680 mL"
+      ],
+      "correctAnswer": 2,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Réanimation",
+      "explanation": "Le volume courant recommandé pour les modes ventilatoires VAC, VS-AI-PEP est de 6 à 8 mL/kg poids idéal. Pour un poids idéal de 70 kg, ce volume s'élevait à 560 mL 70*0,08 .",
+      "text_hash": "4e4e7106520a27b66aec87206c55eedb"
+    },
+    {
+      "id": "sim2_q12",
+      "text": "Donnez la définition des termes suivants : transfusion homologue et transfusion autologue.",
+      "options": [
+        "Homologue : donneur différent receveur | Autologue : patient reçoit son propre sang",
+        "Les deux sont identiques",
+        "Homologue : même groupe | Autologue : autre groupe",
+        "Pas de différence"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "intermediate",
+      "domain": "Transfusion",
+      "explanation": "Transfusion homologue = transfusion d'un donneur à un receveur autre. Transfusion autologue = transfusion du patient avec son propre sang prélevé en amont.",
+      "text_hash": "3f0ba9d746164425d4afa539fd5e0cd7"
+    },
+    {
+      "id": "sim2_q13",
+      "text": "Quelle structure est responsable de : \"Disque intervertébral\" ?",
+      "options": [
+        "B",
+        "E",
+        "D",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le disque intervertébral est une structure anatomique formée de deux parties : l'anneau fibreux et le nucléus pulponaire. Il se trouve entre les vertèbres dorsales, lombaires ou cervicales.\n2. La bonne réponse est \"B\" car ce disque intervertébral s'insère entre deux vertèbres, donc il ne fait pas partie de la moelle spinale (A), des disques articaulaires (C) ni des ligaments joints (D).",
+      "text_hash": "a81d2d8a721b7d8690496be98801c34f"
+    },
+    {
+      "id": "sim2_q14",
+      "text": "Quelle est la définition correcte de \"G\" ?",
+      "options": [
+        "Ligament supraépineux",
+        "Lisament longitudinal",
+        "Ligament longitudinal",
+        "Disque intervertébral"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"G\" dans le contexte médical peut faire référence au ligament longitudinal, qui est un ensemble de tissus fibreux situés dans la moelle épinière des vertèbres et qui aide à maintenir la stabilité de la colonne vertébrale.\n\n2. Ce choix est justifié car le ligament longitudinal est une structure anatomique importante concernant l'ensemble de la colonne vertébrale, et ses deux parties, le ligament longitudinal postérieur (ou ligament interspinosaïde) et le ligament longitudinal antérieur, ont...",
+      "text_hash": "77a6fe810fff515c653c19ce808cefeb"
+    },
+    {
+      "id": "sim2_q15",
+      "text": "Quelle est la définition correcte de \"CP\" ?",
+      "options": [
+        "Concentré de Plaquettes",
+        "Processus d'activation des récepteurs périphériques",
+        "Concentré de Globules",
+        "PHARMACIE ÿ"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. CP, dans le contexte médical, signifie \"Code Postal\" en français. Cependant, dans le domaine de la médecine et des sciences de la santé, il peut également faire référence à diverses abréviations comme \"Corps caverneux du pénis\", \"Concentré Plasma\" ou \"Cœur-Pulmonaire\".\n2. Le choix de \"Code Postal\" en tant que bonne réponse est justifié car, dans le contexte donné, la question semble être un exercice de référencement alphabétique et non médical. L'utilisation des termes précis tels que \"Corps ...",
+      "text_hash": "95883ecc8d0684a8bde132aae7b0c452"
+    },
+    {
+      "id": "sim2_q16",
+      "text": "Parmi les propositions suivantes, laquelle concerne Hémorragies ?",
+      "options": [
+        "Antidote : Sulfate de protamine sauf fondaparinux",
+        "HNF HBPM, rare sous danaparoide , fondaparinux , argatrobanLES HÉPARINES",
+        "100 UAH neutralise 100 UI d’héparine",
+        "Plaquettes 100 G/L ou diminution de 30%"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hémorragies sont des pertes sanguines abnormales dues à une défaillance du système vasculaire ou à une coagulation anormale du sang. Le traitement est centré sur la fermeture de l'artère ou de la veine qui saigne et sur la correction de toute anomalie coagulopathique en cas de nécessité.\n\n2. La bonne réponse \"HNF HBPM, rare sous danaparoide , fondaparinux , argatrobanLES HÉPARINES\" est pertinente car les héparines sont un médicament couramment utilisé pour prévenir et traiter des hémorragies....",
+      "text_hash": "6ca266fcee20c8ccc87380d3312af13a"
+    },
+    {
+      "id": "sim2_q17",
+      "text": "Où se trouvent les anticorps et les antigènes ?",
+      "options": [
+        "Anticorps dans le plasma | Antigènes dans les globules rouges",
+        "Tous dans le plasma",
+        "Tous dans les globules rouges",
+        "Pas de localisation précise"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Immunologie",
+      "explanation": "Les anticorps sont dans le plasma et les antigènes dans les globules rouges.",
+      "text_hash": "597784498223811c25aeb5c238bdae87"
+    },
+    {
+      "id": "sim2_q18",
+      "text": "Parmi les propositions suivantes, laquelle concerne à Indications ?",
+      "options": [
+        "Ampoules de 5mg/5 mi et mg/L mi",
+        "Bronchospasme sévère réfractaire",
+        "1 rmg pur IV à renouveler toutes les 3 minutes",
+        "Détresse circulatoire aigue choc cardiogénique, anaphylactique, septique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le principe ou mécanisme pharmacologique consiste à utiliser une dose forte et fréquente d'un agoniste des récepteurs beta-2 adrénergiques (salbutamol) intraveineux pour traiter un bronchospasme sévère réfractaire, qui est une contraction incontrôlée des muscles lisses de la paroi bronchique causant une obstruction à l'inhalation et l'expiration.\n2. La bonne réponse est \"1 rmg pur IV à renouveler toutes les 3 minutes\". Cette dose forte d'administration intraveineuse permet un effet rapide en ...",
+      "text_hash": "5ea003eb05f1d46e38932fa737d186e1"
+    },
+    {
+      "id": "sim2_q19",
+      "text": "Quelle est la définition correcte de \"Anaérobie\" ?",
+      "options": [
+        "vancomycine structure",
+        "Amoxicilline",
+        "aminosides imperméabilité",
+        "CéphalosporinesRésistance qui existe d’emblée"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Anaérobie est un processus métabolique qui se produit dans l'absence d'oxygène. La cellule utilise alors des substrats anaérobies comme glucose ou acides organiques pour produire de l'énergie (ATP) par voie de la fermentation lactique, ce qui entraine la production de lactate et d'hydrogenes.\n\n2. La bonne réponse est \"Anaérobie\", car elle décrit le processus métabolique qui se produit dans l'absence d'oxygène contrairement aux autres options proposées qui ne sont pas liées à la physiologie ce...",
+      "text_hash": "a1650a6dc8c0fcd87cb35cdda7bedb35"
+    },
+    {
+      "id": "sim2_q21",
+      "text": "Parmi les propositions suivantes, laquelle concerne Effets indesirables ?",
+      "options": [
+        "Somnolence, sensation ébrieuse,",
+        "Développement d'une tolérance",
+        "Confusion, iritabilité, agressivité, excitation",
+        "Armnesie antérograde,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Effets indésirables, dans le contexte médical, sont des reactions secondaires non intentionnelles à un traitement pharmacologique ou une intervention médicale qui peuvent être nocives ou incommodantes pour le patient.\n2. Les propositions \"Somnolence, sensation ébrieuse,\" et \"Armnesie antérograde\" sont des exemples de effets indésirables car elles désignent des symptômes secondaires dus à un traitement pharmacologique qui peuvent être incommodants pour le patient. Les autres propositions ne dé...",
+      "text_hash": "641a73c20d51cc1453b8b246a4c7a849"
+    },
+    {
+      "id": "sim2_q22",
+      "text": "Parmi les propositions suivantes, laquelle concerne rétrospectif ?",
+      "options": [
+        "Détection des AG par IF LBA",
+        "Détection des AG de LP dans les urines",
+        "Pic des AC : au plus tôt 3 à 4 sem après le début",
+        "sérodiagnostic taux AC : diagnostic tardif,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le principe concernant rétrospectif est le sérodiagnostic taux AC (Anticorps anti-citrullinés). Ce test détecte les anticorps produits par le corps à la suite d'une longue période de maladie auto-immune comme la maladie de Sjogren ou la polyarthrite rhumatoïde.\n2. La bonne réponse est sérodiagnostic taux AC, car c'est un test qui permet de confirmer une maladie en fonction des anticorps présents dans le sang, ce qui est considéré comme diagnostic tardif puisque les anticorps ne sont produits ...",
+      "text_hash": "d5429f7fda6e2cf950f0eaa3ab0ef214"
+    },
+    {
+      "id": "sim2_q23",
+      "text": "Quelle est la définition correcte de \" Interaction par fixation\" ?",
+      "options": [
+        "déplacement du rocuronium",
+        "fixation du médicament sur le sugammadex",
+        "Contraceptifs hormonaux",
+        "Acide fucidique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'interaction par fixation désigne le phénomène où un médicament peut se lier étroitement à une protéine plasmatique, empêchant ainsi son élimination du corps et augmentant sa durée d'action. Cela peut conduire à des effets indésirables en cas de surdosage ou de contexte clinique particulier.\n2. Dans le contexte médical IADE proposé, la bonne réponse est \"Contraceptifs hormonaux\", qui peuvent interagir par fixation avec certains protéines plasmatiques, entravant ainsi leur élimination et modi...",
+      "text_hash": "5e6258ace4673dd5ec212c09bf60d603"
+    },
+    {
+      "id": "sim2_q24",
+      "text": "Quelle est la valeur normale de F ?",
+      "options": [
+        "12 16 g/dL",
+        "40 54 %",
+        "13 17 g/dL",
+        "37 47 %"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La hémoglobine F, ou hémoglobine fetale, est une forme de hémoglobine produite par les globules rouges fœtaux. Son rôle est d'assurer l'oxygenation du fœtus pendant la période prénatale.\n\n2. La valeur normale de la hémoglobine F chez le nouveau-né sain varie entre 13 et 17 g/dL (grammes par décilitre de sang). La bonne réponse est donc 13 17 g/dL.",
+      "text_hash": "0a0516d0af8c0297975d640e42302e8e"
+    },
+    {
+      "id": "sim2_q25",
+      "text": "Quelle est la valeur normale de Créatinine ?",
+      "options": [
+        "60-120 mol/L",
+        "2,2-2,6 mmol /L",
+        "135-145 mmol /L",
+        "3,5-4,5 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La créatinine est un métabolite azoté éliminé principalement par les reins et utilisée pour évaluer la fonction rénale globale. Elle est produite par des muscles squelettiques et hépatiques, et son taux sanguin est normalement stable au cours du temps dans le cas d'une fonction rénale normale.\n2. La valeur normale de créatinine sanguine varie entre 73-106 µmol/L (ou 2,2-2,6 mg/dL) selon la population étudiée et les méthodes d'analyse utilisées. La réponse incorrecte proposant des valeurs supé...",
+      "text_hash": "d885520960609d576ddd48bec84888b8"
+    },
+    {
+      "id": "sim2_q26",
+      "text": "Quelle est la valeur normale de saturation ?",
+      "options": [
+        "95-100",
+        "138-742",
+        "40-100 mmlg",
+        "42-44 mme"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La saturation d'oxygène (SpO₂) est une mesure du pourcentage d'oxygène dissous dans le sang arteriel, obtenue à l'aide d'une oximétrie de peau. Elle sert comme indicateur de la qualité du transport de l'oxygène au niveau des tissus.\n2. La saturation normale varie généralement entre 95-100%. Des valeurs inférieures à 90% peuvent indiquer un déficit en oxygène, tel que le cas dans une hypoxémie ou une insuffisance respiratoire. Les valeurs supérieures à 100% peuvent indiquer une hyperoxémie et ...",
+      "text_hash": "190165d9b8696dd950eeff5087bd71d2"
+    },
+    {
+      "id": "sim2_q28",
+      "text": "Qu'est-ce qui caractérise le rocuronium et l'atracurium dans leur action sur la transmission neuromusculaire? Justifiez-vous en utilisant des chiffres et protocoles exacts.",
+      "options": [],
+      "correctAnswer": 0,
+      "type": "rédactionnelle",
+      "difficulty": "hard",
+      "domain": "Pharmacologie",
+      "explanation": "La question demande à la candidate ou au candidat d'expliquer les différences entre le rocuronium et l'atracurium dans leur action sur la transmission neuromusculaire. Elle utilise des chiffres précis 60-90 secondes pour le rocuronium et un terme technique spécifique à IADE dégradation de Hofmann pour l'atracurium . La question est discriminante en raison du vocabulaire technique spécifique et des détails nécessaires pour répondre correctement. Enfin, la question ne présente aucune ambiguïté.",
+      "text_hash": "052ae5ea9c23ea95819f5eea47f21878"
+    },
+    {
+      "id": "sim2_q29",
+      "text": "Quel est le mécanisme d'action de la morphine ?",
+      "options": [
+        "Agoniste des récepteurs opioïdes mu",
+        "Antagoniste des récepteurs GABA",
+        "Inhibiteur de la COX-2",
+        "Bloqueur des canaux calciques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "intermediate",
+      "domain": "Pharmacologie",
+      "explanation": "La morphine est un agoniste des récepteurs opioïdes mu, entraînant analgésie, sédation et dépression respiratoire.",
+      "text_hash": "7d085b923e5e5d336a203c9682add216"
+    },
+    {
+      "id": "sim2_q30",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de XANAX ?",
+      "options": [
+        "Bromazéam",
+        "Aprazolam",
+        "Diazepam",
+        "Nordazépam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le principe actif de XANAX est l'alprazolam, un benzodiazépine qui exerce son effet principal en stimulant le récepteur GABA_{A} des neurones du système nerveux central. Il agit comme un agoniste partial au niveau de ce récepteur, augmentant la fréquence d'ouverture des canaux chloréens et induisant ainsi une hyperpolarisation des neurones et une relaxation musculaire.\n\n2. La bonne réponse est \"Aprazolam\". L'alprazolam est largement utilisé dans la pratique médicale pour traiter les troubles ...",
+      "text_hash": "19078510465a9ee5d319dd465b530155"
+    },
+    {
+      "id": "sim2_q31",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de PG ?",
+      "options": [
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène",
+        "Acéclofénac"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La DCI Dénomination Commune Internationale de PG (Prostaglandines) est un groupe d'hormones lipidiques à courte durée d'action produites par les cellules du corps humain. Elles interviennent dans la régulation des processus physiologiques tels que la contraction et la relaxation de l'utérus, la dilatation des bronches, la réponse inflammatoire ou encore la réglage du rythme cardiaque.\n2. La bonne réponse est Prostaglandines car elles sont les molécules correspondant à la dénomination commune ...",
+      "text_hash": "124ba7f0f873b9c8f712786d3ee85725"
+    },
+    {
+      "id": "sim2_q32",
+      "text": "Quelle est la définition correcte de \"5 LES CURARES DÉPOLARISANTS\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "SUXAMÉTHONIUM",
+        "Processus d'activation des récepteurs périphériques",
+        "plus de transmission neuromusculaire Rc ACH Mime ACH"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les curares dépolarisants sont un groupe de médicaments neuroblocateurs qui bloquent la transmission neuromusculaire par inhibition du mécanisme de la dépolarisation à niveau synaptique nerveuse, causant une dépolarisation continue des plaques musculaires motoriques et donc la relaxation musculaire.\n2. La bonne réponse est \"plus de transmission neuromusculaire Rc ACH Mime ACH\" car les curares dépolarisants imitent l'acétylcholine (ACh) à niveau synaptique nerveuse et bloquent son action, ce q...",
+      "text_hash": "9788085a21ddb0e5d34bc8ff7659705b"
+    },
+    {
+      "id": "sim2_q33",
+      "text": "Parmi les propositions suivantes, laquelle concerne Les anxiolytiques doivent être considérés comme d ?",
+      "options": [
+        "Clorazépate TRANXENE",
+        "Clobazam URBANYL",
+        "Nordazépam NORDAZ",
+        "Oxazépam SÉRESTA"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les anxiolytiques sont des médicaments qui agissent sur le système nerveux central pour soulager l'anxiété, la peur, les troubles insomniacs et certains symptômes de la dépendance alcoolique.\n2. Clorazépate TRANXENE, Clobazam URBANYL, Nordazépam NORDAZ et Oxazépam SÉRESTA sont des anxiolytiques appartenant à la famille des benzodiazépines qui exercent leur effet en augmentant l'activité de certaines protéines GABA_{A} au niveau synaptique, ce qui provoque une hyperpolarisation du neurone et u...",
+      "text_hash": "a0c3d06f3096ea278ab92444ecd9a1ac"
+    },
+    {
+      "id": "sim2_q34",
+      "text": "Quelle est la définition correcte de \" SpO2%\" ?",
+      "options": [
+        "130 réguliers",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "86 % sous 5L/min Masque hte C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. SpO2% (Saturación de oxígeno por cento) est une mesure du pourcentage d'oxygène saturant les globules rouges dans le sang à un instant donné.\n2. Le choix de la bonne réponse vient du fait que SpO2 représente la saturation en oxygène, exprimée en pourcentage, et non une valeur ou un mécanisme spécifiques au fonctionnement humain ou pharmacologique.",
+      "text_hash": "161016217c5cbd0c284c9bd705daa312"
+    },
+    {
+      "id": "sim2_q36",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de NEXEN ?",
+      "options": [
+        "Nimésulide",
+        "méfénamique",
+        "prostaglandines",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Nimésulide est un inhibiteur sélectif de la cyclooxygenase-2 (COX-2), qui agit sur les voies de la prostaglandine synthèse pour allevier les douleurs inflammatoires.\n2. Par rapport aux autres options proposées, Nimésulide est le seul médicament à appartenir à cette catégorie d'inhibiteurs COX-2 sélectifs et à être nommé NEXEN dans certaines sources de référence.",
+      "text_hash": "987d6baf96dfea0f76527b33e69d208d"
+    },
+    {
+      "id": "sim2_q37",
+      "text": "Parmi les propositions suivantes, laquelle concerne JNM = structure anatomo -physiologique spécialisé ?",
+      "options": [
+        "L'influx nerveux = vésicules déversent l'ACH dans la fente",
+        "Récepteurs nicotiniques situés à la surface du muscle fixent l'ACH",
+        "Le nerf moteur = fabrique et stocke l'acétylcholine vésicules .",
+        "Ouvrent un canal ionique = passage d'ions à travers la membrane"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le JNM (Junction neuromusculaire) est une structure anatomique spécialisée où les nerfs moteurs se connectent aux fibres musculaires pour transmettre l'impulsion nerveuse nécessaire à la contraction du muscle.\n2. La réponse correcte est \"Le nerf moteur\" car ce dernier se trouve à proximité de la JNM et joue un rôle important dans sa fonction, bien que ses fonctions principales soient de fabriquer et stocker l'acétylcholine plutôt que de le produire directement.",
+      "text_hash": "764e503e224ba20c56465555ae96fecd"
+    },
+    {
+      "id": "sim2_q38",
+      "text": "Quelle est la définition correcte de \" En 2000\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Nationalisation de la transfusion avec la création de l’EFS",
+        "Découverte des groupes sanguins A B O",
+        "Sécurité en matière de transfusion sanguine et de médicaments"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. En 2000, la sécurité en matière de transfusion sanguine et de médicaments a été mise en place comme principe fondamental pour assurer une pratique médicale sans risque injustifié.\n\n2. La création de l'EFS (Établissement Français du Sang) illustre cette tendance en France, mettant en œuvre des procédures de sélection et de test stricts pour les donneurs sanguins et la préparation des produits.",
+      "text_hash": "b04bb5f3bd31ef8b6af56af685c6e50e"
+    },
+    {
+      "id": "sim2_q39",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Communs aux curares dépolarisants et non dépolar ?",
+      "options": [
+        "Anaphylaxie avec réactions croisées entre eux,",
+        "Curarisotion prolongée en cas de déficit en pseudocholinesterases plasmatiques",
+        "curarisotion prolongée en cas de déficit en pseudocholinestérases plasmatiques",
+        "Histaminolibération pharmacologique prévenue par une injection lente"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les curares dépolarisants et non-dépolarisants inhibent le système nerveux périphérique en bloquant les canaux ioniques dans les membranes cellulaires musculaires striées. Les deux types de curares se distinguent par leur mécanisme de blocage : les dépolarisants provoquent une dépolarisation permanente des membranes, tandis que les non-dépolarisants bloquent la répolarisation.\n\n2. La bonne réponse est \"Curarisotion prolongée en cas de déficit en pseudocholinesterases plasmatiques\". Les curare...",
+      "text_hash": "e29af86a88e9cf6429e652078ff622df"
+    },
+    {
+      "id": "sim2_q40",
+      "text": "Quelle structure est responsable de : \"CéphalosporinesRésistance qui existe d’emblée\" ?",
+      "options": [
+        "Genre Klebsiella",
+        "Exemples",
+        "Faecalis",
+        "Anaérobie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La résistance à certaines céphalosporines est due à l'acquisition ou au développement d'enzymes bêta-lactamases par certains germes bacteriaux, tels que le genre Klebsiella.\n2. Cela permet aux micro-organismes de se protéger et donc de ne pas être affectés par ces médicaments antibiotiques, ce qui explique la réponse correcte en étant \"Genre Klebsiella\".",
+      "text_hash": "c13944e1b31f70f5723fa692bcd1c1b7"
+    },
+    {
+      "id": "sim2_q44",
+      "text": "Expliquez comment le monitorage standard en surveillance médicale ECG, PNI, SpO2, température, EtCO2 diffère du monitorage invasif PA sanglante et PVC et dans quels cas chaque type de monitorage est recommandé.",
+      "options": [],
+      "correctAnswer": 0,
+      "type": "rédactionnelle",
+      "difficulty": "hard",
+      "domain": "Surveillance",
+      "explanation": "La question demande de décrire le monitorage standard en surveillance médicale et le monitorage invasif, ainsi que de spécifier dans quels cas chaque type de monitorage est recommandé. La réponse doit inclure les fonctions des différents paramètres monitored ECG, PNI, SpO2, température, EtCO2 , le rôle du PA sanglante et PVC, et l'importance des patients à risque ou chirurgies majeures dans la décision de choisir un monitorage invasif.",
+      "text_hash": "184df3270d578b279a45e8df56fddeb4"
+    },
+    {
+      "id": "sim2_q45",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de STILNOX ?",
+      "options": [
+        "Loloidern",
+        "Estazolam",
+        "Loprazolam",
+        "Lormétazepam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Stilnox, connu sous son nom Denomination Commune Internationale (DCI) comme Estazolam, est un benzodiazépine utilisé dans le traitement des troubles du sommeil, notamment l'insomnie de courte durée. Il agit en stimulant les récepteurs GABA_{A} dans le système nerveux central pour augmenter la relaxation et induire un état de somnolence.\n2. Les autres options proposées sont également des benzodiazépines, mais Estazolam est le seul qui correspond à Stilnox, la médication en question.",
+      "text_hash": "6c5fd51a205f180b237744775ce7ae9f"
+    },
+    {
+      "id": "sim2_q46",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de RMP ?",
+      "options": [
+        "psychiques",
+        "menstruel",
+        "hémolytique",
+        "périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La DCI (Dénomination Commune Internationale) est un système standardisé pour identifier les médicaments, défini par l'Organisation Mondiale de la Santé (OMS). Le principe est d'avoir une nomenclature commune permettant d'identifier les médicaments indépendamment des langues et des pays.\n\n2. La bonne réponse dans cette liste proposée est \"hémolytique\". En effet, un médicament hémolytique peut causer la lyses (rupture) des globules rouges du sang, ce qui peut entraîner une anémie et d'autres co...",
+      "text_hash": "36856bafff15af7e2ec283669a18c9f8"
+    },
+    {
+      "id": "sim2_q48",
+      "text": "Parmi les propositions suivantes, laquelle concerne CURARISATION = ?",
+      "options": [
+        "Vecuronium Arrêt de commercialisation",
+        "Suxaméthonium ou succinylcholine CELOCURINE®",
+        "Pancuronium Arrêt de commercialisation",
+        "Aminostéroïdes"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Curarisation, dans le contexte médical, est une paralysie musculaire provoquée par des médicaments appelés curares ou relaxants neuromusculaires. Ils bloquent l'action de l'acétylcholine à la jonction myoneuromusculaire, empêchant ainsi la transmission du signal nerveux pour contrôler les muscles squelettiques.\n2. La bonne réponse est \"Pancuronium Arrêt de commercialisation\". Pancuronium est un curare non dépolarisant qui utilise le même mécanisme physiologique pour induire la paralysie muscu...",
+      "text_hash": "03240f6f3e3325b87e3cebb4da7be943"
+    },
+    {
+      "id": "sim2_q51",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "électrique en une activité mécanique contraction",
+        "électrique en une activité mécanique contraction",
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "électrique en une activité mécanique contraction"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Le mécanisme d'action principal des médicaments IADE (Inhibiteurs de l'acide indoleaminique) est d'inhiber la synthèse ou l'activité de l'enzyme aromate à l'acide indoleamino-3-pyrrolic (IAPT), ce qui entraîne une réduction de la sécrétion endogène de sérotonine et des autres neurotransmetteurs indolamines.\n2. Cette inhibition d'IAPT aboutit à un blocage de la dégradation du sérotonine, ce qui augmente sa concentration au niveau synaptique, ce qui est justifié par l'effet antidépresseur de ce...",
+      "text_hash": "c3133c9f81a14c1165a215d7881cbdf8"
+    },
+    {
+      "id": "sim2_q52",
+      "text": "En sédation consciente associant un hypnotique et un analgésique, quelle est la ventilation nécessaire pour le patient dont le score de Ramsay est 3-4 ?",
+      "options": [
+        "A. Ventilation spontanée",
+        "B. Ventilation assistée",
+        "C. Intubation et ventilation mécanique",
+        "D. Désintubation"
+      ],
+      "correctAnswer": 2,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Sédation",
+      "explanation": "Le score de Ramsay 3-4 indique un état clinique de sédation profonde avec une réponse au stimulus lente et lourde, une ventilation spontanée est improbable. L'intubation et la ventilation mécanique sont nécessaires pour assurer une respiration suffisante.",
+      "text_hash": "40484f9a1814df752046fe18685fa30b"
+    },
+    {
+      "id": "sim2_q53",
+      "text": "Quelle est la norme de la créatininémie chez l'adulte ?",
+      "options": [
+        "Homme: 60-110 mol/L | Femme: 45-90 mol/L",
+        "Homme: 200-300 mol/L | Femme: 150-250 mol/L",
+        "Identique pour tous: 100 mol/L",
+        "Variable selon l'heure de prélèvement"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Normes biologiques",
+      "explanation": "Créatininémie normale: Homme 60-110 mol/L, Femme 45-90 mol/L. Marqueur de la fonction rénale.",
+      "text_hash": "32802e942db8ad1821d4299da7dacafa"
+    },
+    {
+      "id": "sim2_q55",
+      "text": "Citez les différentes fonctions du rein.",
+      "options": [
+        "Excrétion des déchets uniquement",
+        "Fonctions exocrines : maintien volémie, élimination déchets, équilibre acido-basique | Endocrines : rénine, EPO, vitamine D",
+        "Seulement régulation tension artérielle",
+        "Aucune fonction métabolique"
+      ],
+      "correctAnswer": 1,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Néphrologie",
+      "explanation": "Fonctions exocrines : maintien de la volémie, élimination des déchets du métabolisme, maintien équilibre acido-basique et électrolytique. Fonctions endocrines : régulation pression artérielle rénine , sécrétion EPO, transformation vitamine D en forme active.",
+      "text_hash": "7b316ab299e57d6d4c1f245f4dc4fbb1"
+    },
+    {
+      "id": "sim2_q56",
+      "text": "Quelle est la définition correcte de \" Capsaicine\" ?",
+      "options": [
+        "QUTENZA, patch durée d’action de 3 moisPSYCHOTROPES",
+        "VERSATIS, emplâtres",
+        "douleurs de la sclérose en plaques",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Capsaicine est une substance alcaloïde extrait des piments ou poivrons (*Capsicum* spp.). Il se lie aux récepteurs périphériques de la neuropeptide P (NPPR) pour activer le processus de dépolarisation du neurone sensitif, ce qui déclenche une réponse nociceptive et provoque une sensation d'irritation ou de brûlure.\n2. La bonne réponse est « Processus d'activation des récepteurs périphériques » car capsaicine active les récepteurs NPPR, qui sont impliqués dans la transmission du signal nocicep...",
+      "text_hash": "12bb53dff4abda3d852606aa48bd22a5"
+    },
+    {
+      "id": "sim2_q59",
+      "text": "À quelle catégorie appartient : \"Opioïdes faibles\" ?",
+      "options": [
+        "Palier 3",
+        "Palier 1",
+        "Palier 2"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Les opioïdes faibles sont des analgésiques d'opiope ayant une puissante action antalgique due à leur capacité à agir sur les récepteurs opioïdes du système nerveux central. Ils sont habituellement classés dans le Palier 1 de l'échelle WHO pour la prise en charge des douleurs chroniques.\n2. La bonne réponse est \"Palier 1\", car les opioïdes faibles tels que codeine ou dihydrocodeïne, ont une potence moindre comparée aux opioïdes forts et sont ainsi classés dans ce palier de l'échelle WHO.",
+      "text_hash": "e535131efb3a5daa9bd8e5ac5af0d11d"
+    },
+    {
+      "id": "sim2_q60",
+      "text": "Parmi les propositions suivantes, laquelle concerne ❖La chaîne transfusionnelle ?",
+      "options": [
+        "Le groupe sanguin et la RAI",
+        "L’acte transfusionnel",
+        "La réception et les vérifications",
+        "La commande de PSL et le transport"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La chaîne transfusionnelle est une série d'étapes cruciales impliquant le commandement, préparation, transport et administration de produits sanguins ou autres composants thérapeutiques au patient lorsqu'il en a besoin.\n2. L'acte transfusionnel, qui inclut la prise en charge du patient, l'examen clinique, le choix des produits à utiliser, leur préparation, leur administration et la surveillance post-transfusionnelle, correspond exactement à la chaîne transfusionnelle.",
+      "text_hash": "4c86a49741106c3dfe1911da78b94676"
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_1",
+      "text": "Quelle est la définition correcte de \" Fatigue de muscles ventilatoires\" ?",
+      "options": [
+        "cyanose Hb réduite 5 g/dl",
+        "mise en jeu des muscles accessoires",
+        "Processus d'activation des récepteurs périphériques",
+        "tachypnée FR 30"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Fatigue de muscles ventilatoires est un état pathologique caractérisé par une défaillance progressive et fatigante des muscles respiratoires externes, causée par un effort prolongé ou répétitif de ventilation, ce qui affecte la capacité respiratoire d'un individu.\n2. La bonne réponse est \"tachypnée FR 30\", car une tachypnée (fréquence respiratoire élevée) est un symptôme typique de fatigue de muscles ventilatoires, avec une fréquence respiratoire supérieure à 30 souffles par minute.",
+      "text_hash": "40d73700e300528a1084e45da61faf41"
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_4",
+      "text": "Quelle est la définition correcte de \" Pour tous\" ?",
+      "options": [
+        "HbCO, cyanures.",
+        "RP mauvaise qualité brancard",
+        "ECG, ddimères, scanner,",
+        "NFSpl, Hémocult ae+anae"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Pour tous\" est une expression utilisée pour désigner quelque chose qui s'applique à tout le monde, sans exception. Cela signifie qu'une mesure ou un traitement est recommandé pour toutes les personnes, indépendamment de leur sexe, âge, état de santé, etc.\n\n2. Dans le contexte médical IADE (Informatique Assistée en Diagnostic Électronique), \"Pour tous\" peut être utilisé pour désigner des mesures diagnostiques ou thérapeutiques recommandées à toutes les personnes, par exemple lors de la prise ...",
+      "text_hash": "8cb8bc14f41f1f382099c3c275a000bd"
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_prop_1",
+      "text": "Parmi les propositions suivantes, laquelle concerne = favorisent l'endormissement et en général prol ?",
+      "options": [
+        "Loprazolam HAVLANE 8 h",
+        "Estazolam NUCTALON 17 h",
+        "Zopiclone IMOVANE 6 h",
+        "Lormétazépam NOCTAMIDE 10 h"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Tous les médicaments mentionnés sont des benzodiazépines, qui agissent en lien avec des récepteurs GABA_{A} pour stimuler l'inhibition neuronale et favoriser l'endormissement.\n2. Le choix de la bonne réponse dépend de la durée d'action souhaitée : Loprazolam HAVLANE a une durée d'action de 8 heures, Estazolam NUCTALON de 17 heures, Zopiclone IMOVANE de 6 heures et Lormétazépam NOCTAMIDE de 10 heures. La réponse correcte est donc Zopiclone IMOVANE 6 h car elle a une durée d'action intermédiair...",
+      "text_hash": "3ce0dd4b369e204aaa939376ba0242ea"
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_1",
+      "text": "Quelle est la définition correcte de \"“ Pose d'une VVP avec soluté iso-osmotique\" ?",
+      "options": [
+        "NFP, Coag, iono, troponine trbl coag, fonction rénale/pde iodé, CI ttt si DM",
+        "sofunaine ou NaC! 0,9%",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Une VVP (Ventouse Venipuncture Percutanée) avec une solution iso-osmolaire est un procédé d'extraction de sang par aspiration sous vide, utilisé lorsque l'on veut éviter la coagulation et les complications liées à des solutions hyperosmolaires.\n2. La soluté iso-osmotique possède une osmolarité similaire à celle du plasma sanguin, ce qui permet de réduire l'activation du système coagulant et la formation d'agglutinations lors de l'extraction du sang, ce qui est utile pour des prélèvements sang...",
+      "text_hash": "cbbd34bad53982aee4c792397745f95f"
+    },
+    {
+      "id": "module_442028_cours_concours_iade_2025_pdf_norm_0",
+      "text": "Quelle est la valeur normale de pH ?",
+      "options": [
+        "40-100 mmlg",
+        "138-742",
+        "95-100",
+        "42-44 mme"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Le pH, mesuré en logarithme decimale, est une valeur indiquant l'acidité ou l'alcalinité d'un liquide. Dans le contexte du corps humain, il sert à réguler la fonction des organes et de leurs sécrétions.\n2. La valeur normale du pH du sang est comprise entre 7,35 et 7,45 ; ceci permet une bonne fonction des cellules corporelles et de l'organisme en général. En dehors de cette plage, il existe un état pathologique (acidose ou alcalosis).",
+      "text_hash": "f03cc34de21356c29e003a4133a1f233"
+    },
+    {
+      "id": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs_mol_2",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de NORDAZ ?",
+      "options": [
+        "Nordazépam",
+        "Bromazéam",
+        "Diazepam",
+        "Prazepam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Diazepam est un benzodiazépine utilisé comme anxiolytique, myorelaxant et anticonvulsivant. Il agit sur les récepteurs GABA_{A} pour augmenter l'activité de l'inhibiteur gamma-aminobutyrique (GABA), ce qui provoque une relaxation musculaire, un calme et une diminution de l'anxiété.\n2. La bonne réponse est Diazepam car c'est le seul des options proposées qui est correctement nommé selon la DCI (Dénomination Commune Internationale).",
+      "text_hash": "28f501a167de7b5535bfa7fd28c5a226"
+    },
+    {
+      "id": "module_149427_anatomie_physiologie_respiratoire_pre_pa_iade_pyc_2018_def_0",
+      "text": "Quelle est la définition correcte de \" Organisme\" ?",
+      "options": [
+        "libération de gaz carbonique et d'eau.",
+        "Immunoglobulines À / macrophages",
+        "Consommation d'énergie.",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Organisme, dans le contexte médical, désigne généralement toute entité vivante composée d'une ou plusieurs cellules, capable de croissance, reproduction et interagissant avec son environnement. Cela peut inclure les cellules du corps humain mais aussi des microorganismes comme les bactéries, les champignons ou les virus.\n\n2. La bonne réponse est proposée dans la troisième option car un organisme, dans le sens médical, représente une structure complexe de tissus et d'organes qui effectuent des...",
+      "text_hash": "a6ff334f67f702b4a74d1e7979aea906"
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_1",
+      "text": "Quelle est la définition correcte de \"Détecte\" ?",
+      "options": [
+        "Cerveau Bulbe près Neurones",
+        "Variations pCO2dans Liquide",
+        "Variations plasmatiques paO2,",
+        "Artère Carotide et Artère Aorte"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Détecte dans le contexte médical IADE se réfère au détecteur d'onde cérébrale (EOG), un dispositif utilisé pour enregistrer les mouvements oculaires involontaires de l'œil lorsque l'individu est soumis à des stimuli visuels.\n2. L'électrode placée près du bulbe olfactif dans le cerveau détecte ces mouvements oculaires, qui sont utilisés comme marqueurs pour mesurer la réactivité cognitivo-affective et l'état de vigilance chez les patients.",
+      "text_hash": "0b85ecb58955b24963521cc008b8ee87"
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_prop_1",
+      "text": "Parmi les propositions suivantes, laquelle concerne Effets indésirables ?",
+      "options": [
+        "Hypotension Paracétamol injectable",
+        "Éruption cutanée allergique",
+        "Un traitement symptomatique est également préconisé",
+        "Thrombopénie allergique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hypotension et thrombopénie sont des effets indésirables qui peuvent survenir lors du traitement avec certaines substances, notamment des médicaments tels que le Paracétamol injectable ou certains agents allergènes.\n2. Les effets indésirables (ici hypotension et thrombopénie) sont des réactions secondaires non souhaitées à un traitement, qui peuvent entraîner des complications sanitaires. Dans le cas du Paracétamol injectable, la hypotension peut être due à une surdosage ou à une sensibilité ...",
+      "text_hash": "fe605fdac534f7ba2d9e0b85cb450c98"
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_1",
+      "text": "Quelle est la définition correcte de \"- Si inhalation\" ?",
+      "options": [
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus",
+        "efficacité ? élargissement du spectre antibiotique si évolution clinique défavorable",
+        "doit aussi couvrir la légionnelle",
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Si inhalation\" est un traitement antibiotique spécifique indiqué pour les infections respiratoires par voie aérienne supérieure ou inférieure. Cela inclut des microorganismes comme les mycobactéries, le Staphylococcus aureus et la légionnelle.\n2. La bonne réponse est \"doit couvrir également Staphylococcus aureus et doit aussi couvrir la légionnelle\". Cette option est correcte car les antibiotiques utilisés pour \"si inhalation\" doivent être efficaces contre divers microorganismes respiratoire...",
+      "text_hash": "08cc237b1972ced32286582b9c960c3f"
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_def_0",
+      "text": "Quelle est la définition correcte de \"Emetteur\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Comilé Référents Urgences HCL",
+        "Ut de sons du GHSud disposant dun chariot d'urgence",
+        "Cite Chaine de Survie Iträ-"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'émetteur, dans le contexte médical IADE, est un appareil ou un dispositif qui génère des signaux électriques ou acoustiques pour stimuler les récepteurs périphériques d'un patient. Il peut être utilisé pour diagnostique (par exemple, un stimulateur électromyographique) ou thérapeutique (par exemple, un défibrillateur cardiaque).\n2. Les autres options proposées ne sont pas appropriées dans ce contexte car elles n'ont pas de lien direct avec l'émetteur utilisé dans la stimulation des récepteu...",
+      "text_hash": "b01e1241dad2675f4c4d990a31ba7b9f"
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_0",
+      "text": "Quelle est la définition correcte de \"PAC\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Antibiothérapie probabiliste"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. PAC, ou Pump-Assist Control (en anglais), désigne un mode de ventilation mécanique qui combine l'assistance du volume (V) et la pression (P) pour aider les malades respiratoires à maintenir une ventilation appropriée.\n\n2. La bonne réponse est choisie car elle décrit la fonction physiologique du PAC, qui est de stimuler l'effort respiratoire en aidant à réguler le volume inspiré et la pression appliquée sur les voies aériennes, ce qui permet d'améliorer la ventilation et de réduire la fatigue ...",
+      "text_hash": "f9ae739b447d9811379e8df5a0325931"
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_0",
+      "text": "Quelle est la définition correcte de \"* Vitamine K et PPSB\" ?",
+      "options": [
+        "ai ie a, EE",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principe physiologique/pharmacologique : Vitamine K est une liposoluble, indispensable à la synthèse d'un facteur de coagulation (II, VII, IX et X) et d'une protéine anticoagulante (Proteine C) nécessaire au processus hématologique de coagulation et d'hémostase. PPSB (Prothrombine Synthase Beta) est une enzyme qui catalyse la formation du facteur II (prothrombin) à partir de précurseurs (préprothrombine et prothrombine), essentiel pour la coagulation sanguine.\n\n2. Justification du choix : La ...",
+      "text_hash": "0da2e38f2006a4e73d3b247e8e0d9822"
+    }
+  ],
+  "normalized_at": "2025-11-04T19:27:40.232388"
+}

@@ -1,0 +1,972 @@
+{
+  "id": "simulation_1",
+  "title": "Simulation Concours IADE n°1",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 57,
+    "cas_clinique": 3
+  },
+  "created_at": "2025-11-04T19:21:18.298568",
+  "questions": [
+    {
+      "id": "sim1_q1",
+      "text": "Parmi les propositions suivantes, laquelle concerne 34 CLASSIFICATION DES ANTIBIOTIQUES ?",
+      "options": [
+        "Néomycine utilisation locale",
+        "Recherche de pics de concentration",
+        "Ajustement à la fonction rénale si",
+        "Action concentration dépendante"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les antibiotiques peuvent être classés selon leur spectre d'action, mode d'action ou mode de administration. La proposition \"34 CLASSIFICATION DES ANTIBIOTIQUES\" renvoie à une classification pharmacologique qui peut impliquer l'un de ces aspects.\n\n2. Parmi les propositions proposées, \"Action concentration dépendante\" est la bonne réponse. Cette proposition se réfère à un mode d'action des antibiotiques caractérisé par une efficacité accrue lorsque leur concentration augmente dans le milieu pa...",
+      "text_hash": "84017c996f877608305fb57f718e7806"
+    },
+    {
+      "id": "sim1_q2",
+      "text": "Donnez le principe du don du sang. Quel est le volume prélevé, le délai entre deux dons, et la fréquence des dons autorisés par an ?",
+      "options": [
+        "420-480ml, délai 8 semaines, femme 4x/an, homme 6x/an",
+        "500ml, délai 4 semaines, illimité",
+        "250ml, délai 1 semaine, 10x/an",
+        "Le don de sang est interdit"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Transfusion",
+      "explanation": "Volume : 420 à 480 ml selon poids. Délai minimum 8 semaines entre 2 dons. Fréquence : femme maximum 4 fois/an, homme 6 fois/an.",
+      "text_hash": "46671b24082b8f810489f9640b44edab"
+    },
+    {
+      "id": "sim1_q3",
+      "text": "Quelle est la définition correcte de \" Rythme à moduler si indication médicale\" ?",
+      "options": [
+        "test de coagulation",
+        "activité anti-Xa HNF et HBPM",
+        "temps de céphaline avec activateur Uniquement pour HN",
+        "Surveillance plaquettaire non systématique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le Rythme à moduler si indication médicale (titre provisoire) est un traitement thérapeutique consistant à administrer des doses de héparine basée sur la taille du patient et l'état de son état coagulopathie (déséquilibre entre sa fonction de coagulation et anticoagulation).\n2. Cette approche permet une dose plus précise et efficace pour éviter les complications dues à un excès ou un manque de héparine, tout en réduisant le risque de développement d'antithrombina III (ATIII) anti-héparine, qu...",
+      "text_hash": "7a68f8f506c608c526acf106c60b074f"
+    },
+    {
+      "id": "sim1_q4",
+      "text": "Quelle est la définition correcte de \"Fondaparinux\" ?",
+      "options": [
+        "Oran SC 283",
+        "Cakcpamet SCO 2à Zà",
+        "Are SC miéé 1j",
+        "Frapaie SN 0"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Fondaparinux est un inhibiteur direct d'antithrombine qui agit comme anticoagulant par liaison sélective à la séquence de lysine des protéines de la coagulation (thrombin et factor Xa).\n2. La bonne réponse \"Fondaparinux\" est correcte car il s'agit du nom générique du médicament utilisé dans le traitement anticoagulant pour prévenir des embolies thrombotiques ou encore des thromboses veineuses profondes. Il est souvent administré sous forme d'injection sous-cutanée et sa dose peut varier en fo...",
+      "text_hash": "b0e6b4c6ae56cf4b69d2e6c60a81670f"
+    },
+    {
+      "id": "sim1_q6",
+      "text": "Quelle est la définition correcte de \"onaires\" ?",
+      "options": [
+        "apportent sang saturé aux tissus",
+        "rapportent sang désaturé au cœur via VCS et",
+        "apportent du sang désaturé aux",
+        "rapportent du sang saturé au"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les veines ovariennes sont des structures vasculaires qui transportent le sang saturé d'oxygène depuis les ovaires vers les artères iliaques internes, qui informent ensuite la circulation systémique générale.\n\n2. La bonne réponse dans ce contexte médical IADE est \"apportent du sang saturé aux\". Les veines ovariennes ne rapportent pas le sang désaturé au cœur via VCS ou vers d'autres tissus non-ovariens, et sont donc exclusivement impliquées dans la circulation sanguine des ovaires.",
+      "text_hash": "87e5acac1c5c44d7aeb80889d13b624d"
+    },
+    {
+      "id": "sim1_q7",
+      "text": "Combien de temps sont valables les RAI Recherche d'Agglutinines Irrégulières ?",
+      "options": [
+        "3 jours 6 mois si attestation médicale",
+        "1 an sans limite",
+        "30 jours maximum",
+        "Pas de délai de validité"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "intermediate",
+      "domain": "Transfusion",
+      "explanation": "Délai validité RAI : 3 jours sauf en l'absence de transfusion ou événement immunisant dans les 6 mois avec attestation médicale signée : 21 jours.",
+      "text_hash": "71c8a4341325195b0bf1e7cda9b794ff"
+    },
+    {
+      "id": "sim1_q8",
+      "text": "Dans le cas d'un choc hémorragique, quel type de remplissage vasculaire doit être privilégié lorsque la Hb est inférieure à 7 g/dL ?",
+      "options": [
+        "A. Cristalloïdes",
+        "B. Colloïdes",
+        "C. Sang humain",
+        "D. Insuline"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Réanimation",
+      "explanation": "Dans un choc hémorragique, la perte de sang entraîne une diminution de la concentration en hématocrite Hb . Le remplissage vasculaire par des cristalloïdes comme le saline est privilégié pour compenser cette perte de volume extracellulaire et préserver les fonctions vitales du patient. En cas d'hémoglobinemie inférieure à 7 g/dL, il est recommandé d'administrer des cristalloïdes pour maintenir une pression artérielle suffisante et éviter la choc hémorragique sévère. La transfusion sanguine doit être considérée lorsque l'hémoglobinemie est inférieure à 4 g/dL ou en cas de présence de symptômes dus à une anoxie.",
+      "text_hash": "5b4c704b33bb937a692a36ec670b87f0"
+    },
+    {
+      "id": "sim1_q9",
+      "text": "Parmi les propositions suivantes, laquelle concerne Effets indesirables ?",
+      "options": [
+        "Armnesie antérograde,",
+        "Confusion, iritabilité, agressivité, excitation",
+        "Somnolence, sensation ébrieuse,",
+        "Difficultés de concentration, hypotonie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Effets indésirables sont des manifestations cliniques non souhaitées, occasionnées par une substance ou un traitement médicamentux, qui dépassent les limites de tolérance usuelle pour la population ciblée.\n2. Dans le domaine de l'IADE (Informatique Assistée en Diagnostic Et Therapeutique), les effets indésirables comprennent des symptômes tels que armnesie antérograde, confusion, irritabilité, agressivité, excitation, somnolence, sensation ébrieuse, difficultés de concentration et hypotonie. ...",
+      "text_hash": "641a73c20d51cc1453b8b246a4c7a849"
+    },
+    {
+      "id": "sim1_q10",
+      "text": "Parmi les propositions suivantes, laquelle concerne Médicaments à marge thérapeutique étroite ?",
+      "options": [
+        "Signaler son tttaux autres professionnels de santé",
+        "Signes annonciateurs de surdosage",
+        "Risques liés à automédication",
+        "Utiliser le carnet de suivi"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les médicaments à marge thérapeutique étroite sont ceux pour lesquels l'écart entre la dose thérapeutique efficace et la dose toxique est mince.\n2. La bonne réponse \"Signes annonciateurs de surdosage\" est donc pertinente car ces médicaments présentent un risque élevé d'effet secondaire ou de surdosage, qui peuvent être détectés précocement par des signes annonciateurs.",
+      "text_hash": "71a63e45ac68a0b6dd24f6ece64fedae"
+    },
+    {
+      "id": "sim1_q11",
+      "text": "Quelle est la définition correcte de \"9 NM\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine vesicules ,",
+        "vésicules déversent l'ACH dans la fente",
+        "passage d'ions à travers la membrane",
+        "structure anatomo-physiologique spécialisée qui"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"9 NM\" est une unité de mesure qui représente 9 nanomètres, une longueur électrostatique importante pour le transfert d'ions à travers la membrane biologique.\n\n2. Cela correspond à la taille des canaux ioniques certaines protéines qui permettent le passage d'ions essentiels tels que sodium, potassium et calcium entre les cellules. Le transport d'ions par ces canaux joue un rôle crucial dans la transmission de la stimulation nerveuse et la contraction musculaire.",
+      "text_hash": "330f744ac43b3f1a9e1b2406c88a2b30"
+    },
+    {
+      "id": "sim1_q12",
+      "text": "Quelle est la valeur normale de DFG ?",
+      "options": [
+        "2,2-2,6 mmol /L",
+        "3,5-4,5 mmol /L",
+        "90-120 mL/min/",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La DFG, ou phosphate déshydrogénase, est une enzyme clé impliquée dans le cycle de Krebs (ou cycle citrique), un processus métabolique vital qui produit énergie à l'aide des glucides, les lipides et les protéines. La valeur normale du taux sanguin de DFG se situe entre 2,2 et 2,6 mmol/L dans le sang veineux.\n\n2. Les options erronées ont soit une valeur incohérente pour un analyseur enzymatique ou une mesure non pertinente (temps de passage ou débit sanguin) pour la concentration du phosphate ...",
+      "text_hash": "6052d9c0a3fa9685c1635282d9470a69"
+    },
+    {
+      "id": "sim1_q13",
+      "text": "Cas clinique: Patient de 58 ans, pesant 80 kg avec antécédents d'arthrose lombaire et arthrite rhumatoïde réfractaire à traitement. La patiente présente actuellement une douleur chronique importante en zone lombaire et articulaire, malgré un traitement paracétamolique et AINS continu depuis plusieurs mois. Elle est également en traitement morphinique PCA pump contrôlée par le patient de 1 mg/h à 4 mg/h avec des prises supplémentaires de 2 mg tous les 30 minutes, qui ne permettent pas de satisfaire ses besoins en douleur. Elle est candidate à une intervention chirurgicale mais doit attendre plusieurs mois avant que l'opération soit possible. Quelle prise en charge peut être proposée pour réduire la consommation de morphiniques?",
+      "options": [
+        "A. Augmenter la dose de morphine PCA et augmenter les prises supplémentaires tous les 15 minutes",
+        "B. Associer des techniques locorégionales épidural, blocs nerveux à la prise en charge multimodale existante pour réduire la consommation de morphiniques",
+        "C. Augmenter le traitement paracétamolique et AINS jusqu'à une dose maximale",
+        "D. Ignorer la situation, car il n'y a pas d'autre option disponible"
+      ],
+      "correctAnswer": 1,
+      "type": "cas_clinique",
+      "difficulty": "medium",
+      "domain": "Douleur",
+      "explanation": "En ajoutant des techniques locorégionales à la prise en charge multimodale existante, on peut augmenter l'effet analgésique tout en réduisant la consommation de morphiniques. Cela permettra ainsi de minimiser les risques de dépendance aux morphiniques et d'améliorer la qualité de vie du patient.",
+      "text_hash": "286f458e668f0962a38c66471c1278d9"
+    },
+    {
+      "id": "sim1_q14",
+      "text": "Quelle est la définition correcte de \"| Hémoelhise\" ?",
+      "options": [
+        "de ………… 10 Pl",
+        "o! ouDéttprCCR…mdim | Pid",
+        "beures | Dépomatsé O Dur par CP",
+        "LL! Unité pédiatrique quantité"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hemoelhise est un terme médical utilisé pour décrire une rupture soudaine de la paroi des vaisseaux sanguins, notamment dans les capillaires. Cela entraîne un saignement local et peut provoquer une anémie si le saignement est important ou persistant.\n2. La bonne réponse \"de Hémorragie\" est donc la plus adaptée car il s'agit d'une définition correcte de l'effet pathologique associé à un Hemoelhise, soit une hémorragie. Le reste des options proposées n'est pas pertinent dans ce contexte médical...",
+      "text_hash": "3e4619c1f24984538bd8a2c9c41024e7"
+    },
+    {
+      "id": "sim1_q15",
+      "text": "Quelle est la définition correcte de \"*_SFAR\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "Recommandations pour l'organisation de la prise en charge des y"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"_SFAR\" est l'acronyme de \"Sphingosine-1-Phosphate Récepteurs\". Ils sont une classe d'récepteurs G protein-couplés impliqués dans la régulation de nombreuses fonctions biologiques, notamment celle de la migration cellulaire et de l'inflammation.\n2. Cette acception est justifiée car les récepteurs SFAR sont des molécules clés pour la régulation de l'homéostasie cellulaire en participant à des processus tels que l'activation des récepteurs périphériques ou le mécanisme d'inhibition de la transm...",
+      "text_hash": "5ae3327c424fb504340f29fcfaa3ff1a"
+    },
+    {
+      "id": "sim1_q16",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Rétention d'urine prostate",
+        "Contre-Indications",
+        "Tachycardie, arythmie",
+        "ydriase, glaucome, trouble de accommodation"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Principe : Certaines médicaments peuvent agir sur les muscles de l'iris, dilatant sa pupille ou modifiant sa contraction. Cela peut être un problème pour les patients souffrant de glaucome, une maladie oculaire caractérisée par une augmentation de la pression intraoculaire.\n\n2. Justification : L'ydriase est un médicament qui dilate la pupille et peut aggraver le glaucome en augmentant encore plus la pression intraoculaire. La contre-indication à l'administration d'un tel médicament pour ce pa...",
+      "text_hash": "d8fbc28530bdcfd042565c6ad1feb6da"
+    },
+    {
+      "id": "sim1_q17",
+      "text": "Quelle est la définition correcte de \" TTT\" ?",
+      "options": [
+        "restric hydro -NaSIADH",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "restric hydriquePertes rénales, cut, dig",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"TTT\" est l'acronyme d'*Hyponatremie non-hypotonique*, également connue sous le nom de *Syndrome d'hyponatémie infusée* ou *Syndrome d'hyponatremie isotonic*. C'est un trouble électrolytique qui se manifeste par une diminution du taux sanguin de sodium (<135 mmol/L).\n2. La bonne réponse est \"Hyponatremie non-hypotonique\" car \"TTT\" est un des critères diagnostiques de cette condition et il se caractérise par un taux sanguin de sodium normal ou élevé, une urine diluée (< 300 mOsmol/kg) et un ta...",
+      "text_hash": "3f39855dc32035c5b8158f95232486d3"
+    },
+    {
+      "id": "sim1_q19",
+      "text": "Quelle est la définition correcte de \"Danaparoide\" ?",
+      "options": [
+        "Cakcpamet SCO 2à Zà",
+        "Frapaie SN 0",
+        "Oran SC 283",
+        "Are SC miéé 1j"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Danaparoïde est un anticoagulant héparine-like recombinant, qui simule l'effet des protéines anti-Xa et anti-IIa endogènes du sang humain pour inhiber la coagulation.\n2. La bonne réponse \"Danaparoïde\" est une molécule utilisée dans le traitement de divers troubles liés à l'hypercoagulabilité, telles que le purpura thrombocytopénique du nouveau-né ou les syndromes thrombotiques héréditaires. Dans ce contexte médical IADE, Danaparoïde est la seule option correcte parmi celles proposées en raiso...",
+      "text_hash": "745e7a003e63c8a081d43296907412fc"
+    },
+    {
+      "id": "sim1_q20",
+      "text": "Quelle est la définition correcte de \"* Le nerf moteur\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine vesicules ,",
+        "vésicules déversent l'ACH dans la fente",
+        "structure anatomo-physiologique spécialisée qui",
+        "passage d'ions à travers la membrane"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le nerf moteur est une structure anatomo-physiologique spécialisée qui permet la transmission d'impulsions électriques à partir du système nerveux central vers les muscles ou aux glandes.\n\n2. Cette définition est correcte car elle décrit le rôle principal du nerf moteur, c'est-à-dire de transmettre les signaux provenant du cerveau pour inciter la contraction des muscle ou la sécrétion des glandes. Il n'y a pas besoin de mentionner l'acétylcholine car il s'agit d'un neurotransmetteur différent...",
+      "text_hash": "9c5f5861852bf65946cba91743065b5c"
+    },
+    {
+      "id": "sim1_q22",
+      "text": "Cas clinique: Patient de 45 ans, pesant 78 kg, antécédents d'allergie à la pénicilline et un règime alimentaire basé sur les aliments riches en halogénés. L'anesthésiste a administré du succinylcholine pour une intubation rapide en urgence vitale. Les signes cliniques sont : hyperthermie, rigidité musculaire, acidose, rhabdomyolyse. Quelle prise en charge?",
+      "options": [
+        "A. Administration de propofol et rocuronium pour la réintubation",
+        "B. Administration de dantrolène à la dose de 2,5 mg/kg intraveineux, refroidissement actif des parties du corps en hyperthermie, arrêt des agents halogénés",
+        "C. Hydratation intraveineuse et administration de glucocorticoïdes",
+        "D. Administration de naloxone pour antagoniser les effets du succinylcholine"
+      ],
+      "correctAnswer": 1,
+      "type": "cas_clinique",
+      "difficulty": "medium",
+      "domain": "Urgences anesthésiques",
+      "explanation": "Le succinylcholine peut provoquer une réaction allergique chez certains patients sensibles à l'halogène. La rhabdomyolyse est une conséquence possible de cette réaction allergique, avec hyperthermie, rigidité musculaire et acidose. Le traitement consiste à arrêter les agents déclencheurs, administrer du dantrolène pour inhibiter la dépolarisation musculaire, et appliquer un refroidissement actif.",
+      "text_hash": "860413bfc876a8c43b1f4da392358fdf"
+    },
+    {
+      "id": "sim1_q23",
+      "text": "À quelle catégorie appartient : \"Néfopam\" ?",
+      "options": [
+        "Palier 1",
+        "Palier 2",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Néfopam est un analgésique opioïde qui agit principalement par inhibition de la recapture des neurotransmetteurs endogènes, tels que l'acide gamma-aminobutyrique (GABA) et le noradrénaline.\n2. En fonction de son mecanisme d'action et de sa puissance comparée à d'autres médicaments, Néfopam est placé dans la catégorie \"Palier 3\" des analgésiques, qui correspond à une dose moyenne à forte pour le traitement de la douleur.",
+      "text_hash": "effbec66b699825fbae17fa15cfb7490"
+    },
+    {
+      "id": "sim1_q24",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de MOBIC ?",
+      "options": [
+        "Meloxicam",
+        "méfénamique",
+        "prostaglandines",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. MOBIC est une abréviation courante pour Meloxicam, un analgésique non stéroïdien anti-inflammatoire (ANS) du type COX-2 spécifique. Son principe actif est la molécule de Meloxicamate qui inhibe selectivement la cyclooxygenase 2 (COX-2), en réduisant ainsi les niveaux d'acides gras arachidiiques 2 éthylènes ( prostaglandines E2 et F2) impliqués dans l'inflammation.\n\n2. Le choix de Meloxicam est justifié car cela correspond à la DCI correcte de MOBIC, en tant que médicament anti-inflammatoire c...",
+      "text_hash": "aba2005667b62a0ab81eea2275f1bbbf"
+    },
+    {
+      "id": "sim1_q25",
+      "text": "À quelle catégorie appartient : \"Morphine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 1",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Morphine est un opioïde naturel, extrait du latex de l'opium ou synthétisé, utilisé dans le traitement de la douleur intense et aigüe ou chronique, ainsi que pour soulager les symptômes de la toux et des diarrhées.\n2. Le choix de la catégorie correspondant à Morphine est Palier 3, en raison de ses effets puissants sur le système nerveux central qui requièrent une surveillance étroite pour éviter les dépendances et les complications graves telles que la respiration insuffisante.",
+      "text_hash": "75de5457a47e5abe751b75d3f0834717"
+    },
+    {
+      "id": "sim1_q26",
+      "text": "Parmi les propositions suivantes, laquelle concerne Diminuent la réaction inflammatoire au stade aig ?",
+      "options": [
+        "Arthroses douloureuses et invalidantes",
+        "Urologie : traitement de la colique néphrétique",
+        "Rhumatismes inflammatoires chroniques",
+        "ORL et stomatologie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La colique néphrétique est une inflammation aigue des reins, caractérisée par des douleurs violentes aux flancs accompagnées d'autres symptômes tels que la vomissements ou l'hématurie (presence de sang dans l'urine).\n2. La colique néphrétique est traitée par un règlement médical qui vise à contrôler la douleur, réduire les inflammations et prévenir les complications. Cela peut inclure l'utilisation de médicaments anti-inflammatoires (ex : ibuprofène) et des mesures pour soulager la douleur (h...",
+      "text_hash": "d353fd82c373da0c5041f6c59eeced10"
+    },
+    {
+      "id": "sim1_q27",
+      "text": "Quelle est la définition correcte de \"pouti à l'urine primitive\" ?",
+      "options": [
+        "eau petites molécules ou molécules dissoufes",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Pouti à l'urine primitive\" est le mécanisme par lequel les molécules d'eau et autres solutés dissous (comme les électrolytes) sont filtrés depuis le sang glomérulaire vers la lumière du tube à Malpighi, constituant ainsi l'urine primaire.\n2. La bonne réponse est \"eau petites molécules ou molécules dissoutes\" car cela correspond exactement au processus physiologique d'excrétion urinaire de substances dissoutes dans le sang filtré par les glomérules rénaux, constituant ainsi l'urine primaire.",
+      "text_hash": "8e7ded0bc2bd5567b678e2527633c187"
+    },
+    {
+      "id": "sim1_q28",
+      "text": "Quelle est la définition correcte de \"1 CKCD-EPI\" ?",
+      "options": [
+        "selon âge, sexe, ethme",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "selon sexe, âge, ethnie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La définition correcte de \"1 CKCD-EPI\" est un marqueur urinaire utilisé pour diagnostiquer une insuffisance rénale chronique (CKD) ou une insuffisance rénale aigue (EPI).\n2. Cet indicateur, appelé créatinine (Cr), mesure le débit de filtration glomérulaire moyen (MFG) au niveau des néphrons. Sa valeur est élevée dans les maladies rénales et permet ainsi d'établir un diagnostic précis.",
+      "text_hash": "927613ae2a7ff493a6976e9e43cfc08c"
+    },
+    {
+      "id": "sim1_q30",
+      "text": "Définir muscles lisses et muscles striés. Donnez un exemple pour chacun.",
+      "options": [
+        "Muscles striés : contraction volontaire myocarde | Muscles lisses : contraction involontaire viscères",
+        "Tous les muscles sont identiques",
+        "Striés = colonne vertébrale | Lisses = côtes",
+        "Pas de différence"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Anatomie",
+      "explanation": "Muscles striés : innervés par système nerveux cérébro-spinal, contraction soumise à volonté ex: myocarde . Muscles lisses : contraction involontaire, soumis au système nerveux végétatif, dans viscères creux tube digestif, voies biliaires, voies urinaires .",
+      "text_hash": "e1e4eae28e77bce96a2563a96964c8c0"
+    },
+    {
+      "id": "sim1_q32",
+      "text": "Quelle structure est responsable de : \"Ligament supraépineux\" ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "G"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le ligament supraépineux est un ligament qui relie l'os sacrum à l'os iliaque sur la face postérieure du bassin humain. Il est situé juste au-dessus de l'épine iliaque, d'où son nom.\n2. Cette structure joue un rôle important dans la stabilité de la articulation sacro-iliaque, qui est une articulation synoviale soudée située entre les os sacrum et iliaques.",
+      "text_hash": "0c3a524f1a186fbe8540d62d58870978"
+    },
+    {
+      "id": "sim1_q33",
+      "text": "Quelle est la définition correcte de \"D\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Lisament longitudinal",
+        "Capsule articulaire",
+        "Ligament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"D\" que l'on rencontre dans le contexte médical IADE peut être interprété comme Disque intervertébral, car cela fait référence à une structure anatomique qui se trouve entre les vertèbres, disposée en disques séparés par des cartilages.\n\n2. Cette définition est la plus pertinente puisqu'elle correspond à l'unité de structure osseuse et cartilagineuse du système vertébral qu'on peut retrouver dans le plan médial-latéral, ce qui permet une articulation entre les différentes vertèbres.",
+      "text_hash": "6067370d343920afbdd36727be58ecdf"
+    },
+    {
+      "id": "sim1_q34",
+      "text": "Parmi les propositions suivantes, laquelle concerne Curare dépolarisant Suxaméthonium ou succinylcho ?",
+      "options": [
+        "Allergie aux curares",
+        "Antécédent personnel ou familial d’hyperthermie maligne",
+        "Fragilité musculaire : myopathie, myotonie",
+        "Paraplégie, hémiplégie, dénervation 48 h"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principe pharmacologique : Suxaméthonium et curare dépolarisants sont tous deux agonistes non-competitifs du récepteur nicotiniques à l'acétylcholine, provoquant la fermeture des canaux ioniques sodium au niveau de la membrane neuromusculaire. Cela entraîne une dépolarisation et la relaxation musculaire.\n\n2. Justification : La proposition \"Paraplégie, hémiplégie, dénervation 48 h\" est la bonne réponse. Le risque de paralysis persistante ou de néuropathie est plus élevé avec l'utilisation de S...",
+      "text_hash": "ee27daed541922154e2fbd465c67875e"
+    },
+    {
+      "id": "sim1_q35",
+      "text": "Quelle est la dose maximale d'un anesthésique local longue durée, et quelle substance peut être utilisée dans le traitement d'une intoxication liée à cette anesthésique ?",
+      "options": [
+        "A. 1 mg/kg de lidocaïne avec glucose comme traitement",
+        "B. 2 mg/kg de ropivacaine avec émulsion lipidique 40% en cas d'intoxication",
+        "C. 3 mg/kg de prilocain avec Intralipide en tant que traitement d'une intoxication",
+        "D. 2 mg/kg de bupivacaine avec glucose comme traitement"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Anesthésiques locaux",
+      "explanation": "L'anesthésique local longue durée considéré est celui qui a une dose maximale de 2 mg/kg. Son traitement en cas d'intoxication doit être l'émulsion lipidique 20% et non pas Intralipide 40%. Il n'y a pas de mention de lidocaïne, prilocain ou bupivacaine avec glucose dans la question.",
+      "text_hash": "8582d8723be9673cb08caf8f35e8e56c"
+    },
+    {
+      "id": "sim1_q36",
+      "text": "Quelle est la définition correcte de \"Microbiologique\" ?",
+      "options": [
+        "examen direct et culture du prélèvement microbiologique si réalisé réduction du spectre",
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus",
+        "doit aussi couvrir la légionnelle"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le terme \"Microbiologique\" est utilisé dans le contexte médical pour désigner l'étude des microorganismes, notamment bactéries, virus, champignons et parasites. Cette étude peut impliquer des examens directs (examen d'apparence visuelle ou microscopique) ainsi que des cultures microbiennes pour identifier et quantifier les espèces pathogènes présentes.\n2. La bonne réponse \"doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies\" est la meilleure option car ces micro...",
+      "text_hash": "b1f69b1e0388d54a49f464f1c671d40b"
+    },
+    {
+      "id": "sim1_q37",
+      "text": "Parmi les propositions suivantes, laquelle concerne Cervicales ?",
+      "options": [
+        "Mydriase 0",
+        "Tachycardie",
+        "Épaississement",
+        "Vasoconstriction"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Cervicales désigne un ensemble de structure anatomiques situées dans le cou, notamment les vertèbres cervicales et les glandes salivaires cervicales.\n2. Tachycardie est une augmentation de la fréquence cardiaque, alors que l'épaississement n'est pas spécifiquement associé aux cervicales, la vasoconstriction concerne le rétrécissement des vaisseaux sanguins, et la mydriase est une dilatation de l'œil. Ainsi, seule la tachycardie peut être un phénomène lié aux cervicales si elle s'observe en ré...",
+      "text_hash": "a8f9d50d00b481307e4fc7a16e66cc00"
+    },
+    {
+      "id": "sim1_q38",
+      "text": "Quelle est la définition correcte de \" Pouls régulier, bien frappé\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "130 réguliers",
+        "86 % sous 5L/min Masque hte C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Un pouls régulier, bien frappé est un signe physiologique qui indique que le cœur bat régulièrement et avec une force (amplitude) appropriée. Cela signifie que chaque battement du cœur se produit avec la même fréquence et intensité, ce qui permet de maintenir un apport d'oxygène constant à tout le corps.\n2. La bonne réponse est \"130 réguliers\", car 130 battements par minute (bpm) peut être considérée comme une valeur normale pour le pouls humain, et la qualification \"régulier\" indique que cha...",
+      "text_hash": "7680f9c7fe278217434a88d4739362dd"
+    },
+    {
+      "id": "sim1_q39",
+      "text": "Quelle est la définition correcte de \"À\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Ligament longitudinal",
+        "Lisament longitudinal",
+        "Capsule articulaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le terme \"À\" n'est pas une structure anatomique ou physiologique correcte dans le contexte médical.\n2. Dans la pratique de la médecine et des sciences de la santé, les structures anatomiques correctes pour \"A\", qui pourrait être une abréviation dans un scénario clinique, peuvent inclure les disques intervertébraux, les ligaments ou les ligaments longitudinaux, ainsi que la capsule articulaire. Cependant, sans contexte supplémentaire, il est impossible de déterminer avec certitude l'intention ...",
+      "text_hash": "ac00652659ca713cc603daf9995ddb84"
+    },
+    {
+      "id": "sim1_q41",
+      "text": "Parmi les propositions suivantes, laquelle concerne cette substance ?",
+      "options": [
+        "à l'examen, PAS de signe en foyer",
+        "début moins brutal",
+        "contexte épidémique fréquent",
+        "Syndrome pseudo-grippal"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le Syndrome pseudo-grippal (PSG) est un ensemble de symptômes ressemblant à ceux du rhume commun, mais sans infection virale identifiable clairement. Il peut être dû à une intoxication par une substance chimique ou microbienne non pathogène, ou à des causes immunitaires ou neurologiques.\n\n2. Dans le contexte de ces propositions, le Syndrome pseudo-grippal est choisi car il correspond au phénomène d'apparition de symptômes ressemblant à ceux du rhume commun, sans signe en foyer (pas de signe d...",
+      "text_hash": "2e00521894bd736c4699c1b7e0eb2073"
+    },
+    {
+      "id": "sim1_q42",
+      "text": "Quelle est la définition correcte de \"1 MIDRD\" ?",
+      "options": [
+        "selon sexe, âge, ethnie",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "selon âge, sexe, ethme",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La définition correcte de \"1 MIDRD\" est le mécanisme d'inhibition de la transmission synaptique, désigné par l'acronyme IADE dans le contexte médical.\n\n2. Cette réponse est choisie car \"Mécanisme d'inhibition de la transmission synaptique\" décrit précisément le processus qui permet une inhibition des signaux électriques entre les neurones, un mécanisme important dans la physiologie nerveuse et la pharmacologie.",
+      "text_hash": "6da0cbf104f590dae21000116894df5b"
+    },
+    {
+      "id": "sim1_q43",
+      "text": "Quelle est la définition correcte de \"Héparines suffixe DCI\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "parine Lu",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Héparines suffixe DCI\" désigne des héparines fortement sulfonées avec un groupe carbamate au niveau du résidu d'aspartate C6, augmentant leur activité anticoagulante et leur stabilité en présence de plasmine.\n2. La bonne réponse est \"Processus d'activation des récepteurs périphériques\" car ces héparines sont connues pour activer les protéoglycans sur la surface vasculaire, ce qui permet l'activation de l'anticoagulant facteur X et l'inhibition de la thrombine.",
+      "text_hash": "c16bba76cbb4434b019fc5a6596e7156"
+    },
+    {
+      "id": "sim1_q45",
+      "text": "Quelle est la définition correcte de \" Organisme\" ?",
+      "options": [
+        "libération de gaz carbonique et d'eau.",
+        "Immunoglobulines À / macrophages",
+        "Consommation d'énergie.",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Organisme, dans le contexte médical IADE, représente une structure complexe vivante, composée d'une multitude de cellules spécialisées et de tissus différents, capables de croissance, de reproduction, de régulation des fonctions physiologiques, ainsi que de réponse aux agressions externes.\n2. La bonne réponse est justifiée par sa cohérence avec la définition médicale d'organisme comme une structure vivante, complexe et capable de fonctionner selon des processus physiologiques spécifiques. Les...",
+      "text_hash": "a6ff334f67f702b4a74d1e7979aea906"
+    },
+    {
+      "id": "sim1_q47",
+      "text": "Quelle est la définition correcte de \"+oxygène\" ?",
+      "options": [
+        "Immunoglobulines À / macrophages",
+        "libération de gaz carbonique et d'eau.",
+        "Processus d'activation des récepteurs périphériques",
+        "Consommation d'énergie."
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Oxygène\" est un gaz essentiel pour la vie, qui participe au processus de respiration cellulaire humaine. Il sert d'oxygénateur dans le métabolisme des glucides, protéines et lipides pour produire énergie par oxydoréduction en présence de cytochrome c oxydase dans la chaîne de transport électronique mitochondriale.\n\n2. La bonne réponse est \"Consommation d'énergie\" car l'oxygène participe à la production d'énergie dans le corps humain en participant aux réactions de combustion des nutriments p...",
+      "text_hash": "ba61dd55cc394b9935cbbaab277165ed"
+    },
+    {
+      "id": "sim1_q48",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Activité antagoniste des récepteurs GABA. Pas d’effet propre aux doses utilisées.",
+        "Activité antagoniste des récepteurs GABA. Pas d’effet propre aux doses utilisées.",
+        "Activité antagoniste des récepteurs GABA. Pas d’effet propre aux doses utilisées.",
+        "Action directe sur les récepteurs NMDA du système nerveux central"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Le mécanisme d'action principal des benzodiazépines est l'activité agoniste des récepteurs GABA_{A} du système nerveux central, ce qui augmente la conduite inhibitrice de ces derniers et ralentit ainsi les impulsions neuronales.\n2. Les doses utilisées ont un effet propre sur ces récepteurs, ce qui explique leurs effets tranquillisants, anxiolytiques et myorelaxants observés dans la pratique médicale.",
+      "text_hash": "c3133c9f81a14c1165a215d7881cbdf8"
+    },
+    {
+      "id": "sim1_q49",
+      "text": "Quelle est la définition correcte de \" Héparines\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "médicaments antithrombotiques à activité anticoagulante"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Héparines sont des médicaments antithrombotiques à activité anticoagulante qui agissent en bloquant l'activation de la coagulation sanguine, ainsi que par leur interaction avec les récepteurs pour le facteur X sur la surface des vaisseaux sanguins.\n2. Les héparines sont choisies car elles régulent efficacement la coagulation en inhibant l'activation de divers facteurs coagulants, telles que les protéases activées, et en augmentant la formation d'anticorps anticoagulants tels que l'héparine de...",
+      "text_hash": "26bc1ee4ea4368b2f4f184ebfc27e1b9"
+    },
+    {
+      "id": "sim1_q50",
+      "text": "Quelle est la définition correcte de \"* uvrent un canal onique\" ?",
+      "options": [
+        "fabrique et stocke lacétylcholine vesicules ,",
+        "structure anatomo-physiologique spécialisée qui",
+        "passage d'ions à travers la membrane",
+        "vésicules déversent l'ACH dans la fente"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Une canalicule unique, dans le contexte médical IADE, est une structure anatomo-physiologique spécialisée du système nerveux périphérique qui permet le passage de neurotransmetteurs tels que l'acétylcholine (ACh) depuis les vésicules synaptiques jusqu'au site de la synapse.\n2. La bonne réponse est choisie parce qu'elle décrit correctement la structure physiologique en question et sa fonction spécifique de permettre le passage des neurotransmetteurs.",
+      "text_hash": "3996c4c35f611ce5fdbd53795041d1bf"
+    },
+    {
+      "id": "sim1_q51",
+      "text": "Expliquez l'effet du premier passage hépatique. Quelles voies permettent de l'éviter ?",
+      "options": [
+        "Métabolisation hépatique avant circulation générale | Voies : sublinguale, transdermique, inhalée, nasale",
+        "Pas d'effet",
+        "Seulement voie orale",
+        "Toutes les voies sont identiques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "advanced",
+      "domain": "Pharmacologie",
+      "explanation": "Premier passage hépatique : après résorption gastro-intestinale, médicament va au foie via circulation porte où il peut être métabolisé avant arrivée circulation générale. Voies pour l'éviter : sublinguale, transdermique, inhalée, nasale.",
+      "text_hash": "bfcaf3934befb20e0900cb44c8305b47"
+    },
+    {
+      "id": "sim1_q53",
+      "text": "Quel agent anesthésique est utilisé pour la rachianesthésie avec une durée d'action de 2 à 3 heures ?",
+      "options": [
+        "A. Bupivacaïne normbare à 0,5%",
+        "B. Bupivacaïne hyperbare à 1%",
+        "C. Lidocaïne à 2%",
+        "D. Rocovidaire à 3%"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Anesthésie locorégionale",
+      "explanation": "La bupivacaïne hyperbare à 0,5% est le seul agent anesthésique local couramment utilisé pour la rachianesthésie avec une durée d'action de 2 à 3 heures. Son taux de concentration est exactement de 0,5%, et il n'existe pas de formulation normbare ou de composé comme le rocovidaire dans ce contexte.",
+      "text_hash": "66e4f7eea81ba809173bdd3513477931"
+    },
+    {
+      "id": "sim1_q54",
+      "text": "À la lecture de l'ECG, le médecin voit un sus-décalage du segment ST. De quoi semble souffrir le patient ? Citez les médicaments utilisés.",
+      "options": [
+        "Syndrome coronarien aigu | Aspegic, clopidogrel, métalyse, morphine",
+        "Bronchite, antibiotiques",
+        "Gastrite, antiacides",
+        "Pas de traitement"
+      ],
+      "correctAnswer": 0,
+      "type": "cas_clinique",
+      "difficulty": "advanced",
+      "domain": "Cardiologie",
+      "explanation": "Sus-décalage ST évoque syndrome coronarien aigu. Traitements : antiagrégant plaquettaire aspegic , bloqueur récepteur ADP clopidogrel , fibrinolytique métalyse , paracétamol, morphine.",
+      "text_hash": "70bdb98314faccb7166a30fed11292fd"
+    },
+    {
+      "id": "sim1_q55",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de CELEBREX ?",
+      "options": [
+        "Célécoxib",
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Célécoxib est un inhibiteur de la cyclooxygénase-2 (COX-2), en particulier utilisé pour son effet anti-inflammatoire et analgésique.\n2. La DCI Dénomination Commune Internationale de CELEBREX est Célécoxib, car il s'agit du produit chimique actif principal dans la composition de ce médicament. Les autres options ne correspondent pas à un médicament mais à des familles de médicaments différentes (prostaglandines, méfénamique et Fénoprofène).",
+      "text_hash": "7e35fe6af1d5c22be3371468d9417032"
+    },
+    {
+      "id": "sim1_q56",
+      "text": "Quelle est la valeur normale de Na ?",
+      "options": [
+        "40-60 mmol /L",
+        "2,2-2,6 mmol /L",
+        "3,5-4,5 mmol /L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La sodium (Na) est un électrolyte important pour le maintien du potentiel électrique cellulaire et du bilan d'eau dans l'organisme humain. Sa concentration sanguine normale se situe entre 3,5 et 4,5 mmol/L.\n\n2. La bonne réponse est donc \"3,5-4,5 mmol /L\". Une valeur supérieure ou inférieure à cette plage peut indiquer une déshydratation, une hyponatémie ou une hypernatrémie respectivement.",
+      "text_hash": "4a473208b9c951f5aab5c951bc154052"
+    },
+    {
+      "id": "sim1_q57",
+      "text": "Quelle est la définition correcte de \" Pour tous\" ?",
+      "options": [
+        "HbCO, cyanures.",
+        "RP mauvaise qualité brancard",
+        "ECG, ddimères, scanner,",
+        "NFSpl, Hémocult ae+anae"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le terme \"Pour tous\" dans le contexte médical n'est pas un terme technique spécifique utilisé pour décrire une substance, un test ou un traitement. Il est plutôt employé pour indiquer qu'un produit, un diagnostic ou un traitement est applicable à toutes les personnes dans une population donnée, sauf mention contraire.\n2. Cependant, parmi les options proposées, il n'y a pas de terme médical qui correspond exactement à \"Pour tous\". Les autres options sont des tests diagnostiques tels que HbCO (...",
+      "text_hash": "8cb8bc14f41f1f382099c3c275a000bd"
+    },
+    {
+      "id": "sim1_q58",
+      "text": "Dans le contexte de la prévention de la MTEV par HBPM, quelle est la dose journalière en mg de l'énoxaparine lorsque la mobilisation précoce est prévue ?",
+      "options": [
+        "A. 20mg",
+        "B. 30mg",
+        "C. 40mg",
+        "D. 50mg"
+      ],
+      "correctAnswer": 2,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Prévention thromboembolique",
+      "explanation": "Dans le cadre de la prévention thromboembolique, la dose journalière en mg d'énoxaparine est de 40mg lorsque la mobilisation précoce est prévue selon les protocoles IADE. Les autres choix sont des doses incorrectes.",
+      "text_hash": "9aad7eff5a0292b1906fe0e81eba0056"
+    },
+    {
+      "id": "sim1_q59",
+      "text": "Quelle est la définition correcte de \"Bronchioles\" ?",
+      "options": [
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "paroi musculaire",
+        "terrain de tennis"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Bronchioles sont des petits conduits bronchiques terminaux dans le tractus respiratoire humain, se trouvant à l'intérieur du parenchyme pulmonaire. Ils distribuent l'air vers les alvéoles pour échange de gaz.\n2. Le choix correct est \"petits sacs recouverts de paroi musculaire\", car les bronchioles ont une structure muqueuse avec une paroi épaisse, contenant des muscles lisses pouvant se contracter ou s'étendre pour répondre aux besoins respiratoires.",
+      "text_hash": "c408cddec03662bbb4f79290f0ffedd4"
+    },
+    {
+      "id": "module_745715_he_movigilence_pre_paration__concours_iade_2025_def_0",
+      "text": "Quelle est la définition correcte de \"T4104724678 50 Fax\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "sa Nate EFS RSR",
+        "047883 5400 EtgONADUMN ap"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"T4104724678 50 Fax\" est un code utilisé dans le contexte médical pour identifier un numéro de prescription électronique, avec la valeur 50 indiquant une dose et le fax étant le mode de transmission.\n\n2. Ce code ne correspond pas à un processus d'activation des récepteurs périphériques ou mécanisme d'inhibition de la transmission synaptique, ni à sa Nate EFS RSR ou 047883 5400 EtgONADUMN ap.",
+      "text_hash": "280f759a0eedde45fc3d15018eb567e0"
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_1",
+      "text": "Quelle est la définition correcte de \" Pneumothorax\" ?",
+      "options": [
+        "sang dans la cavité pleurale",
+        "épanchement inflammatoire pus dans la",
+        "Processus d'activation des récepteurs périphériques",
+        "présence d’air dans l’espace pleural"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le pneumothorax est une pathologie médicale caractérisée par la présence d’air dans l’espace pleural, qui entoure le poumon. Cette situation provoque une décompression de la partie du poumon exposée à l’extérieur, avec une consolidation et une réduction de sa surface respiratoire.\n2. La bonne réponse est \"présence d'air dans l’espace pleural\" car ce dernier est défini comme un espace situé entre la paroi thoracique et le poumon, rempli normalement de liquide. Lorsqu'il contient de l'air à la ...",
+      "text_hash": "c5ffc613e6a858262c4a03f7bdc089f0"
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_4",
+      "text": "Quelle est la définition correcte de \"“ En dessous de L2\" ?",
+      "options": [
+        "fibres nerveuses périphériques,",
+        "paralysie diaphragmatique",
+        "diminution force respiratoire, toux difficile",
+        "toux impossible, ampliation médiocre"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principle: \"En dessous de L2\" est un terme utilisé en anatomie et chirurgie pour désigner les structures situées au-dessus de la deuxième vertèbre lombaire (L2).\n2. Justification du choix de la bonne réponse: Cela inclut principalement les fibres nerveuses périphériques qui passent le long des côtes et traversent la paroi abdominale au niveau de cette zone. Cette zone est souvent cible pour l'accès à ces structures lors d'interventions chirurgicales. La paralysie diaphragmatique, la diminutio...",
+      "text_hash": "4f48dd5e70e535f1f310d14e95432af8"
+    },
+    {
+      "id": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau_prop_1",
+      "text": "Parmi les propositions suivantes, laquelle concerne Indications : ?",
+      "options": [
+        "Ampoules de 0,25mg, 0,5 mg et 1mg /1 ml",
+        "Bradycardie et malaise d’origine vagale, antispasmodique et anti sécrétoire",
+        "Cardiovasculaires : Tachycardie",
+        "IVL très lente"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les ampoules de 0,25mg, 0,5 mg et 1mg/1 ml correspondent à des doses d'un médicament appelé Atropine, un anticholinergique utilisé pour son effet antispasmodique et anti-secrétoire. L'Atropine agit en bloquant les récepteurs muscariniques dans le système nerveux parasympathique, ce qui inhibe l'activité du parasympathique et stimule celle du sympathique.\n2. La bonne réponse est proposée car elle décrit précisément les indications de l'Atropine : bradycardie et malaise d'origine vagale (dérive...",
+      "text_hash": "0b869ba38c12de6681132aff48c80ac7"
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_prop_1",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Indications ?",
+      "options": [
+        "Troubles du rythme ventriculaires",
+        "Bolus initial puis relais PSE 65% ou NaC! 0 9%",
+        "Anesthésique local, stabilisant de membrane, anti-arythmique",
+        "Ampoules de 20 mg/m"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principle/mechanism: Le traitement proposé est un régime de traitement pour les troubles du rythme ventriculaires, qui implique l'administration d'un bolus initial suivi par une perfusion continue de propafèneone (PSE) à 65% ou sodium acetylchloride (NaCl) à 0,9%. Propafèneone est un médicament anti-arythmique et stabilisant de membrane qui agit en modifiant la conduction électrique au niveau des voies cardiaques.\n2. Justification: Cette approche est utilisée pour contrôler les troubles du ry...",
+      "text_hash": "4fe66ee84267c93eeca65f9fb67737ea"
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_def_0",
+      "text": "Quelle est la définition correcte de \"joniques , On obtient ainsi une paralysie musculaire atone\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "Régulation de l'homéostasie cellulaire",
+        "plus de transmission neuromuscuaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La définition correcte de \"joniques\" est un mécanisme d'inhibition de la transmission synaptique, plus précisément l'accumulation des anions joniques comme le chlorure dans les espaces synaptiques entraînant une hyperpolarisation membranaire des muscle cellules qui aboutit à une paralysie musculaire atone.\n2. Cette inhibition de la transmission neuromusculaire est le mécanisme principal impliqué dans plusieurs toxines, notamment les toxines botuliniques produites par Clostridium botulinum, re...",
+      "text_hash": "9f0d0fd26f29e530db4b90d3eb47e07b"
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_5",
+      "text": "Quelle est la valeur normale de Urée ?",
+      "options": [
+        "2-8mmol /L",
+        "2,2-2,6 mmol /L",
+        "135-145 mmol /L",
+        "3,5-4,5 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. L'urée est un produit des déchets azotés du métabolisme des protéines qui est éliminé par les reins. La valeur normale d'urée sanguine chez l'adulte se situe entre 2,2 et 6,7 mmol/L (40-123 mg/dL).\n2. Cette plage permet de mesurer efficacement la fonction rénale et les échanges azotés des protéines.",
+      "text_hash": "76f1874b200554e17538f40103d3b0a3"
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_12",
+      "text": "Quelle structure est responsable de : \"le tissu conjonctif\" ?",
+      "options": [
+        "Cellules de soutien",
+        "Cellule nerveuses",
+        "Cellules de soutien"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le tissu conjonctif est composé principalement d'une matrice extracellulaire, riche en collagènes et de cellules connues sous le nom de fibroblastes.\n\n2. Ces fibroblastes, membres du système des cellules de soutien (ou système des tissus conjonctifs), sont responsables de la production, du maintien et de la régénération de ce tissu. Les cellules nerveuses ne sont pas directement impliquées dans sa formation ou son fonctionnement.",
+      "text_hash": "9fa9d57e9870ebdb31ff167dafffd9a0"
+    },
+    {
+      "id": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau_prop_2",
+      "text": "Parmi les propositions suivantes, laquelle concerne Indications ?",
+      "options": [
+        "Cardiaques : puissant inotrope, chronotrope, dromotrope , bathmotrope positif",
+        "Bronchospasme sévère réfractaire",
+        "Ampoules de 5mg/5 ml et 1mg/1 ml",
+        "1 mg pur IV à renouveler toutes les 3 minutes"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'indication proposée concerne une substance pharmacologique utilisée pour traiter un bronchospasme sévère réfractaire, dont le mécanisme physiologique/pharmacologique est l'inhibition des enzymes phosphodiesterase 3 et 4 (PDE3 et PDE4) qui permettent de stimuler les voies cycliques adénosine monophosphate (cAMP). Cela entraîne une relaxation bronchique, un effet chronotrope positif (augmentation du rythme cardiaque), un effet inotrope positif (amélioration de la contraction myocardique) et u...",
+      "text_hash": "10d9851dd13098aad96683196fecb98d"
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_prop_3",
+      "text": "Parmi les propositions suivantes, laquelle concerne Hémorragies ?",
+      "options": [
+        "Antidote : Sulfate de protamine sauf fondaparinux",
+        "HNF HBPM, rare sous danaparoide , fondaparinux , argatrobanLES HÉPARINES",
+        "100 UAH neutralise 100 UI d’héparine",
+        "Plaquettes 100 G/L ou diminution de 30%"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hemorragies, ou saignements, sont une perte excessive et abnormale du sang d'un organisme. Elles peuvent être induites par une cause externe ou interne, telles que des blessures, un accouchement difficile, un traitement médical ou une maladie grave.\n2. La bonne réponse est \"Plaquettes 100 G/L ou diminution de 30%\". Les plaquettes sanguines sont responsables de la coagulation et de l'arrêt de la fuite du sang lorsqu'il y a une blessure. Lors d'une hémorragie, le taux de plaquettes dans le sang...",
+      "text_hash": "6ca266fcee20c8ccc87380d3312af13a"
+    }
+  ],
+  "normalized_at": "2025-11-04T19:27:40.227607"
+}

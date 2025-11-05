@@ -1,0 +1,966 @@
+{
+  "id": "simulation_4",
+  "title": "Simulation Concours IADE n°4",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 57,
+    "rédactionnelle": 2,
+    "cas_clinique": 1
+  },
+  "created_at": "2025-11-04T19:21:18.306849",
+  "questions": [
+    {
+      "id": "sim4_q1",
+      "text": "Quelle est la définition correcte de \"Surface totale\" ?",
+      "options": [
+        "terrain de tennis",
+        "paroi musculaire",
+        "petits sacs recouverts de",
+        "lobule pulmonaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Dans le contexte médical, \"Surface totale\" (ST) fait référence à l'ensemble des faces des alvéoles pulmonaires qui sont exposées aux gaz.\n2. Cette surface est considérée comme étant la plus grande surface en contact avec les gaz expirés et inspirés dans le corps humain, et joue un rôle crucial dans le processus de diffusion gazeuse entre l'air extérieur et les capillaires pulmonaires.",
+      "text_hash": "f5edfc0fd5c8f6668d6bac6df39cc34a"
+    },
+    {
+      "id": "sim4_q2",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Pré-anesthésie : protection des manifestations vagales bradycardie à l'induction .",
+        "Traitement symptomatique des manifestations douloureuses aiguës liées aux troubles",
+        "Dans l'infarctus : prévention et traitement des blocs auriculoventriculaires et des bradycardies",
+        "Bloc auriculoventriculaire ou atrioventriculaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Principien physiologique : La pré-anesthésie est un traitement administré pour améliorer les conditions générales et respiratoires du patient avant l'anesthésie générale. Cela inclut la protection contre des manifestations vagales bradycardiques qui peuvent survenir lors de l'induction de l'anesthésie et provoquer une insuffisance cardiaque.\n2. Justification : Le choix de la bonne réponse est fondé sur le fait que les blocs auriculoventriculaires ou atrioventriculaires sont eux des traitement...",
+      "text_hash": "d8fbc28530bdcfd042565c6ad1feb6da"
+    },
+    {
+      "id": "sim4_q3",
+      "text": "Parmi les propositions suivantes, laquelle concerne Diminuent la réaction inflammatoire au stade aig ?",
+      "options": [
+        "Rhumatismes inflammatoires chroniques",
+        "Cancérologie : douleur ; hypercalcémies",
+        "En courte durée : poussées douloureuses de l’arthrose, tendinites, goutte",
+        "Urologie : traitement de la colique néphrétique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. En courte durée : poussées douloureuses de l’arthrose, tendinites, goutte diminuent la réaction inflammatoire au stade aig en réduisant la production de médiateurs inflammatoires (cytokines, acides arachidiiques) et en améliorant la permeabilité vasculaire.\n2. Cette catégorie regroupe les pathologies chroniques ou aiguës liées à des dégâts au niveau musculo-osseux (arthrose, tendinites), ainsi que le goutte, qui sont caractérisés par une réaction inflammatoire locale. Les traitements visent à...",
+      "text_hash": "d353fd82c373da0c5041f6c59eeced10"
+    },
+    {
+      "id": "sim4_q4",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de XANAX ?",
+      "options": [
+        "Alprazolam",
+        "Diazépam",
+        "Bromazépam",
+        "Nordazépam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. XANAX est un médicament appartenant à la classe des benzodiazépines, dont le principe actif est l'alprazolam. Il agit principalement en se liant aux récepteurs GABA_{A} pour augmenter leur efficacité et provoquer une relaxation musculaire ainsi qu'un calme mental.\n2. La DCI (Dénomination Commune Internationale) de XANAX est donc Alprazolam, car c'est le composé chimique de ce médicament qui a été accepté par l'OMS pour sa désignation internationale.",
+      "text_hash": "19078510465a9ee5d319dd465b530155"
+    },
+    {
+      "id": "sim4_q5",
+      "text": "Quelle est la définition correcte de \" Prise en charge au SAU 2 \" ?",
+      "options": [
+        "Examiner, équiper",
+        "amplitude, fréquence, régularité.",
+        "attention corrélation VC, T*,",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La prise en charge au SAU 2 (Service d'Anesthésie Urgence) est un processus de soins médicaux urgents pour les patients ayant besoin d'une anesthésie générale ou régionale sous surveillance étroite à cause d'un traitement complexe, une pathologie chronique ou une situation extrêmement instable.\n2. La bonne réponse est choisie car elle représente le contexte médical IADE de base concernant la prise en charge du patient dans un SAU 2 où l'examen et l'équipement du patient sont les premiers pas ...",
+      "text_hash": "f1ac8e55d052716e8ceb7f80c2335bdc"
+    },
+    {
+      "id": "sim4_q6",
+      "text": "Quelle est la définition correcte de \"F\" ?",
+      "options": [
+        "Lisament longitudinal",
+        "Ligament interépineux",
+        "Ligament longitudinal",
+        "Disque intervertébral"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"F\" dans le contexte médical IADE peut faire référence au Ligament longitudinal postérieur, un ligament étendu entre les vertèbres de la colonne vertébrale et situé sur la face postérieure des corps vertébraux.\n2. Il est choisi car il s'agit d'un ligament crucial pour la stabilité de la colonne vertébrale, et sa lésion peut entraîner des problèmes douloureux ou des dysfonctions articulaires.",
+      "text_hash": "94be163244cd4be750f4983c8cb82c7b"
+    },
+    {
+      "id": "sim4_q8",
+      "text": "Quelle est la définition correcte de \"HBPM\" ?",
+      "options": [
+        "action anti-Xa anti-lla entre 1,8 et 3,3",
+        "action anti-Xa et anti-lla 1",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"HBPM\" est l'acronyme de l'héparine bicoumarine par voie ponctionnelle continue, une forme d'héparine utilisée pour traiter les thromboses arterielle et veineuse graves.\n2. Cette héparine est administrée en injection continue à faible dose (100-150 unités/kg/j) afin d'inhiber l'activité des thrombines, protégeant ainsi le système vasculaire contre les coagulations inappropriées.",
+      "text_hash": "c3102aa0187c29b4a10da5541dab039b"
+    },
+    {
+      "id": "sim4_q9",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de NABUCOX ?",
+      "options": [
+        "méfénamique",
+        "prostaglandines",
+        "Nabumétone",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Nabumétone est un inhibiteur cyclooxygénase-2 (COX-2) sélectif, utilisé pour traiter l'arthrite inflammatoire ou les douleurs dues à des conditions telles que la dysmenorrhée et la polyarthrite rhumatoïde.\n\n2. Par rapport aux autres options proposées (méfénamique, prostaglandines, Fénoprofène), Nabumétone est sélectif pour l'inhibition de COX-2 et présente moins d'effets indésirables gastrointestinaux.",
+      "text_hash": "b8573dcd31953518bb598a2dcc6328a6"
+    },
+    {
+      "id": "sim4_q10",
+      "text": "Quelle est la définition correcte de \" SpO2\"h\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "amplitude, fréquence, régularité.",
+        "attention corrélation VC, T*,",
+        "Examiner, équiper"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. SpO2h est l'indice saturation d'oxygène en pourcentage, mesuré par une oximètre à partir du signal d'un phénomène optique connu sous le nom de fluorescence stokesienne, sur une période prolongée (h = heure).\n2. L'optimalité de la réponse correcte tient à la mesure précise et continue de la saturation en oxygène du sang d'une personne, qui est un paramètre vital important pour l'évaluation de sa respiration.",
+      "text_hash": "aff4dbb242518f9add9ff1c6bd88b36f"
+    },
+    {
+      "id": "sim4_q11",
+      "text": "Justifiez l'utilisation de l'adrénaline à la dose de 1mg par voie intraveineuse toutes les 3-5 minutes dans le cadre d'un traitement d'urgence pour une hypoxie, une hypovolémie ou une ischémie myocardique.",
+      "options": [],
+      "correctAnswer": 0,
+      "type": "rédactionnelle",
+      "difficulty": "hard",
+      "domain": "Urgences anesthésiques",
+      "explanation": "L'adrénaline est un médicament de la catégorie des catecholamines qui stimule les récepteurs adrénergiques. Lorsqu'elle est administrée à la dose de 1mg IV toutes les 3-5 minutes, elle améliore la contraction myocardique et la fréquence cardiaque, ce qui aide à prévenir l'effondrement hémodynamique dans le cas d'une hypoxie, une hypovolémie ou une ischémie myocardique. Cependant, cette dose doit être utilisée avec précaution car elle peut provoquer des effets secondaires tels que l'hypertension artérielle, les arrythmies cardiaques et la vasoconstriction.",
+      "text_hash": "f003f1f7d4fc0a7fbf1c15570dfbb47f"
+    },
+    {
+      "id": "sim4_q13",
+      "text": "Quelle est la définition correcte de \"9 L'influx nerveux\" ?",
+      "options": [
+        "vésicules déversent l'ACH dans la fente",
+        "fabrique et stocke lacétylcholine vesicules ,",
+        "passage d'ions à travers la membrane",
+        "structure anatomo-physiologique spécialisée qui"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"9 L'influx nerveux\" est une structure anatomo-physiologique spécialisée composée de neurones sensitifs et motoneurs, qui permet le transfert d'impulsions électriques à partir du cerveau jusqu'aux muscles ou aux organes sensibles.\n2. Cette structure est impliquée dans la transmission des impulsions nerveuses provenant de différents centres cérébraux pour activer divers mécanismes physiologiques et coordonner la réponse du corps à l'environnement extérieur.",
+      "text_hash": "795c2e573412e07bd72d3c52518115d2"
+    },
+    {
+      "id": "sim4_q15",
+      "text": "Quelle est la dose maximale d'un anesthésique local de type amide en mg/kg sans adrénaline ?",
+      "options": [
+        "A. 2 mg/kg",
+        "B. 3 mg/kg",
+        "C. 4 mg/kg",
+        "D. 5 mg/kg"
+      ],
+      "correctAnswer": 1,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Anesthésiques locaux",
+      "explanation": "La dose maximale d'un anesthésique local de type amide sans adrénaline est 3 mg/kg selon les protocoles officiels. Les choix A, C et D sont erronés.",
+      "text_hash": "154b18e4d1d9916874d56101ff7a5425"
+    },
+    {
+      "id": "sim4_q16",
+      "text": "Quelle est la valeur normale de F ?",
+      "options": [
+        "37 47 %",
+        "13 17 g/dL",
+        "12 16 g/dL",
+        "40 54 %"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La F (ou le taux hématocrite) est une mesure du pourcentage des globules rouges dans un échantillon sanguin d'un individu. Dans le sang humain, la moitié des cellules sont des globules rouges (érythrocytes).\n2. La valeur normale de F varie en fonction du sexe et de l'altitude : pour un homme adulte à la mer niveau, elle est comprise entre 40-54 % (12-16 g/dL), tandis que pour une femme adulte elle est généralement inférieure de 1-2 %, soit environ 37-47 %. La réponse correcte dans ce contexte...",
+      "text_hash": "0a0516d0af8c0297975d640e42302e8e"
+    },
+    {
+      "id": "sim4_q17",
+      "text": "Parmi les propositions suivantes, laquelle concerne L’Hémovigilance a pour objet l'ensemble des procéd ?",
+      "options": [
+        "Formation, etc.",
+        "Gestion des risques",
+        "Conseil et communication avec les unités de soins",
+        "Traçabilité des PSL, information et suivi du patient transfusé dans l’ES"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'Hémovigilance est une surveillance systématique des transfusions sanguines visant à améliorer la sécurité des patients grâce à l'identification et au suivi des réactions indésirables liées aux produits sanguins ou aux processus de transfusion.\n2. Les procédures liées à la transfusion sanguine sont donc l'objet principal de cette surveillance, ce qui explique pourquoi la proposition \"Gestion des risques\" est la bonne réponse car elle permet de réduire les risques d'incidents pour le patient ...",
+      "text_hash": "464fc0de4a1b08989fe24114098acfb3"
+    },
+    {
+      "id": "sim4_q18",
+      "text": "Quelle est la définition correcte de \"à\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "favorisent l'endormissement et en général prolongent la durée du somme,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"À\" n'est pas un mécanisme physiologique ou pharmacologique spécifiquement relatif à la médecine. Il s'agit plutôt d'un article défini en grammaire française, utilisé avant un nom substantif pour le prévenir de l'article indéfini.\n2. La question demande une explication médicale correcte pour \"à\", qui n'existe pas car il s'agit d'un terme grammatical et non médical.",
+      "text_hash": "ac00652659ca713cc603daf9995ddb84"
+    },
+    {
+      "id": "sim4_q19",
+      "text": "Quelle est la définition correcte de \"H\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "60 115 umol/L ; F"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"H\" dans le contexte médical peut faire référence à l'Homéostasie cellulaire, un état équilibre constant des conditions internes d'une cellule pour assurer sa survie et son fonctionnement optimal.\n2. Cette option est choisie car elle s'applique à tous les processus cellulaires en faisant référence à l'équilibre entre la synthèse, la dégradation des protéines, le métabolisme énergétique et la régulation de la composition chimique intracellulaire.",
+      "text_hash": "15856743f546876f0c2469c7310f0279"
+    },
+    {
+      "id": "sim4_q20",
+      "text": "Définissez les volumes respiratoires mobilisables, citez-les et décrivez-les.",
+      "options": [
+        "Volume courant 500ml , VRI 2500-3000ml , VRE 1000ml , CV totale 4500ml",
+        "Seulement inspiration/expiration",
+        "Pas de volumes",
+        "Variables"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "intermediate",
+      "domain": "Pneumologie",
+      "explanation": "Volume courant VT : 500ml. VRI : 2500-3000ml au-delà inspiration normale . VRE : 1000ml au-delà expiration normale . Capacité vitale CV : VT+VRI+VRE = 4500ml totale.",
+      "text_hash": "70b1f1b55d684a9fd15ed038d65fd9d8"
+    },
+    {
+      "id": "sim4_q21",
+      "text": "Quelle structure est responsable de : \"Ligament supraépineux\" ?",
+      "options": [
+        "B",
+        "G",
+        "D",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le ligament supraépineux est une structure anatomique ligamentaire qui se trouve dans le dos et relie l'os sacré au processus transverse du premier vertèbre lombaire, l'échappement lombaire.\n2. Sa présence permet de stabiliser la articulation entre les deux os et d'empêcher une extension excessive du tronc vers le bas.",
+      "text_hash": "0c3a524f1a186fbe8540d62d58870978"
+    },
+    {
+      "id": "sim4_q22",
+      "text": "Quelle est la définition correcte de \" par voie orale\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "épilepsies rebelles aux autres médicaments et",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Par voie orale signifie l'administration d'une substance médicamenteuse par le canal buccal (la bouche). Cela permet une absorption lente et progressive dans le système digestif, qui peut ensuite être diffusée dans tout le corps via la circulation sanguine.\n2. La bonne réponse a été choisie car elle décrit correctement le processus d'administration des médicaments oralement, sans faire référence à des pathologies ou mécanismes physiologiques/pharmacologiques non pertinents dans ce contexte.",
+      "text_hash": "428c8f99b490c7fb053b5b73c5184d8f"
+    },
+    {
+      "id": "sim4_q24",
+      "text": "Quelle est la définition correcte de \" Eternuements\" ?",
+      "options": [
+        "ventilation nasale exclusive",
+        "jusqu’à 100 km/h",
+        "Système de conditionnement de l’air",
+        "Épuration des particules et des agents pathogènes"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hémétyse, ou éternuements, est un symptôme clinique consistant en une sensation d'irritation ou de désagrément dans le pharynx et l'œsophage qui entraîne une réflexe involontaire d'expulsion air provenant du poumon.\n2. La bonne réponse est \"Hémétyse\" car c'est la sensation de ralentir ou d'expulser de l'air, souvent accompagnée d'un bruit (coughing), qui est caractéristique des éternuements et diffère de tous les autres termes proposés.",
+      "text_hash": "980c64cc5b67e408f0b7f1a381573792"
+    },
+    {
+      "id": "sim4_q25",
+      "text": "Quelle est la définition correcte de \" Exemples\" ?",
+      "options": [
+        "Verapamil , Ondansetron , RanitidineDECURARISATION",
+        "Acide fucidique",
+        "déplacement du rocuronium",
+        "fixation du médicament sur le sugammadex"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les exemples cités sont tous des médicaments, appartenant respectivement à différentes classes pharmacologiques : Verapamil est un calcium-canal blocker utilisé pour le traitement de l'hypertension et du troubles cardiaques ; Ondansetron est un antémétique utilisé pour réduire les nausées et vomissements induits par la chimiothérapie ou certaines conditions médicales ; Ranitidine est un H2-blocant, qui sert à réduire l'acide gastrique dans le traitement de l'ulcère gastrique et du reflux gast...",
+      "text_hash": "3441f0342e4dbe30362be9707a3874f9"
+    },
+    {
+      "id": "sim4_q26",
+      "text": "Quelle est la définition correcte de \" Décret du 24 janvier 1994\" ?",
+      "options": [
+        "Mise en place de l’ HEMOVIGILANCE",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Découverte des groupes sanguins A B O",
+        "Organisation de la transfusion"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le Décret du 24 janvier 1994 s'agit d'une mesure législative française qui a mis en place un système national de surveillance des hémovigilance, visant à améliorer la sécurité en matière de transfusion sanguine et de médicaments.\n2. Cette loi a été adoptée pour répondre aux préoccupations liées à la sécurité des patients lors de la transfusion sanguine ou l'administration de médicaments, en facilitant l'échange d'informations et la collaboration entre les acteurs de la santé.",
+      "text_hash": "c4b8308166ae72a7c5169a41b17e4f70"
+    },
+    {
+      "id": "sim4_q27",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de HAVLANE ?",
+      "options": [
+        "Lormétazépam",
+        "Estazolam",
+        "Nitrazépam",
+        "Loprazolam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Hávlane est un benzodiazépine, une classe de médicaments qui possède des propriétés anxiolytiques, hypnotiques et myorelaxantes. Il agit en se liant au récepteur GABA_{A} des neurones du système nerveux central, augmentant ainsi la conduite inhibitrice du neurotransmetteur gamma-aminobutyrique (GABA).\n\n2. Le choix de Hávlane pourrait être Estazolam, car il est un benzodiazépine qui présente des propriétés similaires et est souvent utilisé comme hypnotique pour traiter les troubles du sommeil....",
+      "text_hash": "96f7f12f90bfa9e930002ab2452def87"
+    },
+    {
+      "id": "sim4_q28",
+      "text": "Quel est le mécanisme d’action et quels sont les effets secondaires du fentanyl, un morphinique de synthèse 100 fois plus puissant que la morphine, dans une dose d'induction allant de 1 à 5 g/kg ?",
+      "options": [],
+      "correctAnswer": 0,
+      "type": "rédactionnelle",
+      "difficulty": "medium",
+      "domain": "Pharmacologie",
+      "explanation": "Le fentanyl se lie aux récepteurs opioïdes pour produire une analgésie efficace. Cependant, son potentiel d'action est fortement augmenté par rapport à la morphine, ce qui peut entraîner des effets secondaires comme une dépression respiratoire et une rigidité thoracique à dose forte. Ces effets se produisent dans une dose d'induction allant de 1 à 5 g/kg.",
+      "text_hash": "12cf0371ab9b7e211836047f2e312933"
+    },
+    {
+      "id": "sim4_q29",
+      "text": "Quelle est la définition correcte de \"D\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Capsule articulaire",
+        "Ligament longitudinal",
+        "Lisament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"D\" dans le contexte médical IADE peut se référer au disque intervertébral, une structure anatomique constituée d'une cartilage nucléaire centrale et de deux annulations fibreuses qui séparent les corps vertebraux adjacents.\n2. Les trois autres options proposées (capsule articulaire, ligament longitudinal, lisament longitudinal) ne correspondent pas à une structure taillée sur mesure pour la réponse donnée.",
+      "text_hash": "6067370d343920afbdd36727be58ecdf"
+    },
+    {
+      "id": "sim4_q30",
+      "text": "Quelle est la définition correcte de \" Loi de 195 \" ?",
+      "options": [
+        "Nationalisation de la transfusion avec la création de l'EFS",
+        "Mise en place de l HEMOVIGILANCE",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Organisation de la transfusion"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La Loi de 195, dans le contexte médical, fait référence à la loi française n° 58-670 du 7 juillet 1958 sur la transfusion sanguine et les produits sanguins.\n2. Cette législation a été adoptée pour assurer une sécurité maximale dans le domaine de la transfusion sanguine, y compris la création d'un réseau national de banques sanguines (Etablissements Français du Sang - EFS), l'introduction de la vigilance sur les effets indésirables des transfusions (Hémovigilance) et des dispositions en faveur...",
+      "text_hash": "b4c868d2ee401c64c5860e08a82611b9"
+    },
+    {
+      "id": "sim4_q31",
+      "text": "Quelle est la valeur normale de Ca corrigé ?",
+      "options": [
+        "3,5-4,5 mmol /L",
+        "2,2-2,6 mmol /L",
+        "40-60 mmol /L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La calcium corrigé (Ca corr) est un indice du niveau de calcium sanguin total, adapté aux niveaux de protéines plasmatiques. Il prend en compte les effets de l'albumine et des globulines, qui peuvent influencer le calcium ionisé.\n2. La valeur normale de Ca corrigé chez une personne saine se situe entre 2,20 et 2,60 mmol/L en prenant en compte les variations biologiques inhérentes à chaque laboratoire.",
+      "text_hash": "a0b660aa3ac31c8bec7df1a7a6456af4"
+    },
+    {
+      "id": "sim4_q32",
+      "text": "Quelle est la définition correcte de \"* Exemples\" ?",
+      "options": [
+        "deplacement du rocuronium",
+        "Verapamil, Ondansetron, Ranitioine",
+        "fixation du médicament sur",
+        "Acide fucidique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Exemples\" n'est pas une définition correcte dans le contexte médical IADE proposé. Il s'agit plutôt d'une catégorie ou de groupes de substances médicamentuses ou de procédés pharmacologiques.\n\n2. Les options proposées correspondent respectivement à des médicaments (Verapamil, Ondansetron, Ranitioine) et à un médicament antimicrobien spécifique (Acide fucidique). En revanche, \"deplacement du rocuronium\" n'est pas une définition mais plutôt l'action ou effet d'un médicament sur le corps humain...",
+      "text_hash": "afc79c277ea4d2d2ad44bd60dca195be"
+    },
+    {
+      "id": "sim4_q33",
+      "text": "Parmi les propositions suivantes, laquelle concerne Hémorragies ?",
+      "options": [
+        "Complication la plus fréquente",
+        "Localisation du saignement très variée, gravité extrême si localisation",
+        "Gastralgies, diarrhées,",
+        "Première cause d’hospitalisation par iatrogénie : 17 000"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hémorragies sont des saignements provoqués par une rupture ou un déficit de la coagulation du sang.\n\n2. La bonne réponse est \"Hémorragies, localisation du saignement très variée, gravité extrême si localisation.\" Cette proposition est correcte car hémorragies peuvent se produire à différents endroits du corps et peuvent entraîner des complications graves en fonction de leur localisation.",
+      "text_hash": "6ca266fcee20c8ccc87380d3312af13a"
+    },
+    {
+      "id": "sim4_q34",
+      "text": "Quelle est la valeur normale de p ?",
+      "options": [
+        "40-100 mmlg",
+        "42-44 mme",
+        "138-742",
+        "95-100"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La valeur normale de pH dans le sang est un indicateur crucial de l'équilibre acide-basique du corps humain, et doit se situer entre 7,35 et 7,45 pour assurer la bonne fonctionnement des organismes internes.\n2. Les options incorrectes proposées représentent des valeurs extrêmes ou anormales de pH, qui ne correspondent pas à la valeur normale dans le sang humain.",
+      "text_hash": "35b0a42b21cce1aeb176e29d63f4cad4"
+    },
+    {
+      "id": "sim4_q35",
+      "text": "Quelle structure est responsable de : \"Capsule articulaire\" ?",
+      "options": [
+        "C",
+        "B",
+        "E",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Les capsules articulaires, structures responsables des mouvements articulaires lisses entre os, sont constituées de deux parties : une capsule synoviale extérieure et un ensemble de ligaments interne appelé le labyrinthe fibreux ou joint capsulaire propriété.\n2. La capsule synoviale extérieure est une membrane épaisse et résistante qui entoure la cavité articulaire et secrete de la synovie pour lubrifier les os en mouvement et réduire le frottement. Le labyrinthe fibreux, formé par des ligame...",
+      "text_hash": "9380c51bb475fcc84a9826144001109a"
+    },
+    {
+      "id": "sim4_q37",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de MOGADON ?",
+      "options": [
+        "Estazolam",
+        "Lormétazépam",
+        "Nitrazépam",
+        "Loprazolam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La Dénomination Commune Internationale (DCI) de MOGADON est Lormétazépam. C'est un médicament du groupe des benzodiazépines, utilisé comme hypnotique pour traiter les troubles du sommeil.\n2. Ce choix est justifié par le fait que lormétazépam a une durée d'action intermédiaire et présente un risque de dépendance plus faible par rapport aux autres benzodiazépines, ce qui en fait un médicament préféré pour le traitement du trouble du sommeil.",
+      "text_hash": "8a1ee84c4c6f00d1f4b2cc56e9d8b809"
+    },
+    {
+      "id": "sim4_q38",
+      "text": "Quelle est la valeur normale de H ?",
+      "options": [
+        "37 47 %",
+        "13 17 g/dL",
+        "40 54 %",
+        "12 16 g/dL"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La valeur normale d'H (hémoglobine) dans le sang est un indice utilisé pour évaluer l'état des globules rouges et donc du niveau d'oxygène transporté par le sang.\n2. Une valeur normale de hémoglobine varie généralement entre 13,5 g/dL et 17,5 g/dL chez les adultes sains. La réponse correcte est donc \"13 17 g/dL\".",
+      "text_hash": "22b54d7872610bef94a1f7c6f4edca2a"
+    },
+    {
+      "id": "sim4_q40",
+      "text": "Parmi les propositions suivantes, laquelle concerne cette substance ?",
+      "options": [
+        "début moins brutal",
+        "Syndrome pseudo-grippal",
+        "à l'examen, PAS de signe en foyer",
+        "contexte épidémique fréquent"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La substance dont il s'agit est probablement liée à un contexte épidémique fréquent, ce qui suggère une infection virale courante dans la population. Le fait que le examen ne révèle pas de signe en foyer et qu'il y ait un début moins brutal peuvent être des caractéristiques des syndromes pseudo-grippaux, qui sont des infections virales non spécifiques au haut niveau respiratoire causant des symptômes similaires à une grippe sans infection bactérienne dans les foyers.\n\n2. Le choix de la bonne ...",
+      "text_hash": "2e00521894bd736c4699c1b7e0eb2073"
+    },
+    {
+      "id": "sim4_q41",
+      "text": "Quelle est la définition correcte de \"G\" ?",
+      "options": [
+        "Lisament longitudinal",
+        "Disque intervertébral",
+        "Ligament supraépineux",
+        "Ligament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"G\" dans le contexte médical est un terme utilisé pour désigner le ligament longitudinal, qui est un type de ligament situé dans la colonne vertébrale et fournit de l'étirement à la colonne lors des flexions et des extensions. Il s'agit d'un ligament important pour la stabilité de la colonne et la protection des disques intervertébraux.\n\n2. Cette réponse est choisie car le \"G\" n'est pas un terme qui a une définition spécifique dans les contexte médicaux, mais il est souvent utilisé pour dé...",
+      "text_hash": "77a6fe810fff515c653c19ce808cefeb"
+    },
+    {
+      "id": "sim4_q42",
+      "text": "Quelle est la définition correcte de \"Destinataire\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Cite Chaine de Survie Iträ-",
+        "Comilé Référents Urgences HCL",
+        "Ut de sons du GHSud disposant dun chariot d'urgence"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"Destinataire\" est un terme utilisé dans le contexte des soins médicaux pour désigner l'individu ou l'organisme qui reçoit les informations, ordres ou prescriptions médicaux en lien avec sa santé.\n2. La bonne réponse, \"Le Destinataire\", est donc appropriée car c'est le sujet pour lequel des actions sont prises dans le cadre du soin. Le terme est notamment utilisé pour identifier les patients lors de la prescription et de l'administration des traitements médicaux.",
+      "text_hash": "9fdf8edc7a68a8d4d794eccc08180711"
+    },
+    {
+      "id": "sim4_q43",
+      "text": "Quelle est la définition correcte de \"E. Faecalis\" ?",
+      "options": [
+        "vancomycine structure",
+        "aminosides imperméabilité",
+        "Amoxicilline",
+        "CéphalosporinesRésistance qui existe d’emblée"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"E. Faecalis\" est un bacille Gram positif, résistant à une certaine antibiotique appelée cefalosporine. C'est l'un des principaux responsables de la bactériurie ou des infections urinaires chez les humains.\n2. La bonne réponse est \"CéphalosporinesRésistance qui existe d’emblée\" parce que certaines souches d'E. Faecalis ont une résistance naturelle à la céphalosporine, ce qui nécessite un choix différent de traitement antibiotique lorsqu'il est indiqué.",
+      "text_hash": "2c0397389330f2b4cc51657fab44cf0b"
+    },
+    {
+      "id": "sim4_q45",
+      "text": "Parmi les propositions suivantes, laquelle concerne Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Effet bactéricide rapide",
+        "Effet bactéricide lent",
+        "Effet post -antibiotique dose -dépendant",
+        "Effet fonction de la dose, effet \"pic”"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'effet fonction de la dose, effet \"pic\", est un mécanisme pharmacologique qui décrit la relation entre la dose d'un médicament administrée et l'intensité de son effet. Il dépend de la quantité du médicament qui atteint le site de l'action.\n2. Dans ce cas, l'effet \"pic\" est approprié car il représente les deux grands mécanismes d'un effet pharmacologique : la quantité de médicament administrée et la réponse biologique du corps à ce médicament.",
+      "text_hash": "e38d171c70d4e752487f932a49b67435"
+    },
+    {
+      "id": "sim4_q46",
+      "text": "Quelle est la définition correcte de \" Pic des AG\" ?",
+      "options": [
+        "diagnostic tardif,",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "au plus tôt 3 à 4 sem après le début"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"Pic des AG\" (Peak of Asparagus) est un phénomène métabolique qui consiste en l'excrétion d'acétylméthylmercaptan, un composé odorant soufré, dans l'urine après la consommation de asperges.\n\n2. Ce phénomène est lié à la digestion et à l'absorption des asparagines dans le tube digestif humain, qui peuvent être métabolisées en acétylméthylmercaptan par les bactéries intestinales. La présence de cette molécule donne une odeur caractéristique aux urines après la consommation d'asperges, ce qui...",
+      "text_hash": "ee02edb2c160a488e4c5cb466f49a80a"
+    },
+    {
+      "id": "sim4_q47",
+      "text": "Parmi les propositions suivantes, laquelle concerne ❖La chaîne transfusionnelle ?",
+      "options": [
+        "L’acte transfusionnel",
+        "La réception et les vérifications",
+        "Le groupe sanguin et la RAI",
+        "La commande de PSL et le transport"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La chaîne transfusionnelle est le processus de collecte, préparation, stockage, administration et surveillance des produits sanguins pour les patients nécessitant une transfusion sanguine.\n2. La proposition \"L’acte transfusionnel\" n'est pas la bonne réponse car elle ne désigne pas la chaîne transfusionnelle mais l'action propre de donner un produit sanguin à un patient. Alors que \"La commande de PSL et le transport\" évoque plus le processus d'expédition des produits sanguins plutôt qu'au plan...",
+      "text_hash": "4c86a49741106c3dfe1911da78b94676"
+    },
+    {
+      "id": "sim4_q49",
+      "text": "Parmi les propositions suivantes, laquelle concerne Indications ?",
+      "options": [
+        "Oculaires : mydriase",
+        "Vasculaires : augmentation de la pression artérielle, veinoconstruction",
+        "Pulmonaires : bronchodilatation",
+        "Détresse circulatoire aigue choc cardiogénique, anaphylactique, septique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Indications désignent les cas cliniques pour lesquels un médicament est utilisé dans la pratique médicale.\n2. Dans le contexte de la question, les oculaires ont besoin d'une mydriase pour dilater la pupille; les vasculaires peuvent requérir une augmentation de la pression artérielle ou veinoconstriction dans certains cas, mais ici il n'est pas clair quelles sont les indications visées; les pulmonaires nécessitent une bronchodilatation pour dilater les voies respiratoires bronchiques étroites;...",
+      "text_hash": "10d9851dd13098aad96683196fecb98d"
+    },
+    {
+      "id": "sim4_q51",
+      "text": "Vous êtes infirmier en salle de réveil et recevez M. M. opéré d'une thyroïdectomie. Quels sont les principaux risques encourus ?",
+      "options": [
+        "Hématome compressif, lésion nerf récurrent aphonie , atteinte bilatérale difficulté respiratoire , lésions nerfs phrénique/laryngé",
+        "Seulement douleur",
+        "Pas de risque",
+        "Complications bénignes"
+      ],
+      "correctAnswer": 0,
+      "type": "cas_clinique",
+      "difficulty": "intermediate",
+      "domain": "Chirurgie",
+      "explanation": "Risque hématome compressif urgence vitale . Lésion nerf récurrent aphonie . Atteinte bilatérale difficulté respiratoire . Lésion nerf phrénique paralysie diaphragme . Lésion nerf laryngé troubles déglutition . Risque douleur et infectieux.",
+      "text_hash": "18de63968287972f2d69c316e76215a2"
+    },
+    {
+      "id": "sim4_q54",
+      "text": "Quels sont les déterminants du débit cardiaque ?",
+      "options": [
+        "Volume d'éjection systolique déterminé par précharge, postcharge, contractilité et fréquence cardiaque",
+        "Seulement la tension",
+        "Seulement l'âge",
+        "Pas de facteurs identifiés"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "intermediate",
+      "domain": "Cardiologie",
+      "explanation": "Déterminants : volume d'éjection systolique précharge, postcharge, contractilité cœur et fréquence cardiaque.",
+      "text_hash": "8b8a7ea6006b7244888a4224737e8340"
+    },
+    {
+      "id": "sim4_q55",
+      "text": "Quelle est la définition correcte de \"Validation\" ?",
+      "options": [
+        "Ut de sons du GHSud disposant dun chariot d'urgence",
+        "Comilé Référents Urgences HCL",
+        "Cite Chaine de Survie Iträ-",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Validation, dans le contexte médical, représente l'acte de vérifier la précision d'une mesure, d'un résultat ou d'une interprétation clinique.\n2. La bonne réponse \"Validation\" est choisie parce qu'elle correspond à ce processus qui consiste à comparer une mesure ou un diagnostic avec un standard de référence pour déterminer sa valeur exacte ou son fiabilité, cela étant important pour la prise en charge appropriée du patient.",
+      "text_hash": "ff544a34c7b22b2278cdbe166c4fbd27"
+    },
+    {
+      "id": "sim4_q56",
+      "text": "Quelle est la définition correcte de \" nouveau né\" ?",
+      "options": [
+        "Système de conditionnement de l’air",
+        "Épuration des particules et des agents pathogènes",
+        "ventilation nasale exclusive",
+        "jusqu’à 100 km/h"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Dans le contexte médical, un nouveau-né est un enfant qui vient d'être accouché. Cet état correspond à la période immédiatement suivant la naissance et se termine généralement lorsque l'enfant a atteint sa première semaine de vie.\n\n2. La bonne réponse a été choisie car elle décrit une période, plutôt que des dispositifs techniques liés à la santé ou au confort du nouveau-né, ce qui exclut les options restantes.",
+      "text_hash": "feaad4d545fec4d359af2955185d0121"
+    },
+    {
+      "id": "sim4_q57",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de NOCTAMIDE ?",
+      "options": [
+        "Lormétazepam",
+        "Estazolam",
+        "Loprazolam",
+        "Zopicone"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Noctamide correspond à l'imidazopyridine N-trifluorométhylethylnaphthylhydrazone, connue sous le nom de Lormétazepam. C'est un benzodiazépine utilisée principalement comme médicament hypnotique pour son effet anxiolytique et son somnifère.\n2. La DCI (Dénomination Commune Internationale) de lormétazepam est justifiée par sa composition chimique, ses propriétés pharmacologiques spécifiques et sa position dans la classification des médicaments.",
+      "text_hash": "0aafa0f717fff3032debe14740b17dd5"
+    },
+    {
+      "id": "sim4_q58",
+      "text": "Parmi les propositions suivantes, laquelle concerne = favorisent l'endormissement et en général prol ?",
+      "options": [
+        "Nitrazépam MOGADON 25 h",
+        "Loprazolam HAVLANE 8 h",
+        "Zopiclone IMOVANE 6 h",
+        "Lormétazépam NOCTAMIDE 10 h"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les principes physiologiques impliqués sont l'activation des récepteurs de GABA_{A} par les benzodiazépines, qui augmente la perméabilité du canal ionique chlorure et inhibe ainsi les neurones excitatoires, ce qui provoque un état calme et dormente.\n2. Les médicaments proposés sont tous des benzodiazépines utilisées pour le traitement de l'insomnie : Nitrazépam (MOGADON 25 h), Loprazolam (HAVLANE 8 h), Zopiclone (IMOVANE 6 h) et Lormétazépam (NOCTAMIDE 10 h). Leur efficacité dépend de leur de...",
+      "text_hash": "3ce0dd4b369e204aaa939376ba0242ea"
+    },
+    {
+      "id": "sim4_q60",
+      "text": "Quelle structure est responsable de : \"Ligament longitudinal\" ?",
+      "options": [
+        "D",
+        "C",
+        "B",
+        "E"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le ligament longitudinal est une structure fibreuse continuant le long du corps des os métatarsaux et tarsiens, formant ainsi la ligne antérieure de l'arc plantaire du pied. Son rôle principal est d'assurer la stabilité et la flexibilité à la jointure métatarsophalangienne.\n2. Sa structure est constituée de fibres de type ligament collatéral latéral, qui s'insèrent au-dessus de l'arc métatarsien pour se terminer dans les capsules des articulations métatarsophalangiennes. La bonne réponse est ...",
+      "text_hash": "d8c8171fdd82a1749ebc5d073085c3ce"
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_def_0",
+      "text": "Quelle est la définition correcte de \" Somatosensitif\" ?",
+      "options": [
+        "A alpha I et A gamma II",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "A alpha I , A beta II et A delta III, dlr toucher, temp",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Somatosensitif est un terme qui désigne une fibre sensorielle nerveuse responsable de la transmission des informations concernant les sensations tactiles, thermiques et proprioceptives provenant de la peau et des muscles.\n2. La bonne réponse est \"A alpha I, A beta II et A delta III, d'où le terme toucher, temp\" car ces fibres correspondent à trois types distincts de fibres sensoriellement mixtes qui transmettent les informations sensorielles évoquées.",
+      "text_hash": "a6898f51688007f7ad6b6ce8b40d320e"
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_1",
+      "text": "Quelle est la définition correcte de \" C7\" ?",
+      "options": [
+        "paralysie diaphragmatique",
+        "diminution force respiratoire, toux difficile",
+        "toux impossible, ampliation médiocre",
+        "bloc sympathiques cardiaques avec"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le C7 est un segment cervical de la colonne vertébrale et correspond à la septième vertèbre cervicale. Il forme une articulation avec l'arête postérieure de la première vertèbre thoracique, le T1.\n2. Dans le contexte médical IADE, la bonne réponse est que \"C7\" désigne cette septième vertèbre cervicale. Une compression ou une lésion du nerf cervical C7 peut entraîner des symptômes tels que une paralysie de certains muscles supérieurs de l'avant-bras et une perte de sensations dans la partie po...",
+      "text_hash": "3956770406cd2df9d35acaed5f46ba08"
+    },
+    {
+      "id": "module_09_6_les_med_urgences_c_doudet_2024_clemenceau_prop_1",
+      "text": "Parmi les propositions suivantes, laquelle concerne Indications : ?",
+      "options": [
+        "Ampoules de 0,25mg, 0,5 mg et 1mg /1 ml",
+        "Bradycardie et malaise d’origine vagale, antispasmodique et anti sécrétoire",
+        "Cardiovasculaires : Tachycardie",
+        "IVL très lente"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les ampoules de 0,25mg, 0,5 mg et 1mg/1ml correspondent à une dose variable de Propranolol, un béta-bloquant non sélectif, utilisé dans la thérapeutique pour traiter des troubles cardiovasculaires tels que la tachycardie en raison de son effet ralentisseur du cœur.\n2. Le choix de ces doses varie selon l'intensité du traitement nécessaire et peut être modifié en fonction de la tolérance individuelle de chaque patient.",
+      "text_hash": "0b869ba38c12de6681132aff48c80ac7"
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_1",
+      "text": "Quelle est la définition correcte de \"Tétraplegie\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Régulation de l'homéostasie cellulaire",
+        "déficit touchant les 4 membres , même",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Tétraplegie est une paralysie des quatre membres supérieurs ainsi que du cou, causée par une lésion cervicale du cerveau ou du tronc cérébral, qui entraîne une perte de contrôle musculaire et sensitif.\n2. La bonne réponse \"déficit touchant les 4 membres,\" est correcte car elle décrit le caractère général de la tétraplegie, mais sans toutefois indiquer précisément que les quatre membres supérieurs et le cou sont impliqués.",
+      "text_hash": "b64b6df087328fc0581bec80a837c813"
+    },
+    {
+      "id": "module_08_5_les_curares_c_doudet_2025_ifcs_prop_2",
+      "text": "Parmi les propositions suivantes, laquelle concerne Intervention de très courte durée ?",
+      "options": [
+        "suxaméthonium action rapide et fugace +++",
+        "intubation pour intervention ne nécessitant pas de relâchement",
+        "curares non dépolarisants +++",
+        "intubation difficiles, en urgence ex : estomac plein"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principe : Intervention de très courte durée (ICTD) est une technique qui implique l'utilisation d'un agoniste musculaire non dépolarisant ou d'un néuroblocateur, pour permettre une intubation rapide et sûre sans nécessiter la paralysie musculaire totale.\n2. Justification : La proposition correcte est \"curares non dépolarisants ++\". Les curares non dépolarisants (tels que rocuronium ou vecuronium) ont un effet sur les muscles squelettiques en bloquant l'acétylcholinestérase, inhibant ainsi la...",
+      "text_hash": "35f59a212beabf095becf421f9497373"
+    },
+    {
+      "id": "module_352630_4__les_benzodiazepines_c_doudet_2025__ifcs_mol_4",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de TRANXENE ?",
+      "options": [
+        "Clorazépate",
+        "Diazepam",
+        "Bromazéam",
+        "Nordazépam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Tranxène, officiellement nommé Clorazepate, est un benzodiazépine utilisé pour traiter l'anxiété et les troubles du sommeil. Il agit en bloquant les récepteurs GABA_{A} dans le système nerveux central, ce qui provoque une relaxation musculaire, une tranquillisation et un calme global.\n\n2. La Dénomination Commune Internationale de Tranxène est donc Clorazépate.",
+      "text_hash": "e7606fbf60591cd471f0bc0673d9bbde"
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_2",
+      "text": "Quelle est la définition correcte de \" Héparinémie\" ?",
+      "options": [
+        "activité anti-Xa HNF et HBPM",
+        "test de coagulation",
+        "Surveillance plaquettaire non systématique",
+        "temps de céphaline avec activateur Uniquement pour HN"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'Héparinémie est une méthode utilisée pour mesurer le niveau de héparine active dans le sang. Cela permet de surveiller l'efficacité de la thérapie anticoagulante par voie intraveineuse ou sous-cutanée.\n2. La bonne réponse est \"activité anti-Xa HNF et HBPM\". L'Héparinémie détermine le taux d'héparine actif anticoagulant dans le sang en mesurant la durée de son effet inhibiteur sur l'activité de la prothrombine ou facteur IIa. Cela est évalué par la méthode HNF (Heparin neutralization factor)...",
+      "text_hash": "4dab578facd0870e7f994216f1746a1f"
+    },
+    {
+      "id": "module_01_revision_neuro_support_prepa_iade_2025_anat_8",
+      "text": "Quelle structure est responsable de : \"Ligament interépineux\" ?",
+      "options": [
+        "B",
+        "A",
+        "F",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le ligament interépineux est responsable d'attacher les épines des vertèbres adjacentes, permettant ainsi une certaine flexibilité et stabilité à la colonne vertébrale.\n\n2. Cette structure appartient à la articulation intervertebrale qui assure le mouvement et la protection de la moelle épinière. Le choix de la bonne réponse \"B\" est justifié car les ligaments interépineux sont positionnés entre les épines des vertèbres (inter- épineux).",
+      "text_hash": "783333477eaa0115ef2d009389cb12ea"
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_def_4",
+      "text": "Quelle est la définition correcte de \" CKD -EPI\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "selon âge, sexe, ethnie",
+        "selon sexe, âge, ethnie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. CKD-EPI est l'acronyme pour le \"Chronic Kidney Disease Epidemiology Collaboration\" qui est une formule de calcul de la fonction rénale glomérulaire (GFR) estimée, basée sur l'âge, le sexe et les caractéristiques anthropométriques.\n2. Cette formule a été développée pour améliorer la précision dans l'estimation de la GFR en fonction des propriétés démographiques de la population étudiée, en comparaison d'autres méthodes existantes.",
+      "text_hash": "0ab70e2e4e9bf52e1164e8a395d112ac"
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_prop_4",
+      "text": "Parmi les propositions suivantes, laquelle concerne Médicaments à marge thérapeutique étroite ?",
+      "options": [
+        "Utiliser le carnet de suivi",
+        "Indication de son traitement",
+        "Prendre régulièrement son traitement : VERIFIER OBSERVANCE",
+        "Risques liés à automédication"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les médicaments à marge thérapeutique étroite (MTET) sont des produits pharmaceutiques pour lesquels l'écart entre la dose efficace et la dose toxique est mince. Ceux-ci peuvent avoir un effet spécifique sur le corps humain ou interagir avec d'autres médicaments.\n2. Les propositions concernant la régularité de prise du traitement (Verifier observation) et les risques liés à l'automédication sont pertinentes car elles permettent de réduire les risques d'overdose ou d'interactions indésirables ...",
+      "text_hash": "71a63e45ac68a0b6dd24f6ece64fedae"
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_0",
+      "text": "Quelle est la définition correcte de \" Incidence\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "6 cas pour 1000 admissions",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Incidence est le taux d'apparition ou de survenue d'une maladie ou d'un événement dans une population donnée pendant une période définie.\n2. Cette définition est pertinente car elle permet de quantifier et de caractériser la fréquence avec laquelle un phénomène médical se produit au sein d'une population spécifique, ce qui est crucial pour évaluer les risques, planifier les services de santé, et mener des études de recherche efficaces.",
+      "text_hash": "d31be90ab5a8ddd27d5fbf40e0ec280c"
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_prop_0",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Indications ?",
+      "options": [
+        "mg en bolus sur 2 minutes puis entretien PSE",
+        "Insuffisance coronarienne, infarctus du myocarde, oedème aigu du pournon",
+        "Posologie d'entretien : 2 à 15 mg/",
+        "Posologie initiale: 2 à 4 mg/h"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le bolus intraveineux est un mode de mise en œuvre rapide d'une substance médicamenteuse dans le corps humain pour obtenir une réponse immédiate. Pour le cas présent, la proposition mentionne une dose de 9 mg administrée en bolus sur deux minutes, suivie par un traitement entretien PSE (Période de Stabilisation Électrique).\n\n2. Les indications pour cette dose rapide sont généralement liées à des situations d'urgence ou d'instabilité cardiaque critique. Par exemple, l'insuffisance coronarienne...",
+      "text_hash": "4fe66ee84267c93eeca65f9fb67737ea"
+    }
+  ],
+  "normalized_at": "2025-11-04T19:27:40.242896"
+}

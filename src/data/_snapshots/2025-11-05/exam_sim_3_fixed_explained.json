@@ -1,0 +1,966 @@
+{
+  "id": "simulation_3",
+  "title": "Simulation Concours IADE n°3",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 58,
+    "rédactionnelle": 1,
+    "cas_clinique": 1
+  },
+  "created_at": "2025-11-04T19:21:18.304325",
+  "questions": [
+    {
+      "id": "sim3_q1",
+      "text": "Quelle est la définition correcte de \"| PLASMA FRAIS CONGELE | Précher l'ndcation\" ?",
+      "options": [
+        "LL! Unité pédiatrique quantité",
+        "RENSEICHEMETS CLINIQUES OT DENLDES SPECTALES |",
+        "de ………… 10 Pl",
+        "beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"| PLASMA FRAIS CONGELE |\" est un produit sanguin congelé prélevé directement à partir du sang humain, puis conservé à une température inférieure à -18 degrés Celsius pour utiliser sa composante plasmatique dans des traitements médicaux.\n\n2. La bonne réponse \"Connaissance IADE de base\" est la seule option qui correspond au produit sanguin en question car elle réfère à un produit congelé prélevé à partir du sang humain, caractérisé par sa composante plasmatique fraîche et congelée.",
+      "text_hash": "0b0520f9c810eb87c7474f42bd0095e4"
+    },
+    {
+      "id": "sim3_q2",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de NUCTALON ?",
+      "options": [
+        "Zopicone",
+        "Estazolam",
+        "Loprazolam",
+        "Lormétazepam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Nuctalon est un benzodiazépine utilisé comme hypnotique pour traiter l'insomnie, sa molécule active étant lormétazepam. Les benzodiazépines agissent sur le récepteur GABA_{A}, augmentent la perméabilité du canal ionique chlorure et inhibent ainsi la dépolarisation neuronale, ce qui les rend utiles pour traiter différents types d'insomnie.\n2. Lormétazepam est la molécule active de Nuctalon ; elle possède une demi-vie courte (environ 6 heures) et son effet sur le sommeil a un début rapide, ce q...",
+      "text_hash": "7a3af6d9d174fd6426ba265fac5a8802"
+    },
+    {
+      "id": "sim3_q4",
+      "text": "Quelle structure est responsable de : \"Ligament longitudinal\" ?",
+      "options": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le ligament longitudinal est responsable de la stabilité et de la flexibilité de la colonne vertébrale.\n2. Ce ligament s'insère sur les faces antérieures des corps vertébraux depuis la première vertèbre cervicale jusqu'à la première vertèbre lombaire, en passant par tous les corps intervéniens. Son insertion se fait aux disques intervertébraux antérieurs et à l'avant de chaque corps vertebral. En conséquence, la bonne réponse est A.",
+      "text_hash": "d8c8171fdd82a1749ebc5d073085c3ce"
+    },
+    {
+      "id": "sim3_q5",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de HBPM ?",
+      "options": [
+        "Fractionnées",
+        "Moléculaires",
+        "K",
+        "Directs"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La DCI (Dénomination Commune Internationale) d'HBPM (hydroxybutyrate de propyleneglycol) est Hydroxypropyl methylcellulose phthalyle. C'est un excipient utilisé dans les médicaments pour améliorer leur forme, leur taille ou leur durée d'action.\n2. Les molécules d'HBPM sont des polymères de cellulose modifiés, qui ne se trouvent pas naturellement dans le corps humain, ce qui rejoint la définition de \"directs\" (substances introduites dans l'organisme) mais n'est pas exact. Les formes fractionné...",
+      "text_hash": "21fac772c5298639802e7a0f5afba398"
+    },
+    {
+      "id": "sim3_q6",
+      "text": "Quelle structure est responsable de : \"Lisament longitudinal\" ?",
+      "options": [
+        "B",
+        "C",
+        "D"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le système responsable du \"lisament longitudinal\" est le Système nerveux central (SNC). Plus précisément, c'est la voie pyramidale gracile qui permet le transfert de l'information sensorielle en provenance des récepteurs de la peau et des muscles à la moelle épinière.\n2. La bonne réponse est B car cette voie nerveuse permet le lisement longitudinal, c'est-à-dire le transfert de l'information du côté au côté dans le sens de la longueur de la moelle épinière, en opposition au lisement transvers...",
+      "text_hash": "987a52e6b9ffd96df5b08f44814bc925"
+    },
+    {
+      "id": "sim3_q7",
+      "text": "Quelle est la définition correcte de \"Dur or PFC\" ?",
+      "options": [
+        "AU Lure Z",
+        "LL! Unité pédiatrique quantité",
+        "de ………… 10 Pl",
+        "beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Dur or PFC\" est un acronyme qui signifie Durée d'action ou Periode de durée de l'Oxygène sous Pression Continue (Oxygen therapy under continuous pressure). Cela réfère à la durée pendant laquelle l'oxygène sous pression continue est appliqué sur une blessure ou une zone de peau, généralement lors d'un traitement de débridement.\n2. La bonne réponse est \"beures | Dépomatsé O Dur par CP\". Cela se traduit en français par \"heures | Décompression Oxygène Dur via CP\", ce qui correspond à la même si...",
+      "text_hash": "332176bf9cf3f814158bf70b95686977"
+    },
+    {
+      "id": "sim3_q8",
+      "text": "Quelle est la définition correcte de \" Loi du 4 janvier 1993\" ?",
+      "options": [
+        "Découverte des groupes sanguins A B O",
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Mise en place de l’ HEMOVIGILANCE"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La Loi du 4 janvier 1993 s'agit d'une législation française ayant pour but de garantir la sécurité en matière de transfusion sanguine et de médicaments, en particulier en mettant en place des mesures de surveillance (l'Hémovigilance).\n2. Cette loi a été conçue pour répondre aux besoins en transfusions sanguines tout en assurant la sécurité de ces pratiques et la protection du patient, notamment en encourageant le développement d'un système national d'Hémovigilance.",
+      "text_hash": "9edc61a3ae672e235c13c0e3713e3b52"
+    },
+    {
+      "id": "sim3_q9",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "A coller sur une zone non irritée",
+        "délai d'action long 12 à 24 h , durée d'action 72 h",
+        "patch à poser sur la peau pour 72 h,",
+        "12 μg/h = 30 mg / 24 h de morphine per os"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Principe : Le patch de morphine est un dispositif transdermique permettant une libération continue de morphine dans le sang via la peau, utilisée pour traiter la douleur chronique modérée à sévère.\n2. Justification : L'administration par voie orale (per os) d'une dose de 12 μg/h équivaut à 30 mg de morphine par jour, une dose considérablement supérieure à la dose maximale recommandée pour un patch de morphine (10 mg/72 h). Ainsi, l'option \"12 μg/h = 30 mg / 24 h de morphine per os\" est une co...",
+      "text_hash": "d8fbc28530bdcfd042565c6ad1feb6da"
+    },
+    {
+      "id": "sim3_q11",
+      "text": "Parmi les propositions suivantes, laquelle concerne Les BZD ont des propriétés pharmacologiques commu ?",
+      "options": [
+        "anxiolytiques,",
+        "anticonvulsivantes ,",
+        "myorelaxantes",
+        "hypnotiques,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Benzodiazépines (BZD) ont des propriétés pharmacologiques communes qui les font agir comme : anxiolytiques, anticonvulsivantes, myorelaxantes et hypnotiques.\n2. Cette multi-activité est due à leur capacité à augmenter la quantité de GABA (gammamambétaglicine) dans le système nerveux central. Cela entraine une hyperpolarisation des neurones ce qui les rend plus résistants aux stimulations excitantes, permettant ainsi leurs effets anxiolytiques, anticonvulsivants, myorelaxants et hypnotiques.",
+      "text_hash": "41f3aa1df697e3b0653c5bab135168d5"
+    },
+    {
+      "id": "sim3_q12",
+      "text": "Quelle structure est responsable de : \"Ligament supraépineux\" ?",
+      "options": [
+        "C",
+        "D",
+        "G",
+        "B"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le ligament supraépineux est responsable de la stabilité du genou lors des mouvements flexion-extension, car il relie le fémur et la tibia en dessous de la tête du fémur.\n2. La bonne réponse est B dans ce contexte médical IADE, car le ligament supraépineux (Ligamentum patellae suprapatellare) est situé entre le fémur et la patelle en dessous de l'articulation du genou.",
+      "text_hash": "0c3a524f1a186fbe8540d62d58870978"
+    },
+    {
+      "id": "sim3_q13",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "Activité antagoniste des récepteurs GABA, Pas d'effet propre aux doses utilisées,",
+        "Activité antagoniste des récepteurs GABA, Pas d'effet propre aux doses utilisées,",
+        "Activité antagoniste des récepteurs GABA, Pas d'effet propre aux doses utilisées,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Le mécanisme d'action principal des médicaments du groupe IADE (Inhibiteurs non-compétitifs de l'acide glutamique) est leur capacité à bloquer les récepteurs NMDA (N-Methyl-D-Aspartate) du système nerveux central.\n2. Ils inhibent ainsi la dépolarisation excitatoire excessive des neurones, ce qui permet de contrôler l'épilepsie résistante aux autres traitements.",
+      "text_hash": "c3133c9f81a14c1165a215d7881cbdf8"
+    },
+    {
+      "id": "sim3_q15",
+      "text": "Quelle est la dose initiale d'adrénaline en arrêt cardiaque ?",
+      "options": [
+        "1 mg IV/IO toutes les 3-5 minutes",
+        "0,1 mg IV unique",
+        "10 mg IV toutes les 10 minutes",
+        "0,5 mg IM"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "advanced",
+      "domain": "Urgences",
+      "explanation": "Adrénaline en ACR: 1 mg IV/IO toutes les 3-5 minutes. Première dose dès que possible après le 3ème choc.",
+      "text_hash": "e1808127302cfd760a6233c0d71338a5"
+    },
+    {
+      "id": "sim3_q16",
+      "text": "Quelle est la définition correcte de \"d’une pneumococcie diarrhées digestifs ++\" ?",
+      "options": [
+        "dir. thoracique | modérés modérés |",
+        "diarrhées, douleurs",
+        "T* élevée, peu bruyant, non bruyant, gravité, |",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La définition correcte de \"pneumococcie diarrhées digestifs ++\" est une infection causée par des streptocoques pneumoniae (S. pneumoniae), résultant en diarrhée sévère dans les voies digestives supérieures ou inférieures, avec une augmentation du taux de leucocytes (T*) élevé et parfois un aspect non bruyant au niveau des poumons (pneumococcémie).\n2. La bonne réponse a été choisie pour sa précision et la description du contexte clinique spécifique, avec une mention de l'agent pathogène (S. pn...",
+      "text_hash": "36dfdef6f26e3f48e82156924454d8e4"
+    },
+    {
+      "id": "sim3_q18",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de NOCTAMIDE ?",
+      "options": [
+        "Loprazolam",
+        "Nitrazépam",
+        "Lormétazépam",
+        "Estazolam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Noctamide est une benzodiazépine utilisé principalement comme agent hypnotique pour traiter l'insomnie d'initiation ou de maintenance. Il agit en modifiant la concentration synaptique du récepteur GABA_{A} en augmentant sa sensibilité au GABA, qui est un inhibiteur neuronale naturel.\n2. Parmi les quatre options proposées, Noctamide n'est pas directement associé avec l'une d'entre elles. Cependant, parmi les benzodiazépines, Nitrazépam, Lormétazépam, Estazolam et Noctamide présentent une struc...",
+      "text_hash": "0aafa0f717fff3032debe14740b17dd5"
+    },
+    {
+      "id": "sim3_q19",
+      "text": "Quels sont les moyens de l'organisme pour réguler la tension ? Citez-en un à court, moyen et long terme.",
+      "options": [
+        "Court : barorécepteurs | Moyen : facteur natriurétique | Long : système rénine-angiotensine-aldostérone",
+        "Seulement rénine",
+        "Pas de régulation",
+        "Variables"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "advanced",
+      "domain": "Hémodynamique",
+      "explanation": "Court terme : barorécepteurs sinus carotidien, crosse aortique, oreillette droite . Moyen : facteur natriurétique. Long terme : système rénine-angiotensine-aldostérone.",
+      "text_hash": "5353d48175428a4684edf23ee346ec41"
+    },
+    {
+      "id": "sim3_q20",
+      "text": "Parmi les propositions suivantes, laquelle concerne Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Effet bactéricide lent",
+        "Concentration ou dose dépendant",
+        "Effet fonction de la dose, effet \"pic”",
+        "Effet bactéricide rapide"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les deux grands mécanismes de l'effet sont liés à la concentration ou dose dépendante. Un médicament peut avoir un effet bactéricide rapide lorsqu'il est utilisé à des doses élevées, mais également un effet lent (bactéricide lent) si les doses utilisées sont plus faibles.\n\n2. L'effet fonction de la dose et l'effet \"pic\" décrivent le même mécanisme physiologique/pharmacologique, soit que l'efficacité d'un médicament est dépendante de la concentration atteinte dans le corps (dose) et qu'elle pe...",
+      "text_hash": "e38d171c70d4e752487f932a49b67435"
+    },
+    {
+      "id": "sim3_q21",
+      "text": "Parmi les propositions suivantes, laquelle concerne o Effets Indésirables ?",
+      "options": [
+        "Glaucome à angle fermé",
+        "Constipation, aggravation d'un i euS",
+        "ydriase, glaucome, trouble de accommodation",
+        "Rétention d'urine prostate"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Effets indésirables sont des changements biologiques ou cliniques non intends qui peuvent survenir lors de l'utilisation d'un médicament ou d'une intervention médicale. Ils peuvent être mineurs ou graves et potentiellement affecter la santé du patient.\n2. Les propositions \"Glaucome à angle fermé\", \"ydriase, glaucome, trouble de accommodation\" et \"Rétention d'urine prostate\" sont toutes des effets indésirables potentiels, respectivement liés aux médicaments ou traitements qui modifient la pres...",
+      "text_hash": "18163b0104fd5e3d46e6dd5e1cd92552"
+    },
+    {
+      "id": "sim3_q22",
+      "text": "Quelle est la définition correcte de \" MDRD\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "selon sexe, âge, ethnie",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "selon âge, sexe, ethnie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. MDRD, ou Modification de la Formule de la Dépressione Renale Demographique, est une formule largement utilisée pour évaluer le niveau de fonctionnement de la néphronie à partir des niveaux sanguins de créatinine et de sa clearing rate glomérulaire (GFR).\n2. Elle prend en compte différents facteurs tels que l'âge, le sexe et les caractéristiques ethniques pour établir la valeur normale de la GFR, ce qui permet une meilleure précision dans l'estimation de la dépressione renal fonctionnelle.",
+      "text_hash": "f1330936f31b03abc28f155c08a425b7"
+    },
+    {
+      "id": "sim3_q24",
+      "text": "Quelle est la définition correcte de \" Antalgiques\" ?",
+      "options": [
+        "LEC, néphrolithotritie percutanée ou urétéroscopie",
+        "Crise de colique néphrétique",
+        "PNA obstructive, terrain rein unique, grossesse",
+        "AINS Spasfon +/- morphine"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Antalgiques sont des médicaments utilisés pour soulager les douleurs dans le corps humain, principalement celles dues à l'inflammation ou à une sensation de brûlure comme dans certains cas de maladies inflammatoires chroniques ou post-opératoires.\n2. Les médicaments antalgiques peuvent agir sur des récepteurs opioïdes pour bloquer les signaux de douleur, sur les enzymes protéolytiques pour réduire l'inflammation, ou sur la transmission nerveuse du signal de douleur. La bonne réponse \"AINS Spa...",
+      "text_hash": "15b8dc2f98658f3f8f097e8268f12b70"
+    },
+    {
+      "id": "sim3_q25",
+      "text": "Quelle est la définition correcte de \"Signes anticholinergiques ou atropiniques\" ?",
+      "options": [
+        "tachycardie majeure, convulsions, hallucinations,",
+        "sécheresse muqueuse, tachycardie,",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Signes anticholinergiques ou atropiniques découlent d'une inhibition des récepteurs muscariniques par des médicaments. Cela entraîne une dépression du système parasympathique nerveux, ce qui provoque un ensemble de symptômes tels que sécheresse muqueuse, tachycardie, hallucinations, troubles visuels, constipation et confusion.\n\n2. La bonne réponse est justifiée car elle décrit correctement l'inhibition des récepteurs muscariniques du système nerveux parasympathique par les médicaments anticho...",
+      "text_hash": "219795442e4bbd8dcf9a69ba90547fff"
+    },
+    {
+      "id": "sim3_q26",
+      "text": "À quelle catégorie appartient : \"Antalgiques non opioïdes\" ?",
+      "options": [
+        "Palier 3",
+        "Palier 2",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Les antalgiques non opioïdes sont une catégorie de médicaments analgiques qui agissent sans interagir avec les récepteurs opioïdes du système nerveux central. Ils incluent principalement l'acétaminophen, la paracetamol, l'aspirine et d'autres salicylates, ainsi que des anti-inflammatoires non stéroïdiens (AINS) comme l'ibuprofène ou le diclofenac.\n2. Les antalgiques non opioïdes sont classés dans le Palier 1 en pharmacothérapie analgique, car leur dose maximale journalière est plus élevée que...",
+      "text_hash": "759cada78b9da4c86c023e96bd6b2bcc"
+    },
+    {
+      "id": "sim3_q27",
+      "text": "À quelle catégorie appartient : \"AINS, Aspirine\" ?",
+      "options": [
+        "Palier 2",
+        "Palier 3",
+        "Palier 1"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. AINS (Analgésiques et Inhibiteurs Non Stéroïdiens de la synthèse des prostaglandines) comprennent divers médicaments qui agissent sur les enzymes de la voie métabolique des prostaglandines, avec principalement des effets analgésiques, anti-inflammatoires et antipyétiques. Aspirine est un exemple de médicament de cette catégorie.\n2. La bonne réponse est \"Palier 1\" car les AINS tels que l'aspirine sont généralement considérés comme de faible potentiel dans leur effet analgésique, anti-inflammat...",
+      "text_hash": "2da5189b16459c0cf2f1914bc3be77ea"
+    },
+    {
+      "id": "sim3_q28",
+      "text": "Quelle est la définition correcte de \" En 2000\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Mise en place de l HEMOVIGILANCE",
+        "Nationalisation de la transfusion avec la création de l'EFS"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. En 2000, l'HEMOVIGILANCE a été mise en place, ce qui représente un système de surveillance des complications liées aux transfusions sanguines et aux produits médicamenteux administrés par voie intraveineuse.\n2. Cette mesure a été prise pour répondre à la nécessité croissante d'assurer une sécurité maximale en matière de transfusion sanguine et de médicaments, ce qui est essentiel pour les patients souffrant de maladies graves ou ayant besoin de soins intensifs.",
+      "text_hash": "b04bb5f3bd31ef8b6af56af685c6e50e"
+    },
+    {
+      "id": "sim3_q29",
+      "text": "Parmi les propositions suivantes, laquelle concerne = favorisent l'endormissement et en général prol ?",
+      "options": [
+        "Loprazolam HAVLANE 8 h",
+        "Estazolam NUCTALON 17 h",
+        "Zopiclone IMOVANE 6 h",
+        "Lormétazépam NOCTAMIDE 10 h"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Tous les médicaments mentionnés sont des hypnotiques, qui agissent en modulant le système nerveux central pour favoriser l'endormissement. Ils activent les récepteurs GABA, un neurotransmetteur inhibiteur qui ralentit les activités cérébrales et provoque une relaxation musculaire.\n2. La bonne réponse est Loprazolam HAVLANE 8 h. Cette substance a une demi-vie longue (environ 17 heures), ce qui en fait approprié pour une prise nocturne, et elle est prescrite généralement pendant un court laps d...",
+      "text_hash": "3ce0dd4b369e204aaa939376ba0242ea"
+    },
+    {
+      "id": "sim3_q30",
+      "text": "Parmi les propositions suivantes, laquelle concerne Hémorragies ?",
+      "options": [
+        "100 UAH neutralise 100 UI d’héparine",
+        "Plaquettes 100 G/L ou diminution de 30%",
+        "HNF HBPM, rare sous danaparoide , fondaparinux , argatrobanLES HÉPARINES",
+        "Antidote : Sulfate de protamine sauf fondaparinux"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les hémorragies sont des pertes sanguines importantes ou persistantes, qui peuvent être dues à une défaillance du système vasculaire, une coagulation anormale ou à un traumatisme.\n2. Dans le contexte de thérapeutique anticoagulante, l'antidote utilisé pour neutraliser les héparines est le sulfate de protamine, sauf pour fondaparinux. Les plaquettes 100 G/L ou une diminution de 30% peut être un indice d'une hémorragie en cas de baisse significative du nombre de plaquettes dans le sang. La prop...",
+      "text_hash": "6ca266fcee20c8ccc87380d3312af13a"
+    },
+    {
+      "id": "sim3_q31",
+      "text": "Quelle est la définition correcte de \"Abouti à l’urine primitive\" ?",
+      "options": [
+        "eau + petites molécules ou molécules dissoutes",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Abouti à l’urine primitive\" (Urètero-vésiculaire) désigne le processus physiologique d'évacuation des urines provenant du système urinaire supérieur vers la vessie, via les urêtres.\n2. Les petites molécules ou les molécules dissoutes dans l'urine proviennent normalement de métabolismes cellulaires et sont éliminées lors de cette évacuation. La bonne réponse est donc \"eau + petites molécules ou molécules dissoutes\".",
+      "text_hash": "6a26eb971e87b9aad9cf7ffad484146f"
+    },
+    {
+      "id": "sim3_q32",
+      "text": "Parmi les propositions suivantes, laquelle concerne Effets indésirables ?",
+      "options": [
+        "Prélèvement d’un tube de sang pour faire le dosage initial de paracétamol,",
+        "Très bonne tolérance",
+        "Un traitement symptomatique est également préconisé",
+        "Signes associés : nausées, vomissements, anorexie, pâleur, douleurs abdominales"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Effets indésirables sont des réactions secondaires ou secondaires secondaires à une substance pharmacologique, qui peuvent être généralement classés comme bénins, modérés ou graves.\n2. Les signes associés tels que nausées, vomissements, anorexie, pâleur et douleurs abdominales sont des effets indésirables possibles du paracétamol, ce qui justifie la bonne réponse.",
+      "text_hash": "fe605fdac534f7ba2d9e0b85cb450c98"
+    },
+    {
+      "id": "sim3_q34",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de HNF ?",
+      "options": [
+        "Moléculaires",
+        "K",
+        "Fractionnées",
+        "Directs"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La DCI, ou Denomination Commune Internationale, est un système standardisé pour identifier les médicaments et autres produits pharmaceutiques à travers le monde. Le HNF, Hypertonique Natrium Fluoride, est une solution saline concentrée qui contient du fluorure de sodium.\n2. La bonne réponse 'Fractionnées' est la désignation appropriée pour la DCI de HNF en raison de sa composition fractionnée, incluant un volume spécifique de sodium et de fluorure de sodium.",
+      "text_hash": "2479009a40a332d20725ccb0ead36cd6"
+    },
+    {
+      "id": "sim3_q35",
+      "text": "En chirurgie propre-contaminée, combien de doses de Céfazoline doit-on administrer en antibioprophylaxie chirurgicale si la durée est inférieure à 24h?",
+      "options": [
+        "A. Une dose unique",
+        "B. Deux doses de 1g",
+        "C. Deux doses de 2g",
+        "D. Plusieurs doses au-delà de 24h"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Prévention infectieuse",
+      "explanation": "En chirurgie propre-contaminée, l'antibioprophylaxie chirurgicale doit être administrée dans l'heure précédant l'incision et la dose de Céfazoline est de 2g IV. Si la durée est inférieure à 24h c-à-d, pour une seule intervention , il n'y a pas besoin d'administrer plus d'une dose, puisque cela serait en contradiction avec les protocoles établis.",
+      "text_hash": "0482f4e3e64b89da9b0b1ee6b9f7f68f"
+    },
+    {
+      "id": "sim3_q36",
+      "text": "À quelle catégorie appartient : \"Opioïdes forts + AINS + co-antalgiques \" ?",
+      "options": [
+        "Palier 2",
+        "Palier 1",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Ce cocktail pharmacologique combine opioïdes forts (comme morphine ou fentanyl), AINS (Acides aromatiques insaturés non stéroïdiens, comme l'ibuprofen ou le diclofénac) et co-analgiques (paracétamol ou acétaminophène). Il agit sur différents récepteurs nerveux pour traiter la douleur.\n2. Le Palier 3 correspond à ce cocktail pharmacologique car il associe des médicaments d'effets analgésiques importants de plusieurs catégories (opioïdes forts, AINS et co-analgiques). Dans cette catégorie, les ...",
+      "text_hash": "873162a6beaac09e9bdcfd0f4cecfae7"
+    },
+    {
+      "id": "sim3_q38",
+      "text": "Quelle est la définition correcte de \" Exemple\" ?",
+      "options": [
+        "fixation du médicament sur le sugammadex",
+        "déplacement du rocuronium",
+        "Contraceptifs hormonaux",
+        "Acide fucidique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'exemple dans un contexte médical IADE ne représente pas une action ou un traitement médicamenteux spécifiques, mais plutôt un cas ou une situation utilisée comme point de référence pour illustrer une concept ou une théorie.\n2. Le terme \"Exemple\" n'est donc pas lié à la fixation du médicament sur le sugammadex, au déplacement du rocuronium, aux contraceptifs hormonaux ou à l'acide fucidique. Ces derniers sont tous des substances utilisées dans le domaine de la pharmacologie et de la toxicolo...",
+      "text_hash": "9ad5a9e4c7bb18cad960b38abad67045"
+    },
+    {
+      "id": "sim3_q39",
+      "text": "Quelle structure est responsable de : \"Capsule articulaire\" ?",
+      "options": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La capsule articulaire est une structure artérielle continue et robuste qui entoure les articulations diarthroses pour protéger le cartilage hyalin des durs chocs et frictions.\n2. Cette capsule est formée par une épaisseur de synovium, qui sécrète un liquide visqueux (synovia) permettant la lubrification des articulations et réduisant ainsi les frottements.",
+      "text_hash": "9380c51bb475fcc84a9826144001109a"
+    },
+    {
+      "id": "sim3_q40",
+      "text": "Quelle est la définition correcte de \"ioniques . On obtient ainsi une paralysie musculaire atone\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "plus de transmission neuromusculaire Rc ACH Mime ACH",
+        "Processus d'activation des récepteurs périphériques",
+        "SUXAMÉTHONIUM"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Ioniques sont des molécules chargées électriquement possédant une ou plusieurs charges négatives ou positives, qui peuvent agir sur les membranes cellulaires et donc interférer avec la transmission neuromusculaire.\n2. La bonne réponse est \"Processus d'activation des récepteurs périphériques\". Les ions ioniques activent des canaux ioniques dans les muscles squelettiques, ce qui entraîne une paralysie musculaire atone (perte de tonus musculaire). SUXAMÉTHONIUM est un agoniste non-degradable des...",
+      "text_hash": "697bd6ae23701eb3fa375536b978cb05"
+    },
+    {
+      "id": "sim3_q41",
+      "text": "Quelle est la valeur normale de Protéines ?",
+      "options": [
+        "3,5-4,5 mmol /L",
+        "2,2-2,6 mmol /L",
+        "60-80 g/L",
+        "135-145 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Les protéines sont des macromolécules organiques indispensables à la vie cellulaire, impliquées dans une multitude de fonctions, telles que la structure tissulaire, le transport de substances, l'immunité et les réactions enzymatiques.\n2. Dans un individu sain, la concentration sanguine totale des protéines humaines est généralement comprise entre 60 à 80 g/L (ou environ 64-83 g/dL), selon des sources diverses. Cette plage peut varier légèrement en fonction de nombreux facteurs tels que l'âge,...",
+      "text_hash": "dda8b1bffc47f08709bcb73d313abc69"
+    },
+    {
+      "id": "sim3_q42",
+      "text": "Quelle est la définition correcte de \"Cya \" ?",
+      "options": [
+        "IR au niveau cellulaire secondaire",
+        "IR au niveau sanguin",
+        "dite hypoxie de stase",
+        "dite hypoxie cytotoxique."
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La définition correcte de \"CyA\" est la Cyclosporine A, un immunosuppresseur utilisé pour prévenir ou traiter des rejets d'organes transplantés, ainsi que dans certaines maladies auto-immunes graves.\n\n2. Le choix de cette réponse est justifié par le fait que CyA est un médicament largement utilisé dans la pratique clinique médicale pour ses propriétés immunosuppressives, alors que les autres options proposées n'existent pas ou ne sont pas directement liées au principe actif \"CyA\".",
+      "text_hash": "aad8afd35acc07eee1ba238c6eb9603c"
+    },
+    {
+      "id": "sim3_q44",
+      "text": "Citez les éléments figurés du sang et donnez leurs normes.",
+      "options": [
+        "Hématies: 4-5.5M/mm³ | Leucocytes: 4000-10000/mm³ | Plaquettes: 150000-400000/mm³",
+        "Tous identiques",
+        "Pas de normes",
+        "Variables selon l'humeur"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Hématologie",
+      "explanation": "Hématies : 4,0 à 5,5 millions/mm³. Leucocytes : 4000 à 10000/mm³. Plaquettes : 150000 à 400000/mm³.",
+      "text_hash": "4a4a949c8a3cb3dc330bf0f62e26f5b8"
+    },
+    {
+      "id": "sim3_q47",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de PONSTYL ?",
+      "options": [
+        "Fénoprofène",
+        "méfénamique",
+        "Acéclofénac",
+        "prostaglandines"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Ponstyl, DCI pour Buprophenon, est un antinflammatoire non stéroïdien (AINS) qui agit en inhibant l'enzyme cyclooxyganase COX, ce qui réduit la synthèse des prostaglandines impliquées dans la sensibilisation du nerf et la transmission de la douleur.\n2. La bonne réponse est Buprophenon car c'est sa DCI internationale. L'AINS Ponstyl (Buprophenon) est utilisé pour traiter les douleurs articulaires dues à des rhumatismes et les symptômes inflammatoires associés, notamment la fièvre et l'élevatio...",
+      "text_hash": "76de7b92911db7e6923e064b4dfddca9"
+    },
+    {
+      "id": "sim3_q48",
+      "text": "Parmi les propositions suivantes, laquelle concerne Indications ?",
+      "options": [
+        "Cardiaques : puissant inotrope, chronotrope, dromotrope , bathmotrope positif",
+        "Bronchospasme sévère réfractaire",
+        "Ampoules de 5mg/5 ml et 1mg/1 ml",
+        "1 mg pur IV à renouveler toutes les 3 minutes"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'indication en question concerne un traitement pour un bronchospasme sévère réfractaire. Ce traitement est le salbutamol, un bronchodilatateur sympathomimétique sélectif β_{2}-adrénergique qui agit en stimulant les récepteurs β_{2}-adrénergiques des cellules de la paroi bronchique, ce qui relaxe les muscles lisses bronchiques et dilate les bronches.\n\n2. Le choix de cette bonne réponse est justifié par sa efficacité en tant que bronchodilatateur pour traiter le bronchospasme sévère réfractair...",
+      "text_hash": "10d9851dd13098aad96683196fecb98d"
+    },
+    {
+      "id": "sim3_q49",
+      "text": "Quel est le dosage d'induction du propofol utilisé pour l'AIVOC ?",
+      "options": [
+        "A. 1-1,5 mg/kg",
+        "B. 2,5-3 mg/kg",
+        "C. 3-3,5 mg/kg",
+        "D. 2-2,5 mg/kg"
+      ],
+      "correctAnswer": 3,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Pharmacologie",
+      "explanation": "Le dosage d'induction du propofol pour l'AIVOC est de 2 à 2,5 mg/kg en injectant le médicament intraveineux rapidement pour induire la conscience somnambule. Cette question est discriminante car nécessite une connaissance précise des protocoles d'utilisation du propofol dans le domaine médical.",
+      "text_hash": "22b182d71ec9b9ae20fcedfff5b45965"
+    },
+    {
+      "id": "sim3_q50",
+      "text": "Quelle est la définition correcte de \"antibiotique sur la base de l'antidiogramme\" ?",
+      "options": [
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies",
+        "désescalade antibiotique",
+        "doit aussi couvrir la légionnelle",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le principe d'un antibiotique sur la base d'un antidiagramme désigne l'attribution d'un traitement antibiotique à un patient, basé sur les résultats d'un antidiogramme (ou culture des micro-organismes et sensibilité aux antibiotiques). Cela permet de déterminer la présence de bactérie pathogène dans l'infection et la sensibilité de cette bactérie à différents antibiotiques.\n2. La bonne réponse \"Doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies\" est correcte ca...",
+      "text_hash": "caaa73cbac99dadff4e337040576eaf7"
+    },
+    {
+      "id": "sim3_q52",
+      "text": "Parmi les propositions suivantes, laquelle concerne CURARISATION = ?",
+      "options": [
+        "Curare dépolarisant",
+        "Curares non dépolarisants",
+        "Aminostéroïdes",
+        "Suxaméthonium ou succinylcholine CELOCURINE®"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Curarisation désigne l'immobilisation musculaire provoquée par les curares, des molécules qui inhibent le récepteur nicotinique à l'acétylcholine dans la jonction neuromusculaire.\n2. Les curares dépolarisants (par exemple succinylcholine) et les curares non dépolarisants sont les deux catégories de substances utilisées pour produire une curarisation. La bonne réponse est donc \"Curares non dépolarisants\".",
+      "text_hash": "03240f6f3e3325b87e3cebb4da7be943"
+    },
+    {
+      "id": "sim3_q53",
+      "text": "Qu'est-ce qui différencie la ropivacaïne de la bupivacaïne dans l'anesthésie péridurale ? Justifiez votre réponse avec des points clés sur les propriétés pharmacologiques et cliniques des deux agents.",
+      "options": [],
+      "correctAnswer": 0,
+      "type": "rédactionnelle",
+      "difficulty": "hard",
+      "domain": "Anesthésie locorégionale",
+      "explanation": "La question demande une réponse détaillant les différences entre ropivacaïne et bupivacaïne dans l'anesthésie péridurale, en se basant sur des informations scientifiques pertinentes. Le choix de la ropivacaïne ou de la bupivacaïne dépend de facteurs tels que le contexte clinique et les préférences du praticien. La réponse fournie résume correctement les propriétés pharmacologiques et cliniques des deux agents, en particulier leur durée d'action, leur toxicité systémique et leurs doses recommandées.",
+      "text_hash": "e12ab631d69b7d44c5fed822b033e28d"
+    },
+    {
+      "id": "sim3_q54",
+      "text": "Parmi les propositions suivantes, laquelle concerne 32 CLASSIFICATION DES ANTIBIOTIQUES ?",
+      "options": [
+        "Polymyxine : Colistine",
+        "Pneumopathies à éosinophiles",
+        "Pas résorption per os",
+        "Augmentation des CPK, myalgies"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La classification des antibiotiques est un système d'organisation qui permet de les classer selon leur mode d'action, leur spectre d'activité et leur structure chimique.\n\n2. L'option correcte est \"Polymyxine : Colistine\". Polymyxines sont des peptidoglycanases, un type d'antibiotiques amphipathiques qui agissent sur les bactéries gram négatives en interférant avec leur membrane cytoplasmique. Colistine est un antibiotique de la famille des polymyxines.",
+      "text_hash": "72b926d33000baa02a8a5984f1f87eb5"
+    },
+    {
+      "id": "sim3_q55",
+      "text": "Quelle est la définition correcte de \"5 alvéoles\" ?",
+      "options": [
+        "paroi musculaire",
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "terrain de tennis"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les \"5 alvéoles\" sont des structures anatomiques situées dans les lobes pulmonaires, qui forment les dernières divisions des bronches et sont responsables de l'échange gazeux entre le sang et l'air. Elles constituent donc la surface respiratoire du poumon.\n2. La bonne réponse est \"lobule pulmonaire\". Les alvéoles se trouvent en effet dans les lobules pulmonaires, et ce terme est plus précis que \"petits sacs recouverts de\" (qui pourrait faire penser à des structures différentes telles que les ...",
+      "text_hash": "c38ac92fac8ab2e1c7dd38e386d678e2"
+    },
+    {
+      "id": "sim3_q57",
+      "text": "Vous êtes infirmière en service de pneumologie et vous avez en charge Mr G., patient BPCO. À l'arrivée dans la chambre, vous voyez qu'il a une saturation à 94% sous O₂ 2L/min. L'étudiant que vous encadrez vous propose d'augmenter à 6L/min pour améliorer sa saturation. Que lui répondez-vous ?",
+      "options": [
+        "Accepter l'augmentation du débit",
+        "Refuser car le risque d'hypoventilation existe chez le BPCO",
+        "Surveiller sans modifier",
+        "Proposer une intubation préventive"
+      ],
+      "correctAnswer": 1,
+      "type": "cas_clinique",
+      "difficulty": "intermediate",
+      "domain": "Pneumologie",
+      "explanation": "Chez le patient BPCO, la capnie est élevée. Un patient BPCO ne réagit qu'à l'hypoxie. Si on met trop d'oxygène, les récepteurs stimulent moins les centres respiratoires. Le patient respire moins vite, sa bradypnée entraîne augmentation PCO₂ et aggrave acidose.",
+      "text_hash": "c0f68de06fc4ffa9195bbdd009495692"
+    },
+    {
+      "id": "sim3_q59",
+      "text": "Quelle structure est responsable de : \"Ligament interépineux\" ?",
+      "options": [
+        "B",
+        "A",
+        "F",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le ligament interépineux est une structure ligamentaire situé entre les épines dorsales adjacentes des vertèbres cervicales et thoraciques.\n2. Il est responsable de la stabilité de la colonne vertébrale en empêchant les épines dorsales de se déplacer l'une par rapport à l'autre, ainsi qu'en limitant les mouvements rotatoires autour des articulations entre deux vertèbres.",
+      "text_hash": "783333477eaa0115ef2d009389cb12ea"
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_prop_3",
+      "text": "Parmi les propositions suivantes, laquelle concerne Diminuent la réaction inflammatoire au stade aig ?",
+      "options": [
+        "Néonatologie : fermeture du canal artériel",
+        "Urologie : traitement de la colique néphrétique",
+        "ORL et stomatologie",
+        "Traumatologie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La fermeture du canal artériel par une procédure interventionnelle ou par une fermeture médicamenteuse est utilisée pour traiter l'hypertension artérielle pulmonaire congénitale, qui est une maladie caractérisée par un débit sanguin anormal entre les deux ventricules du cœur. Cela réduit le débit sanguin vers la circulation pulmonaire et limite la surcharge vasculaire causant l'inflammation.\n\n2. En raison de cette diminution de la surcharge vasculaire, le traitement de la fermeture du canal a...",
+      "text_hash": "d353fd82c373da0c5041f6c59eeced10"
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_anat_3",
+      "text": "Quelle structure est responsable de : \"Disque intervertébral\" ?",
+      "options": [
+        "B",
+        "E",
+        "D",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le disque intervertébral est un élément structural clé de la colonne vertébrale humaine, situé entre les corps vertébraux consecutifs et séparant deux vertèbres adjacentes.\n2. Chaque disque intervertébral est constitué d'une partie liquide centrale, appelée nucléus pulposus, et de deux parties externe, l'anneau annulaire, composé de tissu fibreux.",
+      "text_hash": "a81d2d8a721b7d8690496be98801c34f"
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_1",
+      "text": "Quelle est la définition correcte de \"76 1 14\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "A cérébrale",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"76 1 14\" est une classification internationale d'antalgiques, correspondant à la classe A du système WHO pour les médicaments analgiques opioïdes.\n\n2. Cette classification désigne les analogues de l'héroïne (opiates semi-synthetiques) et le codein, qui agissent sur les récepteurs opioïdes centraux pour produire une action antalgique et un euphorisant modéré.",
+      "text_hash": "72bfa09693dbdfe7c0c468d948bf1cd9"
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_def_0",
+      "text": "Quelle est la définition correcte de \" Commencer les gestes de réanimation\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Processus d'activation des récepteurs périphériques",
+        "libérer les voles aériennes",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Commencer les gestes de réanimation\" est le processus d'intervention initiale pour restaurer l'activité cardio-respiratoire et assurer le transfert vers une structure hospitalière appropriée pour une personne victime de troubles cardio-respiratoires potentiellement réversibles.\n2. Cette définition est correcte car elle s'applique à la situation d'une insuffisance respiratoire ou d'un arrêt cardiaque, dans laquelle les gestes de réanimation sont destinés à restaurer la circulation sanguine et...",
+      "text_hash": "db25fb7cf585a633b546ee9a49618647"
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_1",
+      "text": "Quelle est la définition correcte de \" Risque\" ?",
+      "options": [
+        "Actilyse tPA",
+        "Processus d'activation des récepteurs périphériques",
+        "Complication hémorragique",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le terme \"Risque\" est défini dans le contexte médical comme une situation ou un facteur qui augmente la probabilité d'un événement indésirable survenir, tels que des complications, des accidents ou des maladies.\n2. Dans ce cas précis, \"Risque\" est le terme le plus générique et le plus adapté à la description de situations pouvant entraîner des conséquences indésirables, alors que les autres options énumérées font référence à des mécanismes physiologiques ou pharmacologiques spécifiques.",
+      "text_hash": "6d46e1e944672a1689d45cd3eef7b046"
+    },
+    {
+      "id": "module_07_4_les_benzodiazepines_c_doudet_2025_ifcs_mol_6",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de URBANYL ?",
+      "options": [
+        "Diazépam",
+        "Nordazépam",
+        "Bromazépam",
+        "Clobazam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. URBANYL est un nom commercial pour le médicament Bromazépam, un benzodiazépine utilisée dans le traitement des troubles anxieux et du somnambulisme. Sa mécanisme d'action repose sur l'augmentation de la transmission synaptique inhibitrice via des récepteurs GABA (gamma-aminobutyric acid) à travers l'activation de leur site benzodiazépine.\n2. Les options proposées dans le contexte sont tous des benzodiazépines. Cependant, Bromazépam est le composé correct pour le médicament URBANYL, car les do...",
+      "text_hash": "8742ab42c106df3e149f189d43b238e7"
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_0",
+      "text": "Quelle est la définition correcte de \" Incidence\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "6 cas pour 1000 admissions",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Incidence est le taux d'apparition d'une maladie ou d'un phénomène dans une population spécifique pendant un intervalle défini de temps. Cela permet d'évaluer la fréquence et donc de prévoir la sévérité d'une maladie.\n\n2. La bonne réponse est choisie car elle correspond à la définition de l'incidence en médecine, qui se définit par le nombre de nouveaux cas dans une population donnée sur un intervalle de temps déterminé (comme 6 cas pour 1000 admissions).",
+      "text_hash": "d31be90ab5a8ddd27d5fbf40e0ec280c"
+    },
+    {
+      "id": "module_420937_5__les_curares_c_doudet_2025_ifcs_prop_2",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Communs aux curares dépolarisants et non dépolar ?",
+      "options": [
+        "curarisotion prolongée en cas de déficit en pseudocholinestérases plasmatiques",
+        "Histaminolibération pharmacologique prévenue par une injection lente",
+        "Anaphylaxie avec réactions croisées entre eux,",
+        "Curarisotion prolongée en cas de déficit en pseudocholinesterases plasmatiques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les curares dépolarisants, comme le succinylcholine, agissent en bloquant les canaux de sodium à la surface des fibres musculaires souches, ce qui provoque une dépolarisation prolongée et la paralysie musculaire. En revanche, les curares non-dépolarisants, comme le rocuronium, agissent en bloquant les canaux de l'acide acétylcholinique à la surface des récepteurs nicotiniques, ce qui empêche la transmission du signal nerveux et provoque également une paralysie musculaire.\n2. La bonne réponse ...",
+      "text_hash": "e29af86a88e9cf6429e652078ff622df"
+    },
+    {
+      "id": "module_05_1_les_antalgiques_c_doudet_2025_ifcs_classif_1_0",
+      "text": "À quelle catégorie appartient : \"Opioïdes faibles\" ?",
+      "options": [
+        "Palier 3",
+        "Palier 1",
+        "Palier 2"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Les opioïdes faibles sont des médicaments appartenant à la classe des analgésiques opioïdes, qui agissent sur les récepteurs opioïdes du système nerveux central pour réduire la perception de la douleur et améliorer l'état général.\n2. La catégorie \"Opioïdes faibles\" appartient au Palier 1 selon la classification des analgésiques opioïdes établie par la World Health Organization (WHO), avec une dose maximale journalière (TDM) de morphine égale à 30 mg. Par exemple, le codeine et le tramadol app...",
+      "text_hash": "e535131efb3a5daa9bd8e5ac5af0d11d"
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_0",
+      "text": "Quelle est la définition correcte de \" Hypoxémie\" ?",
+      "options": [
+        "IR au niveau sanguin",
+        "IR au niveau cellulaire secondaire",
+        "dite hypoxie de stase",
+        "dite hypoxie cytotoxique."
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hypoxémie est une condition qui se produit lorsque le taux d'oxygène dans le sang arteriel est inférieur au niveau normal, soit à cause d'une diminution de l'apport en oxygène ou à cause d'une augmentation de la consommation.\n2. La bonne réponse est \"IR au niveau sanguin\". Hypoxémie se définit comme un taux arteriel d'oxygénation (SpO2) inférieur à 90% ou une saturation en oxygène sanguin (SaO2) inférieure à 95%. Cette situation peut être due à différentes causes, telles que des maladies resp...",
+      "text_hash": "28a482fce65a0ea231d5d1d1ada05cb0"
+    },
+    {
+      "id": "module_02_anatomie_physiologie_respiratoire_prepa_iade_pyc_2018_def_0",
+      "text": "Quelle est la définition correcte de \"totales\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "une zone relativement silencieuse en"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Totales\" est le mécanisme d'inhibition de la transmission synaptique dans le système nerveux périphérique.\n2. Cette définition est correcte car lorsque des récepteurs sensitifs sont activés, ils relaient l'impulsion au cerveau via la libération de neurotransmetteurs. Cependant, dans certains cas, la transmission synaptique peut être bloquée par un mécanisme d'inhibition appelé totale. Cette inhibition permet de réguler les réponses physiologiques et éviter une excitation excessive.",
+      "text_hash": "348ec2b2dc4fb0e9c6d79e8f51abd0f1"
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_0",
+      "text": "Quelle est la définition correcte de \"Si aggravation ou pas d'amélioration\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "1/ rechercher une complication loco-régionale"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principle ou mécanisme physiologique : \"Si aggravation ou pas d'amélioration\" est un critère clinique utilisé pour évaluer l'évolution d'une pathologie au cours du temps. Il permet de déterminer si une maladie s'aggrave, reste stable ou s'améliore après traitement.\n2. Justification du choix de la bonne réponse : Cette question est pertinente dans le contexte médical IADE car elle évalue l'évolution d'une pathologie et permet d'adapter les soins adaptés en fonction de sa gravité ou de son amél...",
+      "text_hash": "35bf87ac246e360342551d6baa8a2165"
+    },
+    {
+      "id": "module_04_cours_concours_iade_2025_pdf_norm_3",
+      "text": "Quelle est la valeur normale de L ?",
+      "options": [
+        "37-40 mmHg",
+        "42-48 mmHg",
+        "22-26 mmol /L",
+        "7,38-7,42"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. L est la concentration du glucose dans le sérum ou le plasma du sang d'une personne en repos, indiquant généralement l'état métabolique à court terme.\n2. La valeur normale de L varie entre 7,38 et 7,42 mmol/L (millimoles par litre).",
+      "text_hash": "621725443b8677c9fdfc6911b6f409c0"
+    },
+    {
+      "id": "module_182040_revision_neuro_support_pr_pa_iade_2025_def_1",
+      "text": "Quelle est la définition correcte de \"B\" ?",
+      "options": [
+        "Lisament longitudinal",
+        "Disque intervertébral",
+        "Capsule articulaire",
+        "Ligament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"B\" dans le contexte de l'IADE de base de la médecine fait référence à un ligament longitudinal, plus précisément au ligament interarticulaire antérieur ou postérieur qui relie deux vertèbres adjacentes et assure une certaine stabilité à la colonne vertébrale.\n2. Cette structure est importante car elle empêche les vertebres de glisser l'une sur l'autre, ainsi que de limiter le mouvement de rotation des vertèbres autour de leur axe longitudinal.",
+      "text_hash": "d8ad1efcecde73599a526ea8f33d6f4f"
+    }
+  ],
+  "normalized_at": "2025-11-04T19:27:40.237622"
+}

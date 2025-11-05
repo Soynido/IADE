@@ -53,7 +53,7 @@ export async function POST(req: Request) {
     await redis.hincrby(questionKey, "totalRating", feedback.rating);
 
     // Timestamp de dernière mise à jour
-    await redis.hset(questionKey, "lastUpdated", new Date().toISOString());
+    await redis.hset(questionKey, { lastUpdated: new Date().toISOString() });
 
     return new Response(
       JSON.stringify({ success: true, message: "Feedback enregistré" }),

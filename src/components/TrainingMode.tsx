@@ -26,13 +26,20 @@ export default function TrainingMode() {
 
   // Initialiser la session avec le moteur adaptatif
   useEffect(() => {
-    const profile = StorageService.getUserProfile();
+    const userProfile = StorageService.getUserProfile();
     const allQuestions = compiledQuestions.questions || compiledQuestions;
+    
+    // Créer un profil adaptatif depuis le profil utilisateur
+    const adaptiveProfile = adaptiveEngine.computeProfile(userProfile);
+    
+    // Créer un Map vide pour les feedbacks (système de feedback pas encore implémenté)
+    const feedbacksMap = new Map();
     
     // Utiliser le moteur adaptatif pour sélectionner 10 questions
     const selectedQuestions: Question[] = [];
     for (let i = 0; i < QUESTIONS_PER_SESSION; i++) {
-      const question = adaptiveEngine.selectNextQuestion(allQuestions, profile, selectedQuestions.map(q => q.id));
+      const questionsSeen = selectedQuestions.map(q => ({ questionId: q.id, timestamp: Date.now() }));
+      const question = adaptiveEngine.selectNextQuestion(allQuestions, adaptiveProfile, feedbacksMap, questionsSeen);
       if (question) {
         selectedQuestions.push(question);
       }

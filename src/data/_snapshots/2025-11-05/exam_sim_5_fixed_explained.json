@@ -1,0 +1,970 @@
+{
+  "id": "simulation_5",
+  "title": "Simulation Concours IADE n°5",
+  "description": "Épreuve 60 QCM - 2h",
+  "duration_minutes": 120,
+  "question_count": 60,
+  "type_distribution": {
+    "qcm": 60
+  },
+  "created_at": "2025-11-04T19:21:18.308755",
+  "questions": [
+    {
+      "id": "sim5_q1",
+      "text": "Quelle structure est responsable de : \"le tissu conjonctif\" ?",
+      "options": [
+        "Cellules de soutien",
+        "Cellule nerveuses",
+        "Cellules de soutien"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le tissu conjonctif est formé par des cellules spécialisées appelées fibroblastes, responsables de sa synthèse et du maintien de son architecture.\n2. Les fibroblastes se distinguent par leur capacité à produire des collagènes, notamment le collagène type I, qui donnent leur rigidité au tissu conjonctif.",
+      "text_hash": "9fa9d57e9870ebdb31ff167dafffd9a0"
+    },
+    {
+      "id": "sim5_q2",
+      "text": "Quelle structure est responsable de : \"Capsule articulaire\" ?",
+      "options": [
+        "B",
+        "D",
+        "E",
+        "C"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La capsule articulaire, structure responsable de la synthèse et du métabolisme des protéines synthétiques de l'articulation, est située dans les espaces intra-articulaires. Elle est composée de fibroblastes et se trouve entre deux articulares.\n\n2. La bonne réponse correspond à E (capsule articulaire) car elle a la fonction décrite dans la question. Les autres options proposées ne sont pas les structures responsables de la capsule articulaire.",
+      "text_hash": "9380c51bb475fcc84a9826144001109a"
+    },
+    {
+      "id": "sim5_q3",
+      "text": "Quelle est la définition correcte de \" Somatosensitif\" ?",
+      "options": [
+        "A alpha I et A gamma II",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "A alpha I , A beta II et A delta III, dlr toucher, temp",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"Somatosensitif\" désigne une propriété ou un processus concernant le système nerveux somatique, qui traite des informations liées au toucher, à la température et aux douleurs de la peau et des tissus sous-jacents.\n2. Dans le contexte médical IADE, \"Somatosensitif\" fait référence à la catégorie de fibres nerveuses sensorielles qui se chargent de transmettre les informations tactiles, thermiques et nociceptives (ce qui permet l'interprétation du contact, de la température et des douleurs) dans ...",
+      "text_hash": "a6898f51688007f7ad6b6ce8b40d320e"
+    },
+    {
+      "id": "sim5_q4",
+      "text": "Quelle est la valeur normale de mnllg ?",
+      "options": [
+        "138-742",
+        "40-100 mmlg",
+        "42-44 mme",
+        "95-100"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. La mnLLG (molécule libre de globuline lysosomale) est une mesure utilisé pour diagnostiquer certaines maladies lysosomales métaboliques. Sa valeur normale se situe entre 40 et 100 mg/ml.\n2. Cette gamme de valeurs a été définie par des études cliniques car une mnLLG supérieure à cette plage peut indiquer un déficit enzymatique.",
+      "text_hash": "6946012ebab6ddeb2268ee6fa220301f"
+    },
+    {
+      "id": "sim5_q5",
+      "text": "Parmi les propositions suivantes, laquelle concerne Intervention de très courte durée ?",
+      "options": [
+        "intubation difficiles, en urgence ex : estomac plein",
+        "retentissement moindre sur la PA et le rythme cardiaque et faible pouvoir",
+        "intubation pour intervention ne nécessitant pas de relâchement",
+        "atracurium , rocuronium , cisatracurium"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principe : Intervention de très courte durée (ICTD) implique l'utilisation de drogues neuromusculaires qui se lient à des récepteurs nicotiniques musculaires pour bloquer momentanément les signaux nerveux, permettant ainsi une intubation facile et rapide sans relâchement.\n2. Justification : Atracurium, Rocuronium, et Cisatracurium sont des neuromusculaires de type 3 avec une durée d'action court à très courte en raison de leur hydrolyse par l'enzyme platélette-acylcholine esterase. Ils ne pro...",
+      "text_hash": "35f59a212beabf095becf421f9497373"
+    },
+    {
+      "id": "sim5_q6",
+      "text": "Quel est le mécanisme d'action principal ?",
+      "options": [
+        "Inhibiteurs directs de la thrombine : Argatroban",
+        "Action directe sur les récepteurs NMDA du système nerveux central",
+        "Inhibiteurs directs de la thrombine : Argatroban",
+        "Inhibiteurs directs de la thrombine : Argatroban"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Le mécanisme d'action principal des inhibiteurs directs de la thrombine tels que Argatroban est d'inhiber l'activité de la thrombine, une enzyme clé impliquée dans le processus de coagulation sanguine.\n2. En empêchant la conversion de fibrinogène en fibrine, ces inhibiteurs ralentissent ou arrêtent la formation de caillots sanguins (thromboses) et facilitent ainsi la dissolution des caillots existants.",
+      "text_hash": "c3133c9f81a14c1165a215d7881cbdf8"
+    },
+    {
+      "id": "sim5_q7",
+      "text": "Parmi les propositions suivantes, laquelle concerne CURARISATION = ?",
+      "options": [
+        "Atracurium TRACURIUM®",
+        "Suxaméthonium ou succinylcholine CELOCURINE®",
+        "Rocuronium ESMERON®",
+        "Curare dépolarisant"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Curarisation est le processus par lequel un médicament appelé curare, ou un dérivé moderne tels que les neuromusculaires non dépolarisants (NMN), blochent momentanément l'activité musculaire au niveau de la jonction neuromusculaire. Cela est utilisé pour permettre une intubation facile pendant l'anesthésie générale.\n\n2. La bonne réponse dans cette question est \"Curare dépolarisant\". Les curares sont des substances chimiques naturelles (extraites de certaines espèces de plantes ou animaux) qui...",
+      "text_hash": "03240f6f3e3325b87e3cebb4da7be943"
+    },
+    {
+      "id": "sim5_q8",
+      "text": "Un patient présente un score de Mallampati III, une distance thyro-mentonnière supérieure à 3 doigts, une ouverture de bouche limitée et une mobilité cervicale réduite. Dans ce contexte, il convient d'utiliser :",
+      "options": [
+        "A. Une voie aérienne nasale",
+        "B. Un matériel de prise en charge intubationniste conventionnel",
+        "C. Un matériel de prise en charge intubation bronchique",
+        "D. Un matériel d'intubation vide"
+      ],
+      "correctAnswer": 1,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Voies aériennes",
+      "explanation": "Un patient avec un score Mallampati III, une distance thyro-mentonnière supérieure à 3 doigts, une ouverture de bouche limitée et une mobilité cervicale réduite présente un risque élevé d'intubation difficile. Dans ce contexte, il est recommandé de préparer l'équipement nécessaire pour effectuer une intubation conventionnelle, utilisant un matériel adapté à cette prise en charge.",
+      "text_hash": "8d8fff34d9d9b9e1271bc97866fdb29f"
+    },
+    {
+      "id": "sim5_q10",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de NIFLURIL ?",
+      "options": [
+        "niflumique",
+        "prostaglandines",
+        "méfénamique",
+        "Fénoprofène"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Nifluril est un antagoniste des canaux de calcium qui agit principalement sur le cœur, il inhibe les flux intracellulaires de calcium dans les cellules myocardiques et ainsi réduit la contractilité du myocarde.\n2. L'option correcte étant \"nifluril\", c'est le médicament qui a été nommé selon sa composition chimique, alors que les autres options proposées ne sont pas des antagonistes des canaux de calcium ou des médicaments utilisés dans le même contexte.",
+      "text_hash": "5891ccb3087cc8906f7a5807a2f6f935"
+    },
+    {
+      "id": "sim5_q11",
+      "text": "Quelle structure est responsable de : \"structure anatomo -physiologique spécialisée qui\" ?",
+      "options": [
+        "Ouvrent un canal ionique",
+        "Le nerf moteur",
+        "JNM"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La structure anatomo-physiologique spécialisée qui ouvre un canal ionique est le canal iónique. Ce dernier permet le passage de diverses molécules, notamment des ions, entre la cellule et l'extracellulaire.\n\n2. Le nerf moteur n'est pas responsable de l'ouverture d'un canal ionique car il sert à transmettre les impulsions nerveuses pour provoquer une réponse musculaire. JNM, quant à lui, ne correspond à aucune structure anatomique ou physiologique connue dans le contexte médical.",
+      "text_hash": "6333bfe9dc2a90e736491905d37c54a0"
+    },
+    {
+      "id": "sim5_q12",
+      "text": "Parmi les propositions suivantes, laquelle concerne 9 Indications ?",
+      "options": [
+        "Ampoules de 10mg/10 m",
+        "Posologie d'entretien : 2 à 15 mg/",
+        "Posologie initiale: 2 à 4 mg/h",
+        "mg en bolus sur 2 minutes puis entretien PSE"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les propositions concernent des indications et posologies pharmacologiques, spécifiquement :\n   - Ampoules de 10mg/10mL indique l'unité de dosage pour la préparation d'une solution injectable de 10mg pour 10mL.\n   - Posologie d'entretien : 2 à 15 mg indique une dose journalière comprise entre 2 et 15mg, qui peut varier en fonction du patient, de la maladie et des effets secondaires observés.\n   - Posologie initiale: 2 à 4 mg/h suggère l'utilisation d'une pompe infusionnelle pour infuser une d...",
+      "text_hash": "4fe66ee84267c93eeca65f9fb67737ea"
+    },
+    {
+      "id": "sim5_q13",
+      "text": "Quelle est la définition correcte de \" Loi de 1952\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Sécurité en matière de transfusion sanguine et de médicaments",
+        "Mise en place de l’ HEMOVIGILANCE",
+        "Découverte des groupes sanguins A B O"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La Loi de 1952, dans le contexte médical, est connue sous le nom de \"Loi sur la transfusion sanguine\" ou \"Loi Rochat\". Cette loi a été adoptée en Suisse en 1952 et établit les principes fondamentaux pour la collecte, le stockage et la transfusion de sang humain.\n\n2. Cette réglementation est importante car elle garantit la sécurité des patients, en assurant l'équité dans l'accès aux produits sanguins ainsi que l'organisation efficace de la transfusion sanguine. De plus, elle met en place les c...",
+      "text_hash": "33c04cba11a767ec9b3e812e41b1b512"
+    },
+    {
+      "id": "sim5_q14",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de INH ?",
+      "options": [
+        "périphériques",
+        "hémolytique",
+        "menstruel",
+        "psychiques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La DCI Dénomination Commune Internationale d'INH (Isoniazide) est l'isoniazide, un antibiotique utilisé pour traiter la tuberculose. Sa mode d'action consiste à bloquer l'enzyme mycolate synthase de Mycobacterium tuberculosis, ce qui ralentit sa croissance et sa multiplication.\n2. Le choix de la bonne réponse est justifié car INH n'est pas associé à des effets hémolytiques (qui détruisent les globules rouges), menstruels, périphériques (pouvant affecter les membres) ou psychiques (qui influen...",
+      "text_hash": "3bc6fae450cffb971662b142f57a2ba2"
+    },
+    {
+      "id": "sim5_q15",
+      "text": "Quelle est la définition correcte de \"À l'Everest\" ?",
+      "options": [
+        "8848 m , PpO2",
+        "Processus d'activation des récepteurs périphériques",
+        "760 mm de Hg",
+        "0,21 X Pression atmosphérique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"À l'Everest\" est une référence à la pression partielle d'oxygène (PpO2) à une altitude élevée, telle que celle de la montagne Everest (8 848 m).\n\n2. La bonne réponse est \"8848 m , PpO2\" car à cette altitude, la pression partielle d'oxygène atmosphérique naturelle (PpO2) est inférieure au niveau nécessaire pour soutenir la vie humaine en raison de la baisse de la pression atmospherique.",
+      "text_hash": "7b8ed7e258deb2edd60703701f9bd492"
+    },
+    {
+      "id": "sim5_q16",
+      "text": "Parmi les propositions suivantes, laquelle concerne à Indications ?",
+      "options": [
+        "Adjuvant de lanesthésie générale permettant l'intubation endotrachéale à",
+        "Curare déplolarisant olocage de la transmission neuromusculairé",
+        "L ampoule dans 10 mi de dilvant",
+        "Ampoules de 100mg/2 mi,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les ampoules de 100mg/2 mi sont des adjuvants utilisés pour faciliter l'intubation endotrachéale lors de l'anesthésie générale. Ce produit contient un agent relaxant musculaire qui bloque les impulsions nerveuses entre le nerf et la muscle, ce qui permet d'immobiliser les muscles de la trachee pour que l'intubation puisse être effectuée plus facilement.\n2. La bonne réponse est les ampoules de 100mg/2 mi car elles sont utilisées comme adjuvant pour faciliter l'intubation endotrachéale, process...",
+      "text_hash": "5ea003eb05f1d46e38932fa737d186e1"
+    },
+    {
+      "id": "sim5_q17",
+      "text": "Que sont les médicaments dérivés du sang ? Citez-en 3.",
+      "options": [
+        "Albumine, facteurs de coagulation, immunoglobulines",
+        "Aspirine, paracétamol, ibuprofène",
+        "Peptides artificiels uniquement",
+        "Aucun médicament"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Hématologie",
+      "explanation": "Médicaments dérivés du sang : médicaments à base de sang ou composants de sang préparés industriellement. Exemples : albumine, facteurs de coagulation, immunoglobulines d'origine humaine.",
+      "text_hash": "4f5869f0ba818263bccc4222ce5ae36b"
+    },
+    {
+      "id": "sim5_q18",
+      "text": "Quel traitement est préconisé en cas de réaction IgE-médiée associant hypotension, bronchospasme, érythème et œdème ?",
+      "options": [
+        "A. Adrénaline 0.6mg IV",
+        "B. Remplissage intraveineux",
+        "C. Corticoïdes oraux",
+        "D. Antihistaminiques par voie intramusculaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Urgences anesthésiques",
+      "explanation": "La réaction IgE-médiée nécessite un traitement urgent incluant adrénaline, remplissage intraveineux et corticoïdes oral ou IV ainsi que des antihistaminiques mais l'adrénaline est le médicament d'urgence de première intention en raison de sa capacité à réversibiliser les symptômes. La dose recommandée est 0,1-0,5mg IV.",
+      "text_hash": "693e93f89aa7b0b94eea22d3b697745a"
+    },
+    {
+      "id": "sim5_q19",
+      "text": "Définissez le score de Glasgow. Indiquez ses 3 items d'évaluation, le score minimum et maximum.",
+      "options": [
+        "Score de 3 à 15 : ouverture des yeux 1-4 , réponse verbale 1-5 , réponse motrice 1-6",
+        "Score de 10 à 20 : pression artérielle, fréquence cardiaque, saturation",
+        "Score de 0 à 30 : âge, antécédents, bilan biologique",
+        "Le score de Glasgow n'existe pas"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Neurologie",
+      "explanation": "Le score de Glasgow évalue l'état de conscience selon 3 paramètres : l'ouverture des yeux 1-4 , la réponse verbale 1-5 et la réponse motrice 1-6 . Le score va de 3 coma profond à 15 conscience normale . Une intubation est possible si le score est inférieur à 8.",
+      "text_hash": "5404cbde76c4f7b73307db4c35f3968e"
+    },
+    {
+      "id": "sim5_q20",
+      "text": "Quelle est la définition correcte de \"H\" ?",
+      "options": [
+        "40 54 % ; F",
+        "13 17 g/dL ; F",
+        "60 115 mol/L ; F",
+        "4,5 5,7 T/L ; F"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'hémoglobine (Hb) est une protéine présente dans les globules rouges du sang humain qui a pour fonction de transporter l'oxygène à partir des poumons et de le livrer aux cellules du corps.\n2. Le choix de la bonne réponse \"4,5 5,7 T/L\" est correct parce que c'est une concentration normale d'hémoglobine en grammes par décilitre (g/dL) et en tétramères par litre (T/L). La valeur moyenne pour les adultes saine est de 13 à 18 g/dL ou 135 à 170 g/mL, ce qui correspond à des valeurs d'environ 4,5 à...",
+      "text_hash": "15856743f546876f0c2469c7310f0279"
+    },
+    {
+      "id": "sim5_q22",
+      "text": "Parmi les propositions suivantes, laquelle concerne Les BZD ont des propriétés pharmacologiques commu ?",
+      "options": [
+        "anticonvulsivantes ,",
+        "myorelaxantes",
+        "anxiolytiques,",
+        "hypnotiques,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les BZD (Benzodiazépines) agissent en modulant le récepteur GABA_{A} en tant qu'agonistes, ce qui entraîne une augmentation de la perméabilité aux ions chlorure dans les canaux ioniques du récepteur. Cela provoque une inhibition dépolarisante du système nerveux central (CNS), ce qui explique leur efficacité contre l'anxiété, l'insomnie et les crises convulsives.\n2. Les BZD ont des propriétés pharmacologiques communes de être anxiolytiques, hypnotiques et anticonvulsivantes en raison de leur m...",
+      "text_hash": "41f3aa1df697e3b0653c5bab135168d5"
+    },
+    {
+      "id": "sim5_q24",
+      "text": "Parmi les propositions suivantes, laquelle concerne Les anxiolytiques doivent être considérés comme d ?",
+      "options": [
+        "Oxazépam SÉRESTA",
+        "Alprazolam XANAX",
+        "Nordazépam NORDAZ",
+        "Clorazépate TRANXENE"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Anxiolytiques, tels que Oxazépam SÉRESTA, Alprazolam XANAX, Nordazépam NORDAZ et Clorazépate TRANXENE, sont des médicaments appartenant à la classe des benzodiazépines. Ils agissent en augmentant l'activité du récepteur GABA (gamma-aminobutyrique acide), qui fonctionne comme un frein sur les réseaux neuronaux excitatoires, ce qui entraîne une diminution de l'anxiété et de la tension musculaire.\n2. La bonne réponse est Oxazépam SÉRESTA, Alprazolam XANAX, Nordazépam NORDAZ et Clorazépate TRANXE...",
+      "text_hash": "a0c3d06f3096ea278ab92444ecd9a1ac"
+    },
+    {
+      "id": "sim5_q25",
+      "text": "Quelle est la définition correcte de \"5 alvéoles\" ?",
+      "options": [
+        "petits sacs recouverts de",
+        "lobule pulmonaire",
+        "terrain de tennis",
+        "paroi musculaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le terme \"5 alvéoles\" n'est pas correct dans le contexte de l'anatomie humaine. Il s'agit plutôt d'un lobule pulmonaire, qui est une division de la lobes pulmonaires (lobes lungaux), composé d'alvéoles, petits sacs recouverts de surfactant où se produit la diffusion du gaz à l'étage alvéolaire.\n2. Les alvéoles sont des structures anatomiques de la lobule pulmonaire, qui ne peuvent pas être isolées sans les alvéoles voisines et les capillaires pulmonaires englobant ces dernières. La réponse co...",
+      "text_hash": "c38ac92fac8ab2e1c7dd38e386d678e2"
+    },
+    {
+      "id": "sim5_q26",
+      "text": "Quel bloc du plexus brachial est utilisé pour l'analgésie en chirurgie du membre supérieur ?",
+      "options": [
+        "A. Plexus interscalénique",
+        "B. Plexus supraclaviculaire",
+        "C. Plexus axillaire",
+        "D. Plexus cervical"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Anesthésie locorégionale",
+      "explanation": "Le plexus interscalénique est utilisé pour l'analgésie en chirurgie du membre supérieur car il assure une couverture nerveuse de tous les muscles des membres supérieurs. Les autres options sont les plexus supraclaviculaire, axillaire et cervical qui ne fournissent pas la même couverture.",
+      "text_hash": "486a695d3246c0090b93f694c19c5ce3"
+    },
+    {
+      "id": "sim5_q27",
+      "text": "Quelle est la définition correcte de \"CP\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "Plasma Frais Congelé",
+        "Concentré de Globules",
+        "Concentré de Plaquettes"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"CP\" est l'acronyme de Concentré de Plaquettes, un produit sanguin qui contient une quantité élevée de plaquettes sanguines, nécessaires pour le processus de coagulation.\n2. La bonne réponse a été choisie car les plaquettes sont des cellules sanguines impliquées dans la coagulation et leur concentration peut être augmentée en utilisant un Concentré de Plaquettes dans certaines situations, comme lorsque le nombre de plaquettes est insuffisant pour que le sang cesse de saigner.",
+      "text_hash": "95883ecc8d0684a8bde132aae7b0c452"
+    },
+    {
+      "id": "sim5_q28",
+      "text": "Quelle est la définition correcte de \"B\" ?",
+      "options": [
+        "Disque intervertébral",
+        "Ligament longitudinal",
+        "Capsule articulaire",
+        "Lisament longitudinal"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"B\" dans le contexte médical IADE peut se référer au ligament longitudinal, structure fibreuse qui relie les disques intervertébraux et les aides à la stabilité de la colonne vertébrale.\n2. Cette structure est cruciale pour maintenir une alignment correcte des vertèbres, absorber les forces de compression et limiter les mouvements excessifs entre les vertèbres voisines.",
+      "text_hash": "d8ad1efcecde73599a526ea8f33d6f4f"
+    },
+    {
+      "id": "sim5_q29",
+      "text": "Parmi les propositions suivantes, laquelle concerne Cervicales ?",
+      "options": [
+        "Contractions",
+        "Épaississement",
+        "Vasoconstriction",
+        "Tachycardie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les cervicales sont des muscles localisés dans le cou, plus précisément à proximité du rachis cervical, qui permettent de faire varier l'angle entre le crâne et la poitrine.\n\n2. La contraction de ces muscles est la seule proposition pertinente parmi celles proposées, car elle correspond au fonctionnement physiologique des cervicales, soit un mouvement de rotation ou d'extension du cou.",
+      "text_hash": "a8f9d50d00b481307e4fc7a16e66cc00"
+    },
+    {
+      "id": "sim5_q30",
+      "text": "Parmi les propositions suivantes, laquelle est une contre-indication ?",
+      "options": [
+        "Dans lInfarctus : prévention et traitement des blocs auriculoventriculaires et des bradycardies",
+        "Intoxication aux organo-phosphores",
+        "Bloc auriculoventriculaire ou atrioventriculaire",
+        "Pré-anesthésie : protection des manifestations vagales bradycardie à l'induction"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Principie : Les blocs auriculoventriculaires et bradycardies sont des troubles du rythme cardiaque caractérisés par une lenteur excessive des impulsions électriques qui passent de l'atrium vers le ventricule ou entre les deux chambres, ce qui peut entrainer un état de faible irrigation sanguine à l'organisme.\n\n2. Justification : Dans le contexte d'un infarctus du myocarde, la présence de blocs auriculoventriculaires ou atrioventriculaires peut être une conséquence plutôt qu'une cause. L'admin...",
+      "text_hash": "d8fbc28530bdcfd042565c6ad1feb6da"
+    },
+    {
+      "id": "sim5_q32",
+      "text": "Quelle est la norme de la glycémie à jeun ?",
+      "options": [
+        "0,7-1,1 g/L 3,9-6,1 mmol/L",
+        "1,5-2,0 g/L",
+        "0,3-0,5 g/L",
+        "Variable sans limite"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Normes biologiques",
+      "explanation": "Glycémie à jeun normale: 0,7-1,1 g/L. Diabète si ≥ 1,26 g/L à 2 reprises.",
+      "text_hash": "55c7d6e8d63af2d004879c16b85ba6a2"
+    },
+    {
+      "id": "sim5_q33",
+      "text": "À quelle catégorie appartient : \"Tramadol\" ?",
+      "options": [
+        "Palier 1",
+        "Palier 2",
+        "Palier 3"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Tramadol est un analgésique opioïde qui agit sur les récepteurs à l'opioïde du système nerveux central, ainsi que sur les récepteurs NMDA (N-méthyl-D-aspartate) pour bloquer la transmission de la douleur.\n2. Du fait de sa structure chimique et de son action sur plusieurs types de récepteurs, le Tramadol est classé dans le Palier 2 de la classification des médicaments analgésiques, conformément à la recommandation de l'Organisation Mondiale de la Santé (OMS).",
+      "text_hash": "6ffe613b44dd7bb7ca7c620d4fcd3f4f"
+    },
+    {
+      "id": "sim5_q35",
+      "text": "Quelle est la définition correcte de \"Genre Klebsiella\" ?",
+      "options": [
+        "aminosides imperméabilité",
+        "vancomycine structure",
+        "Amoxicilline",
+        "CéphalosporinesRésistance qui existe d’emblée"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le genre Klebsiella est une famille d'espèces bactériennes anaérobies gram négatives, facilement identifiables par leur capacité à fermenter les sucres et leurs colonies caractéristiques sur un milieu nutritif.\n2. La bonne réponse correspond à la définition correcte de ce genre bactérien commun dans le monde médical, notamment en raison de ses infections nosocomiales fréquentes (par exemple pneumonie ou urétrite) causées par certaines souches résistantes aux antibiotiques comme les céphalospo...",
+      "text_hash": "9910c5b2719c3730c36a0ae482939802"
+    },
+    {
+      "id": "sim5_q36",
+      "text": "Quelle est la valeur normale de H ?",
+      "options": [
+        "13 17 g/dL",
+        "12 16 g/dL",
+        "40 54 %",
+        "37 47 %"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Hémoglobine (Hb) est un composant principal des globules rouges du sang, chargé d'assurer l'oxygénation des cellules. Sa concentration normale dans le sang sanguin adulte est généralement comprise entre 12 et 16 g/dL.\n2. La bonne réponse correspond à la fourchette de valeurs normalement mesurées pour les adultes, soit 12-16 g/dL.",
+      "text_hash": "22b54d7872610bef94a1f7c6f4edca2a"
+    },
+    {
+      "id": "sim5_q38",
+      "text": "Quels sont les signes de surdosage en morphinique et la conduite à tenir ?",
+      "options": [
+        "Tachycardie, hypertension, agitation",
+        "Somnolence, bradypnée, dépression respiratoire, myosis extrême",
+        "Diarrhée, crampes abdominales, hyperthermie",
+        "Aucun signe clinique"
+      ],
+      "correctAnswer": 1,
+      "type": "qcm",
+      "difficulty": "base",
+      "domain": "Pharmacologie",
+      "explanation": "Signes : somnolence, bradypnée voire dépression respiratoire, hypotension, myosis extrême. Conduite : surveillance multiparamétrique, arrêt morphine, prévenir médecin, stimuler patient, O₂ si besoin, antagonisation avec naloxone.",
+      "text_hash": "db0768ba2b1f2a586b20e1cecff7c257"
+    },
+    {
+      "id": "sim5_q39",
+      "text": "Quelle structure est responsable de : \"Disque intervertébral\" ?",
+      "options": [
+        "D",
+        "C",
+        "E",
+        "B"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. Le disque intervertébral est une structure anatomique articulare, situé entre les corps vertèbraux adjacents et constituant un élément important du système locomoteur de la colonne vertébrale humaine.\n2. Chaque disque intervertébral est composé d'une substance cartilagineuse centrale (nucléus pulposus) entourée par des anneaux fibreux externe (annulus fibrosus). La bonne réponse correspondant à la structure responsable de ce disque intervertébral est donc B.",
+      "text_hash": "a81d2d8a721b7d8690496be98801c34f"
+    },
+    {
+      "id": "sim5_q40",
+      "text": "Quelle est la définition correcte de \" CKD -EPI\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "selon âge, sexe, ethnie",
+        "selon sexe, âge, ethnie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. CKD-EPI est l'acronyme de la Formule d'Estimation Glomerulaire pour le Calcul du Stade de Maladie Rénale Chronique - Équation d'Ingaz et Manganiarian, une formule mathématique utilisée pour évaluer la fonction rénale résiduelle (FRR) ou le stade de maladie rénale chronique (MRCh) auprès d'un patient.\n2. Cette formule est basée sur l'âge, le sexe et le genre du patient, ainsi que sur les valeurs des créatinineémies et de la micromolécularité du sang, pour déterminer une FRR et un stade de mala...",
+      "text_hash": "0ab70e2e4e9bf52e1164e8a395d112ac"
+    },
+    {
+      "id": "sim5_q41",
+      "text": "Quelle est la définition correcte de \"| CI\" ?",
+      "options": [
+        "CL | Protocole Transhsione Porc |",
+        "de ………… 10 Pl",
+        "LL! Unité pédiatrique quantité",
+        "beures | Dépomatsé O Dur par CP"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"CI\" dans le contexte médical IADE ne représente pas un terme précis. Cependant, dans le domaine médical général, il peut faire référence à diverses choses :\n   - Contraindication : une situation dans laquelle l'administration d'un traitement serait dangereuse ou inappropriée pour un patient donné.\n   - Chirurgie intracrânienne : une opération qui se fait sur le cerveau.\n\n2. Bien que dans ce contexte précis, la bonne réponse n'est pas proposée parmi les options, l'utilisation de \"CI\" pourrait...",
+      "text_hash": "4b6cce6b55f51b41b2346871696f20d5"
+    },
+    {
+      "id": "sim5_q42",
+      "text": "Donnez la norme du PH et le sens de variation du PH, de la PCO₂ et des HCO₃⁻ en cas d'acidose métabolique.",
+      "options": [
+        "PH 7,38 | PCO₂ diminue | HCO₃⁻ diminue",
+        "PH 7,42 | PCO₂ augmente | HCO₃⁻ augmente",
+        "PH normal 6,5-7,5 | Pas de variation",
+        "PH toujours stable"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "intermediate",
+      "domain": "Acidose-Base",
+      "explanation": "Norme PH : 7,38 à 7,42. Acidose métabolique : PH 7,38 diminue , PCO₂ diminue compensation , HCO₃⁻ diminue.",
+      "text_hash": "b0b8b50f4358222087e4076a03188748"
+    },
+    {
+      "id": "sim5_q43",
+      "text": "Quelle est la définition correcte de \" Loi du 1 juillet 1998\" ?",
+      "options": [
+        "Organisation de la transfusion",
+        "Découverte des groupes sanguins A B O",
+        "Renforcement de la veille sanitaire et du contrôle des produits destinés à l’homme",
+        "Sécurité en matière de transfusion sanguine et de médicaments"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La Loi du 1 juillet 1998 s'agit d'une mesure législative française visant à renforcer la veille sanitaire et le contrôle des produits destinés à l’homme, y compris les médicaments et les produits de transfusion sanguine.\n2. Son objectif est principalement la sécurité en matière de transfusion sanguine et de médicaments, pour réduire au minimum les risques associés à ces procédures.",
+      "text_hash": "56cd10954fbc31d69cd2c8211179787a"
+    },
+    {
+      "id": "sim5_q44",
+      "text": "Quelle est la définition correcte de \"+ Secteur plasmatique\" ?",
+      "options": [
+        "20 du poids du corps",
+        "40'/o du poids du corps",
+        "15 du potds du corps",
+        "a du poids du corps"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le secteur plasmatique, ou le volume plasmatique, est une fraction du volume total corporel qui contient exclusivement le plasma sanguin. Il représente environ 3 % du poids total du corps adulte humain, soit environ 3 litres pour un homme de 70 kg.\n\n2. Cette fraction est définie par rapport au poids total du corps et non à celui des jambes (15 du poids du corps), ni aux parties du corps (20 du poids du corps) ou aux membres (40'/o du poids du corps).",
+      "text_hash": "73233ad3b35b09373c7f396105b20df0"
+    },
+    {
+      "id": "sim5_q45",
+      "text": "Quelle est la définition correcte de \" Signes anticholinergiques\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "sécheresse muqueuse, tachycardie,",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "tachycardie majeure, convulsions, hallucinations,"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Signes anticholinergiques sont des manifestations cliniques dues à une inhibition sélective ou non sélective des récepteurs muscariniques cholinergiques par certains médicaments ou toxines.\n2. Les signes anticholinergiques comprennent généralement la sécheresse muqueuse, tachycardie, agitation, confusion et hallucinations. Il peut également y avoir des convulsions ou une dilatation pupillaire lors d'une intoxication à forte dose.",
+      "text_hash": "9d3d0b5475521f70d502145dc31f4484"
+    },
+    {
+      "id": "sim5_q46",
+      "text": "En cas d'arrêt cardiaque, quelle est la séquence RCP selon les recommandations ERC 2021 ?",
+      "options": [
+        "30 compressions thoraciques : 2 insufflations",
+        "15 compressions thoraciques : 2 insufflations",
+        "5 compressions thoraciques : 1 insufflation",
+        "Compressions continues sans insufflations"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "advanced",
+      "domain": "Urgences",
+      "explanation": "RCP adulte: 30:2 30 compressions thoraciques pour 2 insufflations . Fréquence 100-120/min, profondeur 5-6 cm.",
+      "text_hash": "4d59f3cb009ffcad9b63fb7a9f2bf1f7"
+    },
+    {
+      "id": "sim5_q47",
+      "text": "Quelle structure est responsable de : \"vésicules déversent l'ACH dans la fente\" ?",
+      "options": [
+        "Ouvrent un canal ionique",
+        "influx nerveux",
+        "Le nerf moteur"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. La structure responsable du déversement d'ACH (acide hydrochlorique) dans la fente est le canal pancréatique interne, plus précisément des cellules épithéliales sécrétantes de ce canal appelées cellules de ducts aciniques.\n2. Cette structure ouvre un canal ionique afin d'influer sur le mouvement de certains ions, notamment l'hydroxyde de calcium (OH-), pour déplacer l'ACH à travers la fente pancréatiquecystique vers l'intestin grêle.",
+      "text_hash": "1bf1f4ddc3d744c0b3bab5c2407aa4c0"
+    },
+    {
+      "id": "sim5_q48",
+      "text": "Quelle est la définition correcte de \"Alvéoles\" ?",
+      "options": [
+        "lobule pulmonaire",
+        "petits sacs recouverts de",
+        "terrain de tennis",
+        "paroi musculaire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les alvéoles sont des petits sacs poumons qui forment l'unité structurelle ultime de l'appareil respiratoire. Elles sont recouvertes d'une membrane réspiratoire, constituée par les épithélium alvéolaire et la capillaire pulmonaire.\n2. La bonne réponse est \"petits sacs recouverts de membrane respiratoire\".",
+      "text_hash": "0c6da33819a9893ff42577f6c54294bc"
+    },
+    {
+      "id": "sim5_q49",
+      "text": "Quelle est la DCI Dénomination Commune Internationale de URBANYL ?",
+      "options": [
+        "Diazépam",
+        "Nordazépam",
+        "Bromazépam",
+        "Clobazam"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "medium",
+      "domain": "Général",
+      "explanation": "1. URBANYL est le nom commercial d'un médicament appartenant à la famille des benzodiazépines, notamment utilisé pour traiter les états d'anxiété ou de tension intense. Son principe actif est Clobazam.\n2. Le choix de la réponse est justifié car URBANYL est un médicament commercialement vendu sous ce nom et le composant actif est bien clobazam, comme indiqué dans la classification des ATC (Anatomical Therapeutic Chemical).",
+      "text_hash": "8742ab42c106df3e149f189d43b238e7"
+    },
+    {
+      "id": "sim5_q50",
+      "text": "Parmi les propositions suivantes, laquelle concerne Diminuent la réaction inflammatoire au stade aig ?",
+      "options": [
+        "Néonatologie : fermeture du canal artériel",
+        "Urologie : traitement de la colique néphrétique",
+        "ORL et stomatologie",
+        "Traumatologie"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le traitement de la colique néphrétique, qui est un type d'inflammation due à des pierres rencontrées dans le système urinaire, par l'urologie réduit la réaction inflammatoire au stade aig en utilisant généralement des médicaments anti-inflammatoires et analgésiques pour soulager les douleurs, et en utilisant parfois de la chirurgie pour éliminer la pierre causale.\n\n2. La fermeture du canal artériel dans le cadre de la néonatologie n'est pas spécifiquement destinée à diminuer la réaction infl...",
+      "text_hash": "d353fd82c373da0c5041f6c59eeced10"
+    },
+    {
+      "id": "sim5_q51",
+      "text": "Parmi les propositions suivantes, laquelle concerne Deux grands mécanismes de l’effet : ?",
+      "options": [
+        "Effet fonction de la dose, effet \"pic”",
+        "Concentration ou dose dépendant",
+        "Peu d'importance des concentrations minimales",
+        "Effet bactéricide rapide"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le mécanisme physiologique/pharmacologique principal concernant deux grands effets d'une substance active est l'effet fonction de la dose, également connu comme l'effet \"pic\".\n\n2. Cela s'explique par le fait que la réponse pharmacologique d'un organisme à une molécule thérapeutique peut être modulée en fonction de la concentration atteinte dans le site de l'action, qui est directement liée au dose administrée.",
+      "text_hash": "e38d171c70d4e752487f932a49b67435"
+    },
+    {
+      "id": "sim5_q53",
+      "text": "Quelle est la valeur normale de Urée ?",
+      "options": [
+        "2-8mmol /L",
+        "2,2-2,6 mmol /L",
+        "135-145 mmol /L",
+        "3,5-4,5 mmol /L"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. L'urée est un métabolite azoté éliminé principalement par les reins. Sa valeur normale sert à évaluer le fonctionnement des nephrons et des fonctions rénales en général.\n\n2. La valeur normale de l'urée se situe entre 2,2 mmol/L et 2,6 mmol/L dans un plasma sanguin aéresthésié à la température ambiante. Les options A et D sont donc les plus proches de cette valeur, mais option A est finalement la bonne réponse.",
+      "text_hash": "76f1874b200554e17538f40103d3b0a3"
+    },
+    {
+      "id": "sim5_q55",
+      "text": "Quelle est la valeur normale de pH ?",
+      "options": [
+        "40-100 mmlg",
+        "138-742",
+        "95-100",
+        "42-44 mme"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "hard",
+      "domain": "Général",
+      "explanation": "1. Le pH est un indicateur de l'acidité ou des alcalinités d'un liquide et est mesuré en logarithme décimal centimoles par litre (pH). Dans le corps humain, la valeur normale du pH est cruciale pour maintenir une balance équilibrée entre les réactions acides et basiques.\n\n2. La bonne réponse est \"7,35-7,45\". Chez un individu en bonne santé, le pH du sang se situe généralement autour de cette valeur pour maintenir une vie optimale des cellules et organes.",
+      "text_hash": "f03cc34de21356c29e003a4133a1f233"
+    },
+    {
+      "id": "sim5_q57",
+      "text": "Parmi les propositions suivantes, laquelle concerne Indications ?",
+      "options": [
+        "Dilution 1 mg/1 ml dans du G5%",
+        "Métaboliques : hyperglycémie",
+        "Cardiaques : inotrope positif,",
+        "Vasculaires : vasoconstriction intense"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Indications sont les conditions pour lesquelles un médicament peut être prescrit.\n2. La proposition \"Dilution 1 mg/1 ml dans du G5%\" est la bonne réponse car elle indique comment préparer une solution injectable de certains médicaments, sans précision sur le produit exact. Cependant, en contexte médical IADE, cette dilution pourrait être donnée pour un médicament qui nécessite une dose précise (ex: 1 mg) et doit être administré dans un fluide isotonique à 5% de glucose.",
+      "text_hash": "10d9851dd13098aad96683196fecb98d"
+    },
+    {
+      "id": "sim5_q58",
+      "text": "Quelle est la définition correcte de \"Pneumopathie communautaire\" ?",
+      "options": [
+        "autres examens",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Régulation de l'homéostasie cellulaire",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Pneumopathie communautaire est une infection pulmonaire respiratoire due à un virus, le plus souvent l'influenzavirus A ou B. Elle se transmet facilement dans les collectivités humaines et est responsable de nombreuses hospitalisations et décès annuels.\n\n2. La bonne réponse est \"Processus d'activation des récepteurs périphériques\", car la pneumopathie communautaire se développe quand le virus infecte les cellules ciblant les récepteurs de la muqueuse pulmonaire, ce qui entraîne une réponse im...",
+      "text_hash": "761f58396539ef7e83a599b0eea4bad1"
+    },
+    {
+      "id": "sim5_q59",
+      "text": "Quelle est la définition correcte de \"courbe d’apprentissage de l’opérateurPneumopathie communautaire\" ?",
+      "options": [
+        "Processus d'activation des récepteurs périphériques",
+        "autres examens",
+        "Régulation de l'homéostasie cellulaire",
+        "Mécanisme d'inhibition de la transmission synaptique"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La courbe d'apprentissage de l'opérateur Pneumopathie communautaire (PCO_{2}) représente la variation du taux d'anhydride carbonique (PCO_{2}) dans les alvéoles pulmonaires lors de chaque cycle respiratoire, influencée par la respiration alvéolaire et le métabolisme cellulaire.\n2. Cette courbe est cruciale pour comprendre les changements dans l'équilibre acido-basique du sang et la régulation respiratoire, ce qui explique que la bonne réponse est correcte.",
+      "text_hash": "9f1b3c4ab7047badcd16994b57bd2f96"
+    },
+    {
+      "id": "sim5_q60",
+      "text": "Quelle est la définition correcte de \"immunologique local\" ?",
+      "options": [
+        "Consommation d'énergie.",
+        "libération de gaz carbonique et d'eau.",
+        "Processus d'activation des récepteurs périphériques",
+        "Immunoglobulines À / macrophages"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Immunologique local désigne les réactions immunitaires qui se produisent à un niveau local dans le corps, comme au niveau des tissus, des muqueuses ou des organes lymphoïdes régionaux, sans nécessiter une activation générale du système immunitaire.\n2. La bonne réponse est choisie car elle correspond au processus physiologique où les cellules immunitaires telles que les immunoglobulines et les macrophages interviennent spécifiquement à un niveau local pour défendre le corps contre des microorg...",
+      "text_hash": "f19f9efee7b1308915c68a89a4b68228"
+    },
+    {
+      "id": "module_313495_3__les_anticoagulants_c_doudet_2025_ifcs_def_2",
+      "text": "Quelle est la définition correcte de \" Héparinémie\" ?",
+      "options": [
+        "activité anti-Xa HNF et HBPM",
+        "test de coagulation",
+        "Surveillance plaquettaire non systématique",
+        "temps de céphaline avec activateur Uniquement pour HN"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Héparinémie désigne le dosage sanguin du héparine actif, une anticoagulant direct agissant principalement sur les thrombines et facteurs Xa. Cette mesure est importante pour évaluer l'efficacité thérapeutique du traitement avec des préparations d'héparine de bas poids moléculaire (BPM) ou héparine non fractionnée (HNF), ainsi que pour surveiller la dose et le risque d'anticoagulation.\n2. La bonne réponse \" activité anti-Xa HNF et HBPM \" est correcte, car elle dérive du mécanisme physiologique...",
+      "text_hash": "4dab578facd0870e7f994216f1746a1f"
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_0",
+      "text": "Quelle est la définition correcte de \"e\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "pas d'intérêt de l'examen",
+        "résultat tardif et rétrospectif",
+        "Processus d'activation des récepteurs périphériques"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. \"E\" dans le contexte médical IADE fait référence au mécanisme d'inhibition de la transmission synaptique. Cela signifie qu'il bloque la communication entre les neurones en se liant aux récepteurs postsynaptiques et en empêchant l'influx de l'acétylcholine, le neurotransmetteur principal à ce niveau.\n\n2. Les options incorrectes sont des mécanismes ou des concepts différents du fonctionnement neuronal, tels que le résultat tardif et rétrospectif, la processus d'activation des récepteurs périphé...",
+      "text_hash": "5b338107aca9a40e7c9eb1c03fc5d3a5"
+    },
+    {
+      "id": "module_076144_pneomopathies_prepa_eiade_2020_def_2",
+      "text": "Quelle est la définition correcte de \"- Si pneumonie en période grippale\" ?",
+      "options": [
+        "efficacité ? élargissement du spectre antibiotique si évolution clinique défavorable",
+        "doit couvrir également Sfaphylococcus aureus, Haemophilus",
+        "doit couvrir également Staphylococcus aureus, les entérobactères et les anaérobies",
+        "doit aussi couvrir la légionnelle"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Principe physiologique : La pneumonie en période grippale est une infection respiratoire secondaire à la grippe, causée généralement par des bactéries telles que Streptococcus pneumoniae et Staphylococcus aureus, ainsi que par des virus. Elle peut également être due à d'autres pathogènes opportunistes tels qu'Haemophilus influenzae, les entérobactères et les anaérobies, ainsi que la légionnelle en cas de contamination par ce dernier.\n\n2. Justification du choix : La bonne réponse doit couvrir ...",
+      "text_hash": "957d300742967c1b74bb1875aaac23e7"
+    },
+    {
+      "id": "module_11_3_les_anticoagulants_c_doudet_2025_ifcs_prop_2",
+      "text": "Parmi les propositions suivantes, laquelle concerne Hémorragies ?",
+      "options": [
+        "Plaquettes 100 G/L ou diminution de 30%",
+        "Antidote : Sulfate de protamine sauf fondaparinux",
+        "Fréquence = 5%, HNF HBPM, complication majeure surdosage, non respect des",
+        "100 UAH neutralise 100 UI d’héparine"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Hémorragies sont des saignements incontrôlés résultant d'une perte excessive de sang, qui peuvent être provoquées par une diminution du nombre de plaquettes sanguines ou un surdosage d'héparine.\n2. La bonne réponse est la proposition \"Plaquettes 100 G/L ou diminution de 30%\". Cela s'explique par le fait que les plaquettes sont des cellules sanguines essentielles pour la coagulation et l'arrêt du saignement. Une baisse de ce niveau peut donc entraîner une hémorragie.",
+      "text_hash": "6ca266fcee20c8ccc87380d3312af13a"
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_prop_1",
+      "text": "Parmi les propositions suivantes, laquelle concerne cPHEDRINE ?",
+      "options": [
+        "Ampoules de 30mg, 0,5 mg et Img / mi",
+        "3 à 6 me toutes les 3 à 5 minutes max 30 me",
+        "Vasopresseur puissant qui entraine une élévation marquée de la pression",
+        "Hypotensions induites par l'anesthésie/rachianesthésie/ péridurale"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. cPhédrine est un médicament sympathomimétique agissant principalement sur les alpha-récepteurs adrénergiques, ce qui induit une vasoconstriction et une élévation marquée de la pression artérielle.\n2. La bonne réponse dans cette proposition est « Vasopresseur puissant qui entraine une élévation marquée de la pression ». Les cPhédrine sont effectivement utilisés pour leurs effets vasopressifs et leur capacité à augmenter la tension artérielle, en particulier dans les situations d'hypotension sé...",
+      "text_hash": "7a11b14393cc6d27188eadebff79d8fb"
+    },
+    {
+      "id": "module_325655_revision_neuro_support_pre_pa_iade_2025_def_0",
+      "text": "Quelle est la définition correcte de \"y\" ?",
+      "options": [
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "Processus d'activation des récepteurs périphériques",
+        "AS Trouble de la parole, ou de la compréhension",
+        "trouble de conscience, de la déglutition"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Le \"Y\" dans le contexte médical est une abréviation courante pour \"mécanisme d'inhibition de la transmission synaptique.\" Ce mécanisme physiologique implique l'utilisation de neurotransmetteurs inhibiteurs tels que la GABA (γ-aminobutyrique acide) qui bloquent ou ralentissent la transmission des signaux électriques entre les neurones.\n\n2. Cette abréviation a été choisie parce qu'elle est utilisée dans le langage courant des professionnels de santé pour décrire un mécanisme important dans la m...",
+      "text_hash": "15a5430969616ea0894d6a983c233bdd"
+    },
+    {
+      "id": "module_562872_6__les_med_urgences__c_doudet_2024_cle_menceau_def_1",
+      "text": "Quelle est la définition correcte de \"Signature\" ?",
+      "options": [
+        "Régulation de l'homéostasie cellulaire",
+        "Processus d'activation des récepteurs périphériques",
+        "Mécanisme d'inhibition de la transmission synaptique",
+        "s'agit d'une maintenance systématique H"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. La signature, dans le contexte médical IADE, représente une séquence distinctive de paramètres physiologiques observés lors de tests ou examens cliniques.\n2. Cette signature est utilisée pour la reconnaissance d'une maladie spécifique, l'évaluation de son évolution et la validation des traitements efficaces.",
+      "text_hash": "1643345d50aac698a5e67541a51c970d"
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_0",
+      "text": "Quelle est la définition correcte de \" Bruits surajoutés\" ?",
+      "options": [
+        "grésillement laryngé, Inspiratoire",
+        "cyanose, parle peu.",
+        "balancement thoraco abdo,",
+        "agitation physique et psychique."
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. Les bruits surajoutés sont des sons anormaux émis par le système cardiovasculaire ou respiratoire au-delà du bruit physiologique normal. Ils peuvent être dus à une turbulence sanguine, un obstacle ou une maladie.\n2. Le choix de la bonne réponse \"grésillement laryngé, inspiratoire\" est correct car ce terme décrit le bruit respiratoire anormal caractérisé par des clics ou des bruits sifflants en phase d'inspiration, comme dans certaines obstructions laryngées.",
+      "text_hash": "75cdda3404aa232ef1df1af73a3b43b5"
+    },
+    {
+      "id": "module_13_ira_prepa_eiade_2020_def_3",
+      "text": "Quelle est la définition correcte de \" Orientation étiologique\" ?",
+      "options": [
+        "balancement thoraco abdo,",
+        "cyanose, parle peu.",
+        "agitation physique et psychique.",
+        "grésillement laryngé, Inspiratoire"
+      ],
+      "correctAnswer": 0,
+      "type": "qcm",
+      "difficulty": "easy",
+      "domain": "Général",
+      "explanation": "1. L'orientation étiologique désigne le processus par lequel un diagnostic d'une maladie ou d'un trouble est déduit à partir des signes cliniques, des symptômes et de l'anamnèse du patient.\n2. La bonne réponse est « orientation étiologique ». Ce terme correspond exactement au processus décrit ci-dessus qui est crucial dans le diagnostic médical.",
+      "text_hash": "93b7c5e74fb1de428b4e73bf164953a5"
+    }
+  ],
+  "normalized_at": "2025-11-04T19:27:40.248011"
+}
